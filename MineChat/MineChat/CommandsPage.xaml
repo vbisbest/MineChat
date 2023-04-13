@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineChat.CommandsPage"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             xmlns:i18n="clr-namespace:MineChat;assembly=MineChat"
+             Title="Servers">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="FillAndExpand" Padding="10, 5, 10, 0">   
+      <StackLayout Padding="5, 0, 5, 0" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}">
+        <Label x:Name="labelDescription" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}" HorizontalTextAlignment="Center" FontSize="Small" Text="Add custom commands. Player commands are shown when you click on a player, server commands are shown in the chat box when typing" VerticalOptions="Center" HorizontalOptions="Center"/>
+      </StackLayout>
+      <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="Transparent">
+        <!-- Group Header Customization-->
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.ContextActions>
+                <MenuItem Clicked="OnEdit" CommandParameter="{Binding .}"
+                   Text="{i18n:Translate selectWorld_edit}" />
+                <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}"
+                   Text="{i18n:Translate selectWorld_delete}" IsDestructive="True" />
+              </ViewCell.ContextActions>
+              <ViewCell.View>
+                <StackLayout Padding="5,5,5,5">
+                  <Label Grid.Column="0" HorizontalTextAlignment="Start" Text="{Binding CommandText}"/>
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+        <ListView.GroupHeaderTemplate>
+          <DataTemplate>
+            <local:TransparentViewCell>
+              <ViewCell.View>
+                <StackLayout Padding="0,15,0,0">
+                  <Label  Text="{Binding Key}" FontSize="Medium"  VerticalOptions="Center" HorizontalOptions="StartAndExpand" FontAttributes="Bold" TextColor="{Binding Source={x:Static local:Global.MainColor}}"  />
+                </StackLayout>
+              </ViewCell.View>
+            </local:TransparentViewCell>
+          </DataTemplate>
+        </ListView.GroupHeaderTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

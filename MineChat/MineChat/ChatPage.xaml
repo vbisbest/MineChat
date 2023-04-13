@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             x:Class="MineChat.ChatPage"
+             Title="Chat">
+    <ContentPage.Content>
+        <StackLayout x:Name="topStack" VerticalOptions="FillAndExpand" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}" Spacing="0,0,0,0">
+            <StackLayout x:Name="shiftableStack" VerticalOptions="FillAndExpand" Padding="0,0,0,0" Spacing="0" BackgroundColor="Transparent">
+                <Label x:Name="lableActionBar" BackgroundColor="Transparent" Text="" FormattedText="{Binding FormattedActionBarText}" IsVisible="{Binding IsVisible}" TextColor="White" HorizontalTextAlignment="Center" />
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="0,0,0,0" Spacing="0" BackgroundColor="Transparent">
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="Transparent">
+                        <local:TestListView Margin="1, 0, 1, 0" x:Name="listViewChat" BackgroundColor="Transparent" VerticalOptions="FillAndExpand" SeparatorVisibility="None">
+                            <x:Arguments>
+                                <ListViewCachingStrategy>RetainElement</ListViewCachingStrategy>
+                            </x:Arguments>
+
+                            <!-- Chat List View-->
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="2,0,2,2" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand">
+                                            <Label x:Name="lableFormattedMessage" Text="" FormattedText="{Binding FormattedMessage}" TextColor="White" BackgroundColor="{Binding Color}" HorizontalOptions="FillAndExpand"/>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </local:TestListView>
+                    </StackLayout>
+                    <StackLayout  x:Name="stackLayoutPlayers" VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="60" Padding="0,0,0,0"  BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}" >
+                        <!-- Players Layout-->
+                        <StackLayout IsVisible="False" Padding="0,0,0,0" x:Name="stackLayoutHealth" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}" >
+                            <StackLayout Orientation="Horizontal" WidthRequest="100" HorizontalOptions="Start" Spacing="0" Padding="5,0,0,0" BackgroundColor="Transparent">
+                                <Image Source="heart.png" WidthRequest="20" HeightRequest="20" x:Name="imageHealth" BackgroundColor="Transparent">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer
+                            Tapped="OnTapGestureRecognizerTapped"
+                            NumberOfTapsRequired="1" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+                                <Label x:Name="labelHealth" VerticalOptions="StartAndExpand" FontSize="12" Margin="0,0,0,0" Text="0" LineBreakMode="NoWrap" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" TextColor="White" InputTransparent="True"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" WidthRequest="100" HorizontalOptions="Start" Spacing="0" Padding="5,0,0,0" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}">
+                                <Image Source="food.png" WidthRequest="20" HeightRequest="20" BackgroundColor="Transparent">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer
+                            Tapped="OnTapGestureRecognizerTapped"
+                            NumberOfTapsRequired="1" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+                                <Label x:Name="labelFood" Margin="0,0,0,0" FontSize="12" VerticalOptions="StartAndExpand" Text="0" LineBreakMode="NoWrap" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" BackgroundColor="Transparent" TextColor="White" InputTransparent="True"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <ListView x:Name="listViewPlayers" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:Key="SugestionItemTemplate">
+                                    <ViewCell>
+                                        <StackLayout Orientation="Horizontal" Padding="0,0,0,3">
+                                            <Image Source="{Binding ImageSource}" IsVisible="{Binding HasSkin}" WidthRequest="30" HeightRequest="30" Margin="10,0,10,0" />
+                                            <Label Text="{Binding CleanName}" FontSize="12" TextColor="White" LineBreakMode="NoWrap" VerticalTextAlignment="Center" Margin="5,0,0,0" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView >
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Padding="1,1,1,1" Spacing="0" Orientation="Horizontal">
+                    <local:ChatEntry Keyboard="Chat" x:Name="entryChat" HorizontalOptions="FillAndExpand"/>
+
+                    <!--
+                    <local:NoFocusImage Source="ic_arrow_upward_white.png" x:Name="imageHistoryUp" BackgroundColor="Transparent">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                            Tapped="OnChatHistoryUp"
+                            NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </local:NoFocusImage>
+                    <local:NoFocusImage Source="ic_arrow_downward_white.png" x:Name="imageHistoryDown" BackgroundColor="Transparent">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                            Tapped="OnChatHistoryDown"
+                            NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </local:NoFocusImage> -->
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

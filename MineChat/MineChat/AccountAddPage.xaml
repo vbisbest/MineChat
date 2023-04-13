@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineChat.AccountAddPage"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             Title="Add Account">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="0" Padding="0" Margin="5,0,5,0">
+                <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                    <Label x:Name="labelUserName" Text="Email" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+                    <Entry HorizontalOptions="FillAndExpand" Text="{Binding UserName}" Keyboard="Email" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                    <Label x:Name="labelPassword" Text="Password:" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+                    <Entry IsPassword="True" HorizontalOptions="FillAndExpand" Text="{Binding Password}"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                    <Label x:Name="labelOffline" Text="Offline" HorizontalOptions="StartAndExpand" VerticalOptions="Center" WidthRequest="100"/>
+                    <Switch IsToggled="{Binding IsOffline}" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

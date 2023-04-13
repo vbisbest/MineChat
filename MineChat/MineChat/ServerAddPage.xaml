@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineChat.ServerAddPage"
+             Title="Server">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="0" Padding="0" Margin="5,0,5,0">
+                <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                    <Label x:Name="labelServerName" Text="Server Name" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+                    <Entry HorizontalOptions="FillAndExpand" Text="{Binding ServerName}" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                    <Label x:Name="labelServerAddress" Text="Server Name" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+                    <Entry HorizontalOptions="FillAndExpand" Text="{Binding FullAddress}" Keyboard="Url"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                    <Label x:Name="labelVersion" Text="Version" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+                    <Picker VerticalOptions="Center" x:Name="pickerVersion" SelectedIndex="{Binding ServerVersion}">
+                        <Picker.Items>
+                            <x:String>Automatic (Recommended)</x:String>
+                            <x:String>1.7</x:String>
+                            <x:String>1.8</x:String>
+                            <x:String>1.9/1.9.2</x:String>
+                            <x:String>1.9.4</x:String>
+                            <x:String>1.10</x:String>
+                            <x:String>1.11</x:String>
+                            <x:String>1.11.2</x:String>
+                            <x:String>1.12</x:String>
+                            <x:String>1.12.1</x:String>
+                            <x:String>1.12.2</x:String>
+                            <x:String>1.13.0</x:String>
+                            <x:String>1.13.1</x:String>
+                            <x:String>1.13.2</x:String>
+                            <x:String>1.14</x:String>
+                            <x:String>1.14.1</x:String>
+                            <x:String>1.14.2</x:String>
+                            <x:String>1.14.3</x:String>
+                            <x:String>1.14.4</x:String>
+                            <x:String>1.15.1</x:String>
+                            <x:String>1.15.2</x:String>
+                            <x:String>1.16.1</x:String>
+                            <x:String>1.16.2</x:String>
+                            <x:String>1.16.3</x:String>
+                            <x:String>1.16.4</x:String>
+                            <x:String>1.16.5</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                    <Label x:Name="labelOffline" Text="Offline" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+                    <Switch HorizontalOptions="FillAndExpand" IsToggled="{Binding UseOffline}" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             x:Class="MineChat.AlertAddPage"
+             Title="Add Alert">
+    <ContentPage.Content>
+        <StackLayout Spacing="0" Padding="0" Margin="5,0,5,0">
+            <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                <Label x:Name="entryWord" Text="Alert Word" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100"/>
+                <Entry HorizontalOptions="FillAndExpand" Text="{Binding Word}" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                <Label x:Name="labelSound" Text="Alert Word" HorizontalOptions="StartAndExpand" VerticalOptions="Center" WidthRequest="100"/>
+                <Switch x:Name="switchSound" VerticalOptions="Center" IsToggled="{Binding Sound}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="0,5,0,5">
+                <Label x:Name="labelVibrate" Text="Vibrate" HorizontalOptions="StartAndExpand" VerticalOptions="Center" WidthRequest="100"/>
+                <Switch x:Name="switchVibrate"  VerticalOptions="Center" IsToggled="{Binding Vibrate}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

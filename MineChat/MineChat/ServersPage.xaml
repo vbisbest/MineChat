@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineChat.ServersPage"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             xmlns:i18n="clr-namespace:MineChat;assembly=MineChat"
+             Title="Servers">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None">
+                <ListView.BackgroundColor>
+                    <OnPlatform x:TypeArguments="Color" iOS="#000000"></OnPlatform>
+                </ListView.BackgroundColor>
+                <!-- Group Header Customization-->
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="5,0,0,0">
+                                <StackLayout.BackgroundColor>
+                                    <OnPlatform x:TypeArguments="Color" iOS="#000000"></OnPlatform>
+                                </StackLayout.BackgroundColor>
+                                <Label Text="{Binding Name}" FontSize="Medium"  VerticalOptions="Center" HorizontalOptions="StartAndExpand" FontAttributes="Bold" TextColor="{Binding Source={x:Static local:Global.MainColor}}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Clicked="OnEdit" Text="{i18n:Translate selectWorld_edit}" />
+                                <MenuItem Clicked="OnDelete" Text="{i18n:Translate selectWorld_delete}" IsDestructive="True" />
+                            </ViewCell.ContextActions>
+                            <StackLayout Padding="5,5,5,5" BackgroundColor="Transparent">
+                                <StackLayout Padding="5,5,5,5" BackgroundColor="#1e1e1e">
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="3,0,5,10">
+                                        <Image x:Name="imageFaveIcon" WidthRequest="60" HeightRequest="60"  Source="{Binding ImageSource}" Margin="0,0,5,0" />
+                                        <StackLayout HorizontalOptions="FillAndExpand">
+                                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                <Label HorizontalOptions="StartAndExpand" Text="{Binding ServerName}" FontAttributes="Bold" FontSize="14" TextColor="White" />
+                                                <Label HorizontalOptions="EndAndExpand" Text="{Binding Info}" FontSize="14" TextColor="{Binding MOTDColor}" Margin="0,0,0,0"/>
+                                            </StackLayout>
+                                            <StackLayout HorizontalOptions="FillAndExpand">
+                                                <Label HorizontalOptions="StartAndExpand" Text="{Binding FormattedAddress}" FontSize="16" TextColor="White"/>
+                                                <Label HorizontalOptions="StartAndExpand" TextColor="White" IsVisible="{Binding HasMOTD}" Text="" FormattedText="{Binding FormattedMOTD}" FontSize="14" LineBreakMode="WordWrap" WidthRequest="500"/>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

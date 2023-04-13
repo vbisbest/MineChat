@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineChat.AccountsPage"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             Title="Accounts">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="FillAndExpand" Padding="2, 5, 2, 5">
+      <StackLayout Padding="5, 0, 5, 0" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}">
+        <Label x:Name="labelDescription" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}" HorizontalTextAlignment="Center" FontSize="Small" Text="Add one or more Minecraft accounts" VerticalOptions="Center" HorizontalOptions="Center" />
+      </StackLayout>
+      <ListView x:Name="listView" VerticalOptions="FillAndExpand" BackgroundColor="Transparent" SeparatorVisibility="None">
+        <!-- Group Header Customization-->
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.View>
+                <StackLayout Padding="5,5,5,5" VerticalOptions="Center" Orientation="Horizontal" >
+                  <Image Source="{Binding ImageSource}" />
+                  <Label HorizontalOptions="StartAndExpand" Text="{Binding PlayerName}" FontSize="Medium" VerticalTextAlignment="Center"/>
+                  <Image Source="check.png" IsVisible="{Binding Selected}"/>
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,1530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addServer_add" xml:space="preserve">
+    <value>Oti</value>
+  </data>
+  <data name="addServer_enterIp" xml:space="preserve">
+    <value>Wāhi noho o te tūmau</value>
+  </data>
+  <data name="addServer_enterName" xml:space="preserve">
+    <value>Ingoa o te tūmau</value>
+  </data>
+  <data name="addServer_hideAddress" xml:space="preserve">
+    <value>huna wāhitau</value>
+  </data>
+  <data name="addServer_resourcePack" xml:space="preserve">
+    <value>Pōkai Rauemi Tūmau</value>
+  </data>
+  <data name="addServer_resourcePack_disabled" xml:space="preserve">
+    <value>Monokia</value>
+  </data>
+  <data name="addServer_resourcePack_enabled" xml:space="preserve">
+    <value>Mkakaurangi</value>
+  </data>
+  <data name="addServer_resourcePack_prompt" xml:space="preserve">
+    <value>Tohuāki</value>
+  </data>
+  <data name="addServer_title" xml:space="preserve">
+    <value>Whakatika i te tūmau</value>
+  </data>
+  <data name="book_byAuthor" xml:space="preserve">
+    <value>na {0} i tuhi</value>
+  </data>
+  <data name="book_editTitle" xml:space="preserve">
+    <value>Tomo Book Taitara:</value>
+  </data>
+  <data name="book_finalizeButton" xml:space="preserve">
+    <value>Tohu me Katia</value>
+  </data>
+  <data name="book_finalizeWarning" xml:space="preserve">
+    <value>Kia mōhio mai! A, no te haina koe i te pukapuka, ka kore e taea te reira.</value>
+  </data>
+  <data name="book_pageIndicator" xml:space="preserve">
+    <value>Whārangi {0} o {1}</value>
+  </data>
+  <data name="book_signButton" xml:space="preserve">
+    <value>Tohu</value>
+  </data>
+  <data name="chat_cannotSend" xml:space="preserve">
+    <value>Kāore e taea te tukatuka kōrerorero karere</value>
+  </data>
+  <data name="chat_copy" xml:space="preserve">
+    <value>Tārua ki Papatopenga</value>
+  </data>
+  <data name="chat_link_confirm" xml:space="preserve">
+    <value>Kei te hiahia koe ki te whakatuwhera i te hononga ki a koutou?</value>
+  </data>
+  <data name="chat_link_confirmTrusted" xml:space="preserve">
+    <value>E hiahia ana koe ki te whakatūwhera mai tēnei hono ranei te tārua te reira ki o koutou papatopenga?</value>
+  </data>
+  <data name="chat_link_open" xml:space="preserve">
+    <value>Whakatūwhera i roto i te Browser</value>
+  </data>
+  <data name="chat_link_warning" xml:space="preserve">
+    <value>Kaua e whakat hononga i tangata ke!</value>
+  </data>
+  <data name="chat_type_achievement" xml:space="preserve">
+    <value>{0} kua tika roaa te paetae {1}</value>
+  </data>
+  <data name="connect_authorizing" xml:space="preserve">
+    <value>Takiuru in...</value>
+  </data>
+  <data name="connect_connecting" xml:space="preserve">
+    <value>E hono ana ki te tūmau...</value>
+  </data>
+  <data name="connect_failed" xml:space="preserve">
+    <value>I rahua te hono ki te tūmau</value>
+  </data>
+  <data name="controls_reset" xml:space="preserve">
+    <value>Tautuhi anō</value>
+  </data>
+  <data name="controls_title" xml:space="preserve">
+    <value>Mana</value>
+  </data>
+  <data name="createWorld_customize_custom_confirmTitle" xml:space="preserve">
+    <value>whakatūpato!</value>
+  </data>
+  <data name="createWorld_customize_custom_lavaLakeChance" xml:space="preserve">
+    <value>Maori</value>
+  </data>
+  <data name="createWorld_customize_custom_page0" xml:space="preserve">
+    <value>Tautuhinga tumu</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_waterWorld" xml:space="preserve">
+    <value>Taiāo Wai</value>
+  </data>
+  <data name="createWorld_customize_custom_presets" xml:space="preserve">
+    <value>Tatūkē</value>
+  </data>
+  <data name="createWorld_customize_custom_randomize" xml:space="preserve">
+    <value>tīpokapoka</value>
+  </data>
+  <data name="createWorld_customize_custom_riverSize" xml:space="preserve">
+    <value>Rahi o te awa</value>
+  </data>
+  <data name="createWorld_customize_custom_useCaves" xml:space="preserve">
+    <value>ana</value>
+  </data>
+  <data name="createWorld_customize_custom_useDungeons" xml:space="preserve">
+    <value>Poka</value>
+  </data>
+  <data name="createWorld_customize_custom_useLavaLakes" xml:space="preserve">
+    <value>tahepuia roto</value>
+  </data>
+  <data name="createWorld_customize_custom_useVillages" xml:space="preserve">
+    <value>Hau Kāenga</value>
+  </data>
+  <data name="createWorld_customize_flat_addLayer" xml:space="preserve">
+    <value>tāpiri kahu-</value>
+  </data>
+  <data name="createWorld_customize_flat_air" xml:space="preserve">
+    <value>Āngi</value>
+  </data>
+  <data name="createWorld_customize_flat_editLayer" xml:space="preserve">
+    <value>apa whakatika</value>
+  </data>
+  <data name="createWorld_customize_flat_height" xml:space="preserve">
+    <value>teitei</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_bottom" xml:space="preserve">
+    <value>raro {0}</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_top" xml:space="preserve">
+    <value>runga -{0}</value>
+  </data>
+  <data name="createWorld_customize_flat_removeLayer" xml:space="preserve">
+    <value>tango kahu-</value>
+  </data>
+  <data name="createWorld_customize_flat_tile" xml:space="preserve">
+    <value>Apa nāunau</value>
+  </data>
+  <data name="createWorld_customize_flat_title" xml:space="preserve">
+    <value>Whakaraupapa Superflat</value>
+  </data>
+  <data name="createWorld_customize_presets" xml:space="preserve">
+    <value>Tatūkē</value>
+  </data>
+  <data name="createWorld_customize_presets_list" xml:space="preserve">
+    <value>Tērā rānei, konei te etahi hanga tatou i mua!</value>
+  </data>
+  <data name="createWorld_customize_presets_select" xml:space="preserve">
+    <value>whakamahi tatūkē</value>
+  </data>
+  <data name="createWorld_customize_presets_share" xml:space="preserve">
+    <value>E hiahia ana ki te faaite i to koutou tatūkē ki te tangata? Whakamahia te pouaka i raro nei!</value>
+  </data>
+  <data name="createWorld_customize_presets_title" xml:space="preserve">
+    <value>tīpako i te tatūkē</value>
+  </data>
+  <data name="demo_day_1" xml:space="preserve">
+    <value>Tenei demo ka muri e rima nga ra game, koutou pai te mahi!</value>
+  </data>
+  <data name="demo_day_2" xml:space="preserve">
+    <value>ra e rua</value>
+  </data>
+  <data name="demo_day_3" xml:space="preserve">
+    <value>ra e toru</value>
+  </data>
+  <data name="demo_day_4" xml:space="preserve">
+    <value>ra e wha</value>
+  </data>
+  <data name="demo_day_5" xml:space="preserve">
+    <value>Ko koutou ra whakamutunga tenei!</value>
+  </data>
+  <data name="demo_day_6" xml:space="preserve">
+    <value>kua mutu e rima nga ra. Press "F5" ki te tango he pikitia o to koutou hanga</value>
+  </data>
+  <data name="demo_day_warning" xml:space="preserve">
+    <value>Ko to koutou wa tata ake!</value>
+  </data>
+  <data name="demo_demoExpired" xml:space="preserve">
+    <value>Demo oti!</value>
+  </data>
+  <data name="demo_help_buy" xml:space="preserve">
+    <value>hoko Minecraft inaianei!</value>
+  </data>
+  <data name="demo_help_fullWrapped" xml:space="preserve">
+    <value>Tenei demo ka muri e rima nga ra (e pā ana ki 1 haora me te 40 miniti o te wā tūturu). Tirohia te whakatutukitanga mō ngā tīwhiri! Kia ngahau!</value>
+  </data>
+  <data name="demo_help_inventory" xml:space="preserve">
+    <value>Whakamahia {0} ki te whakatuwhera i tō peke</value>
+  </data>
+  <data name="demo_help_jump" xml:space="preserve">
+    <value>Peke mā te pēhi i {0}</value>
+  </data>
+  <data name="demo_help_later" xml:space="preserve">
+    <value>Tonu tākaro!</value>
+  </data>
+  <data name="demo_help_movement" xml:space="preserve">
+    <value>Whakamahia {0}, {1}, {2}, {3} me te kiore ki te neke a tawhio noa</value>
+  </data>
+  <data name="demo_help_movementMouse" xml:space="preserve">
+    <value>Titiro huri noa te whakamahi i te kiore</value>
+  </data>
+  <data name="demo_help_movementShort" xml:space="preserve">
+    <value>Neke mā te pēhi i {0}, {1}, {2}, {3}</value>
+  </data>
+  <data name="demo_help_title" xml:space="preserve">
+    <value>Aratau Demo Minecraft</value>
+  </data>
+  <data name="demo_remainingTime" xml:space="preserve">
+    <value>te wā e toe ana: {0}</value>
+  </data>
+  <data name="demo_reminder" xml:space="preserve">
+    <value>Kua mutu te demo. te hoko i te kēmu ki te haere tonu tīmata ranei te ao hou!</value>
+  </data>
+  <data name="disconnect_closed" xml:space="preserve">
+    <value>katia hononga</value>
+  </data>
+  <data name="disconnect_disconnected" xml:space="preserve">
+    <value>Kua momotu i te Tūmau</value>
+  </data>
+  <data name="disconnect_endOfStream" xml:space="preserve">
+    <value>Mutunga o te Awa</value>
+  </data>
+  <data name="disconnect_kicked" xml:space="preserve">
+    <value>I whana i te kēmu</value>
+  </data>
+  <data name="disconnect_loginFailed" xml:space="preserve">
+    <value>I rahua te takiuru</value>
+  </data>
+  <data name="disconnect_loginFailedInfo" xml:space="preserve">
+    <value>I rahua te takiuru: {0}</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_invalidSession" xml:space="preserve">
+    <value>Wātū muhu (Me tīmata anō i tō kēmu)</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_serversUnavailable" xml:space="preserve">
+    <value>Ko te motuhēhēnga he wā ki raro mo te tiaki.</value>
+  </data>
+  <data name="disconnect_lost" xml:space="preserve">
+    <value>hononga ngaro</value>
+  </data>
+  <data name="disconnect_overflow" xml:space="preserve">
+    <value>papare te waipuke</value>
+  </data>
+  <data name="disconnect_quitting" xml:space="preserve">
+    <value>whakamutu</value>
+  </data>
+  <data name="disconnect_spam" xml:space="preserve">
+    <value>Whana hoki whakamuhani</value>
+  </data>
+  <data name="disconnect_timeout" xml:space="preserve">
+    <value>pau i roto i</value>
+  </data>
+  <data name="entity_Boat_name" xml:space="preserve">
+    <value>Waka</value>
+  </data>
+  <data name="entity_Cat_name" xml:space="preserve">
+    <value>Ngeru</value>
+  </data>
+  <data name="entity_Chicken_name" xml:space="preserve">
+    <value>Pikaokao</value>
+  </data>
+  <data name="entity_Cow_name" xml:space="preserve">
+    <value>Kau</value>
+  </data>
+  <data name="entity_EntityHorse_name" xml:space="preserve">
+    <value>Hoiho</value>
+  </data>
+  <data name="entity_Pig_name" xml:space="preserve">
+    <value>Poaka</value>
+  </data>
+  <data name="entity_Rabbit_name" xml:space="preserve">
+    <value>Rapeti</value>
+  </data>
+  <data name="entity_Sheep_name" xml:space="preserve">
+    <value>Hipi</value>
+  </data>
+  <data name="gameMode_adventure" xml:space="preserve">
+    <value>Aratau Adventure</value>
+  </data>
+  <data name="gameMode_creative" xml:space="preserve">
+    <value>Aratau Creative</value>
+  </data>
+  <data name="gameMode_hardcore" xml:space="preserve">
+    <value>aratau tino!</value>
+  </data>
+  <data name="gameMode_survival" xml:space="preserve">
+    <value>Aratau Survival</value>
+  </data>
+  <data name="generator_amplified" xml:space="preserve">
+    <value>ô-</value>
+  </data>
+  <data name="generator_amplified_info" xml:space="preserve">
+    <value>pānui: anake hoki ngahau, me nui rorohiko</value>
+  </data>
+  <data name="generator_default" xml:space="preserve">
+    <value>taunoa</value>
+  </data>
+  <data name="generator_flat" xml:space="preserve">
+    <value>Superflat</value>
+  </data>
+  <data name="generator_largeBiomes" xml:space="preserve">
+    <value>ngā wāhi nui</value>
+  </data>
+  <data name="gui_all" xml:space="preserve">
+    <value>Katoa</value>
+  </data>
+  <data name="gui_back" xml:space="preserve">
+    <value>Hoki</value>
+  </data>
+  <data name="gui_cancel" xml:space="preserve">
+    <value>Whakakore</value>
+  </data>
+  <data name="gui_done" xml:space="preserve">
+    <value>Oti</value>
+  </data>
+  <data name="gui_down" xml:space="preserve">
+    <value>iho</value>
+  </data>
+  <data name="gui_no" xml:space="preserve">
+    <value>Kāo</value>
+  </data>
+  <data name="gui_none" xml:space="preserve">
+    <value>kāhore</value>
+  </data>
+  <data name="gui_up" xml:space="preserve">
+    <value>Ake</value>
+  </data>
+  <data name="gui_yes" xml:space="preserve">
+    <value>Āe</value>
+  </data>
+  <data name="item_apple_name" xml:space="preserve">
+    <value>Āporo</value>
+  </data>
+  <data name="item_arrow_name" xml:space="preserve">
+    <value>Pere</value>
+  </data>
+  <data name="item_bed_name" xml:space="preserve">
+    <value>Moenga</value>
+  </data>
+  <data name="item_beefCooked_name" xml:space="preserve">
+    <value>Kotinga mīti</value>
+  </data>
+  <data name="item_bone_name" xml:space="preserve">
+    <value>Wheua</value>
+  </data>
+  <data name="item_book_name" xml:space="preserve">
+    <value>Pukapuka</value>
+  </data>
+  <data name="item_bow_name" xml:space="preserve">
+    <value>Kopere</value>
+  </data>
+  <data name="item_bread_name" xml:space="preserve">
+    <value>Parāoa</value>
+  </data>
+  <data name="item_bucket_name" xml:space="preserve">
+    <value>pākete</value>
+  </data>
+  <data name="item_cake_name" xml:space="preserve">
+    <value>Keke</value>
+  </data>
+  <data name="item_carrots_name" xml:space="preserve">
+    <value>Kāreti</value>
+  </data>
+  <data name="item_charcoal_name" xml:space="preserve">
+    <value>Waro</value>
+  </data>
+  <data name="item_clock_name" xml:space="preserve">
+    <value>Karaka</value>
+  </data>
+  <data name="item_coal_name" xml:space="preserve">
+    <value>Waro</value>
+  </data>
+  <data name="item_compass_name" xml:space="preserve">
+    <value>Kāpehu</value>
+  </data>
+  <data name="item_cookie_name" xml:space="preserve">
+    <value>Pihikete</value>
+  </data>
+  <data name="item_diamond_name" xml:space="preserve">
+    <value>Taimana</value>
+  </data>
+  <data name="item_egg_name" xml:space="preserve">
+    <value>Hēki</value>
+  </data>
+  <data name="item_emerald_name" xml:space="preserve">
+    <value>Kahurangi</value>
+  </data>
+  <data name="item_feather_name" xml:space="preserve">
+    <value>Piki</value>
+  </data>
+  <data name="item_fireworksCharge_black" xml:space="preserve">
+    <value>Pango</value>
+  </data>
+  <data name="item_fireworksCharge_blue" xml:space="preserve">
+    <value>Kikorangi</value>
+  </data>
+  <data name="item_fireworksCharge_brown" xml:space="preserve">
+    <value>Parauri</value>
+  </data>
+  <data name="item_fireworksCharge_flicker" xml:space="preserve">
+    <value>Tirama</value>
+  </data>
+  <data name="item_fireworksCharge_gray" xml:space="preserve">
+    <value>Kiwikiwi</value>
+  </data>
+  <data name="item_fireworksCharge_green" xml:space="preserve">
+    <value>Kakariki</value>
+  </data>
+  <data name="item_fireworksCharge_pink" xml:space="preserve">
+    <value>Mawhero</value>
+  </data>
+  <data name="item_fireworksCharge_purple" xml:space="preserve">
+    <value>Waiporoporo</value>
+  </data>
+  <data name="item_fireworksCharge_red" xml:space="preserve">
+    <value>whero</value>
+  </data>
+  <data name="item_fireworksCharge_white" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="item_fireworksCharge_yellow" xml:space="preserve">
+    <value>Kowhai</value>
+  </data>
+  <data name="item_fish_cod_raw_name" xml:space="preserve">
+    <value>Ika Mara</value>
+  </data>
+  <data name="item_fishingRod_name" xml:space="preserve">
+    <value>Matira</value>
+  </data>
+  <data name="item_flint_name" xml:space="preserve">
+    <value>Matā</value>
+  </data>
+  <data name="item_hatchetWood_name" xml:space="preserve">
+    <value>Tuaina ki rakau</value>
+  </data>
+  <data name="item_ingotGold_name" xml:space="preserve">
+    <value>Gold Ingot</value>
+  </data>
+  <data name="item_ingotIron_name" xml:space="preserve">
+    <value>Iron Ingot</value>
+  </data>
+  <data name="item_leather_name" xml:space="preserve">
+    <value>Rera</value>
+  </data>
+  <data name="item_map_name" xml:space="preserve">
+    <value>Mapi</value>
+  </data>
+  <data name="item_milk_name" xml:space="preserve">
+    <value>Miraka</value>
+  </data>
+  <data name="item_painting_name" xml:space="preserve">
+    <value>Waituhi</value>
+  </data>
+  <data name="item_paper_name" xml:space="preserve">
+    <value>Pepa</value>
+  </data>
+  <data name="item_pickaxeWood_name" xml:space="preserve">
+    <value>Keriwhenua ki rakau</value>
+  </data>
+  <data name="item_potato_name" xml:space="preserve">
+    <value>Rīwai</value>
+  </data>
+  <data name="item_saddle_name" xml:space="preserve">
+    <value>Tera</value>
+  </data>
+  <data name="item_seeds_name" xml:space="preserve">
+    <value>Purapura</value>
+  </data>
+  <data name="item_shovelWood_name" xml:space="preserve">
+    <value>koko rakau</value>
+  </data>
+  <data name="item_sign_name" xml:space="preserve">
+    <value>Pouārahi</value>
+  </data>
+  <data name="item_snowball_name" xml:space="preserve">
+    <value>Poi huka</value>
+  </data>
+  <data name="item_stick_name" xml:space="preserve">
+    <value>Rākau</value>
+  </data>
+  <data name="item_sulphur_name" xml:space="preserve">
+    <value>Paura</value>
+  </data>
+  <data name="item_swordIron_name" xml:space="preserve">
+    <value>Iron Hoari</value>
+  </data>
+  <data name="item_swordWood_name" xml:space="preserve">
+    <value>te hoari rakau</value>
+  </data>
+  <data name="item_wheat_name" xml:space="preserve">
+    <value>Wīti</value>
+  </data>
+  <data name="key_categories_inventory" xml:space="preserve">
+    <value>Rārangi taonga</value>
+  </data>
+  <data name="key_categories_multiplayer" xml:space="preserve">
+    <value>Multiplayer</value>
+  </data>
+  <data name="key_jump" xml:space="preserve">
+    <value>Peke</value>
+  </data>
+  <data name="lanServer_otherPlayers" xml:space="preserve">
+    <value>i ngā tautuhinga mō ētahi atu kaitākaro</value>
+  </data>
+  <data name="lanServer_scanning" xml:space="preserve">
+    <value>matawai mō ngā kēmu i runga i tō whatunga rohe</value>
+  </data>
+  <data name="lanServer_start" xml:space="preserve">
+    <value>tīmata LAN ao</value>
+  </data>
+  <data name="lanServer_title" xml:space="preserve">
+    <value>LAN te ao</value>
+  </data>
+  <data name="language_code" xml:space="preserve">
+    <value>mi_NZ</value>
+  </data>
+  <data name="language_name" xml:space="preserve">
+    <value>Te Reo Māori</value>
+  </data>
+  <data name="language_region" xml:space="preserve">
+    <value>Aotearoa</value>
+  </data>
+  <data name="mcoServer_title" xml:space="preserve">
+    <value>hou te ao ipurangi Minecraft</value>
+  </data>
+  <data name="menu_convertingLevel" xml:space="preserve">
+    <value>Faafariuraa o te ao</value>
+  </data>
+  <data name="menu_disconnect" xml:space="preserve">
+    <value>Wetea</value>
+  </data>
+  <data name="menu_game" xml:space="preserve">
+    <value>tahua kēmu</value>
+  </data>
+  <data name="menu_generatingLevel" xml:space="preserve">
+    <value>Auaha te ao</value>
+  </data>
+  <data name="menu_generatingTerrain" xml:space="preserve">
+    <value>Auaha te whenua</value>
+  </data>
+  <data name="menu_loadingLevel" xml:space="preserve">
+    <value>Rāwekeweke te ao</value>
+  </data>
+  <data name="menu_multiplayer" xml:space="preserve">
+    <value>huihui</value>
+  </data>
+  <data name="menu_options" xml:space="preserve">
+    <value>nga kōwhiringa...</value>
+  </data>
+  <data name="menu_playdemo" xml:space="preserve">
+    <value>Te tākaro Demo World</value>
+  </data>
+  <data name="menu_quit" xml:space="preserve">
+    <value>Putanga</value>
+  </data>
+  <data name="menu_resetdemo" xml:space="preserve">
+    <value>Tautuhi anō Demo World</value>
+  </data>
+  <data name="menu_respawning" xml:space="preserve">
+    <value>whakawhānau takarure</value>
+  </data>
+  <data name="menu_returnToGame" xml:space="preserve">
+    <value>Hoki ki te kēmu</value>
+  </data>
+  <data name="menu_returnToMenu" xml:space="preserve">
+    <value>Putanga me haere ki te rārangi tono</value>
+  </data>
+  <data name="menu_shareToLan" xml:space="preserve">
+    <value>tuwhera tō LAN</value>
+  </data>
+  <data name="menu_singleplayer" xml:space="preserve">
+    <value>anake</value>
+  </data>
+  <data name="multiplayer_connect" xml:space="preserve">
+    <value>Hono</value>
+  </data>
+  <data name="multiplayer_downloadingStats" xml:space="preserve">
+    <value>Te tikiake i ngā tatauranga &amp; whakatutukitanga ...</value>
+  </data>
+  <data name="multiplayer_ipinfo" xml:space="preserve">
+    <value>Tomo i te IP o te tūmau, ki te hono atu ki reira:</value>
+  </data>
+  <data name="multiplayer_player_joined" xml:space="preserve">
+    <value>{0} uru atu te kēmu</value>
+  </data>
+  <data name="multiplayer_player_joined_renamed" xml:space="preserve">
+    <value>{0} (e mōhiotia i mua kia rite ki {1}) i uru ki te kēmu</value>
+  </data>
+  <data name="multiplayer_player_left" xml:space="preserve">
+    <value>{0} mahue te kēmu</value>
+  </data>
+  <data name="multiplayer_stopSleeping" xml:space="preserve">
+    <value>waiho Bed</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line1" xml:space="preserve">
+    <value>E taunaki ana tēnei tūmau i te whakamahi o te mōkihi rauemi ritenga.</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line2" xml:space="preserve">
+    <value>E hiahia ana koe ki te tiki ake me te tāuta i te reira aunoa?</value>
+  </data>
+  <data name="multiplayer_title" xml:space="preserve">
+    <value>te tākaro multiplayer</value>
+  </data>
+  <data name="options_anaglyph" xml:space="preserve">
+    <value>3D Anaglyph</value>
+  </data>
+  <data name="options_ao" xml:space="preserve">
+    <value>Whakamumuratanga Whakaene</value>
+  </data>
+  <data name="options_ao_max" xml:space="preserve">
+    <value>Mōrahi</value>
+  </data>
+  <data name="options_ao_min" xml:space="preserve">
+    <value>Mōkito</value>
+  </data>
+  <data name="options_ao_off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="options_chat_color" xml:space="preserve">
+    <value>Tae</value>
+  </data>
+  <data name="options_chat_height_unfocused" xml:space="preserve">
+    <value>Not Focused Height</value>
+  </data>
+  <data name="options_chat_links" xml:space="preserve">
+    <value>Hononga Tukutuku</value>
+  </data>
+  <data name="options_chat_links_prompt" xml:space="preserve">
+    <value>Tohuāki i runga i Hononga</value>
+  </data>
+  <data name="options_chat_opacity" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="options_chat_scale" xml:space="preserve">
+    <value>Tauine</value>
+  </data>
+  <data name="options_chat_title" xml:space="preserve">
+    <value>Settings kōrerorero...</value>
+  </data>
+  <data name="options_chat_visibility" xml:space="preserve">
+    <value>kōrerorero</value>
+  </data>
+  <data name="options_chat_visibility_full" xml:space="preserve">
+    <value>whakaaturia</value>
+  </data>
+  <data name="options_chat_visibility_hidden" xml:space="preserve">
+    <value>Huna</value>
+  </data>
+  <data name="options_chat_visibility_system" xml:space="preserve">
+    <value>tono anake</value>
+  </data>
+  <data name="options_chat_width" xml:space="preserve">
+    <value>Whānuitanga</value>
+  </data>
+  <data name="options_controls" xml:space="preserve">
+    <value>Mana...</value>
+  </data>
+  <data name="options_difficulty" xml:space="preserve">
+    <value>Uaua</value>
+  </data>
+  <data name="options_difficulty_easy" xml:space="preserve">
+    <value>Ngāwari</value>
+  </data>
+  <data name="options_difficulty_hard" xml:space="preserve">
+    <value>Māro</value>
+  </data>
+  <data name="options_difficulty_hardcore" xml:space="preserve">
+    <value>Hardcore</value>
+  </data>
+  <data name="options_difficulty_normal" xml:space="preserve">
+    <value>Pūnoa</value>
+  </data>
+  <data name="options_difficulty_peaceful" xml:space="preserve">
+    <value>Rangimārie</value>
+  </data>
+  <data name="options_farWarning1" xml:space="preserve">
+    <value>Tūtohutia te tāutanga Java 64 bit te</value>
+  </data>
+  <data name="options_farWarning2" xml:space="preserve">
+    <value>'Far' hoatu tawhiti (koe 32 bit)</value>
+  </data>
+  <data name="options_fov" xml:space="preserve">
+    <value>FOV</value>
+  </data>
+  <data name="options_fov_max" xml:space="preserve">
+    <value>Quake PROV</value>
+  </data>
+  <data name="options_fov_min" xml:space="preserve">
+    <value>Pūnoa</value>
+  </data>
+  <data name="options_framerateLimit" xml:space="preserve">
+    <value>Mokatere tāpare Max</value>
+  </data>
+  <data name="options_framerateLimit_max" xml:space="preserve">
+    <value>Unlimited</value>
+  </data>
+  <data name="options_gamma" xml:space="preserve">
+    <value>Gile</value>
+  </data>
+  <data name="options_gamma_max" xml:space="preserve">
+    <value>Kanapa</value>
+  </data>
+  <data name="options_gamma_min" xml:space="preserve">
+    <value>Moody</value>
+  </data>
+  <data name="options_graphics" xml:space="preserve">
+    <value>Whakairoiro</value>
+  </data>
+  <data name="options_graphics_fancy" xml:space="preserve">
+    <value>Fancy</value>
+  </data>
+  <data name="options_graphics_fast" xml:space="preserve">
+    <value>Nohopuku</value>
+  </data>
+  <data name="options_guiScale" xml:space="preserve">
+    <value>GUI Tauine</value>
+  </data>
+  <data name="options_guiScale_auto" xml:space="preserve">
+    <value>Car</value>
+  </data>
+  <data name="options_guiScale_large" xml:space="preserve">
+    <value>Nui</value>
+  </data>
+  <data name="options_guiScale_normal" xml:space="preserve">
+    <value>Pūnoa</value>
+  </data>
+  <data name="options_guiScale_small" xml:space="preserve">
+    <value>Iti</value>
+  </data>
+  <data name="options_hidden" xml:space="preserve">
+    <value>Huna</value>
+  </data>
+  <data name="options_invertMouse" xml:space="preserve">
+    <value>Huripoki Kiore</value>
+  </data>
+  <data name="options_language" xml:space="preserve">
+    <value>Reo...</value>
+  </data>
+  <data name="options_languageWarning" xml:space="preserve">
+    <value>E kore ai translations reo e tōtika 100%</value>
+  </data>
+  <data name="options_mainHand_left" xml:space="preserve">
+    <value>Maui</value>
+  </data>
+  <data name="options_multiplayer_title" xml:space="preserve">
+    <value>Settings Multiplayer...</value>
+  </data>
+  <data name="options_music" xml:space="preserve">
+    <value>Puoro</value>
+  </data>
+  <data name="options_off" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="options_on" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="options_particles" xml:space="preserve">
+    <value>matūriki</value>
+  </data>
+  <data name="options_particles_all" xml:space="preserve">
+    <value>Katoa</value>
+  </data>
+  <data name="options_particles_decreased" xml:space="preserve">
+    <value>Heke</value>
+  </data>
+  <data name="options_particles_minimal" xml:space="preserve">
+    <value>Iti</value>
+  </data>
+  <data name="options_postButton" xml:space="preserve">
+    <value>Settings Post-Processing...</value>
+  </data>
+  <data name="options_postProcessEnable" xml:space="preserve">
+    <value>Whakahohetia te Post-Processing</value>
+  </data>
+  <data name="options_postVideoTitle" xml:space="preserve">
+    <value>Settings Post-Processing</value>
+  </data>
+  <data name="options_renderClouds" xml:space="preserve">
+    <value>Kapua</value>
+  </data>
+  <data name="options_renderDistance" xml:space="preserve">
+    <value>Hoatu tawhiti</value>
+  </data>
+  <data name="options_saturation" xml:space="preserve">
+    <value>waiwai</value>
+  </data>
+  <data name="options_sensitivity" xml:space="preserve">
+    <value>Rauangi</value>
+  </data>
+  <data name="options_sensitivity_max" xml:space="preserve">
+    <value>HYPERSPEED!!!</value>
+  </data>
+  <data name="options_sensitivity_min" xml:space="preserve">
+    <value>*Oha*</value>
+  </data>
+  <data name="options_snooper" xml:space="preserve">
+    <value>Tukua popore</value>
+  </data>
+  <data name="options_sound" xml:space="preserve">
+    <value>tangi</value>
+  </data>
+  <data name="options_sounds" xml:space="preserve">
+    <value>Music &amp; Oro...</value>
+  </data>
+  <data name="options_sounds_title" xml:space="preserve">
+    <value>Kōwhiringa Music &amp; Sound</value>
+  </data>
+  <data name="options_title" xml:space="preserve">
+    <value>kōwhiringa</value>
+  </data>
+  <data name="options_video" xml:space="preserve">
+    <value>Settings Video...</value>
+  </data>
+  <data name="options_videoTitle" xml:space="preserve">
+    <value>Settings Video</value>
+  </data>
+  <data name="options_viewBobbing" xml:space="preserve">
+    <value>Tirohia te whāwhā</value>
+  </data>
+  <data name="options_visible" xml:space="preserve">
+    <value>whakaaturia</value>
+  </data>
+  <data name="record_nowPlaying" xml:space="preserve">
+    <value>tākaro Na: {0}</value>
+  </data>
+  <data name="selectServer_add" xml:space="preserve">
+    <value>Tāpiri Tūmau</value>
+  </data>
+  <data name="selectServer_defaultName" xml:space="preserve">
+    <value>Tūmau Minecraft</value>
+  </data>
+  <data name="selectServer_delete" xml:space="preserve">
+    <value>Porowhiu</value>
+  </data>
+  <data name="selectServer_deleteButton" xml:space="preserve">
+    <value>Porowhiu</value>
+  </data>
+  <data name="selectServer_deleteQuestion" xml:space="preserve">
+    <value>Whakaū i te tango o tenei tūmau?</value>
+  </data>
+  <data name="selectServer_deleteWarning" xml:space="preserve">
+    <value>Ngaro ka ake ake! (Te wa i!)</value>
+  </data>
+  <data name="selectServer_direct" xml:space="preserve">
+    <value>Whakarerekē</value>
+  </data>
+  <data name="selectServer_edit" xml:space="preserve">
+    <value>Whakarerekē</value>
+  </data>
+  <data name="selectServer_empty" xml:space="preserve">
+    <value>tahanga</value>
+  </data>
+  <data name="selectServer_hiddenAddress" xml:space="preserve">
+    <value>(Huna)</value>
+  </data>
+  <data name="selectServer_refresh" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="selectServer_select" xml:space="preserve">
+    <value>amui atu tūmau</value>
+  </data>
+  <data name="selectServer_title" xml:space="preserve">
+    <value>te tīpako i te tūmau</value>
+  </data>
+  <data name="selectWorld_allowCommands" xml:space="preserve">
+    <value>Tuku i te whakahau:</value>
+  </data>
+  <data name="selectWorld_allowCommands_info" xml:space="preserve">
+    <value>Kainga, herehere, i ētahi atu momo ao... /gamemode, /xp</value>
+  </data>
+  <data name="selectWorld_bonusItems" xml:space="preserve">
+    <value>utu uma:</value>
+  </data>
+  <data name="selectWorld_cheats" xml:space="preserve">
+    <value>Tinihanga</value>
+  </data>
+  <data name="selectWorld_conversion" xml:space="preserve">
+    <value>Me tahuri!</value>
+  </data>
+  <data name="selectWorld_create" xml:space="preserve">
+    <value>Waihanga he world new</value>
+  </data>
+  <data name="selectWorld_createDemo" xml:space="preserve">
+    <value>Te tākaro New Demo World</value>
+  </data>
+  <data name="selectWorld_customizeType" xml:space="preserve">
+    <value>Whakatauritea</value>
+  </data>
+  <data name="selectWorld_delete" xml:space="preserve">
+    <value>Porowhiu</value>
+  </data>
+  <data name="selectWorld_deleteButton" xml:space="preserve">
+    <value>Porowhiu</value>
+  </data>
+  <data name="selectWorld_deleteQuestion" xml:space="preserve">
+    <value>E hiahia ana koe ki te muku i tēnei ao ki a koutou?</value>
+  </data>
+  <data name="selectWorld_deleteWarning" xml:space="preserve">
+    <value>ka ngaro ake ake! (He roa te wā!)</value>
+  </data>
+  <data name="selectWorld_edit" xml:space="preserve">
+    <value>Whakarerekē</value>
+  </data>
+  <data name="selectWorld_empty" xml:space="preserve">
+    <value>tahanga</value>
+  </data>
+  <data name="selectWorld_enterName" xml:space="preserve">
+    <value>ingoa ao</value>
+  </data>
+  <data name="selectWorld_enterSeed" xml:space="preserve">
+    <value>uri mo te kaihanga ao</value>
+  </data>
+  <data name="selectWorld_gameMode" xml:space="preserve">
+    <value>Aratau Game</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure" xml:space="preserve">
+    <value>Haere māia</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure_line1" xml:space="preserve">
+    <value>Rite aratau ora, engari e kore e taea e poraka</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure_line2" xml:space="preserve">
+    <value>tāpiri, te tango ranei,</value>
+  </data>
+  <data name="selectWorld_gameMode_creative" xml:space="preserve">
+    <value>auaha</value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line1" xml:space="preserve">
+    <value>rauemi mure ore, e rere ana, me te kore utu</value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line2" xml:space="preserve">
+    <value>Top -{0}</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore" xml:space="preserve">
+    <value>tino</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line1" xml:space="preserve">
+    <value>Rite aratau ora, kua kiia i faingataa</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line2" xml:space="preserve">
+    <value>uaua, a kotahi te ora anake</value>
+  </data>
+  <data name="selectWorld_gameMode_survival" xml:space="preserve">
+    <value>Noho ora</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line1" xml:space="preserve">
+    <value>Rapu mō te rauemi, ke fokotuutuu, taonga</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line2" xml:space="preserve">
+    <value>taumata, te hauora, me te matekai</value>
+  </data>
+  <data name="selectWorld_hardcoreMode" xml:space="preserve">
+    <value>tino:</value>
+  </data>
+  <data name="selectWorld_hardcoreMode_info" xml:space="preserve">
+    <value>mukua ao te ki runga ki te mate</value>
+  </data>
+  <data name="selectWorld_mapFeatures" xml:space="preserve">
+    <value>Whakaputa hanganga:</value>
+  </data>
+  <data name="selectWorld_mapFeatures_info" xml:space="preserve">
+    <value>Kainga, herehere, i ētahi atu momo ao</value>
+  </data>
+  <data name="selectWorld_mapType" xml:space="preserve">
+    <value>Momo o te ao:</value>
+  </data>
+  <data name="selectWorld_mapType_normal" xml:space="preserve">
+    <value>Noa</value>
+  </data>
+  <data name="selectWorld_moreWorldOptions" xml:space="preserve">
+    <value>Ētahi atu Kōwhiringa Ao ...</value>
+  </data>
+  <data name="selectWorld_newWorld" xml:space="preserve">
+    <value>ao hou</value>
+  </data>
+  <data name="selectWorld_newWorld_copyOf" xml:space="preserve">
+    <value>kape o te {0}</value>
+  </data>
+  <data name="selectWorld_recreate" xml:space="preserve">
+    <value>Waihangatia tētahi atu wā</value>
+  </data>
+  <data name="selectWorld_resultFolder" xml:space="preserve">
+    <value>ka ora i roto i:</value>
+  </data>
+  <data name="selectWorld_seedInfo" xml:space="preserve">
+    <value>waiho kia pātea tonu hoki te uri tupurangi</value>
+  </data>
+  <data name="selectWorld_select" xml:space="preserve">
+    <value>Te tākaro i te ao kua tīpakohia</value>
+  </data>
+  <data name="selectWorld_title" xml:space="preserve">
+    <value>Tīpakohia te ao</value>
+  </data>
+  <data name="selectWorld_version" xml:space="preserve">
+    <value>Putanga:</value>
+  </data>
+  <data name="selectWorld_world" xml:space="preserve">
+    <value>Ao</value>
+  </data>
+  <data name="soundCategory_ambient" xml:space="preserve">
+    <value>Ambient / Taiao</value>
+  </data>
+  <data name="soundCategory_block" xml:space="preserve">
+    <value>poraka</value>
+  </data>
+  <data name="soundCategory_hostile" xml:space="preserve">
+    <value>Vaerua kaikiri</value>
+  </data>
+  <data name="soundCategory_master" xml:space="preserve">
+    <value>rōrahi te Kaiwhakaako</value>
+  </data>
+  <data name="soundCategory_music" xml:space="preserve">
+    <value>Puoro</value>
+  </data>
+  <data name="soundCategory_neutral" xml:space="preserve">
+    <value>Vaerua hoa</value>
+  </data>
+  <data name="soundCategory_player" xml:space="preserve">
+    <value>kaitākaro</value>
+  </data>
+  <data name="soundCategory_record" xml:space="preserve">
+    <value>Poraka rekoata / Tuhipoka</value>
+  </data>
+  <data name="soundCategory_weather" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="tile_activatorRail_name" xml:space="preserve">
+    <value>Activator Rail</value>
+  </data>
+  <data name="tile_anvil_name" xml:space="preserve">
+    <value>Paepae maitai</value>
+  </data>
+  <data name="tile_bedrock_name" xml:space="preserve">
+    <value>maka tefito</value>
+  </data>
+  <data name="tile_blockCoal_name" xml:space="preserve">
+    <value>Poraka o Coal</value>
+  </data>
+  <data name="tile_blockDiamond_name" xml:space="preserve">
+    <value>Poraka o Diamond</value>
+  </data>
+  <data name="tile_bookshelf_name" xml:space="preserve">
+    <value>PukaPuka</value>
+  </data>
+  <data name="tile_brick_name" xml:space="preserve">
+    <value>Pereki</value>
+  </data>
+  <data name="tile_button_name" xml:space="preserve">
+    <value>Pātene</value>
+  </data>
+  <data name="tile_cake_name" xml:space="preserve">
+    <value>Keke</value>
+  </data>
+  <data name="tile_carrots_name" xml:space="preserve">
+    <value>Kāreti</value>
+  </data>
+  <data name="tile_chest_name" xml:space="preserve">
+    <value>pouaka</value>
+  </data>
+  <data name="tile_chestTrap_name" xml:space="preserve">
+    <value>aaka mau</value>
+  </data>
+  <data name="tile_cloth_name" xml:space="preserve">
+    <value>Wūru</value>
+  </data>
+  <data name="tile_cocoa_name" xml:space="preserve">
+    <value>Koukou</value>
+  </data>
+  <data name="tile_crops_name" xml:space="preserve">
+    <value>Kai</value>
+  </data>
+  <data name="tile_deadbush_name" xml:space="preserve">
+    <value>mate Bush</value>
+  </data>
+  <data name="tile_detectorRail_name" xml:space="preserve">
+    <value>pūkimi Rail</value>
+  </data>
+  <data name="tile_dirt_default_name" xml:space="preserve">
+    <value>paru</value>
+  </data>
+  <data name="tile_dirt_name" xml:space="preserve">
+    <value>Paruparu</value>
+  </data>
+  <data name="tile_dirt_podzol_name" xml:space="preserve">
+    <value>Onemata</value>
+  </data>
+  <data name="tile_doorIron_name" xml:space="preserve">
+    <value>Iron Door</value>
+  </data>
+  <data name="tile_doorWood_name" xml:space="preserve">
+    <value>Door Rakau</value>
+  </data>
+  <data name="tile_doublePlant_fern_name" xml:space="preserve">
+    <value>Ponga</value>
+  </data>
+  <data name="tile_doublePlant_rose_name" xml:space="preserve">
+    <value>Rōha</value>
+  </data>
+  <data name="tile_doublePlant_sunflower_name" xml:space="preserve">
+    <value>Putiputi rā</value>
+  </data>
+  <data name="tile_farmland_name" xml:space="preserve">
+    <value>Papanga pāmu</value>
+  </data>
+  <data name="tile_fence_name" xml:space="preserve">
+    <value>Taiepa</value>
+  </data>
+  <data name="tile_fire_name" xml:space="preserve">
+    <value>Ahi</value>
+  </data>
+  <data name="tile_flower1_dandelion_name" xml:space="preserve">
+    <value>Tawao</value>
+  </data>
+  <data name="tile_flower2_allium_name" xml:space="preserve">
+    <value>Allium</value>
+  </data>
+  <data name="tile_flower2_houstonia_name" xml:space="preserve">
+    <value>Azure Bluet</value>
+  </data>
+  <data name="tile_flower2_tulipRed_name" xml:space="preserve">
+    <value>Whero Tulip</value>
+  </data>
+  <data name="tile_furnace_name" xml:space="preserve">
+    <value>Oumu</value>
+  </data>
+  <data name="tile_glass_name" xml:space="preserve">
+    <value>Karaehe</value>
+  </data>
+  <data name="tile_goldenRail_name" xml:space="preserve">
+    <value>Rail Powered</value>
+  </data>
+  <data name="tile_grass_name" xml:space="preserve">
+    <value>tarutaru Poraka</value>
+  </data>
+  <data name="tile_gravel_name" xml:space="preserve">
+    <value>Tuakirikiri</value>
+  </data>
+  <data name="tile_hayBlock_name" xml:space="preserve">
+    <value>hay wuru</value>
+  </data>
+  <data name="tile_ice_name" xml:space="preserve">
+    <value>Haupapa</value>
+  </data>
+  <data name="tile_jukebox_name" xml:space="preserve">
+    <value>Reo Irirangi</value>
+  </data>
+  <data name="tile_ladder_name" xml:space="preserve">
+    <value>Arawhata</value>
+  </data>
+  <data name="tile_lava_name" xml:space="preserve">
+    <value>rangitoto</value>
+  </data>
+  <data name="tile_leaves_acacia_name" xml:space="preserve">
+    <value>hitimi Rau</value>
+  </data>
+  <data name="tile_leaves_big_oak_name" xml:space="preserve">
+    <value>Dark Oak Rau</value>
+  </data>
+  <data name="tile_leaves_birch_name" xml:space="preserve">
+    <value>birch Rau</value>
+  </data>
+  <data name="tile_leaves_jungle_name" xml:space="preserve">
+    <value>uru raau no Rau</value>
+  </data>
+  <data name="tile_leaves_name" xml:space="preserve">
+    <value>Ngā rau</value>
+  </data>
+  <data name="tile_leaves_oak_name" xml:space="preserve">
+    <value>Rau oki</value>
+  </data>
+  <data name="tile_leaves_spruce_name" xml:space="preserve">
+    <value>Rau te puruhi</value>
+  </data>
+  <data name="tile_lever_name" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="tile_log_acacia_name" xml:space="preserve">
+    <value>hitimi Wood</value>
+  </data>
+  <data name="tile_log_big_oak_name" xml:space="preserve">
+    <value>Dark Oak Wood</value>
+  </data>
+  <data name="tile_log_birch_name" xml:space="preserve">
+    <value>Birch Wood</value>
+  </data>
+  <data name="tile_log_jungle_name" xml:space="preserve">
+    <value>uru raau no Wood</value>
+  </data>
+  <data name="tile_log_name" xml:space="preserve">
+    <value>Rākau</value>
+  </data>
+  <data name="tile_log_oak_name" xml:space="preserve">
+    <value>Rākau oke</value>
+  </data>
+  <data name="tile_log_spruce_name" xml:space="preserve">
+    <value>te puruhi mo Wood</value>
+  </data>
+  <data name="tile_mobSpawner_name" xml:space="preserve">
+    <value>Monster Spawner</value>
+  </data>
+  <data name="tile_obsidian_name" xml:space="preserve">
+    <value>Matā</value>
+  </data>
+  <data name="tile_oreCoal_name" xml:space="preserve">
+    <value>Coal Ore</value>
+  </data>
+  <data name="tile_oreDiamond_name" xml:space="preserve">
+    <value>Diamond Ore</value>
+  </data>
+  <data name="tile_oreGold_name" xml:space="preserve">
+    <value>Gold Ore</value>
+  </data>
+  <data name="tile_oreIron_name" xml:space="preserve">
+    <value>Iron Ore</value>
+  </data>
+  <data name="tile_potatoes_name" xml:space="preserve">
+    <value>Rīwai</value>
+  </data>
+  <data name="tile_pumpkin_name" xml:space="preserve">
+    <value>Paukena</value>
+  </data>
+  <data name="tile_rail_name" xml:space="preserve">
+    <value>Ara tereina</value>
+  </data>
+  <data name="tile_redstoneDust_name" xml:space="preserve">
+    <value>Redstone puehu</value>
+  </data>
+  <data name="tile_sand_default_name" xml:space="preserve">
+    <value>onepū</value>
+  </data>
+  <data name="tile_sand_name" xml:space="preserve">
+    <value>onepū</value>
+  </data>
+  <data name="tile_sand_red_name" xml:space="preserve">
+    <value>Kirikiri whero</value>
+  </data>
+  <data name="tile_sandStone_chiseled_name" xml:space="preserve">
+    <value>whaoa hōanga</value>
+  </data>
+  <data name="tile_sandStone_default_name" xml:space="preserve">
+    <value>Hōanga</value>
+  </data>
+  <data name="tile_sandStone_name" xml:space="preserve">
+    <value>Hōanga</value>
+  </data>
+  <data name="tile_sandStone_smooth_name" xml:space="preserve">
+    <value>hōanga Whakaene</value>
+  </data>
+  <data name="tile_sapling_acacia_name" xml:space="preserve">
+    <value>hitimi Māhuri</value>
+  </data>
+  <data name="tile_sapling_birch_name" xml:space="preserve">
+    <value>Birch Māhuri</value>
+  </data>
+  <data name="tile_sapling_jungle_name" xml:space="preserve">
+    <value>uru raau no Māhuri</value>
+  </data>
+  <data name="tile_sapling_oak_name" xml:space="preserve">
+    <value>Oak Māhuri</value>
+  </data>
+  <data name="tile_sapling_spruce_name" xml:space="preserve">
+    <value>te puruhi mo Māhuri</value>
+  </data>
+  <data name="tile_sign_name" xml:space="preserve">
+    <value>Tohu</value>
+  </data>
+  <data name="tile_snow_name" xml:space="preserve">
+    <value>Huka</value>
+  </data>
+  <data name="tile_sponge_dry_name" xml:space="preserve">
+    <value>hautai</value>
+  </data>
+  <data name="tile_stainedGlass_black_name" xml:space="preserve">
+    <value>Black ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_blue_name" xml:space="preserve">
+    <value>Blue ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_brown_name" xml:space="preserve">
+    <value>Brown ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_cyan_name" xml:space="preserve">
+    <value>Urikiko ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_gray_name" xml:space="preserve">
+    <value>Gray ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_green_name" xml:space="preserve">
+    <value>Green ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_name" xml:space="preserve">
+    <value>ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_pink_name" xml:space="preserve">
+    <value>Pink ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_purple_name" xml:space="preserve">
+    <value>Papura ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_red_name" xml:space="preserve">
+    <value>Whero ōpure koata</value>
+  </data>
+  <data name="tile_stainedGlass_silver_name" xml:space="preserve">
+    <value>Light Gray ōpure koata</value>
+  </data>
+  <data name="tile_stairsSandStone_name" xml:space="preserve">
+    <value>hōanga Arawhata</value>
+  </data>
+  <data name="tile_stairsStone_name" xml:space="preserve">
+    <value>Stone Arawhata</value>
+  </data>
+  <data name="tile_stairsWood_name" xml:space="preserve">
+    <value>Oak Wood Arawhata</value>
+  </data>
+  <data name="tile_stairsWoodAcacia_name" xml:space="preserve">
+    <value>Hitimi Wood Arawhata</value>
+  </data>
+  <data name="tile_stairsWoodBirch_name" xml:space="preserve">
+    <value>Birch Wood Arawhata</value>
+  </data>
+  <data name="tile_stairsWoodDarkOak_name" xml:space="preserve">
+    <value>Dark Oak Wood Arawhata</value>
+  </data>
+  <data name="tile_stairsWoodJungle_name" xml:space="preserve">
+    <value>Uru raau no Wood Arawhata</value>
+  </data>
+  <data name="tile_stairsWoodSpruce_name" xml:space="preserve">
+    <value>Te puruhi mo Wood Arawhata</value>
+  </data>
+  <data name="tile_stone_stone_name" xml:space="preserve">
+    <value>Toka</value>
+  </data>
+  <data name="tile_stoneMoss_name" xml:space="preserve">
+    <value>Moss Stone</value>
+  </data>
+  <data name="tile_stonebrick_name" xml:space="preserve">
+    <value>Cobblestone</value>
+  </data>
+  <data name="tile_tallgrass_fern_name" xml:space="preserve">
+    <value>Ponga</value>
+  </data>
+  <data name="tile_tallgrass_grass_name" xml:space="preserve">
+    <value>Karaihe</value>
+  </data>
+  <data name="tile_tallgrass_name" xml:space="preserve">
+    <value>Karaihe</value>
+  </data>
+  <data name="tile_tallgrass_shrub_name" xml:space="preserve">
+    <value>Riki</value>
+  </data>
+  <data name="tile_thinGlass_name" xml:space="preserve">
+    <value>Pihanga</value>
+  </data>
+  <data name="tile_tnt_name" xml:space="preserve">
+    <value>TNT</value>
+  </data>
+  <data name="tile_torch_name" xml:space="preserve">
+    <value>Rama</value>
+  </data>
+  <data name="tile_water_name" xml:space="preserve">
+    <value>Wai</value>
+  </data>
+  <data name="tile_weightedPlate_heavy_name" xml:space="preserve">
+    <value>Plate Pressure tautaha (Taumaha)</value>
+  </data>
+  <data name="tile_weightedPlate_light_name" xml:space="preserve">
+    <value>Plate Pressure tautaha (Light)</value>
+  </data>
+  <data name="tile_wood_acacia_name" xml:space="preserve">
+    <value>Hitimi Wood papa</value>
+  </data>
+  <data name="tile_wood_big_oak_name" xml:space="preserve">
+    <value>Dark Oak Wood papa</value>
+  </data>
+  <data name="tile_wood_birch_name" xml:space="preserve">
+    <value>Birch Wood papa</value>
+  </data>
+  <data name="tile_wood_jungle_name" xml:space="preserve">
+    <value>Uru raau no Wood papa</value>
+  </data>
+  <data name="tile_wood_name" xml:space="preserve">
+    <value>papa rākau</value>
+  </data>
+  <data name="tile_wood_oak_name" xml:space="preserve">
+    <value>Oak papa rakau</value>
+  </data>
+  <data name="tile_wood_spruce_name" xml:space="preserve">
+    <value>Te puruhi mo Wood papa</value>
+  </data>
+  <data name="tile_woodSlab_acacia_name" xml:space="preserve">
+    <value>Hitimi Wood papa</value>
+  </data>
+  <data name="tile_woodSlab_big_oak_name" xml:space="preserve">
+    <value>Dark Oak Wood papa</value>
+  </data>
+  <data name="tile_woodSlab_birch_name" xml:space="preserve">
+    <value>Birch Wood Papa</value>
+  </data>
+  <data name="tile_woodSlab_jungle_name" xml:space="preserve">
+    <value>Uru raau no Wood papa</value>
+  </data>
+  <data name="tile_woodSlab_oak_name" xml:space="preserve">
+    <value>Oak Wood Papa</value>
+  </data>
+  <data name="tile_woodSlab_spruce_name" xml:space="preserve">
+    <value>Te puruhi mo Wood papa</value>
+  </data>
+  <data name="tile_workbench_name" xml:space="preserve">
+    <value>Papamahi</value>
+  </data>
+</root>

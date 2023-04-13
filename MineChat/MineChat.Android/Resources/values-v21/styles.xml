@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <!-- Inherit from the Material Theme -->
+  <style name="MineChatTheme" parent="android:Theme.Material">
+    <!-- Customizations go here -->
+    <item name="android:colorLongPressedHighlight">@color/orange</item>    
+  </style>
+  <style name="splashscreen" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <style name="splashscreenlite" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screenlite</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+</resources>

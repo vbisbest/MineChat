@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineChat.VideosView"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             xmlns:i18n="clr-namespace:MineChat;assembly=MineChat"
+             Title="Videos">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="FillAndExpand" Padding="10, 5, 10, 5" BackgroundColor="Black">
+      <StackLayout Padding="5, 0, 5, 0" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}">
+        <Label x:Name="labelDescription" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}" HorizontalTextAlignment="Center" FontSize="Small" Text="Show off your own Minecraft videos by buying a 'Promoted Video' spot on the Shop page in MineChat!" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White" />
+      </StackLayout>
+      <ListView x:Name="listVideos" VerticalOptions="FillAndExpand" SeparatorVisibility="Default" BackgroundColor="Transparent">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+                <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand" Padding="5,5,5,10" >
+                                <Label Text="{Binding Snippet.Title}" HorizontalOptions="Center" FontSize="Medium" TextColor="White" VerticalOptions="StartAndExpand"/>
+                                <Image Source="{Binding Snippet.Thumbnails.Medium.Url}" VerticalOptions="Start" HorizontalOptions="Center"/>
+                                <Label Text="{Binding Snippet.Description}" HorizontalOptions="Center" TextColor="{Binding Source={x:Static local:Global.MainColor}}" FontSize="Micro" />
+                </StackLayout>			
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+     </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

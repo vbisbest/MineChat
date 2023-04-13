@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <color name="orange">#ffa500</color>
+  <color name="green">#77D065</color>
+  <color name="purple">#B455B6</color>
+  <color name="gray">#738182</color>
+  <color name="splash_background">#1094df</color>
+  
+  <style name="MineChatTheme" parent="android:Theme.Holo">
+    <item name="android:colorControlHighlight">@color/orange</item>
+    <item name="android:colorActivatedHighlight">@color/orange</item>
+
+    <item name="android:colorPressedHighlight">@color/orange</item>
+    <item name="android:colorLongPressedHighlight">@color/orange</item>
+    <item name="android:colorFocusedHighlight">@color/orange</item>
+  </style>
+</resources>

@@ -1,0 +1,5001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="achievement_acquireIron" xml:space="preserve">
+    <value>ابزار سخت</value>
+  </data>
+  <data name="achievement_acquireIron_desc" xml:space="preserve">
+    <value>یک سنگ آهن را بپز</value>
+  </data>
+  <data name="achievement_bakeCake" xml:space="preserve">
+    <value>دروغ</value>
+  </data>
+  <data name="achievement_bakeCake_desc" xml:space="preserve">
+    <value>گندم، شکر، شیر و تخم مرغ!</value>
+  </data>
+  <data name="achievement_blazeRod" xml:space="preserve">
+    <value>درون آتش</value>
+  </data>
+  <data name="achievement_blazeRod_desc" xml:space="preserve">
+    <value>یک شعله رو از دست میله ـش خلاص کن.</value>
+  </data>
+  <data name="achievement_bookcase" xml:space="preserve">
+    <value>کتابدار</value>
+  </data>
+  <data name="achievement_bookcase_desc" xml:space="preserve">
+    <value>برای افسون های قویتر چند کتابخانه بساز.</value>
+  </data>
+  <data name="achievement_breedCow" xml:space="preserve">
+    <value>توليد مثل</value>
+  </data>
+  <data name="achievement_breedCow_desc" xml:space="preserve">
+    <value>دو گاو با گندم پرورش بده</value>
+  </data>
+  <data name="achievement_buildBetterPickaxe" xml:space="preserve">
+    <value>یه ارتقا بگیریم</value>
+  </data>
+  <data name="achievement_buildBetterPickaxe_desc" xml:space="preserve">
+    <value>يک کلنگ بهتر بساز.</value>
+  </data>
+  <data name="achievement_buildFurnace" xml:space="preserve">
+    <value>صندلی داغ!</value>
+  </data>
+  <data name="achievement_buildHoe" xml:space="preserve">
+    <value>وقت کشاورزی!</value>
+  </data>
+  <data name="achievement_buildHoe_desc" xml:space="preserve">
+    <value>از الوار و ميله چوبي يک کج بیل بساز.</value>
+  </data>
+  <data name="achievement_buildPickaxe" xml:space="preserve">
+    <value>موقع معدن</value>
+  </data>
+  <data name="achievement_buildPickaxe_desc" xml:space="preserve">
+    <value>از الوار و میله یک کلنگ بساز.</value>
+  </data>
+  <data name="achievement_buildSword" xml:space="preserve">
+    <value>زمان حمله</value>
+  </data>
+  <data name="achievement_buildSword_desc" xml:space="preserve">
+    <value>از الوار و ميله چوبي يک شمشير بساز.</value>
+  </data>
+  <data name="achievement_buildWorkBench" xml:space="preserve">
+    <value>محک زنی</value>
+  </data>
+  <data name="achievement_buildWorkBench_desc" xml:space="preserve">
+    <value>با چهار تخته چوب یک میزکار بساز.</value>
+  </data>
+  <data name="achievement_cookFish" xml:space="preserve">
+    <value>ماهي لذیذ</value>
+  </data>
+  <data name="achievement_cookFish_desc" xml:space="preserve">
+    <value>یک ماهی بگیر و بپز!</value>
+  </data>
+  <data name="achievement_diamonds" xml:space="preserve">
+    <value>الماس!</value>
+  </data>
+  <data name="achievement_diamonds_desc" xml:space="preserve">
+    <value>با استفاده از ابزار آهني الماس بدست آور</value>
+  </data>
+  <data name="achievement_diamondsToYou" xml:space="preserve">
+    <value>الماس براي تو</value>
+  </data>
+  <data name="achievement_enchantments" xml:space="preserve">
+    <value>افسونگر</value>
+  </data>
+  <data name="achievement_enchantments_desc" xml:space="preserve">
+    <value>با استفاده از کتاب، آبسيديان و الماس ميز افسونگري بساز.</value>
+  </data>
+  <data name="achievement_exploreAllBiomes" xml:space="preserve">
+    <value>وقت ماجراجویی</value>
+  </data>
+  <data name="achievement_exploreAllBiomes_desc" xml:space="preserve">
+    <value>همه نوع زیستگاه را کشف کن.</value>
+  </data>
+  <data name="achievement_flyPig" xml:space="preserve">
+    <value>وقتی خوکا پریدن!</value>
+  </data>
+  <data name="achievement_flyPig_desc" xml:space="preserve">
+    <value>يک خوک را از تپه پرت کن</value>
+  </data>
+  <data name="achievement_fullBeacon" xml:space="preserve">
+    <value>فانوس دریایی</value>
+  </data>
+  <data name="achievement_fullBeacon_desc" xml:space="preserve">
+    <value>يک بلوک فضاجادو بساز</value>
+  </data>
+  <data name="achievement_get" xml:space="preserve">
+    <value>دستاورد کسب شد!</value>
+  </data>
+  <data name="achievement_ghast" xml:space="preserve">
+    <value>شکارچي ارواح</value>
+  </data>
+  <data name="achievement_ghast_desc" xml:space="preserve">
+    <value>يک روح را با توپ آتشِ خودش بکش</value>
+  </data>
+  <data name="achievement_killCow" xml:space="preserve">
+    <value>گاو کشی!</value>
+  </data>
+  <data name="achievement_killCow_desc" xml:space="preserve">
+    <value>کمی چرم به دست بیار.</value>
+  </data>
+  <data name="achievement_killEnemy" xml:space="preserve">
+    <value>شکارچی هیولا</value>
+  </data>
+  <data name="achievement_killEnemy_desc" xml:space="preserve">
+    <value>به یک هیولا حمله کن و اونو بکش.</value>
+  </data>
+  <data name="achievement_killWither" xml:space="preserve">
+    <value>سرآغاز.</value>
+  </data>
+  <data name="achievement_killWither_desc" xml:space="preserve">
+    <value>پژمرده گر را بکش</value>
+  </data>
+  <data name="achievement_makeBread" xml:space="preserve">
+    <value>پخت نان</value>
+  </data>
+  <data name="achievement_makeBread_desc" xml:space="preserve">
+    <value>گندم را به نان تبديل کن.</value>
+  </data>
+  <data name="achievement_mineWood" xml:space="preserve">
+    <value>گرفتن چوب</value>
+  </data>
+  <data name="achievement_mineWood_desc" xml:space="preserve">
+    <value>به یه درخت حمله ور شو تا چوب بگیری!</value>
+  </data>
+  <data name="achievement_onARail" xml:space="preserve">
+    <value>روي ريل</value>
+  </data>
+  <data name="achievement_onARail_desc" xml:space="preserve">
+    <value>با استفاده از واگن، بیشتر از یک کیلومتر از جایی که شروع کردی برو.</value>
+  </data>
+  <data name="achievement_openInventory" xml:space="preserve">
+    <value>بازی کردن کوله</value>
+  </data>
+  <data name="achievement_overkill" xml:space="preserve">
+    <value>وحشيگري</value>
+  </data>
+  <data name="achievement_overkill_desc" xml:space="preserve">
+    <value>8 قلب دشمن را با يک ضربه از بين ببر</value>
+  </data>
+  <data name="achievement_overpowered" xml:space="preserve">
+    <value>پرقدرت</value>
+  </data>
+  <data name="achievement_overpowered_desc" xml:space="preserve">
+    <value>یک سیب ناچ بخور</value>
+  </data>
+  <data name="achievement_portal" xml:space="preserve">
+    <value>ما باید بریم پایین تر</value>
+  </data>
+  <data name="achievement_portal_desc" xml:space="preserve">
+    <value>يک پرتال به جهنم بساز</value>
+  </data>
+  <data name="achievement_potion" xml:space="preserve">
+    <value>معجون ساز محلی</value>
+  </data>
+  <data name="achievement_potion_desc" xml:space="preserve">
+    <value>يک معجون بساز.</value>
+  </data>
+  <data name="achievement_requires" xml:space="preserve">
+    <value>نياز به '{0}'</value>
+  </data>
+  <data name="achievement_snipeSkeleton" xml:space="preserve">
+    <value>تیرانداز حرفه ای</value>
+  </data>
+  <data name="achievement_snipeSkeleton_desc" xml:space="preserve">
+    <value>با تیر یک اسکلت رو از پنجاه متری بکش.</value>
+  </data>
+  <data name="achievement_spawnWither" xml:space="preserve">
+    <value>سرآغاز؟</value>
+  </data>
+  <data name="achievement_spawnWither_desc" xml:space="preserve">
+    <value>پژمرده گر را احضار کن</value>
+  </data>
+  <data name="achievement_taken" xml:space="preserve">
+    <value>کسب شد!</value>
+  </data>
+  <data name="achievement_theEnd" xml:space="preserve">
+    <value>سرانجام؟</value>
+  </data>
+  <data name="achievement_theEnd_desc" xml:space="preserve">
+    <value>به سرزمين فرجام سفر کن</value>
+  </data>
+  <data name="achievement_theEnd2" xml:space="preserve">
+    <value>سرانجام.</value>
+  </data>
+  <data name="achievement_theEnd2_desc" xml:space="preserve">
+    <value>اژدهای فرجام را شکست بده.</value>
+  </data>
+  <data name="addServer_add" xml:space="preserve">
+    <value>انجام شد</value>
+  </data>
+  <data name="addServer_enterIp" xml:space="preserve">
+    <value>آدرس سرور</value>
+  </data>
+  <data name="addServer_enterName" xml:space="preserve">
+    <value>نام سرور</value>
+  </data>
+  <data name="addServer_hideAddress" xml:space="preserve">
+    <value>مخفی کردن آدرس</value>
+  </data>
+  <data name="addServer_resourcePack" xml:space="preserve">
+    <value>منبع بسته های سِرور</value>
+  </data>
+  <data name="addServer_resourcePack_disabled" xml:space="preserve">
+    <value>غیرفعال شد</value>
+  </data>
+  <data name="addServer_resourcePack_enabled" xml:space="preserve">
+    <value>فعال شد</value>
+  </data>
+  <data name="addServer_resourcePack_prompt" xml:space="preserve">
+    <value>سریع کردن</value>
+  </data>
+  <data name="addServer_title" xml:space="preserve">
+    <value>ویرایش اطلاعات سرور</value>
+  </data>
+  <data name="advMode_allPlayers" xml:space="preserve">
+    <value>از @a براي همه ی بازیکنان استفاده کن.</value>
+  </data>
+  <data name="advMode_command" xml:space="preserve">
+    <value>ورودي</value>
+  </data>
+  <data name="advMode_mode_autoexec_bat" xml:space="preserve">
+    <value>همیشه فعال</value>
+  </data>
+  <data name="advMode_nearestPlayer" xml:space="preserve">
+    <value>از @p برای نزدیک ترین بازیکن استفاده کن.</value>
+  </data>
+  <data name="advMode_notAllowed" xml:space="preserve">
+    <value>بايد يک پلير اصلي در حالت خلاق باشيد</value>
+  </data>
+  <data name="advMode_notEnabled" xml:space="preserve">
+    <value>بلوک دستور در اين سرور قابل استفاده نيست.</value>
+  </data>
+  <data name="advMode_previousOutput" xml:space="preserve">
+    <value>خروجی قبلی</value>
+  </data>
+  <data name="advMode_randomPlayer" xml:space="preserve">
+    <value>از @r براي یک بازیکن تصادفی استفاده کن.</value>
+  </data>
+  <data name="advMode_setCommand" xml:space="preserve">
+    <value>دستوري را وارد کنيد</value>
+  </data>
+  <data name="advMode_setCommand_success" xml:space="preserve">
+    <value>دستور تنظيم شد: {0}</value>
+  </data>
+  <data name="attribute_name_generic_armor" xml:space="preserve">
+    <value>زره</value>
+  </data>
+  <data name="attribute_name_generic_attackDamage" xml:space="preserve">
+    <value>دميج</value>
+  </data>
+  <data name="attribute_name_generic_attackSpeed" xml:space="preserve">
+    <value>سرعت حمله</value>
+  </data>
+  <data name="attribute_name_generic_followRange" xml:space="preserve">
+    <value>رنج پيمايش موب</value>
+  </data>
+  <data name="attribute_name_generic_knockbackResistance" xml:space="preserve">
+    <value>مقاومت در برابر "پرتاب"</value>
+  </data>
+  <data name="attribute_name_generic_luck" xml:space="preserve">
+    <value>شانس</value>
+  </data>
+  <data name="attribute_name_generic_maxHealth" xml:space="preserve">
+    <value>جان ماکزيموم</value>
+  </data>
+  <data name="attribute_name_generic_movementSpeed" xml:space="preserve">
+    <value>سرعت</value>
+  </data>
+  <data name="attribute_name_horse_jumpStrength" xml:space="preserve">
+    <value>قدرت پرش</value>
+  </data>
+  <data name="attribute_name_zombie_spawnReinforcements" xml:space="preserve">
+    <value>زامبي هاي کمکي</value>
+  </data>
+  <data name="book_byAuthor" xml:space="preserve">
+    <value>نوشته {0}</value>
+  </data>
+  <data name="book_editTitle" xml:space="preserve">
+    <value>عنوان کتاب را وارد کنید:</value>
+  </data>
+  <data name="book_finalizeButton" xml:space="preserve">
+    <value>امضاء و بستن</value>
+  </data>
+  <data name="book_finalizeWarning" xml:space="preserve">
+    <value>توجه داشته باشید! وقتی که شما کتاب را امضاء می کنید، آن دیگر قابل ویرایش نخواهد بود.</value>
+  </data>
+  <data name="book_generation_0" xml:space="preserve">
+    <value>اصلی</value>
+  </data>
+  <data name="book_generation_1" xml:space="preserve">
+    <value>کپی از نسخه اصلی</value>
+  </data>
+  <data name="book_generation_2" xml:space="preserve">
+    <value>کپی از یک کپی</value>
+  </data>
+  <data name="book_generation_3" xml:space="preserve">
+    <value>پاره</value>
+  </data>
+  <data name="book_pageIndicator" xml:space="preserve">
+    <value>صفحه ی {0} از  {1}</value>
+  </data>
+  <data name="book_signButton" xml:space="preserve">
+    <value>نشانه</value>
+  </data>
+  <data name="build_tooHigh" xml:space="preserve">
+    <value>مقدار مجاز ارتفاع ساخت و ساز {0} است</value>
+  </data>
+  <data name="chat_cannotSend" xml:space="preserve">
+    <value>قادر به ارسال پیام چت نیست</value>
+  </data>
+  <data name="chat_copy" xml:space="preserve">
+    <value>کپی به کلیپ بورد</value>
+  </data>
+  <data name="chat_link_confirm" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید وب سایت زیر باز شود؟</value>
+  </data>
+  <data name="chat_link_confirmTrusted" xml:space="preserve">
+    <value>آیا می خواهید این لینک را باز کنید یا می خواهید به کلیپ بورد کپی کنید؟</value>
+  </data>
+  <data name="chat_link_open" xml:space="preserve">
+    <value>باز کردن در کاوشگر</value>
+  </data>
+  <data name="chat_link_warning" xml:space="preserve">
+    <value>هرگز لینک های آدم هایی که بهشون اعتماد ندارید را باز نکنید!</value>
+  </data>
+  <data name="chat_type_achievement" xml:space="preserve">
+    <value>{0} دستاورد {1} به دست آورد</value>
+  </data>
+  <data name="chat_type_achievement_taken" xml:space="preserve">
+    <value>{0} {1} موفقیت از دست داده است</value>
+  </data>
+  <data name="chat_type_admin" xml:space="preserve">
+    <value>[{0}: {1}]</value>
+  </data>
+  <data name="chat_type_announcement" xml:space="preserve">
+    <value>[{0}] {1}</value>
+  </data>
+  <data name="chat_type_emote" xml:space="preserve">
+    <value>* {0} {1}</value>
+  </data>
+  <data name="chat_type_text" xml:space="preserve">
+    <value>&lt;{0}&gt; {1}</value>
+  </data>
+  <data name="commands_achievement_give_success_all" xml:space="preserve">
+    <value>تمام دستاوردها به {0} داده شد</value>
+  </data>
+  <data name="commands_ban_failed" xml:space="preserve">
+    <value>نمیتوان دسترسی بازیکن {0} را قطع کرد</value>
+  </data>
+  <data name="commands_ban_success" xml:space="preserve">
+    <value>{0} از سرور محروم شد/</value>
+  </data>
+  <data name="commands_ban_usage" xml:space="preserve">
+    <value>/ban &lt;نام بازيکن&gt; [دليل ...]</value>
+  </data>
+  <data name="commands_banip_invalid" xml:space="preserve">
+    <value>شما يک آيپي اشتباه يا نام کاربري اشتباه وارد کرده ايد</value>
+  </data>
+  <data name="commands_banip_success" xml:space="preserve">
+    <value>آيپي {0} اخراج شد</value>
+  </data>
+  <data name="commands_banip_success_players" xml:space="preserve">
+    <value>آيپي {0} متعلق به {1} اخراج شد</value>
+  </data>
+  <data name="commands_banip_usage" xml:space="preserve">
+    <value>/ban-ip &lt;نام/آيپي&gt; [دليل ...]</value>
+  </data>
+  <data name="commands_banlist_ips" xml:space="preserve">
+    <value>در کل {0} آيپي اخراج شده وجود دارد :</value>
+  </data>
+  <data name="commands_banlist_players" xml:space="preserve">
+    <value>در کل {0} بازيکن اخراج شده وجود دارد :</value>
+  </data>
+  <data name="commands_banlist_usage" xml:space="preserve">
+    <value>/banlist [players برای بازیکنان/ips برای آی پی ها]</value>
+  </data>
+  <data name="commands_blockdata_failed" xml:space="preserve">
+    <value>برچسب داده ها تغییر نکرد : {0}</value>
+  </data>
+  <data name="commands_blockdata_notValid" xml:space="preserve">
+    <value>بلاک مورد نظر دارای داده نمی باشد</value>
+  </data>
+  <data name="commands_blockdata_outOfWorld" xml:space="preserve">
+    <value>بلوک را نمی توان خارج از دنیا قرار داد</value>
+  </data>
+  <data name="commands_blockdata_success" xml:space="preserve">
+    <value>دیتای بلوک به {0} آپدیت شد</value>
+  </data>
+  <data name="commands_blockdata_tagError" xml:space="preserve">
+    <value>تحلیل دیتاتگ ناموفق شد: {0}</value>
+  </data>
+  <data name="commands_blockdata_usage" xml:space="preserve">
+    <value>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dataTag&gt;</value>
+  </data>
+  <data name="commands_clear_failure" xml:space="preserve">
+    <value>نمي توان کوله پشتي {0} را خالي کرد ، آيتمي وجود ندارد</value>
+  </data>
+  <data name="commands_clear_success" xml:space="preserve">
+    <value>کوله پشتي {0} خالي شد ، داراي {1} آيتم</value>
+  </data>
+  <data name="commands_clone_failed" xml:space="preserve">
+    <value>هیج بلوکی دوباره سازی نشد</value>
+  </data>
+  <data name="commands_clone_noOverlap" xml:space="preserve">
+    <value>مبدا و مقصد نمی توانند منطبق باشند</value>
+  </data>
+  <data name="commands_clone_outOfWorld" xml:space="preserve">
+    <value>به بلوک های خارح از دنیا نمی توان دسترسی داشت</value>
+  </data>
+  <data name="commands_clone_success" xml:space="preserve">
+    <value>{0} بلوک دوباره سازی شد</value>
+  </data>
+  <data name="commands_clone_tooManyBlocks" xml:space="preserve">
+    <value>تعداد بلوک‌های داخل منطقه‌ی انتخاب شده بیش از حد مجاز است. ({0} &gt; {1})</value>
+  </data>
+  <data name="commands_compare_failed" xml:space="preserve">
+    <value>مبدا و مقصد معلوم نیستند</value>
+  </data>
+  <data name="commands_compare_outOfWorld" xml:space="preserve">
+    <value>به بلوک های خارج از دنیا نمی توان دسترسی داشت</value>
+  </data>
+  <data name="commands_compare_success" xml:space="preserve">
+    <value>{0} بلوک مقایسه شد</value>
+  </data>
+  <data name="commands_compare_tooManyBlocks" xml:space="preserve">
+    <value>تعداد بلوک های داخل منطقه ی ({0} &gt; {1}) بیش از حد مجاز است</value>
+  </data>
+  <data name="commands_compare_usage" xml:space="preserve">
+    <value>/testforblocks &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [mode]</value>
+  </data>
+  <data name="commands_debug_stop" xml:space="preserve">
+    <value>Stopped debug profiling after {0} seconds ({1} ticks)</value>
+  </data>
+  <data name="commands_defaultgamemode_success" xml:space="preserve">
+    <value>وضعیت پیش فرض بازی به {0} تغییر کرد</value>
+  </data>
+  <data name="commands_deop_failed" xml:space="preserve">
+    <value>نمی توان {0} را از مدیریت برکنار کرد</value>
+  </data>
+  <data name="commands_deop_success" xml:space="preserve">
+    <value>{0} از مدیریت خلع شد.</value>
+  </data>
+  <data name="commands_deop_usage" xml:space="preserve">
+    <value>/deop &lt;بازيکن&gt;</value>
+  </data>
+  <data name="commands_difficulty_success" xml:space="preserve">
+    <value>تنظیم درجه سختی بازی به {0}</value>
+  </data>
+  <data name="commands_difficulty_usage" xml:space="preserve">
+    <value>/difficulty &lt;سختي جديد&gt;</value>
+  </data>
+  <data name="commands_downfall_success" xml:space="preserve">
+    <value>باران قطع/وصل شد</value>
+  </data>
+  <data name="commands_effect_failure_notActive" xml:space="preserve">
+    <value>نمي توان {0} را از {1} گرفت ، او اين افکت را ندارد</value>
+  </data>
+  <data name="commands_effect_failure_notActive_all" xml:space="preserve">
+    <value>نمي توان هيچ افکتي را از {0} گرفت، زیرا او افکتي ندارد.</value>
+  </data>
+  <data name="commands_effect_notFound" xml:space="preserve">
+    <value>افکتي با آيدي {0} وحود ندارد</value>
+  </data>
+  <data name="commands_effect_success" xml:space="preserve">
+    <value>{0} (ID {1}) * {2} to {3} for {4} seconds</value>
+  </data>
+  <data name="commands_effect_success_removed" xml:space="preserve">
+    <value>{0} از {1} گرفته شد</value>
+  </data>
+  <data name="commands_effect_success_removed_all" xml:space="preserve">
+    <value>تمامي افکت ها از {0} گرفته شد.</value>
+  </data>
+  <data name="commands_enchant_cantCombine" xml:space="preserve">
+    <value>{0} نمی تواند با {1} ترکیب یابد</value>
+  </data>
+  <data name="commands_enchant_cantEnchant" xml:space="preserve">
+    <value>روی این آیتم این افسون قابل اجرا نیست.</value>
+  </data>
+  <data name="commands_enchant_noItem" xml:space="preserve">
+    <value>The target doesn't hold an item </value>
+  </data>
+  <data name="commands_enchant_notFound" xml:space="preserve">
+    <value>هیچ افسونی به شماره ی {0} وجود ندارد.</value>
+  </data>
+  <data name="commands_enchant_success" xml:space="preserve">
+    <value>افسون شد.</value>
+  </data>
+  <data name="commands_enchant_usage" xml:space="preserve">
+    <value>/enchant &lt;بازیکن&gt; &lt;شماره ی افسون&gt; [درجه]</value>
+  </data>
+  <data name="commands_fill_failed" xml:space="preserve">
+    <value>هیچ بلوکی پر نیست</value>
+  </data>
+  <data name="commands_fill_outOfWorld" xml:space="preserve">
+    <value>بلوک را نمی توان خارج از جهان قرار داد</value>
+  </data>
+  <data name="commands_fill_success" xml:space="preserve">
+    <value>بلوک های {0} پر</value>
+  </data>
+  <data name="commands_fill_tagError" xml:space="preserve">
+    <value>تجزیه برچسب دیتا ناموفق پایان یافت: {0}</value>
+  </data>
+  <data name="commands_fill_tooManyBlocks" xml:space="preserve">
+    <value>تعداد بلوک‌های داخل منطقه‌ی انتخاب شده بیش از حد مجاز است. ({0} &gt; {1})</value>
+  </data>
+  <data name="commands_fill_usage" xml:space="preserve">
+    <value>/fill &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;TileName&gt; [dataValue] [oldBlockHandling] [dataTag]</value>
+  </data>
+  <data name="commands_generic_boolean_invalid" xml:space="preserve">
+    <value>{0} درست یا غلط نیست</value>
+  </data>
+  <data name="commands_generic_double_tooBig" xml:space="preserve">
+    <value>The number you have entered ({0}) is too big, it must be at most {1}</value>
+  </data>
+  <data name="commands_generic_double_tooSmall" xml:space="preserve">
+    <value>The number you have entered ({0}) is too small, it must be at least {1}</value>
+  </data>
+  <data name="commands_generic_entity_invalidType" xml:space="preserve">
+    <value>نوع نهاد '{0}' نامعتبر است</value>
+  </data>
+  <data name="commands_generic_entity_invalidUuid" xml:space="preserve">
+    <value>نوع UUID ارایه شده نامعتبر است</value>
+  </data>
+  <data name="commands_generic_entity_notFound" xml:space="preserve">
+    <value>این نهاد می تواند یافت نمی شود</value>
+  </data>
+  <data name="commands_generic_exception" xml:space="preserve">
+    <value>هنگام انجام این فرمان یک خطای ناشناخته رخ داد</value>
+  </data>
+  <data name="commands_generic_notFound" xml:space="preserve">
+    <value>دستور ناشناخته . برای مشاهده لیست دستورات /help را تایپ کنید</value>
+  </data>
+  <data name="commands_generic_num_invalid" xml:space="preserve">
+    <value>{0} شماره ی معتبری نمیباشد</value>
+  </data>
+  <data name="commands_generic_num_tooBig" xml:space="preserve">
+    <value>The number you have entered ({0}) is too big, it must be at most {1}</value>
+  </data>
+  <data name="commands_generic_num_tooSmall" xml:space="preserve">
+    <value>The number you have entered ({0}) is too small, it must be at least {1}</value>
+  </data>
+  <data name="commands_generic_parameter_invalid" xml:space="preserve">
+    <value>'{0}' پارامتر معتبری نمی باشد</value>
+  </data>
+  <data name="commands_generic_permission" xml:space="preserve">
+    <value>شما دسترسی لازم برای انجام این فرمان را ندارید</value>
+  </data>
+  <data name="commands_generic_player_notFound" xml:space="preserve">
+    <value>بازیکن پیدا نشد</value>
+  </data>
+  <data name="commands_generic_syntax" xml:space="preserve">
+    <value>نحوه ی فرمان نامعتبر</value>
+  </data>
+  <data name="commands_generic_usage" xml:space="preserve">
+    <value>استفاده: {0}</value>
+  </data>
+  <data name="commands_give_success" xml:space="preserve">
+    <value>Given {0} * {1} to {2}</value>
+  </data>
+  <data name="commands_give_tagError" xml:space="preserve">
+    <value>تجزیه برچسب دیتا ناموفق پایان یافت: {0}</value>
+  </data>
+  <data name="commands_give_usage" xml:space="preserve">
+    <value>/give &lt;بازیکن&gt; &lt;آیتم&gt; [تعداد] [دیتا] [برچسب‌دیتا]</value>
+  </data>
+  <data name="commands_help_header" xml:space="preserve">
+    <value>--- Showing help page {0} of {1} (/help &lt;page&gt;) ---</value>
+  </data>
+  <data name="commands_kick_success" xml:space="preserve">
+    <value>{0} به بیرون بازی پرتاب شد</value>
+  </data>
+  <data name="commands_kick_success_reason" xml:space="preserve">
+    <value>{0} از بازی به بیرون پرتاب شد: {1}</value>
+  </data>
+  <data name="commands_kick_usage" xml:space="preserve">
+    <value>/kick &lt;بازیکن&gt; [دلیل...]</value>
+  </data>
+  <data name="commands_op_failed" xml:space="preserve">
+    <value>نمی توان {0} را مدیر کرد</value>
+  </data>
+  <data name="commands_op_success" xml:space="preserve">
+    <value>{0} مدیر شد.</value>
+  </data>
+  <data name="commands_op_usage" xml:space="preserve">
+    <value>/op &lt;بازیکن&gt;</value>
+  </data>
+  <data name="commands_players_list" xml:space="preserve">
+    <value>There are {0}/{1} players online:</value>
+  </data>
+  <data name="commands_playsound_playerTooFar" xml:space="preserve">
+    <value>بازیکن {0} دورتر از آن است که بتوناد صدا را بشنود</value>
+  </data>
+  <data name="commands_playsound_success" xml:space="preserve">
+    <value>صدای {0} برای {1} پخش شد.</value>
+  </data>
+  <data name="commands_replaceitem_block_usage" xml:space="preserve">
+    <value>/replaceitem block &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;slot&gt; &lt;item&gt; [amount] [data] [dataTag]</value>
+  </data>
+  <data name="commands_replaceitem_entity_usage" xml:space="preserve">
+    <value>/replaceitem entity &lt;selector&gt; &lt;slot&gt; &lt;item&gt; [amount] [data] [dataTag]</value>
+  </data>
+  <data name="commands_replaceitem_failed" xml:space="preserve">
+    <value>نمیتوان بخش {0} را با {1} * {2} جایگزین کرد</value>
+  </data>
+  <data name="commands_replaceitem_noContainer" xml:space="preserve">
+    <value>بلاک به مختصات {0}, {1}, {2} دارای محفظه نمی باشد</value>
+  </data>
+  <data name="commands_replaceitem_success" xml:space="preserve">
+    <value>بخش {0} با {1} * {2} جایگزین شد</value>
+  </data>
+  <data name="commands_replaceitem_tagError" xml:space="preserve">
+    <value>تگ دیتا غلط است: {0}</value>
+  </data>
+  <data name="commands_replaceitem_usage" xml:space="preserve">
+    <value>/replaceitem &lt;entity|block&gt;...</value>
+  </data>
+  <data name="commands_save_disabled" xml:space="preserve">
+    <value>ذخیره سازی اتوماتیک جهان غیر فعال شد</value>
+  </data>
+  <data name="commands_save_enabled" xml:space="preserve">
+    <value>ذخیره سازی اتوماتیک جهان فعال شد</value>
+  </data>
+  <data name="commands_save_failed" xml:space="preserve">
+    <value>خطا در ذخیره سازی : {0}</value>
+  </data>
+  <data name="commands_save_start" xml:space="preserve">
+    <value>در حال ذخیره سازی...</value>
+  </data>
+  <data name="commands_save_success" xml:space="preserve">
+    <value>دنیا ذخیره شد.</value>
+  </data>
+  <data name="commands_say_usage" xml:space="preserve">
+    <value>/say &lt;پیغام ...&gt;</value>
+  </data>
+  <data name="commands_scoreboard_objectiveNotFound" xml:space="preserve">
+    <value>حدفی با نام «{0}» پیدا نشد</value>
+  </data>
+  <data name="commands_scoreboard_objectiveReadOnly" xml:space="preserve">
+    <value>هدف «{0}» فقط قابل خواندن است و نمی توان مقدار به آن داد</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_displayTooLong" xml:space="preserve">
+    <value>The display name '{0}' is too long for an objective, it can be at most {1} characters long</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_tooLong" xml:space="preserve">
+    <value>The name '{0}' is too long for an objective, it can be at most {1} characters long</value>
+  </data>
+  <data name="commands_scoreboard_objectives_list_count" xml:space="preserve">
+    <value>Showing {0} objective(s) on scoreboard:</value>
+  </data>
+  <data name="commands_scoreboard_objectives_remove_success" xml:space="preserve">
+    <value>هدف {0} با موفقیت حذف شد</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_invalidSlot" xml:space="preserve">
+    <value>چنین اسلات نمایشی وجود ندارد '{0}'</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_successCleared" xml:space="preserve">
+    <value>حافظه نمایش هدف '{0}' پاک شد</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_successSet" xml:space="preserve">
+    <value>نمایش هدف در حافظه {0} به {1} نهاده شد</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_usage" xml:space="preserve">
+    <value>  [هدف] &lt;حافظه&gt; objectives scoreboard setdisplay/</value>
+  </data>
+  <data name="commands_scoreboard_players_list_count" xml:space="preserve">
+    <value>Showing {0} tracked players on the scoreboard:</value>
+  </data>
+  <data name="commands_scoreboard_players_list_player_count" xml:space="preserve">
+    <value>Showing {0} tracked objective(s) for {1}:</value>
+  </data>
+  <data name="commands_scoreboard_players_list_player_empty" xml:space="preserve">
+    <value>بازیکن {0} هیچ رکوردی ندارد</value>
+  </data>
+  <data name="commands_scoreboard_players_reset_success" xml:space="preserve">
+    <value>تنظیم مجدد تمام امتیازات بازیکن {0}</value>
+  </data>
+  <data name="commands_scoreboard_players_set_success" xml:space="preserve">
+    <value>Set score of {0} for player {1} to {2}</value>
+  </data>
+  <data name="commands_scoreboard_teamNotFound" xml:space="preserve">
+    <value>تیمی با نام «{0}» پیدا نشد</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_alreadyExists" xml:space="preserve">
+    <value>یک تیم با اسم {0} وجود دارد</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_displayTooLong" xml:space="preserve">
+    <value>The display name '{0}' is too long for a team, it can be at most {1} characters long</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_success" xml:space="preserve">
+    <value>تیم {0} اضافه شد</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_tooLong" xml:space="preserve">
+    <value>The name '{0}' is too long for a team, it can be at most {1} characters long</value>
+  </data>
+  <data name="commands_scoreboard_teams_empty_success" xml:space="preserve">
+    <value>Removed all {0} player(s) from team {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_join_failure" xml:space="preserve">
+    <value>Could not add {0} player(s) to team {1}: {2}</value>
+  </data>
+  <data name="commands_scoreboard_teams_join_success" xml:space="preserve">
+    <value>Added {0} player(s) to team {1}: {2}</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_failure" xml:space="preserve">
+    <value>Could not remove {0} player(s) from their teams: {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_noTeam" xml:space="preserve">
+    <value>شما در یک تیم نمی</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_success" xml:space="preserve">
+    <value>Removed {0} player(s) from their teams: {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_count" xml:space="preserve">
+    <value>Showing {0} teams on the scoreboard:</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_empty" xml:space="preserve">
+    <value>هیچ تیم های ثبت نام شده در تیم وجود دارد</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_entry" xml:space="preserve">
+    <value>- {0}: '{1}' has {2} players</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_player_count" xml:space="preserve">
+    <value>Showing {0} player(s) in team {1}:</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_player_empty" xml:space="preserve">
+    <value>تیم {0} هیچ بازیکنی ندارد</value>
+  </data>
+  <data name="commands_scoreboard_teams_remove_success" xml:space="preserve">
+    <value>تیم {0} پاک شد</value>
+  </data>
+  <data name="commands_seed_success" xml:space="preserve">
+    <value>دانه ی این جهان: {0}</value>
+  </data>
+  <data name="commands_setblock_failed" xml:space="preserve">
+    <value>عدم توان برای قرار دادن بلوک</value>
+  </data>
+  <data name="commands_setblock_noChange" xml:space="preserve">
+    <value>بلوک قرار نمی گیرد</value>
+  </data>
+  <data name="commands_setblock_notFound" xml:space="preserve">
+    <value>هیچ بلوکی با اسم یا شناسه {0} وجود ندارد</value>
+  </data>
+  <data name="commands_setblock_outOfWorld" xml:space="preserve">
+    <value>بلوک را نمی توان خارج از جهان قرار داد</value>
+  </data>
+  <data name="commands_setblock_success" xml:space="preserve">
+    <value>بلوک قرار داده شد</value>
+  </data>
+  <data name="commands_setblock_tagError" xml:space="preserve">
+    <value>تجزیه برچسب دیتا ناموفق پایان یافت: {0}</value>
+  </data>
+  <data name="commands_setblock_usage" xml:space="preserve">
+    <value>/setblock &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;نام‌بلوک&gt; [شماره‌دیتا] [بررسی‌قدیمی‌بلوک] [برچسب‌دیتا]</value>
+  </data>
+  <data name="commands_setidletimeout_success" xml:space="preserve">
+    <value>Successfully set the idle timeout to {0} minutes.</value>
+  </data>
+  <data name="commands_setidletimeout_usage" xml:space="preserve">
+    <value>/تنظیم زمان غیرفعال &lt;Minutes until kick&gt;</value>
+  </data>
+  <data name="commands_setworldspawn_success" xml:space="preserve">
+    <value>Set the world spawn point to ({0}, {1}, {2})</value>
+  </data>
+  <data name="commands_spawnpoint_success" xml:space="preserve">
+    <value>Set {0}'s spawn point to ({1}, {2}, {3})</value>
+  </data>
+  <data name="commands_stats_block_clear_usage" xml:space="preserve">
+    <value>/آمار بلوک &lt;x&gt; &lt;y&gt; &lt;z&gt; واضح &lt;stat&gt;</value>
+  </data>
+  <data name="commands_stats_block_set_usage" xml:space="preserve">
+    <value>/آمار بلوک &lt;x&gt; &lt;y&gt; &lt;z&gt; تبدیل &lt;stat&gt; &lt;selector&gt; &lt;objective&gt;</value>
+  </data>
+  <data name="commands_stats_block_usage" xml:space="preserve">
+    <value>/آمار بلوک &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;mode&gt; ...</value>
+  </data>
+  <data name="commands_stats_cleared" xml:space="preserve">
+    <value>آمار {0} پاک شد</value>
+  </data>
+  <data name="commands_stats_entity_clear_usage" xml:space="preserve">
+    <value>/آمار موجود &lt;selector&gt; واضح &lt;stat&gt;</value>
+  </data>
+  <data name="commands_stats_entity_set_usage" xml:space="preserve">
+    <value>/stats entity &lt;selector&gt; set &lt;stat&gt; &lt;selector&gt; &lt;objective&gt;</value>
+  </data>
+  <data name="commands_stats_failed" xml:space="preserve">
+    <value>وردی نامعتبر</value>
+  </data>
+  <data name="commands_stats_noCompatibleBlock" xml:space="preserve">
+    <value>بلوک در {0}, {1}, {2} نمیتواند آمار بگیرد</value>
+  </data>
+  <data name="commands_stats_success" xml:space="preserve">
+    <value>ذخیره آمار {0} در {1} بر روی {2}</value>
+  </data>
+  <data name="commands_stats_usage" xml:space="preserve">
+    <value>/آمار &lt;entity|block&gt; ...</value>
+  </data>
+  <data name="commands_stop_start" xml:space="preserve">
+    <value>متوقف کردن سرور...</value>
+  </data>
+  <data name="commands_summon_failed" xml:space="preserve">
+    <value>احضار شیء صورت نگرفت</value>
+  </data>
+  <data name="commands_summon_outOfWorld" xml:space="preserve">
+    <value>نمی توان موجود را خارج از جهان احضار کرد</value>
+  </data>
+  <data name="commands_summon_success" xml:space="preserve">
+    <value>موجود با موفقیت احضار شد</value>
+  </data>
+  <data name="commands_summon_tagError" xml:space="preserve">
+    <value>تجزیه برچسب دیتا ناموفق پایان یافت: {0}</value>
+  </data>
+  <data name="commands_summon_usage" xml:space="preserve">
+    <value>/summon &lt;نام‌موجود&gt; [x] [y] [z] [برچسب‌دیتا]</value>
+  </data>
+  <data name="commands_time_added" xml:space="preserve">
+    <value>Added {0} to the time</value>
+  </data>
+  <data name="commands_time_query" xml:space="preserve">
+    <value>زمان {0} است</value>
+  </data>
+  <data name="commands_time_set" xml:space="preserve">
+    <value>Set the time to {0}</value>
+  </data>
+  <data name="commands_tp_notSameDimension" xml:space="preserve">
+    <value>نمی توان تلپورت را انجام داد چون پلیرها در یک بعد نیستند</value>
+  </data>
+  <data name="commands_tp_success" xml:space="preserve">
+    <value>{0} به {1} تلپورت شد.</value>
+  </data>
+  <data name="commands_tp_success_coordinates" xml:space="preserve">
+    <value>{0} به موقعیت {1}، {2}، {3} تلپورت شد.</value>
+  </data>
+  <data name="commands_unban_failed" xml:space="preserve">
+    <value>نمی توان به {0} دسترسی دوباره بخشید</value>
+  </data>
+  <data name="commands_unban_success" xml:space="preserve">
+    <value>{0} دیگر محروم نیست.</value>
+  </data>
+  <data name="commands_unban_usage" xml:space="preserve">
+    <value>/pardon &lt;نام&gt;</value>
+  </data>
+  <data name="commands_unbanip_invalid" xml:space="preserve">
+    <value>آی پی وارد شده نامعتبر می باشد</value>
+  </data>
+  <data name="commands_unbanip_success" xml:space="preserve">
+    <value>آدرس آی پی آنبن شد {0}</value>
+  </data>
+  <data name="commands_unbanip_usage" xml:space="preserve">
+    <value>/pardon-ip &lt;آی-پی&gt;</value>
+  </data>
+  <data name="commands_weather_clear" xml:space="preserve">
+    <value>تغییر به هوای صاف</value>
+  </data>
+  <data name="commands_weather_rain" xml:space="preserve">
+    <value>تغییر به هوای بارانی</value>
+  </data>
+  <data name="commands_weather_thunder" xml:space="preserve">
+    <value>تغییر به هوای طوفانی</value>
+  </data>
+  <data name="commands_whitelist_add_failed" xml:space="preserve">
+    <value>نمی توان {0} را به لیست سفید اضافه کرد</value>
+  </data>
+  <data name="commands_whitelist_add_success" xml:space="preserve">
+    <value> s% به وایت لیست افزوده شد</value>
+  </data>
+  <data name="commands_whitelist_add_usage" xml:space="preserve">
+    <value>/whitelist add &lt;بازیکن&gt;</value>
+  </data>
+  <data name="commands_whitelist_disabled" xml:space="preserve">
+    <value>لیست سفید غیر فعال شد</value>
+  </data>
+  <data name="commands_whitelist_enabled" xml:space="preserve">
+    <value>لیست سفید فعال شد</value>
+  </data>
+  <data name="commands_whitelist_list" xml:space="preserve">
+    <value>There are {0} (out of {1} seen) whitelisted players:</value>
+  </data>
+  <data name="commands_whitelist_reloaded" xml:space="preserve">
+    <value>لیست سفید بارگذاری شد</value>
+  </data>
+  <data name="commands_whitelist_remove_failed" xml:space="preserve">
+    <value>نمی توان {0} را از لیست سفید حذف کرد</value>
+  </data>
+  <data name="commands_whitelist_remove_success" xml:space="preserve">
+    <value>{0} از لیست سفید حذف شد.</value>
+  </data>
+  <data name="commands_whitelist_remove_usage" xml:space="preserve">
+    <value>/پاک کردن لیست سفید بازیکن&lt;player&gt;</value>
+  </data>
+  <data name="commands_xp_failure_widthdrawXp" xml:space="preserve">
+    <value>نمی توان به پلیر امتیاز تجربه منفی داد</value>
+  </data>
+  <data name="commands_xp_success" xml:space="preserve">
+    <value>Given {0} experience to {1}</value>
+  </data>
+  <data name="commands_xp_success_levels" xml:space="preserve">
+    <value>Given {0} levels to {1}</value>
+  </data>
+  <data name="commands_xp_success_negative_levels" xml:space="preserve">
+    <value>Taken {0} levels from {1}</value>
+  </data>
+  <data name="commands_xp_usage" xml:space="preserve">
+    <value>/xp &lt;مقدار&gt; {بازیکن} یا / تجربه &lt;مقدار&gt; هر {بازیکن}</value>
+  </data>
+  <data name="connect_authorizing" xml:space="preserve">
+    <value>در حال ورود...</value>
+  </data>
+  <data name="connect_connecting" xml:space="preserve">
+    <value>در حال اتصال به سرور...</value>
+  </data>
+  <data name="connect_failed" xml:space="preserve">
+    <value>عدم موفقیت در اتصال به سرور</value>
+  </data>
+  <data name="container_beacon" xml:space="preserve">
+    <value>فضاجادو</value>
+  </data>
+  <data name="container_brewing" xml:space="preserve">
+    <value>معجون ساز</value>
+  </data>
+  <data name="container_chest" xml:space="preserve">
+    <value>صندوقچه</value>
+  </data>
+  <data name="container_chestDouble" xml:space="preserve">
+    <value>صندوقچه بزرگ</value>
+  </data>
+  <data name="container_crafting" xml:space="preserve">
+    <value>ساختن</value>
+  </data>
+  <data name="container_creative" xml:space="preserve">
+    <value>انتخاب آيتم</value>
+  </data>
+  <data name="container_dispenser" xml:space="preserve">
+    <value>توزيعگر</value>
+  </data>
+  <data name="container_dropper" xml:space="preserve">
+    <value>پرتابگر</value>
+  </data>
+  <data name="container_enchant" xml:space="preserve">
+    <value>افسون</value>
+  </data>
+  <data name="container_enchant_clue" xml:space="preserve">
+    <value>{0} . . . ?</value>
+  </data>
+  <data name="container_enchant_lapis_many" xml:space="preserve">
+    <value>{0} لاژورد</value>
+  </data>
+  <data name="container_enchant_lapis_one" xml:space="preserve">
+    <value>1 لاژورد</value>
+  </data>
+  <data name="container_enchant_level_many" xml:space="preserve">
+    <value>سطح جادو {0}</value>
+  </data>
+  <data name="container_enchant_level_one" xml:space="preserve">
+    <value>سطح 1 جادو</value>
+  </data>
+  <data name="container_enderchest" xml:space="preserve">
+    <value>صندوقچه فرجام</value>
+  </data>
+  <data name="container_furnace" xml:space="preserve">
+    <value>کوره</value>
+  </data>
+  <data name="container_hopper" xml:space="preserve">
+    <value>قيف</value>
+  </data>
+  <data name="container_inventory" xml:space="preserve">
+    <value>کوله</value>
+  </data>
+  <data name="container_isLocked" xml:space="preserve">
+    <value>{0} قفل شده است!</value>
+  </data>
+  <data name="container_repair" xml:space="preserve">
+    <value>بازسازي / نامگذاري</value>
+  </data>
+  <data name="container_repair_cost" xml:space="preserve">
+    <value>هزینه ی افسون: {0}</value>
+  </data>
+  <data name="container_repair_expensive" xml:space="preserve">
+    <value>شما مقدار لازم تجربه را نداريد !</value>
+  </data>
+  <data name="controls_reset" xml:space="preserve">
+    <value>تنظیم مجدد</value>
+  </data>
+  <data name="controls_resetAll" xml:space="preserve">
+    <value>تنظیم مجدد کلیدها</value>
+  </data>
+  <data name="controls_title" xml:space="preserve">
+    <value>کنترل</value>
+  </data>
+  <data name="createWorld_customize_custom_baseSize" xml:space="preserve">
+    <value>عمق اندازه پایه</value>
+  </data>
+  <data name="createWorld_customize_custom_biomeDepthOffset" xml:space="preserve">
+    <value>زیست بوم عمق افست</value>
+  </data>
+  <data name="createWorld_customize_custom_biomeDepthWeight" xml:space="preserve">
+    <value>زیست بوم عمق وزن</value>
+  </data>
+  <data name="createWorld_customize_custom_biomeScaleOffset" xml:space="preserve">
+    <value>زیست بوم مقیاس افست</value>
+  </data>
+  <data name="createWorld_customize_custom_biomeScaleWeight" xml:space="preserve">
+    <value>زیست بوم مقیاس وزن</value>
+  </data>
+  <data name="createWorld_customize_custom_biomeSize" xml:space="preserve">
+    <value>اندازه زیست بوم</value>
+  </data>
+  <data name="createWorld_customize_custom_center" xml:space="preserve">
+    <value>ارتفاع مرکز</value>
+  </data>
+  <data name="createWorld_customize_custom_confirm1" xml:space="preserve">
+    <value>این تنظیمات فعلی را بازنویسی خواهد کرد</value>
+  </data>
+  <data name="createWorld_customize_custom_confirm2" xml:space="preserve">
+    <value>تنظیم شد و قابل برگشت نیست.</value>
+  </data>
+  <data name="createWorld_customize_custom_confirmTitle" xml:space="preserve">
+    <value>هشدار!</value>
+  </data>
+  <data name="createWorld_customize_custom_coordinateScale" xml:space="preserve">
+    <value>هماهنگ کردن مقیاس</value>
+  </data>
+  <data name="createWorld_customize_custom_count" xml:space="preserve">
+    <value>تخم ریزی تلاش می کند</value>
+  </data>
+  <data name="createWorld_customize_custom_defaults" xml:space="preserve">
+    <value>به صورت پیش فرض</value>
+  </data>
+  <data name="createWorld_customize_custom_depthNoiseScaleExponent" xml:space="preserve">
+    <value>عمق توانی سر و صدا</value>
+  </data>
+  <data name="createWorld_customize_custom_depthNoiseScaleX" xml:space="preserve">
+    <value>عمق مقیاس سر و صدا X</value>
+  </data>
+  <data name="createWorld_customize_custom_depthNoiseScaleZ" xml:space="preserve">
+    <value>سر و صدا در مقیاس عمق Z</value>
+  </data>
+  <data name="createWorld_customize_custom_dungeonChance" xml:space="preserve">
+    <value>تعداد دفعات مشاهده به سیاه چال انداختن</value>
+  </data>
+  <data name="createWorld_customize_custom_fixedBiome" xml:space="preserve">
+    <value>زیست بوم</value>
+  </data>
+  <data name="createWorld_customize_custom_heightScale" xml:space="preserve">
+    <value>مقیاس ارتفاع</value>
+  </data>
+  <data name="createWorld_customize_custom_lavaLakeChance" xml:space="preserve">
+    <value>دریاچه گدازه نادر</value>
+  </data>
+  <data name="createWorld_customize_custom_lowerLimitScale" xml:space="preserve">
+    <value>حد پایینی مقیاس</value>
+  </data>
+  <data name="createWorld_customize_custom_mainNoiseScaleX" xml:space="preserve">
+    <value>مقیاس اصلی نویز X</value>
+  </data>
+  <data name="createWorld_customize_custom_mainNoiseScaleY" xml:space="preserve">
+    <value>مقیاس اصلی نویز Y</value>
+  </data>
+  <data name="createWorld_customize_custom_mainNoiseScaleZ" xml:space="preserve">
+    <value>مقیاس اصلی سر و صدا Z</value>
+  </data>
+  <data name="createWorld_customize_custom_maxHeight" xml:space="preserve">
+    <value>حداکثر ارتفاع</value>
+  </data>
+  <data name="createWorld_customize_custom_minHeight" xml:space="preserve">
+    <value>حداقل ارتفاع</value>
+  </data>
+  <data name="createWorld_customize_custom_next" xml:space="preserve">
+    <value>صفحه بعدی</value>
+  </data>
+  <data name="createWorld_customize_custom_page0" xml:space="preserve">
+    <value>تنظیمات اولیه</value>
+  </data>
+  <data name="createWorld_customize_custom_page1" xml:space="preserve">
+    <value>تنظیمات سنگ معدنی</value>
+  </data>
+  <data name="createWorld_customize_custom_page2" xml:space="preserve">
+    <value>تنظیمات پیشرفته (فقط کاربران کارشناس!)</value>
+  </data>
+  <data name="createWorld_customize_custom_page3" xml:space="preserve">
+    <value>تنظیمات فوق العاده پیشرفته (فقط کاربران کارشناس!)</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_caveChaos" xml:space="preserve">
+    <value>غارهای هرج و مرج</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_caveDelight" xml:space="preserve">
+    <value>لذت (غار نشینان/غار نوردان/معدن چیان)</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_drought" xml:space="preserve">
+    <value>خشکسالی</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_goodLuck" xml:space="preserve">
+    <value>موفق باشید</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_isleLand" xml:space="preserve">
+    <value>زمین جزیره</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_mountains" xml:space="preserve">
+    <value>جنون کوه</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_waterWorld" xml:space="preserve">
+    <value>آب جهان</value>
+  </data>
+  <data name="createWorld_customize_custom_presets" xml:space="preserve">
+    <value>از پیش تنظیم شده ها</value>
+  </data>
+  <data name="createWorld_customize_custom_presets_title" xml:space="preserve">
+    <value>سفارشی سازی اطلاعات از قبل تنظیم شده جهان</value>
+  </data>
+  <data name="createWorld_customize_custom_prev" xml:space="preserve">
+    <value>صفحه قبلی</value>
+  </data>
+  <data name="createWorld_customize_custom_randomize" xml:space="preserve">
+    <value>تصادفی</value>
+  </data>
+  <data name="createWorld_customize_custom_riverSize" xml:space="preserve">
+    <value>اندازه رودخانه</value>
+  </data>
+  <data name="createWorld_customize_custom_seaLevel" xml:space="preserve">
+    <value>سطح دریا</value>
+  </data>
+  <data name="createWorld_customize_custom_size" xml:space="preserve">
+    <value>اندازه تخم ریزی</value>
+  </data>
+  <data name="createWorld_customize_custom_spread" xml:space="preserve">
+    <value>ارتفاع گسترش</value>
+  </data>
+  <data name="createWorld_customize_custom_stretchY" xml:space="preserve">
+    <value>ارتفاع کشش</value>
+  </data>
+  <data name="createWorld_customize_custom_upperLimitScale" xml:space="preserve">
+    <value>حد بالایی مقیاس</value>
+  </data>
+  <data name="createWorld_customize_custom_useCaves" xml:space="preserve">
+    <value>غارها</value>
+  </data>
+  <data name="createWorld_customize_custom_useDungeons" xml:space="preserve">
+    <value>سیاه چال ها</value>
+  </data>
+  <data name="createWorld_customize_custom_useLavaLakes" xml:space="preserve">
+    <value>دریاچه گدازه</value>
+  </data>
+  <data name="createWorld_customize_custom_useLavaOceans" xml:space="preserve">
+    <value>اقیانوس های گدازه</value>
+  </data>
+  <data name="createWorld_customize_custom_useMineShafts" xml:space="preserve">
+    <value>شفت های معدن</value>
+  </data>
+  <data name="createWorld_customize_custom_useMonuments" xml:space="preserve">
+    <value>آثار اقیانوس</value>
+  </data>
+  <data name="createWorld_customize_custom_useRavines" xml:space="preserve">
+    <value>دره ها</value>
+  </data>
+  <data name="createWorld_customize_custom_useStrongholds" xml:space="preserve">
+    <value>قلعه‌ها</value>
+  </data>
+  <data name="createWorld_customize_custom_useTemples" xml:space="preserve">
+    <value>معابد</value>
+  </data>
+  <data name="createWorld_customize_custom_useVillages" xml:space="preserve">
+    <value>روستاها</value>
+  </data>
+  <data name="createWorld_customize_custom_useWaterLakes" xml:space="preserve">
+    <value>دریاچه های آب</value>
+  </data>
+  <data name="createWorld_customize_custom_waterLakeChance" xml:space="preserve">
+    <value>آب دریاچه نادر</value>
+  </data>
+  <data name="createWorld_customize_flat_addLayer" xml:space="preserve">
+    <value>اضافه کردن لایه</value>
+  </data>
+  <data name="createWorld_customize_flat_air" xml:space="preserve">
+    <value>هوا</value>
+  </data>
+  <data name="createWorld_customize_flat_editLayer" xml:space="preserve">
+    <value>ویرایش لایه</value>
+  </data>
+  <data name="createWorld_customize_flat_height" xml:space="preserve">
+    <value>ارتفاع</value>
+  </data>
+  <data name="createWorld_customize_flat_layer" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_bottom" xml:space="preserve">
+    <value>پایین - {0}</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_top" xml:space="preserve">
+    <value>بالا - {0}</value>
+  </data>
+  <data name="createWorld_customize_flat_removeLayer" xml:space="preserve">
+    <value>حذف لایه</value>
+  </data>
+  <data name="createWorld_customize_flat_tile" xml:space="preserve">
+    <value>مواد لایه</value>
+  </data>
+  <data name="createWorld_customize_flat_title" xml:space="preserve">
+    <value>سفارشی کردن فوق العاده صاف</value>
+  </data>
+  <data name="createWorld_customize_presets" xml:space="preserve">
+    <value>از پیش تنظیم شده ها</value>
+  </data>
+  <data name="createWorld_customize_presets_list" xml:space="preserve">
+    <value>متناوبا، این هم چند تایی که ما قبلا ساختیم!</value>
+  </data>
+  <data name="createWorld_customize_presets_select" xml:space="preserve">
+    <value>استفاده از پیش تعیین شده</value>
+  </data>
+  <data name="createWorld_customize_presets_share" xml:space="preserve">
+    <value>می خواهید از پیش تعیین شده تان را برای کسی به اشتراک بگذارید؟ از قسمت زیر استفاده کنید!</value>
+  </data>
+  <data name="createWorld_customize_presets_title" xml:space="preserve">
+    <value>انتخاب از پیش تعیین شده</value>
+  </data>
+  <data name="death_attack_anvil" xml:space="preserve">
+    <value>{0} توسط Anvil پرس شد</value>
+  </data>
+  <data name="death_attack_arrow" xml:space="preserve">
+    <value>{0} توسط {1} تیرباران شد</value>
+  </data>
+  <data name="death_attack_arrow_item" xml:space="preserve">
+    <value>{0} توسط {1} بوسیله ی {2} کشته شد</value>
+  </data>
+  <data name="death_attack_cactus" xml:space="preserve">
+    <value>{0} توسط کاکتوس آبکش شد!</value>
+  </data>
+  <data name="death_attack_cactus_player" xml:space="preserve">
+    <value>{0} هنگام فرار از دست {1} به کاکتوس خورد.</value>
+  </data>
+  <data name="death_attack_dragonBreath" xml:space="preserve">
+    <value>{0} با نفس اژدها کباب شد</value>
+  </data>
+  <data name="death_attack_drown" xml:space="preserve">
+    <value>{0} غرق شد.</value>
+  </data>
+  <data name="death_attack_drown_player" xml:space="preserve">
+    <value>{0} هنگام فرار از دست {1} غرق شد.</value>
+  </data>
+  <data name="death_attack_explosion" xml:space="preserve">
+    <value>{0} منفجر شد</value>
+  </data>
+  <data name="death_attack_explosion_player" xml:space="preserve">
+    <value>{0} توسط {1} منفجر شد</value>
+  </data>
+  <data name="death_attack_fall" xml:space="preserve">
+    <value>{0} محکم به زمین خورد</value>
+  </data>
+  <data name="death_attack_fallingBlock" xml:space="preserve">
+    <value>{0} با سقوط بلوک له شد</value>
+  </data>
+  <data name="death_attack_fireball" xml:space="preserve">
+    <value>{0} توسط {1} آتش باران شد</value>
+  </data>
+  <data name="death_attack_fireball_item" xml:space="preserve">
+    <value>{0} توسط {1} بوسیله ی {2} آتش باران شد</value>
+  </data>
+  <data name="death_attack_flyIntoWall" xml:space="preserve">
+    <value>{0} انرژی جنبشی را تجربه کرد</value>
+  </data>
+  <data name="death_attack_generic" xml:space="preserve">
+    <value>{0} مرد</value>
+  </data>
+  <data name="death_attack_inFire" xml:space="preserve">
+    <value>{0} در شعله ها فرو رفت.</value>
+  </data>
+  <data name="death_attack_inFire_player" xml:space="preserve">
+    <value>{0} هنگام جنگ با {1} به آتش افتاد.</value>
+  </data>
+  <data name="death_attack_inWall" xml:space="preserve">
+    <value>{0} زنده به گور شد.</value>
+  </data>
+  <data name="death_attack_indirectMagic" xml:space="preserve">
+    <value>{0} توسط {1} بااستفاده از جادو کشته شد</value>
+  </data>
+  <data name="death_attack_indirectMagic_item" xml:space="preserve">
+    <value>{0} توسط {1} بوسیله ی {2} کشته شد</value>
+  </data>
+  <data name="death_attack_lava" xml:space="preserve">
+    <value>{0} شنا در گدازه بلد نیست!</value>
+  </data>
+  <data name="death_attack_lava_player" xml:space="preserve">
+    <value>{0} برای فرار از {1} از لاوا برای نجات استفاده کرد</value>
+  </data>
+  <data name="death_attack_lightningBolt" xml:space="preserve">
+    <value>{0} مورد اصابت رعد و برق قرار گرفت</value>
+  </data>
+  <data name="death_attack_magic" xml:space="preserve">
+    <value>{0} توسط جادو کشته شد</value>
+  </data>
+  <data name="death_attack_mob" xml:space="preserve">
+    <value>{0} توسط {1} کشته شد</value>
+  </data>
+  <data name="death_attack_onFire" xml:space="preserve">
+    <value>آتش {0} را کشت.</value>
+  </data>
+  <data name="death_attack_onFire_player" xml:space="preserve">
+    <value>{0} هنگام جنگ با {1} در آتش سوخت</value>
+  </data>
+  <data name="death_attack_outOfWorld" xml:space="preserve">
+    <value>{0} از جهان افتاد</value>
+  </data>
+  <data name="death_attack_player" xml:space="preserve">
+    <value>{0} توسط  {1} کشته شد</value>
+  </data>
+  <data name="death_attack_player_item" xml:space="preserve">
+    <value>{0} توسط {1} بوسیله ی {2} کشته شد</value>
+  </data>
+  <data name="death_attack_starve" xml:space="preserve">
+    <value>{0} از گرسنگی مرد.</value>
+  </data>
+  <data name="death_attack_thorns" xml:space="preserve">
+    <value>{0} هنگام آسیب رسانی به {1} کشته شد</value>
+  </data>
+  <data name="death_attack_thrown" xml:space="preserve">
+    <value>{0} توسط {1} مشت خورد</value>
+  </data>
+  <data name="death_attack_thrown_item" xml:space="preserve">
+    <value>{0} توسط {1} بوسیله ی {2} مشت خورد</value>
+  </data>
+  <data name="death_attack_wither" xml:space="preserve">
+    <value>{0} سیاه چرده شد</value>
+  </data>
+  <data name="death_fell_accident_generic" xml:space="preserve">
+    <value>{0} از ارتفاع سقوط کرد.</value>
+  </data>
+  <data name="death_fell_accident_ladder" xml:space="preserve">
+    <value>{0} از نردبان افتاد.</value>
+  </data>
+  <data name="death_fell_accident_vines" xml:space="preserve">
+    <value>{0} از روی تاک ها افتاد.</value>
+  </data>
+  <data name="death_fell_accident_water" xml:space="preserve">
+    <value>{0} از آبشار افتاد.</value>
+  </data>
+  <data name="death_fell_assist" xml:space="preserve">
+    <value>{1}، {0} را از بلندی انداخت.</value>
+  </data>
+  <data name="death_fell_assist_item" xml:space="preserve">
+    <value>{1}، {0} را توسط {2} از ارتفاع انداخت.</value>
+  </data>
+  <data name="death_fell_finish" xml:space="preserve">
+    <value>{0} از بلندی افتاد و به دست {1} کشته شد.</value>
+  </data>
+  <data name="death_fell_finish_item" xml:space="preserve">
+    <value>{0} از بلندی افتاد و {1} او را با {2} کشت.</value>
+  </data>
+  <data name="death_fell_killer" xml:space="preserve">
+    <value>{0} به سقوط محکوم شد.</value>
+  </data>
+  <data name="deathScreen_deleteWorld" xml:space="preserve">
+    <value>حذف جهان</value>
+  </data>
+  <data name="deathScreen_leaveServer" xml:space="preserve">
+    <value>ترک سرور</value>
+  </data>
+  <data name="deathScreen_quit_confirm" xml:space="preserve">
+    <value>آيا مطمئنيد که مي خواهيد خارج شويد ؟</value>
+  </data>
+  <data name="deathScreen_respawn" xml:space="preserve">
+    <value>احضار دوباره</value>
+  </data>
+  <data name="deathScreen_score" xml:space="preserve">
+    <value>امتياز</value>
+  </data>
+  <data name="deathScreen_title" xml:space="preserve">
+    <value>شما مرديد!</value>
+  </data>
+  <data name="deathScreen_title_hardcore" xml:space="preserve">
+    <value>گيم اور !</value>
+  </data>
+  <data name="deathScreen_titleScreen" xml:space="preserve">
+    <value>صفحه اصلي</value>
+  </data>
+  <data name="demo_day_1" xml:space="preserve">
+    <value>این نسخه نمایشی ۵ روز عمر خواهد کرد، حسابی تلاش کنید!</value>
+  </data>
+  <data name="demo_day_2" xml:space="preserve">
+    <value>روز دوم</value>
+  </data>
+  <data name="demo_day_3" xml:space="preserve">
+    <value>روز سوم</value>
+  </data>
+  <data name="demo_day_4" xml:space="preserve">
+    <value>روز چهارم</value>
+  </data>
+  <data name="demo_day_5" xml:space="preserve">
+    <value>این آخرین روز است!</value>
+  </data>
+  <data name="demo_day_6" xml:space="preserve">
+    <value>روز پنجم شما هم به اتمام رسید، از کلید F2 استفاده کنید تا از چیزی که ساخته اید عکس بگیرید</value>
+  </data>
+  <data name="demo_day_warning" xml:space="preserve">
+    <value>زمان شما تقریبا به اتمام رسیده!</value>
+  </data>
+  <data name="demo_demoExpired" xml:space="preserve">
+    <value>زمان نسخه ی نمایشی به اتمام رسیده!</value>
+  </data>
+  <data name="demo_help_buy" xml:space="preserve">
+    <value>خرید!</value>
+  </data>
+  <data name="demo_help_fullWrapped" xml:space="preserve">
+    <value>این نسخه نمایشی ۵ روز بازی‌‌ که ۱ ساعت و ۴۰ دقیقه است طول می کشد. دستاوردهای خود را نگاه کنید برای راهنمایی! لذت ببر!</value>
+  </data>
+  <data name="demo_help_inventory" xml:space="preserve">
+    <value>از {0} برای باز کردن موجودی خود استفاده کنید</value>
+  </data>
+  <data name="demo_help_jump" xml:space="preserve">
+    <value>پرش با فشار {0}</value>
+  </data>
+  <data name="demo_help_later" xml:space="preserve">
+    <value>ادامه بازی!</value>
+  </data>
+  <data name="demo_help_movement" xml:space="preserve">
+    <value>از {0} {1} {2} {3} و موس استفاده کنید تا حرکت کنید</value>
+  </data>
+  <data name="demo_help_movementMouse" xml:space="preserve">
+    <value>با استفاده از ماوس به اطراف نگاه کنید</value>
+  </data>
+  <data name="demo_help_movementShort" xml:space="preserve">
+    <value>با فشار دادن {0} {1} {2}، {3} حرکت می کنید</value>
+  </data>
+  <data name="demo_help_title" xml:space="preserve">
+    <value>مد نسخه نمایشی ماینکرفت</value>
+  </data>
+  <data name="demo_remainingTime" xml:space="preserve">
+    <value>زمان باقیمانده: {0}</value>
+  </data>
+  <data name="demo_reminder" xml:space="preserve">
+    <value>این نسخه نمایشی منقضی شده است، بازی را بخرید تا ادامه دهید یا اینکه دنیای جدید را شروع کنید!</value>
+  </data>
+  <data name="difficulty_lock_question" xml:space="preserve">
+    <value>برای قفل کردن مشکل دنيا مطمئنید؟ این مجموعه این جهان برای همیشه {0} و شما هرگز قادر خواهد بود که دوباره تغییر.</value>
+  </data>
+  <data name="difficulty_lock_title" xml:space="preserve">
+    <value>مشکل قفل جهان</value>
+  </data>
+  <data name="disconnect_closed" xml:space="preserve">
+    <value>اتصال بسته شد</value>
+  </data>
+  <data name="disconnect_disconnected" xml:space="preserve">
+    <value>سرور اتصال را قطع کرد</value>
+  </data>
+  <data name="disconnect_endOfStream" xml:space="preserve">
+    <value>End of stream</value>
+  </data>
+  <data name="disconnect_genericReason" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="disconnect_kicked" xml:space="preserve">
+    <value>از بازی اخراج شد</value>
+  </data>
+  <data name="disconnect_loginFailed" xml:space="preserve">
+    <value>عدم موفقیت در ورود به سیستم</value>
+  </data>
+  <data name="disconnect_loginFailedInfo" xml:space="preserve">
+    <value>عدم موفقیت در ورود: {0}</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_invalidSession" xml:space="preserve">
+    <value>Invalid session (Try restarting your game)</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_serversUnavailable" xml:space="preserve">
+    <value>The authentication are currently down for maintenance.</value>
+  </data>
+  <data name="disconnect_lost" xml:space="preserve">
+    <value>اتصال از دست رفته</value>
+  </data>
+  <data name="disconnect_overflow" xml:space="preserve">
+    <value>سرریز بافر</value>
+  </data>
+  <data name="disconnect_quitting" xml:space="preserve">
+    <value>خارج شدن</value>
+  </data>
+  <data name="disconnect_spam" xml:space="preserve">
+    <value>برای هرزه نگاری از سرور خارج شدید .</value>
+  </data>
+  <data name="disconnect_timeout" xml:space="preserve">
+    <value>مهلت تمام شد</value>
+  </data>
+  <data name="effect_blindness" xml:space="preserve">
+    <value>کوری</value>
+  </data>
+  <data name="effect_confusion" xml:space="preserve">
+    <value>تهوع</value>
+  </data>
+  <data name="effect_damageBoost" xml:space="preserve">
+    <value>قدرت</value>
+  </data>
+  <data name="effect_digSpeed" xml:space="preserve">
+    <value>سرعت معدنچي</value>
+  </data>
+  <data name="effect_glowing" xml:space="preserve">
+    <value>درخشندگی</value>
+  </data>
+  <data name="effect_hunger" xml:space="preserve">
+    <value>گرسنگی</value>
+  </data>
+  <data name="effect_invisibility" xml:space="preserve">
+    <value>ناپدیدی</value>
+  </data>
+  <data name="effect_luck" xml:space="preserve">
+    <value>شانس</value>
+  </data>
+  <data name="effect_moveSlowdown" xml:space="preserve">
+    <value>کندی</value>
+  </data>
+  <data name="effect_moveSpeed" xml:space="preserve">
+    <value>سرعت</value>
+  </data>
+  <data name="effect_nightVision" xml:space="preserve">
+    <value>ديد در شب</value>
+  </data>
+  <data name="effect_none" xml:space="preserve">
+    <value>بدون عوارض</value>
+  </data>
+  <data name="effect_poison" xml:space="preserve">
+    <value>مسموميت</value>
+  </data>
+  <data name="effect_resistance" xml:space="preserve">
+    <value>مقاومت</value>
+  </data>
+  <data name="effect_unluck" xml:space="preserve">
+    <value>بد شانسی</value>
+  </data>
+  <data name="effect_waterBreathing" xml:space="preserve">
+    <value>تنفس آب</value>
+  </data>
+  <data name="effect_weakness" xml:space="preserve">
+    <value>ضعف</value>
+  </data>
+  <data name="effect_wither" xml:space="preserve">
+    <value>پژمردگي</value>
+  </data>
+  <data name="enchantment_arrowDamage" xml:space="preserve">
+    <value>قدرت زا</value>
+  </data>
+  <data name="enchantment_arrowFire" xml:space="preserve">
+    <value>آتش زن</value>
+  </data>
+  <data name="enchantment_arrowInfinite" xml:space="preserve">
+    <value>ابدی</value>
+  </data>
+  <data name="enchantment_arrowKnockback" xml:space="preserve">
+    <value>مشت زن</value>
+  </data>
+  <data name="enchantment_damage_all" xml:space="preserve">
+    <value>قدرت زا</value>
+  </data>
+  <data name="enchantment_damage_arthropods" xml:space="preserve">
+    <value>زهر بندپایان</value>
+  </data>
+  <data name="enchantment_damage_undead" xml:space="preserve">
+    <value>کوبیدن</value>
+  </data>
+  <data name="enchantment_digging" xml:space="preserve">
+    <value>بهره وری</value>
+  </data>
+  <data name="enchantment_durability" xml:space="preserve">
+    <value>نشکن</value>
+  </data>
+  <data name="enchantment_fire" xml:space="preserve">
+    <value>آتش نگیر</value>
+  </data>
+  <data name="enchantment_fishingSpeed" xml:space="preserve">
+    <value>جذب</value>
+  </data>
+  <data name="enchantment_knockback" xml:space="preserve">
+    <value>شوت کن</value>
+  </data>
+  <data name="enchantment_level_1" xml:space="preserve">
+    <value>درجه یک</value>
+  </data>
+  <data name="enchantment_level_10" xml:space="preserve">
+    <value>درجه ده</value>
+  </data>
+  <data name="enchantment_level_2" xml:space="preserve">
+    <value>درجه دو</value>
+  </data>
+  <data name="enchantment_level_3" xml:space="preserve">
+    <value>درجه سه</value>
+  </data>
+  <data name="enchantment_level_4" xml:space="preserve">
+    <value>درجه چهار</value>
+  </data>
+  <data name="enchantment_level_5" xml:space="preserve">
+    <value>درجه پنج</value>
+  </data>
+  <data name="enchantment_level_6" xml:space="preserve">
+    <value>درجه شش</value>
+  </data>
+  <data name="enchantment_level_7" xml:space="preserve">
+    <value>درجه هفت</value>
+  </data>
+  <data name="enchantment_level_8" xml:space="preserve">
+    <value>درجه هشت</value>
+  </data>
+  <data name="enchantment_level_9" xml:space="preserve">
+    <value>درجه نه</value>
+  </data>
+  <data name="enchantment_lootBonus" xml:space="preserve">
+    <value>جمع کن</value>
+  </data>
+  <data name="enchantment_lootBonusDigger" xml:space="preserve">
+    <value>بخت آور</value>
+  </data>
+  <data name="enchantment_lootBonusFishing" xml:space="preserve">
+    <value>شانس</value>
+  </data>
+  <data name="enchantment_mending" xml:space="preserve">
+    <value>مرمت</value>
+  </data>
+  <data name="enchantment_oxygen" xml:space="preserve">
+    <value>دم زن</value>
+  </data>
+  <data name="enchantment_protect_all" xml:space="preserve">
+    <value>حفاظت کن</value>
+  </data>
+  <data name="enchantment_protect_explosion" xml:space="preserve">
+    <value>حفاظت از انفجار</value>
+  </data>
+  <data name="enchantment_protect_fall" xml:space="preserve">
+    <value>سبک وزن کن</value>
+  </data>
+  <data name="enchantment_protect_fire" xml:space="preserve">
+    <value>محافظ در برابر آتش</value>
+  </data>
+  <data name="enchantment_protect_projectile" xml:space="preserve">
+    <value>حفاظت از وسایل پرتابی</value>
+  </data>
+  <data name="enchantment_thorns" xml:space="preserve">
+    <value>شیطان کش</value>
+  </data>
+  <data name="enchantment_untouching" xml:space="preserve">
+    <value>ملایم</value>
+  </data>
+  <data name="enchantment_waterWalker" xml:space="preserve">
+    <value>عمق Strider</value>
+  </data>
+  <data name="enchantment_waterWorker" xml:space="preserve">
+    <value>ورزشهای آبی میل</value>
+  </data>
+  <data name="entity_ArmorStand_name" xml:space="preserve">
+    <value>پایه زره پوش</value>
+  </data>
+  <data name="entity_Arrow_name" xml:space="preserve">
+    <value>پيکان</value>
+  </data>
+  <data name="entity_Bat_name" xml:space="preserve">
+    <value>خفاش</value>
+  </data>
+  <data name="entity_Blaze_name" xml:space="preserve">
+    <value>شعله</value>
+  </data>
+  <data name="entity_Boat_name" xml:space="preserve">
+    <value>قايق</value>
+  </data>
+  <data name="entity_Cat_name" xml:space="preserve">
+    <value>گربه</value>
+  </data>
+  <data name="entity_CaveSpider_name" xml:space="preserve">
+    <value>عنکبوت غار</value>
+  </data>
+  <data name="entity_Chicken_name" xml:space="preserve">
+    <value>مرغ</value>
+  </data>
+  <data name="entity_Cow_name" xml:space="preserve">
+    <value>گاو</value>
+  </data>
+  <data name="entity_Creeper_name" xml:space="preserve">
+    <value>ترسونک</value>
+  </data>
+  <data name="entity_DragonFireball_name" xml:space="preserve">
+    <value>توپ آتش اژدها</value>
+  </data>
+  <data name="entity_EnderDragon_name" xml:space="preserve">
+    <value>اژدهای فرجام</value>
+  </data>
+  <data name="entity_Enderman_name" xml:space="preserve">
+    <value>فرجام</value>
+  </data>
+  <data name="entity_Endermite_name" xml:space="preserve">
+    <value>Endermite</value>
+  </data>
+  <data name="entity_EntityHorse_name" xml:space="preserve">
+    <value>اسب</value>
+  </data>
+  <data name="entity_FallingSand_name" xml:space="preserve">
+    <value>بلوک در حال سقوط</value>
+  </data>
+  <data name="entity_Fireball_name" xml:space="preserve">
+    <value>توپ آتش</value>
+  </data>
+  <data name="entity_Ghast_name" xml:space="preserve">
+    <value>روح</value>
+  </data>
+  <data name="entity_Giant_name" xml:space="preserve">
+    <value>غول</value>
+  </data>
+  <data name="entity_Guardian_name" xml:space="preserve">
+    <value>نگهبان</value>
+  </data>
+  <data name="entity_Item_name" xml:space="preserve">
+    <value>آيتم</value>
+  </data>
+  <data name="entity_KillerBunny_name" xml:space="preserve">
+    <value>خرگوش قاتل</value>
+  </data>
+  <data name="entity_LavaSlime_name" xml:space="preserve">
+    <value>مکعب مذاب</value>
+  </data>
+  <data name="entity_Minecart_name" xml:space="preserve">
+    <value>ماشين معدن</value>
+  </data>
+  <data name="entity_Mob_name" xml:space="preserve">
+    <value>موب</value>
+  </data>
+  <data name="entity_Monster_name" xml:space="preserve">
+    <value>هيولا</value>
+  </data>
+  <data name="entity_MushroomCow_name" xml:space="preserve">
+    <value>قاو</value>
+  </data>
+  <data name="entity_Ozelot_name" xml:space="preserve">
+    <value>پلنگ</value>
+  </data>
+  <data name="entity_Painting_name" xml:space="preserve">
+    <value>نقاشی</value>
+  </data>
+  <data name="entity_Pig_name" xml:space="preserve">
+    <value>خوک</value>
+  </data>
+  <data name="entity_PigZombie_name" xml:space="preserve">
+    <value>زامبی خوکی</value>
+  </data>
+  <data name="entity_PrimedTnt_name" xml:space="preserve">
+    <value>تي ان تي</value>
+  </data>
+  <data name="entity_Rabbit_name" xml:space="preserve">
+    <value>خرگوش</value>
+  </data>
+  <data name="entity_Sheep_name" xml:space="preserve">
+    <value>گوسفند</value>
+  </data>
+  <data name="entity_Shulker_name" xml:space="preserve">
+    <value>شالکر</value>
+  </data>
+  <data name="entity_Silverfish_name" xml:space="preserve">
+    <value>ماهی نقره ای</value>
+  </data>
+  <data name="entity_Skeleton_name" xml:space="preserve">
+    <value>اسکلت</value>
+  </data>
+  <data name="entity_Slime_name" xml:space="preserve">
+    <value>لجن مکعبي</value>
+  </data>
+  <data name="entity_SmallFireball_name" xml:space="preserve">
+    <value>توپ آتش کوچک</value>
+  </data>
+  <data name="entity_SnowMan_name" xml:space="preserve">
+    <value>آدم برفي</value>
+  </data>
+  <data name="entity_Snowball_name" xml:space="preserve">
+    <value>گلوله برفی</value>
+  </data>
+  <data name="entity_Spider_name" xml:space="preserve">
+    <value>عنکبوت</value>
+  </data>
+  <data name="entity_Squid_name" xml:space="preserve">
+    <value>ماهی مرکب</value>
+  </data>
+  <data name="entity_ThrownPotion_name" xml:space="preserve">
+    <value>معجون</value>
+  </data>
+  <data name="entity_Villager_armor" xml:space="preserve">
+    <value>زراد</value>
+  </data>
+  <data name="entity_Villager_butcher" xml:space="preserve">
+    <value>قصاب</value>
+  </data>
+  <data name="entity_Villager_cleric" xml:space="preserve">
+    <value>روحانی</value>
+  </data>
+  <data name="entity_Villager_farmer" xml:space="preserve">
+    <value>کشاورز</value>
+  </data>
+  <data name="entity_Villager_fisherman" xml:space="preserve">
+    <value>ماهیگیر</value>
+  </data>
+  <data name="entity_Villager_fletcher" xml:space="preserve">
+    <value>تیرساز</value>
+  </data>
+  <data name="entity_Villager_leather" xml:space="preserve">
+    <value>دباغ</value>
+  </data>
+  <data name="entity_Villager_librarian" xml:space="preserve">
+    <value>کتابدار</value>
+  </data>
+  <data name="entity_Villager_name" xml:space="preserve">
+    <value>روستایی</value>
+  </data>
+  <data name="entity_Villager_shepherd" xml:space="preserve">
+    <value>چوپان</value>
+  </data>
+  <data name="entity_Villager_tool" xml:space="preserve">
+    <value>ابزار اسمیت</value>
+  </data>
+  <data name="entity_Villager_weapon" xml:space="preserve">
+    <value>سلاح اسمیت</value>
+  </data>
+  <data name="entity_VillagerGolem_name" xml:space="preserve">
+    <value>غول آهنی</value>
+  </data>
+  <data name="entity_Witch_name" xml:space="preserve">
+    <value>جادوگر</value>
+  </data>
+  <data name="entity_WitherBoss_name" xml:space="preserve">
+    <value>پژمرده گر</value>
+  </data>
+  <data name="entity_Wolf_name" xml:space="preserve">
+    <value>گرگ</value>
+  </data>
+  <data name="entity_XPOrb_name" xml:space="preserve">
+    <value>گوی تجربه</value>
+  </data>
+  <data name="entity_Zombie_name" xml:space="preserve">
+    <value>زامبی</value>
+  </data>
+  <data name="entity_generic_name" xml:space="preserve">
+    <value>ناشناخته</value>
+  </data>
+  <data name="gameMode_adventure" xml:space="preserve">
+    <value>مد ماجراجویی</value>
+  </data>
+  <data name="gameMode_changed" xml:space="preserve">
+    <value>حالت بازی شما به {0} بروز شد</value>
+  </data>
+  <data name="gameMode_creative" xml:space="preserve">
+    <value>مد خلاق</value>
+  </data>
+  <data name="gameMode_hardcore" xml:space="preserve">
+    <value>مد هاردکور!</value>
+  </data>
+  <data name="gameMode_spectator" xml:space="preserve">
+    <value>حالت تماشاگر</value>
+  </data>
+  <data name="gameMode_survival" xml:space="preserve">
+    <value>مد بقا</value>
+  </data>
+  <data name="generator_amplified" xml:space="preserve">
+    <value>تقویت شده</value>
+  </data>
+  <data name="generator_amplified_info" xml:space="preserve">
+    <value>توجه: فقط برای تفریح است، نیاز به کامپیوتر خفن دارد</value>
+  </data>
+  <data name="generator_customized" xml:space="preserve">
+    <value>سفارشی شده</value>
+  </data>
+  <data name="generator_debug_all_block_states" xml:space="preserve">
+    <value>حالت اشکال زدایی</value>
+  </data>
+  <data name="generator_default" xml:space="preserve">
+    <value>پیش فرض</value>
+  </data>
+  <data name="generator_flat" xml:space="preserve">
+    <value>فوق العاده صاف</value>
+  </data>
+  <data name="generator_largeBiomes" xml:space="preserve">
+    <value>زیستگاه های بزرگ</value>
+  </data>
+  <data name="gui_achievements" xml:space="preserve">
+    <value>دستاوردها</value>
+  </data>
+  <data name="gui_all" xml:space="preserve">
+    <value>همه</value>
+  </data>
+  <data name="gui_back" xml:space="preserve">
+    <value>بازگشت</value>
+  </data>
+  <data name="gui_cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="gui_done" xml:space="preserve">
+    <value>انجام</value>
+  </data>
+  <data name="gui_down" xml:space="preserve">
+    <value>پایین</value>
+  </data>
+  <data name="gui_no" xml:space="preserve">
+    <value>خیر</value>
+  </data>
+  <data name="gui_none" xml:space="preserve">
+    <value>هیچ کدام</value>
+  </data>
+  <data name="gui_stats" xml:space="preserve">
+    <value>آمارها</value>
+  </data>
+  <data name="gui_toMenu" xml:space="preserve">
+    <value>بازگشت به لیست سرور</value>
+  </data>
+  <data name="gui_toTitle" xml:space="preserve">
+    <value>بازگشت به صفحه اصلی</value>
+  </data>
+  <data name="gui_up" xml:space="preserve">
+    <value>بالا</value>
+  </data>
+  <data name="gui_yes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="inventory_binSlot" xml:space="preserve">
+    <value>نابود کردن آیتم</value>
+  </data>
+  <data name="item_apple_name" xml:space="preserve">
+    <value>سيب</value>
+  </data>
+  <data name="item_appleGold_name" xml:space="preserve">
+    <value>سیب طلایی</value>
+  </data>
+  <data name="item_armorStand_name" xml:space="preserve">
+    <value>پایه زره پوش</value>
+  </data>
+  <data name="item_arrow_name" xml:space="preserve">
+    <value>پيکان</value>
+  </data>
+  <data name="item_banner_black_name" xml:space="preserve">
+    <value>پرچم سیاه</value>
+  </data>
+  <data name="item_banner_blue_name" xml:space="preserve">
+    <value>پرچم آبی</value>
+  </data>
+  <data name="item_banner_brown_name" xml:space="preserve">
+    <value>پرچم قهوه ای</value>
+  </data>
+  <data name="item_banner_green_name" xml:space="preserve">
+    <value>پرچم سبز</value>
+  </data>
+  <data name="item_banner_lightBlue_name" xml:space="preserve">
+    <value>پرچم آبی روشن</value>
+  </data>
+  <data name="item_banner_magenta_name" xml:space="preserve">
+    <value>پرچم سرخابی</value>
+  </data>
+  <data name="item_banner_mojang_black" xml:space="preserve">
+    <value>چیز سیاه</value>
+  </data>
+  <data name="item_banner_mojang_blue" xml:space="preserve">
+    <value>چیز آبی</value>
+  </data>
+  <data name="item_banner_mojang_brown" xml:space="preserve">
+    <value>چیز قهوه ای</value>
+  </data>
+  <data name="item_banner_mojang_green" xml:space="preserve">
+    <value>چیز سبز</value>
+  </data>
+  <data name="item_banner_mojang_lime" xml:space="preserve">
+    <value>چیز فسفری</value>
+  </data>
+  <data name="item_banner_mojang_orange" xml:space="preserve">
+    <value>چیز نارنجی</value>
+  </data>
+  <data name="item_banner_mojang_pink" xml:space="preserve">
+    <value>چیز صورتی</value>
+  </data>
+  <data name="item_banner_mojang_purple" xml:space="preserve">
+    <value>چیز بنفش</value>
+  </data>
+  <data name="item_banner_mojang_red" xml:space="preserve">
+    <value>چیز قرمز</value>
+  </data>
+  <data name="item_banner_mojang_white" xml:space="preserve">
+    <value>چیز سفید</value>
+  </data>
+  <data name="item_banner_mojang_yellow" xml:space="preserve">
+    <value>چیز زرد</value>
+  </data>
+  <data name="item_banner_orange_name" xml:space="preserve">
+    <value>پرچم نارنجی</value>
+  </data>
+  <data name="item_banner_pink_name" xml:space="preserve">
+    <value>پرچم صورتی</value>
+  </data>
+  <data name="item_banner_purple_name" xml:space="preserve">
+    <value>پرچم بنفش</value>
+  </data>
+  <data name="item_banner_red_name" xml:space="preserve">
+    <value>پرچم قرمز</value>
+  </data>
+  <data name="item_banner_straight_cross_blue" xml:space="preserve">
+    <value>صلیب آبی</value>
+  </data>
+  <data name="item_banner_straight_cross_brown" xml:space="preserve">
+    <value>صلیب قهوه ای</value>
+  </data>
+  <data name="item_banner_straight_cross_cyan" xml:space="preserve">
+    <value>صلیب آبی روشن</value>
+  </data>
+  <data name="item_banner_straight_cross_gray" xml:space="preserve">
+    <value>صلیب خاکستری</value>
+  </data>
+  <data name="item_banner_straight_cross_green" xml:space="preserve">
+    <value>صلیب سبز</value>
+  </data>
+  <data name="item_banner_straight_cross_orange" xml:space="preserve">
+    <value>صلیب نارنجی</value>
+  </data>
+  <data name="item_banner_straight_cross_pink" xml:space="preserve">
+    <value>صلیب صورتی</value>
+  </data>
+  <data name="item_banner_straight_cross_purple" xml:space="preserve">
+    <value>صلیب بنفش</value>
+  </data>
+  <data name="item_banner_straight_cross_red" xml:space="preserve">
+    <value>صلیب سرخ</value>
+  </data>
+  <data name="item_banner_straight_cross_silver" xml:space="preserve">
+    <value>صلیب خاکستری روشن</value>
+  </data>
+  <data name="item_banner_straight_cross_white" xml:space="preserve">
+    <value>صلیب سفید</value>
+  </data>
+  <data name="item_banner_straight_cross_yellow" xml:space="preserve">
+    <value>صلیب زرد</value>
+  </data>
+  <data name="item_banner_white_name" xml:space="preserve">
+    <value>پرچم سفید</value>
+  </data>
+  <data name="item_banner_yellow_name" xml:space="preserve">
+    <value>پرچم زرد</value>
+  </data>
+  <data name="item_bed_name" xml:space="preserve">
+    <value>تخت خواب</value>
+  </data>
+  <data name="item_beefCooked_name" xml:space="preserve">
+    <value>استيک</value>
+  </data>
+  <data name="item_beefRaw_name" xml:space="preserve">
+    <value>گوشت گاو</value>
+  </data>
+  <data name="item_beetroot_name" xml:space="preserve">
+    <value>چغندر</value>
+  </data>
+  <data name="item_beetroot_seeds_name" xml:space="preserve">
+    <value>بذر چغندر</value>
+  </data>
+  <data name="item_beetroot_soup_name" xml:space="preserve">
+    <value>سوپ چغندر</value>
+  </data>
+  <data name="item_blazePowder_name" xml:space="preserve">
+    <value>پودر شعله</value>
+  </data>
+  <data name="item_blazeRod_name" xml:space="preserve">
+    <value>ميله آتشين</value>
+  </data>
+  <data name="item_boat_acacia_name" xml:space="preserve">
+    <value>قایق اقاقیا</value>
+  </data>
+  <data name="item_boat_oak_name" xml:space="preserve">
+    <value>قایق بلوط</value>
+  </data>
+  <data name="item_boat_spruce_name" xml:space="preserve">
+    <value>قایق صنوبر</value>
+  </data>
+  <data name="item_bone_name" xml:space="preserve">
+    <value>استخوان</value>
+  </data>
+  <data name="item_book_name" xml:space="preserve">
+    <value>کتاب</value>
+  </data>
+  <data name="item_bootsChain_name" xml:space="preserve">
+    <value>کفش زنجيري</value>
+  </data>
+  <data name="item_bootsCloth_name" xml:space="preserve">
+    <value>چکمه ی چرمی</value>
+  </data>
+  <data name="item_bootsDiamond_name" xml:space="preserve">
+    <value>کفش الماس</value>
+  </data>
+  <data name="item_bootsGold_name" xml:space="preserve">
+    <value>کفش طلايي</value>
+  </data>
+  <data name="item_bootsIron_name" xml:space="preserve">
+    <value>کفش آهني</value>
+  </data>
+  <data name="item_bow_name" xml:space="preserve">
+    <value>کمان</value>
+  </data>
+  <data name="item_bowl_name" xml:space="preserve">
+    <value>کاسه</value>
+  </data>
+  <data name="item_bread_name" xml:space="preserve">
+    <value>نان</value>
+  </data>
+  <data name="item_brewingStand_name" xml:space="preserve">
+    <value>معجون ساز</value>
+  </data>
+  <data name="item_brick_name" xml:space="preserve">
+    <value>آجر</value>
+  </data>
+  <data name="item_bucket_name" xml:space="preserve">
+    <value>سطل</value>
+  </data>
+  <data name="item_bucketLava_name" xml:space="preserve">
+    <value>سطل گدازه</value>
+  </data>
+  <data name="item_bucketWater_name" xml:space="preserve">
+    <value>سطل آب</value>
+  </data>
+  <data name="item_cake_name" xml:space="preserve">
+    <value>کیک</value>
+  </data>
+  <data name="item_canBreak" xml:space="preserve">
+    <value>می توانید:</value>
+  </data>
+  <data name="item_canPlace" xml:space="preserve">
+    <value>می‌توان روی اینها قرار داد:</value>
+  </data>
+  <data name="item_carrotGolden_name" xml:space="preserve">
+    <value>هويج طلايي</value>
+  </data>
+  <data name="item_carrotOnAStick_name" xml:space="preserve">
+    <value>هويج و ميله</value>
+  </data>
+  <data name="item_carrots_name" xml:space="preserve">
+    <value>هويج</value>
+  </data>
+  <data name="item_cauldron_name" xml:space="preserve">
+    <value>ديگ</value>
+  </data>
+  <data name="item_charcoal_name" xml:space="preserve">
+    <value>ذغال چوب</value>
+  </data>
+  <data name="item_chestplateChain_name" xml:space="preserve">
+    <value>پيراهن زنجيري</value>
+  </data>
+  <data name="item_chestplateCloth_name" xml:space="preserve">
+    <value>پيراهن چرم</value>
+  </data>
+  <data name="item_chestplateDiamond_name" xml:space="preserve">
+    <value>پيراهن الماس</value>
+  </data>
+  <data name="item_chestplateGold_name" xml:space="preserve">
+    <value>پيراهن طلايي</value>
+  </data>
+  <data name="item_chestplateIron_name" xml:space="preserve">
+    <value>پيراهن آهني</value>
+  </data>
+  <data name="item_chickenCooked_name" xml:space="preserve">
+    <value>مرغ سوخاري</value>
+  </data>
+  <data name="item_chickenRaw_name" xml:space="preserve">
+    <value>مرغ خام</value>
+  </data>
+  <data name="item_chorusFruit_name" xml:space="preserve">
+    <value>میوه کر</value>
+  </data>
+  <data name="item_clay_name" xml:space="preserve">
+    <value>رس</value>
+  </data>
+  <data name="item_clock_name" xml:space="preserve">
+    <value>ساعت</value>
+  </data>
+  <data name="item_coal_name" xml:space="preserve">
+    <value>ذغال سنگ</value>
+  </data>
+  <data name="item_comparator_name" xml:space="preserve">
+    <value>مقایسه گر رداستوني</value>
+  </data>
+  <data name="item_compass_name" xml:space="preserve">
+    <value>قطب نما</value>
+  </data>
+  <data name="item_cookie_name" xml:space="preserve">
+    <value>بيسکوييت</value>
+  </data>
+  <data name="item_diamond_name" xml:space="preserve">
+    <value>الماس</value>
+  </data>
+  <data name="item_doorAcacia_name" xml:space="preserve">
+    <value>درب اقاقیا</value>
+  </data>
+  <data name="item_doorBirch_name" xml:space="preserve">
+    <value>درب توس</value>
+  </data>
+  <data name="item_doorDarkOak_name" xml:space="preserve">
+    <value>درب بلوط تیره</value>
+  </data>
+  <data name="item_doorIron_name" xml:space="preserve">
+    <value>در آهني</value>
+  </data>
+  <data name="item_doorJungle_name" xml:space="preserve">
+    <value>درب جنگل</value>
+  </data>
+  <data name="item_doorOak_name" xml:space="preserve">
+    <value>درب بلوط</value>
+  </data>
+  <data name="item_doorSpruce_name" xml:space="preserve">
+    <value>درب صنوبر</value>
+  </data>
+  <data name="item_dragon_breath_name" xml:space="preserve">
+    <value>نفس اژدها</value>
+  </data>
+  <data name="item_dyePowder_black_name" xml:space="preserve">
+    <value>مرکب</value>
+  </data>
+  <data name="item_dyePowder_blue_name" xml:space="preserve">
+    <value>لاجورد</value>
+  </data>
+  <data name="item_dyePowder_brown_name" xml:space="preserve">
+    <value>دانه کاکائو</value>
+  </data>
+  <data name="item_dyePowder_cyan_name" xml:space="preserve">
+    <value>رنگ فيروزه‌ای</value>
+  </data>
+  <data name="item_dyePowder_gray_name" xml:space="preserve">
+    <value>رنگ خاکستري</value>
+  </data>
+  <data name="item_dyePowder_green_name" xml:space="preserve">
+    <value>رنگ سبز</value>
+  </data>
+  <data name="item_dyePowder_lightBlue_name" xml:space="preserve">
+    <value>رنگ آبي آسماني</value>
+  </data>
+  <data name="item_dyePowder_lime_name" xml:space="preserve">
+    <value>رنگ فسفري</value>
+  </data>
+  <data name="item_dyePowder_magenta_name" xml:space="preserve">
+    <value>رنگ سرخابي</value>
+  </data>
+  <data name="item_dyePowder_orange_name" xml:space="preserve">
+    <value>رنگ نارنجي</value>
+  </data>
+  <data name="item_dyePowder_pink_name" xml:space="preserve">
+    <value>رنگ صورتي</value>
+  </data>
+  <data name="item_dyePowder_purple_name" xml:space="preserve">
+    <value>رنگ بنفش</value>
+  </data>
+  <data name="item_dyePowder_red_name" xml:space="preserve">
+    <value>رنگ قرمز</value>
+  </data>
+  <data name="item_dyePowder_silver_name" xml:space="preserve">
+    <value>رنگ نقره اي</value>
+  </data>
+  <data name="item_dyePowder_white_name" xml:space="preserve">
+    <value>بارورگر</value>
+  </data>
+  <data name="item_dyePowder_yellow_name" xml:space="preserve">
+    <value>رنگ زرد</value>
+  </data>
+  <data name="item_dyed" xml:space="preserve">
+    <value>رنگ شده</value>
+  </data>
+  <data name="item_egg_name" xml:space="preserve">
+    <value>تخم مرغ</value>
+  </data>
+  <data name="item_elytra_name" xml:space="preserve">
+    <value>بالپوش</value>
+  </data>
+  <data name="item_emerald_name" xml:space="preserve">
+    <value>زمرد</value>
+  </data>
+  <data name="item_emptyMap_name" xml:space="preserve">
+    <value>نقشه (ترسيم نشده)</value>
+  </data>
+  <data name="item_enchantedBook_name" xml:space="preserve">
+    <value>کتاب افسون شده</value>
+  </data>
+  <data name="item_enderPearl_name" xml:space="preserve">
+    <value>گوهر فرجام</value>
+  </data>
+  <data name="item_expBottle_name" xml:space="preserve">
+    <value>بتري تجربه</value>
+  </data>
+  <data name="item_eyeOfEnder_name" xml:space="preserve">
+    <value>چشم فرجام</value>
+  </data>
+  <data name="item_feather_name" xml:space="preserve">
+    <value>پر</value>
+  </data>
+  <data name="item_fermentedSpiderEye_name" xml:space="preserve">
+    <value>چشم عنکبوت مخمري</value>
+  </data>
+  <data name="item_fireball_name" xml:space="preserve">
+    <value>توپ آتش</value>
+  </data>
+  <data name="item_fireworks_flight" xml:space="preserve">
+    <value>مدت پرواز :</value>
+  </data>
+  <data name="item_fireworks_name" xml:space="preserve">
+    <value>راکت آتشبازي</value>
+  </data>
+  <data name="item_fireworksCharge_black" xml:space="preserve">
+    <value>مشکي</value>
+  </data>
+  <data name="item_fireworksCharge_blue" xml:space="preserve">
+    <value>آبي</value>
+  </data>
+  <data name="item_fireworksCharge_brown" xml:space="preserve">
+    <value>قهوه اي</value>
+  </data>
+  <data name="item_fireworksCharge_customColor" xml:space="preserve">
+    <value>ويژه</value>
+  </data>
+  <data name="item_fireworksCharge_cyan" xml:space="preserve">
+    <value>فيروزه اي</value>
+  </data>
+  <data name="item_fireworksCharge_fadeTo" xml:space="preserve">
+    <value>محو شدن</value>
+  </data>
+  <data name="item_fireworksCharge_flicker" xml:space="preserve">
+    <value>چشمک زدن</value>
+  </data>
+  <data name="item_fireworksCharge_gray" xml:space="preserve">
+    <value>خاکستري</value>
+  </data>
+  <data name="item_fireworksCharge_green" xml:space="preserve">
+    <value>سبز</value>
+  </data>
+  <data name="item_fireworksCharge_lightBlue" xml:space="preserve">
+    <value>آبي آسماني</value>
+  </data>
+  <data name="item_fireworksCharge_lime" xml:space="preserve">
+    <value>فسفري</value>
+  </data>
+  <data name="item_fireworksCharge_magenta" xml:space="preserve">
+    <value>فيروزه اي</value>
+  </data>
+  <data name="item_fireworksCharge_name" xml:space="preserve">
+    <value>گلوله باروت</value>
+  </data>
+  <data name="item_fireworksCharge_orange" xml:space="preserve">
+    <value>نارنجي</value>
+  </data>
+  <data name="item_fireworksCharge_pink" xml:space="preserve">
+    <value>صورتي</value>
+  </data>
+  <data name="item_fireworksCharge_purple" xml:space="preserve">
+    <value>بنفش</value>
+  </data>
+  <data name="item_fireworksCharge_red" xml:space="preserve">
+    <value>قرمز</value>
+  </data>
+  <data name="item_fireworksCharge_silver" xml:space="preserve">
+    <value>نقره اي</value>
+  </data>
+  <data name="item_fireworksCharge_trail" xml:space="preserve">
+    <value>دنباله</value>
+  </data>
+  <data name="item_fireworksCharge_type" xml:space="preserve">
+    <value>شکل نامعلوم</value>
+  </data>
+  <data name="item_fireworksCharge_type_0" xml:space="preserve">
+    <value>گلوله کوچک</value>
+  </data>
+  <data name="item_fireworksCharge_type_1" xml:space="preserve">
+    <value>گلوله بزرگ</value>
+  </data>
+  <data name="item_fireworksCharge_type_2" xml:space="preserve">
+    <value>ستاره شکل</value>
+  </data>
+  <data name="item_fireworksCharge_type_3" xml:space="preserve">
+    <value>ترسانک شکل</value>
+  </data>
+  <data name="item_fireworksCharge_type_4" xml:space="preserve">
+    <value>انفجار</value>
+  </data>
+  <data name="item_fireworksCharge_white" xml:space="preserve">
+    <value>صفيد</value>
+  </data>
+  <data name="item_fireworksCharge_yellow" xml:space="preserve">
+    <value>زرد</value>
+  </data>
+  <data name="item_fish_clownfish_raw_name" xml:space="preserve">
+    <value>دلقک ماهي</value>
+  </data>
+  <data name="item_fish_cod_cooked_name" xml:space="preserve">
+    <value>ماهي پخته</value>
+  </data>
+  <data name="item_fish_cod_raw_name" xml:space="preserve">
+    <value>ماهي خام</value>
+  </data>
+  <data name="item_fish_pufferfish_raw_name" xml:space="preserve">
+    <value>ماهي پفي</value>
+  </data>
+  <data name="item_fish_salmon_cooked_name" xml:space="preserve">
+    <value>سالمون پخته</value>
+  </data>
+  <data name="item_fish_salmon_raw_name" xml:space="preserve">
+    <value>سالمون خام</value>
+  </data>
+  <data name="item_fishingRod_name" xml:space="preserve">
+    <value>چوب ماهيگيري</value>
+  </data>
+  <data name="item_flint_name" xml:space="preserve">
+    <value>سنگ چخماق</value>
+  </data>
+  <data name="item_flintAndSteel_name" xml:space="preserve">
+    <value>آتش زنه</value>
+  </data>
+  <data name="item_flowerPot_name" xml:space="preserve">
+    <value>گلدان</value>
+  </data>
+  <data name="item_frame_name" xml:space="preserve">
+    <value>قاب</value>
+  </data>
+  <data name="item_ghastTear_name" xml:space="preserve">
+    <value>اشک روح</value>
+  </data>
+  <data name="item_glassBottle_name" xml:space="preserve">
+    <value>بطري شيشه اي</value>
+  </data>
+  <data name="item_goldNugget_name" xml:space="preserve">
+    <value>ذره طلا</value>
+  </data>
+  <data name="item_hatchetDiamond_name" xml:space="preserve">
+    <value>تبر الماس</value>
+  </data>
+  <data name="item_hatchetGold_name" xml:space="preserve">
+    <value>تبر طلايي</value>
+  </data>
+  <data name="item_hatchetIron_name" xml:space="preserve">
+    <value>تبر آهني</value>
+  </data>
+  <data name="item_hatchetStone_name" xml:space="preserve">
+    <value>تبر سنگي</value>
+  </data>
+  <data name="item_hatchetWood_name" xml:space="preserve">
+    <value>تبر چوبي</value>
+  </data>
+  <data name="item_helmetChain_name" xml:space="preserve">
+    <value>کلاه زنجيري</value>
+  </data>
+  <data name="item_helmetCloth_name" xml:space="preserve">
+    <value>کلاه چرم</value>
+  </data>
+  <data name="item_helmetDiamond_name" xml:space="preserve">
+    <value>کلاهخود الماس</value>
+  </data>
+  <data name="item_helmetGold_name" xml:space="preserve">
+    <value>کلاهخود طلايي</value>
+  </data>
+  <data name="item_helmetIron_name" xml:space="preserve">
+    <value>کلاه آهني</value>
+  </data>
+  <data name="item_hoeDiamond_name" xml:space="preserve">
+    <value>خیش الماس</value>
+  </data>
+  <data name="item_hoeGold_name" xml:space="preserve">
+    <value>خیش طلايي</value>
+  </data>
+  <data name="item_hoeIron_name" xml:space="preserve">
+    <value>خیش آهني</value>
+  </data>
+  <data name="item_hoeStone_name" xml:space="preserve">
+    <value>خیش سنگي</value>
+  </data>
+  <data name="item_hoeWood_name" xml:space="preserve">
+    <value>خیش چوبی</value>
+  </data>
+  <data name="item_horsearmordiamond_name" xml:space="preserve">
+    <value>زره اسب الماسی</value>
+  </data>
+  <data name="item_horsearmorgold_name" xml:space="preserve">
+    <value>زره اسب طلایی</value>
+  </data>
+  <data name="item_horsearmormetal_name" xml:space="preserve">
+    <value>زره اسب آهنی</value>
+  </data>
+  <data name="item_ingotGold_name" xml:space="preserve">
+    <value>شمش طلا</value>
+  </data>
+  <data name="item_ingotIron_name" xml:space="preserve">
+    <value>شمش آهن</value>
+  </data>
+  <data name="item_leash_name" xml:space="preserve">
+    <value>قلاده</value>
+  </data>
+  <data name="item_leather_name" xml:space="preserve">
+    <value>چرم</value>
+  </data>
+  <data name="item_leaves_name" xml:space="preserve">
+    <value>برگ ها</value>
+  </data>
+  <data name="item_leggingsChain_name" xml:space="preserve">
+    <value>شلوار زنجيري</value>
+  </data>
+  <data name="item_leggingsCloth_name" xml:space="preserve">
+    <value>شلوار چرم</value>
+  </data>
+  <data name="item_leggingsDiamond_name" xml:space="preserve">
+    <value>شلوار الماس</value>
+  </data>
+  <data name="item_leggingsGold_name" xml:space="preserve">
+    <value>شلوار طلايي</value>
+  </data>
+  <data name="item_leggingsIron_name" xml:space="preserve">
+    <value>شلوار آهني</value>
+  </data>
+  <data name="item_magmaCream_name" xml:space="preserve">
+    <value>توپ ماگما</value>
+  </data>
+  <data name="item_map_name" xml:space="preserve">
+    <value>نقشه</value>
+  </data>
+  <data name="item_melon_name" xml:space="preserve">
+    <value>هندوانه</value>
+  </data>
+  <data name="item_milk_name" xml:space="preserve">
+    <value>شير</value>
+  </data>
+  <data name="item_minecart_name" xml:space="preserve">
+    <value>ماشين معدن</value>
+  </data>
+  <data name="item_minecartChest_name" xml:space="preserve">
+    <value>ماشين معدن با صندوقچه</value>
+  </data>
+  <data name="item_minecartCommandBlock_name" xml:space="preserve">
+    <value>ماشين معدن با بلوک دستور</value>
+  </data>
+  <data name="item_minecartFurnace_name" xml:space="preserve">
+    <value>ماشين معدن با کوره</value>
+  </data>
+  <data name="item_minecartHopper_name" xml:space="preserve">
+    <value>ماشين معدن با قيف</value>
+  </data>
+  <data name="item_minecartTnt_name" xml:space="preserve">
+    <value>ماشين معدن با تي ان تي</value>
+  </data>
+  <data name="item_monsterPlacer_name" xml:space="preserve">
+    <value>احضارگر</value>
+  </data>
+  <data name="item_mushroomStew_name" xml:space="preserve">
+    <value>سوپ قارچ</value>
+  </data>
+  <data name="item_muttonCooked_name" xml:space="preserve">
+    <value>گوشت گوسفند پخته شده</value>
+  </data>
+  <data name="item_muttonRaw_name" xml:space="preserve">
+    <value>گوشت گوسفند خام</value>
+  </data>
+  <data name="item_nameTag_name" xml:space="preserve">
+    <value>نام گذار</value>
+  </data>
+  <data name="item_netherStalkSeeds_name" xml:space="preserve">
+    <value>گياه جهنمي</value>
+  </data>
+  <data name="item_netherStar_name" xml:space="preserve">
+    <value>ستاره جهنمي</value>
+  </data>
+  <data name="item_netherbrick_name" xml:space="preserve">
+    <value>آجر جهنمي</value>
+  </data>
+  <data name="item_netherquartz_name" xml:space="preserve">
+    <value>کوارتز جهنمي</value>
+  </data>
+  <data name="item_painting_name" xml:space="preserve">
+    <value>نقاشی</value>
+  </data>
+  <data name="item_paper_name" xml:space="preserve">
+    <value>کاغذ</value>
+  </data>
+  <data name="item_pickaxeDiamond_name" xml:space="preserve">
+    <value>کلنگ الماس</value>
+  </data>
+  <data name="item_pickaxeGold_name" xml:space="preserve">
+    <value>کلنگ طلايي</value>
+  </data>
+  <data name="item_pickaxeIron_name" xml:space="preserve">
+    <value>کلنگ آهني</value>
+  </data>
+  <data name="item_pickaxeStone_name" xml:space="preserve">
+    <value>کلنگ سنگي</value>
+  </data>
+  <data name="item_pickaxeWood_name" xml:space="preserve">
+    <value>کلنگ چوبي</value>
+  </data>
+  <data name="item_porkchopCooked_name" xml:space="preserve">
+    <value>استيک خوک</value>
+  </data>
+  <data name="item_porkchopRaw_name" xml:space="preserve">
+    <value>گوشت خوک خام</value>
+  </data>
+  <data name="item_potato_name" xml:space="preserve">
+    <value>سيب زميني</value>
+  </data>
+  <data name="item_potatoBaked_name" xml:space="preserve">
+    <value>سيب زميني پخته</value>
+  </data>
+  <data name="item_potatoPoisonous_name" xml:space="preserve">
+    <value>سيب زميني سمي</value>
+  </data>
+  <data name="item_potion_name" xml:space="preserve">
+    <value>معجون</value>
+  </data>
+  <data name="item_prismarineCrystals_name" xml:space="preserve">
+    <value>کریستال منشور دریایی</value>
+  </data>
+  <data name="item_prismarineShard_name" xml:space="preserve">
+    <value>تکه منشور دریایی</value>
+  </data>
+  <data name="item_pumpkinPie_name" xml:space="preserve">
+    <value>کيک کدوتنبل</value>
+  </data>
+  <data name="item_rabbitCooked_name" xml:space="preserve">
+    <value>خرگوش پخته شده</value>
+  </data>
+  <data name="item_rabbitFoot_name" xml:space="preserve">
+    <value>پای خرگوش</value>
+  </data>
+  <data name="item_rabbitHide_name" xml:space="preserve">
+    <value>خرگوش مخفی شده</value>
+  </data>
+  <data name="item_rabbitRaw_name" xml:space="preserve">
+    <value>خرگوش خام</value>
+  </data>
+  <data name="item_rabbitStew_name" xml:space="preserve">
+    <value>خورش خرگوش</value>
+  </data>
+  <data name="item_record_11_desc" xml:space="preserve">
+    <value>C418 - 11</value>
+  </data>
+  <data name="item_record_13_desc" xml:space="preserve">
+    <value>C418 - 13</value>
+  </data>
+  <data name="item_record_blocks_desc" xml:space="preserve">
+    <value>C418 - blocks</value>
+  </data>
+  <data name="item_record_cat_desc" xml:space="preserve">
+    <value>C418 - cat</value>
+  </data>
+  <data name="item_record_chirp_desc" xml:space="preserve">
+    <value>C418 - chirp</value>
+  </data>
+  <data name="item_record_far_desc" xml:space="preserve">
+    <value>سی418 - دور</value>
+  </data>
+  <data name="item_record_mall_desc" xml:space="preserve">
+    <value>C418 - mall</value>
+  </data>
+  <data name="item_record_mellohi_desc" xml:space="preserve">
+    <value>C418 - mellohi</value>
+  </data>
+  <data name="item_record_name" xml:space="preserve">
+    <value>ديسک موزيک</value>
+  </data>
+  <data name="item_record_stal_desc" xml:space="preserve">
+    <value>C418 - stal</value>
+  </data>
+  <data name="item_record_strad_desc" xml:space="preserve">
+    <value>C418 - strad</value>
+  </data>
+  <data name="item_record_wait_desc" xml:space="preserve">
+    <value>C418 - wait</value>
+  </data>
+  <data name="item_record_ward_desc" xml:space="preserve">
+    <value>C418 - ward</value>
+  </data>
+  <data name="item_redstone_name" xml:space="preserve">
+    <value>رداستون</value>
+  </data>
+  <data name="item_reeds_name" xml:space="preserve">
+    <value>ني شکر</value>
+  </data>
+  <data name="item_rottenFlesh_name" xml:space="preserve">
+    <value>گوشت زامبي</value>
+  </data>
+  <data name="item_saddle_name" xml:space="preserve">
+    <value>زين</value>
+  </data>
+  <data name="item_seeds_name" xml:space="preserve">
+    <value>بذر گندم</value>
+  </data>
+  <data name="item_seeds_melon_name" xml:space="preserve">
+    <value>بذر هندوانه</value>
+  </data>
+  <data name="item_seeds_pumpkin_name" xml:space="preserve">
+    <value>دانه کدوتنبل</value>
+  </data>
+  <data name="item_shears_name" xml:space="preserve">
+    <value>قیچی ها</value>
+  </data>
+  <data name="item_shield_black_name" xml:space="preserve">
+    <value>سپر مشکی</value>
+  </data>
+  <data name="item_shield_blue_name" xml:space="preserve">
+    <value>سپر آبی</value>
+  </data>
+  <data name="item_shield_brown_name" xml:space="preserve">
+    <value>سپر قهوه ای</value>
+  </data>
+  <data name="item_shield_cyan_name" xml:space="preserve">
+    <value>سپر آبی دریایی</value>
+  </data>
+  <data name="item_shield_gray_name" xml:space="preserve">
+    <value>سپر خاکستری</value>
+  </data>
+  <data name="item_shield_green_name" xml:space="preserve">
+    <value>سپر سبز</value>
+  </data>
+  <data name="item_shield_lightBlue_name" xml:space="preserve">
+    <value>سپر آبی روشن</value>
+  </data>
+  <data name="item_shield_lime_name" xml:space="preserve">
+    <value>سپر سبز مغز پسته ای</value>
+  </data>
+  <data name="item_shield_magenta_name" xml:space="preserve">
+    <value>سپر سرخابی</value>
+  </data>
+  <data name="item_shield_name" xml:space="preserve">
+    <value>سپر</value>
+  </data>
+  <data name="item_shield_orange_name" xml:space="preserve">
+    <value>سپر نارنجی</value>
+  </data>
+  <data name="item_shield_pink_name" xml:space="preserve">
+    <value>سپر صورتی</value>
+  </data>
+  <data name="item_shield_purple_name" xml:space="preserve">
+    <value>سپر بنفش</value>
+  </data>
+  <data name="item_shield_red_name" xml:space="preserve">
+    <value>سپر قرمز</value>
+  </data>
+  <data name="item_shield_silver_name" xml:space="preserve">
+    <value>سپر خاکستری روشن</value>
+  </data>
+  <data name="item_shield_white_name" xml:space="preserve">
+    <value>سپر سفید</value>
+  </data>
+  <data name="item_shield_yellow_name" xml:space="preserve">
+    <value>سپر زرد</value>
+  </data>
+  <data name="item_shovelDiamond_name" xml:space="preserve">
+    <value>بيل الماس</value>
+  </data>
+  <data name="item_shovelGold_name" xml:space="preserve">
+    <value>بيل طلايي</value>
+  </data>
+  <data name="item_shovelIron_name" xml:space="preserve">
+    <value>بيل آهني</value>
+  </data>
+  <data name="item_shovelStone_name" xml:space="preserve">
+    <value>بيل سنگي</value>
+  </data>
+  <data name="item_shovelWood_name" xml:space="preserve">
+    <value>بيل چوبي</value>
+  </data>
+  <data name="item_sign_name" xml:space="preserve">
+    <value>تابلو</value>
+  </data>
+  <data name="item_skull_char_name" xml:space="preserve">
+    <value>سر</value>
+  </data>
+  <data name="item_skull_creeper_name" xml:space="preserve">
+    <value>سر ترسانک</value>
+  </data>
+  <data name="item_skull_dragon_name" xml:space="preserve">
+    <value>سر اژدها</value>
+  </data>
+  <data name="item_skull_player_name" xml:space="preserve">
+    <value>سر {0}</value>
+  </data>
+  <data name="item_skull_skeleton_name" xml:space="preserve">
+    <value>سر اسکلت</value>
+  </data>
+  <data name="item_skull_wither_name" xml:space="preserve">
+    <value>سر پژمرده گر</value>
+  </data>
+  <data name="item_skull_zombie_name" xml:space="preserve">
+    <value>سر زامبي</value>
+  </data>
+  <data name="item_slimeball_name" xml:space="preserve">
+    <value>توپ لجن</value>
+  </data>
+  <data name="item_snowball_name" xml:space="preserve">
+    <value>گوله برفي</value>
+  </data>
+  <data name="item_speckledMelon_name" xml:space="preserve">
+    <value>هندوانه درخشان</value>
+  </data>
+  <data name="item_spiderEye_name" xml:space="preserve">
+    <value>چشم عنکبوت</value>
+  </data>
+  <data name="item_stick_name" xml:space="preserve">
+    <value>تیکه چوبي</value>
+  </data>
+  <data name="item_string_name" xml:space="preserve">
+    <value>رشته</value>
+  </data>
+  <data name="item_sugar_name" xml:space="preserve">
+    <value>شکر</value>
+  </data>
+  <data name="item_sulphur_name" xml:space="preserve">
+    <value>باروت</value>
+  </data>
+  <data name="item_swordDiamond_name" xml:space="preserve">
+    <value>شمشير الماس</value>
+  </data>
+  <data name="item_swordGold_name" xml:space="preserve">
+    <value>شمشير طلايي</value>
+  </data>
+  <data name="item_swordIron_name" xml:space="preserve">
+    <value>شمشير آهني</value>
+  </data>
+  <data name="item_swordStone_name" xml:space="preserve">
+    <value>شمشير سنگي</value>
+  </data>
+  <data name="item_swordWood_name" xml:space="preserve">
+    <value>شمشير چوبي</value>
+  </data>
+  <data name="item_unbreakable" xml:space="preserve">
+    <value>تخريب نشدني</value>
+  </data>
+  <data name="item_wheat_name" xml:space="preserve">
+    <value>گندم</value>
+  </data>
+  <data name="item_writingBook_name" xml:space="preserve">
+    <value>کتاب و قلم</value>
+  </data>
+  <data name="item_writtenBook_name" xml:space="preserve">
+    <value>کتاب نوشته شده</value>
+  </data>
+  <data name="item_yellowDust_name" xml:space="preserve">
+    <value>گرد روشنا</value>
+  </data>
+  <data name="itemGroup_brewing" xml:space="preserve">
+    <value>معجون سازي</value>
+  </data>
+  <data name="itemGroup_buildingBlocks" xml:space="preserve">
+    <value>بلوک هاي ساخت و ساز</value>
+  </data>
+  <data name="itemGroup_combat" xml:space="preserve">
+    <value>مبارزه</value>
+  </data>
+  <data name="itemGroup_decorations" xml:space="preserve">
+    <value>بلوک هاي تزئيني</value>
+  </data>
+  <data name="itemGroup_food" xml:space="preserve">
+    <value>مواد غذایی</value>
+  </data>
+  <data name="itemGroup_inventory" xml:space="preserve">
+    <value>کوله ی حالت بقا</value>
+  </data>
+  <data name="itemGroup_materials" xml:space="preserve">
+    <value>مواد و مصالح</value>
+  </data>
+  <data name="itemGroup_misc" xml:space="preserve">
+    <value>متفرقه</value>
+  </data>
+  <data name="itemGroup_redstone" xml:space="preserve">
+    <value>یاقوت</value>
+  </data>
+  <data name="itemGroup_search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="itemGroup_tools" xml:space="preserve">
+    <value>ابزار ها</value>
+  </data>
+  <data name="itemGroup_transportation" xml:space="preserve">
+    <value>حمل و نقل</value>
+  </data>
+  <data name="key_attack" xml:space="preserve">
+    <value>حمله/نابود کردن</value>
+  </data>
+  <data name="key_back" xml:space="preserve">
+    <value>راه رفتن به عقب</value>
+  </data>
+  <data name="key_categories_gameplay" xml:space="preserve">
+    <value>گیم پلی</value>
+  </data>
+  <data name="key_categories_inventory" xml:space="preserve">
+    <value>موجودی</value>
+  </data>
+  <data name="key_categories_misc" xml:space="preserve">
+    <value>متفرقه</value>
+  </data>
+  <data name="key_categories_movement" xml:space="preserve">
+    <value>راه رفتن</value>
+  </data>
+  <data name="key_categories_multiplayer" xml:space="preserve">
+    <value>بازی چند نفره</value>
+  </data>
+  <data name="key_categories_ui" xml:space="preserve">
+    <value>رابط بازی</value>
+  </data>
+  <data name="key_chat" xml:space="preserve">
+    <value>باز کردن چت</value>
+  </data>
+  <data name="key_command" xml:space="preserve">
+    <value>باز کردن دستورات</value>
+  </data>
+  <data name="key_forward" xml:space="preserve">
+    <value>راه رفتن به جلو</value>
+  </data>
+  <data name="key_fullscreen" xml:space="preserve">
+    <value>فعالسازی فول اسکرین</value>
+  </data>
+  <data name="key_hotbar_1" xml:space="preserve">
+    <value>نخستین  بخش جیب</value>
+  </data>
+  <data name="key_hotbar_2" xml:space="preserve">
+    <value>دومین بخش جیب</value>
+  </data>
+  <data name="key_hotbar_3" xml:space="preserve">
+    <value>سومین بخش جیب</value>
+  </data>
+  <data name="key_hotbar_4" xml:space="preserve">
+    <value>چهارمین  بخش جیب</value>
+  </data>
+  <data name="key_hotbar_5" xml:space="preserve">
+    <value>پنجمین بخش جیب</value>
+  </data>
+  <data name="key_hotbar_6" xml:space="preserve">
+    <value>شماره 6 کوله</value>
+  </data>
+  <data name="key_hotbar_7" xml:space="preserve">
+    <value>شماره 7 کوله</value>
+  </data>
+  <data name="key_hotbar_8" xml:space="preserve">
+    <value>شماره 8 کوله</value>
+  </data>
+  <data name="key_hotbar_9" xml:space="preserve">
+    <value>شماره 9 کوله</value>
+  </data>
+  <data name="key_inventory" xml:space="preserve">
+    <value>بستن/باز کردن کوله پشتی</value>
+  </data>
+  <data name="key_jump" xml:space="preserve">
+    <value>پرش</value>
+  </data>
+  <data name="key_left" xml:space="preserve">
+    <value>حرکت به چپ</value>
+  </data>
+  <data name="key_mouseButton" xml:space="preserve">
+    <value>دکمه ی {0}</value>
+  </data>
+  <data name="key_pickItem" xml:space="preserve">
+    <value>انتخاب بلوک</value>
+  </data>
+  <data name="key_playerlist" xml:space="preserve">
+    <value>لیست کردن بازیکنان</value>
+  </data>
+  <data name="key_right" xml:space="preserve">
+    <value>حرکت به راست</value>
+  </data>
+  <data name="key_screenshot" xml:space="preserve">
+    <value>گرفتن عکس از صفحه</value>
+  </data>
+  <data name="key_smoothCamera" xml:space="preserve">
+    <value>عوض کردن دوربین سینمایی</value>
+  </data>
+  <data name="key_sneak" xml:space="preserve">
+    <value>یواشکی حرکت کردن</value>
+  </data>
+  <data name="key_spectatorOutlines" xml:space="preserve">
+    <value>بازیکنان برجسته (تماشاگران)</value>
+  </data>
+  <data name="key_sprint" xml:space="preserve">
+    <value>با حداکثر سرعت دویدن</value>
+  </data>
+  <data name="key_togglePerspective" xml:space="preserve">
+    <value>عوض کردن چشم انداز</value>
+  </data>
+  <data name="key_use" xml:space="preserve">
+    <value>استفاده از جسم/گذاشتن بلوک</value>
+  </data>
+  <data name="lanServer_otherPlayers" xml:space="preserve">
+    <value>تنظیمات برای بازیکنان دیگر</value>
+  </data>
+  <data name="lanServer_scanning" xml:space="preserve">
+    <value>در حال جست و جو در شبکه محلی شما</value>
+  </data>
+  <data name="lanServer_start" xml:space="preserve">
+    <value>شروع شبکه LAN</value>
+  </data>
+  <data name="lanServer_title" xml:space="preserve">
+    <value>دنیای LAN</value>
+  </data>
+  <data name="language_code" xml:space="preserve">
+    <value>fa_IR</value>
+  </data>
+  <data name="language_name" xml:space="preserve">
+    <value>فارسی</value>
+  </data>
+  <data name="language_region" xml:space="preserve">
+    <value>ايران</value>
+  </data>
+  <data name="mcoServer_title" xml:space="preserve">
+    <value>دنیای آنلاین ماین کرفت</value>
+  </data>
+  <data name="menu_convertingLevel" xml:space="preserve">
+    <value>در حال تبدیل دنیا</value>
+  </data>
+  <data name="menu_disconnect" xml:space="preserve">
+    <value>قطع ارتباط</value>
+  </data>
+  <data name="menu_game" xml:space="preserve">
+    <value>منوی بازی</value>
+  </data>
+  <data name="menu_generatingLevel" xml:space="preserve">
+    <value>ایجاد کردن دنیا</value>
+  </data>
+  <data name="menu_generatingTerrain" xml:space="preserve">
+    <value>در حال ساخت زمین</value>
+  </data>
+  <data name="menu_loadingLevel" xml:space="preserve">
+    <value>بارگذاری دنیا</value>
+  </data>
+  <data name="menu_multiplayer" xml:space="preserve">
+    <value>چند نفره</value>
+  </data>
+  <data name="menu_online" xml:space="preserve">
+    <value>ماینکرفت رلمز</value>
+  </data>
+  <data name="menu_options" xml:space="preserve">
+    <value>انتخاب ها...</value>
+  </data>
+  <data name="menu_playdemo" xml:space="preserve">
+    <value>بازی نسخه نمایشی دنیا</value>
+  </data>
+  <data name="menu_quit" xml:space="preserve">
+    <value>خروج از بازی</value>
+  </data>
+  <data name="menu_resetdemo" xml:space="preserve">
+    <value>تنظیم مجدد نسخه ی نمایشی جهان</value>
+  </data>
+  <data name="menu_respawning" xml:space="preserve">
+    <value>در حال باز گرداندن به زندگی</value>
+  </data>
+  <data name="menu_returnToGame" xml:space="preserve">
+    <value>بازگشت به بازی</value>
+  </data>
+  <data name="menu_returnToMenu" xml:space="preserve">
+    <value>ذخیره و ترک به صفحه اصلی</value>
+  </data>
+  <data name="menu_shareToLan" xml:space="preserve">
+    <value>باز بودن به شبکه</value>
+  </data>
+  <data name="menu_singleplayer" xml:space="preserve">
+    <value>یک نفره</value>
+  </data>
+  <data name="merchant_deprecated" xml:space="preserve">
+    <value>برای باز کردن قفل چیز دیگری را معامله کنید!</value>
+  </data>
+  <data name="mount_onboard" xml:space="preserve">
+    <value>از {0} براي پياده شدن استفاده کن</value>
+  </data>
+  <data name="multiplayer_connect" xml:space="preserve">
+    <value>وصل شدن</value>
+  </data>
+  <data name="multiplayer_downloadingStats" xml:space="preserve">
+    <value>دانلود آمار و دستاوردها...</value>
+  </data>
+  <data name="multiplayer_ipinfo" xml:space="preserve">
+    <value>IP سرور برای اتصال به آن را وارد کنید:</value>
+  </data>
+  <data name="multiplayer_player_joined" xml:space="preserve">
+    <value>{0} وارد بازی شد</value>
+  </data>
+  <data name="multiplayer_player_joined_renamed" xml:space="preserve">
+    <value>{0} (که قبلا به {1} شناخته شده) به بازی پیوست</value>
+  </data>
+  <data name="multiplayer_player_left" xml:space="preserve">
+    <value>{0} بازی را ترک کرد</value>
+  </data>
+  <data name="multiplayer_stopSleeping" xml:space="preserve">
+    <value>تخت خواب را ترک کن</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line1" xml:space="preserve">
+    <value>این سرور استفاده از بسته منبع سفارشی را توصیه می کند.</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line2" xml:space="preserve">
+    <value>آیا می خواهید آنرا بصورت جادویی و خودکار دانلود و نصب کنید؟</value>
+  </data>
+  <data name="multiplayer_title" xml:space="preserve">
+    <value>بازی چند نفره</value>
+  </data>
+  <data name="options_anaglyph" xml:space="preserve">
+    <value>سه بعدي آناگليف</value>
+  </data>
+  <data name="options_ao" xml:space="preserve">
+    <value>روشنایی ملایم</value>
+  </data>
+  <data name="options_ao_max" xml:space="preserve">
+    <value>حداکثر</value>
+  </data>
+  <data name="options_ao_min" xml:space="preserve">
+    <value>حداقل</value>
+  </data>
+  <data name="options_ao_off" xml:space="preserve">
+    <value>خاموش</value>
+  </data>
+  <data name="options_attack_crosshair" xml:space="preserve">
+    <value>نشانه</value>
+  </data>
+  <data name="options_attack_hotbar" xml:space="preserve">
+    <value>نوار</value>
+  </data>
+  <data name="options_attackIndicator" xml:space="preserve">
+    <value>شاخص حمله</value>
+  </data>
+  <data name="options_chat_color" xml:space="preserve">
+    <value>رنگ ها</value>
+  </data>
+  <data name="options_chat_height_focused" xml:space="preserve">
+    <value>ارتفاع متمرکز</value>
+  </data>
+  <data name="options_chat_height_unfocused" xml:space="preserve">
+    <value>ارتفاع غیر متمرکز</value>
+  </data>
+  <data name="options_chat_links" xml:space="preserve">
+    <value>لینک های وب</value>
+  </data>
+  <data name="options_chat_links_prompt" xml:space="preserve">
+    <value>بازکردن لينک ها را درخواست کن</value>
+  </data>
+  <data name="options_chat_opacity" xml:space="preserve">
+    <value>تاری</value>
+  </data>
+  <data name="options_chat_scale" xml:space="preserve">
+    <value>مقیاس</value>
+  </data>
+  <data name="options_chat_title" xml:space="preserve">
+    <value>تنظیمات چت</value>
+  </data>
+  <data name="options_chat_visibility" xml:space="preserve">
+    <value>چت</value>
+  </data>
+  <data name="options_chat_visibility_full" xml:space="preserve">
+    <value>نشان داده شده</value>
+  </data>
+  <data name="options_chat_visibility_hidden" xml:space="preserve">
+    <value>پنهان</value>
+  </data>
+  <data name="options_chat_visibility_system" xml:space="preserve">
+    <value>فقط دستورات</value>
+  </data>
+  <data name="options_chat_width" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="options_controls" xml:space="preserve">
+    <value>کنترل ها...</value>
+  </data>
+  <data name="options_customizeTitle" xml:space="preserve">
+    <value>سفارشی کردن تنظیمات جهان</value>
+  </data>
+  <data name="options_difficulty" xml:space="preserve">
+    <value>درجه سختی</value>
+  </data>
+  <data name="options_difficulty_easy" xml:space="preserve">
+    <value>آسان</value>
+  </data>
+  <data name="options_difficulty_hard" xml:space="preserve">
+    <value>سخت</value>
+  </data>
+  <data name="options_difficulty_hardcore" xml:space="preserve">
+    <value>هاردکور</value>
+  </data>
+  <data name="options_difficulty_normal" xml:space="preserve">
+    <value>معمولی</value>
+  </data>
+  <data name="options_difficulty_peaceful" xml:space="preserve">
+    <value>صلح آمیز</value>
+  </data>
+  <data name="options_farWarning1" xml:space="preserve">
+    <value>توصیه می شود که یک جاوا 64 بیت نصب کنید</value>
+  </data>
+  <data name="options_farWarning2" xml:space="preserve">
+    <value>بهتر است شما که از جاوای 32 بیت استفاده می کنید ، گزینه Far در فاصله رندر را انتخاب نکنید.</value>
+  </data>
+  <data name="options_forceUnicodeFont" xml:space="preserve">
+    <value>فونت يونيکد اجباري </value>
+  </data>
+  <data name="options_fov" xml:space="preserve">
+    <value>FOV</value>
+  </data>
+  <data name="options_fov_max" xml:space="preserve">
+    <value>خفن</value>
+  </data>
+  <data name="options_fov_min" xml:space="preserve">
+    <value>معمولی</value>
+  </data>
+  <data name="options_framerateLimit" xml:space="preserve">
+    <value>حداکثر فرکانس فریم</value>
+  </data>
+  <data name="options_framerateLimit_max" xml:space="preserve">
+    <value>نامحدود</value>
+  </data>
+  <data name="options_fullscreen" xml:space="preserve">
+    <value>تمام صفحه</value>
+  </data>
+  <data name="options_gamma" xml:space="preserve">
+    <value>روشنایی</value>
+  </data>
+  <data name="options_gamma_max" xml:space="preserve">
+    <value>روشن</value>
+  </data>
+  <data name="options_gamma_min" xml:space="preserve">
+    <value>مودی</value>
+  </data>
+  <data name="options_graphics" xml:space="preserve">
+    <value>گرافیک</value>
+  </data>
+  <data name="options_graphics_fancy" xml:space="preserve">
+    <value>تفننی</value>
+  </data>
+  <data name="options_graphics_fast" xml:space="preserve">
+    <value>سریع</value>
+  </data>
+  <data name="options_guiScale" xml:space="preserve">
+    <value>مقیاس GUI</value>
+  </data>
+  <data name="options_guiScale_auto" xml:space="preserve">
+    <value>خودکار</value>
+  </data>
+  <data name="options_guiScale_large" xml:space="preserve">
+    <value>بزرگ</value>
+  </data>
+  <data name="options_guiScale_normal" xml:space="preserve">
+    <value>معمولی</value>
+  </data>
+  <data name="options_guiScale_small" xml:space="preserve">
+    <value>کوچک</value>
+  </data>
+  <data name="options_hidden" xml:space="preserve">
+    <value>پنهان</value>
+  </data>
+  <data name="options_invertMouse" xml:space="preserve">
+    <value>معکوس کردن موس</value>
+  </data>
+  <data name="options_language" xml:space="preserve">
+    <value>زبان...</value>
+  </data>
+  <data name="options_languageWarning" xml:space="preserve">
+    <value>ترجمه های زبان ممکن است ۱۰۰٪ درست نباشد</value>
+  </data>
+  <data name="options_mainHand" xml:space="preserve">
+    <value>دست اصلی</value>
+  </data>
+  <data name="options_mainHand_left" xml:space="preserve">
+    <value>چپ</value>
+  </data>
+  <data name="options_mainHand_right" xml:space="preserve">
+    <value>راست</value>
+  </data>
+  <data name="options_mipmapLevels" xml:space="preserve">
+    <value>درجه Mipmap</value>
+  </data>
+  <data name="options_modelPart_cape" xml:space="preserve">
+    <value>شنل</value>
+  </data>
+  <data name="options_modelPart_hat" xml:space="preserve">
+    <value>کلاه</value>
+  </data>
+  <data name="options_modelPart_jacket" xml:space="preserve">
+    <value>ژاکت</value>
+  </data>
+  <data name="options_modelPart_left_pants_leg" xml:space="preserve">
+    <value>پاچه چپ</value>
+  </data>
+  <data name="options_modelPart_left_sleeve" xml:space="preserve">
+    <value>آستین چپ</value>
+  </data>
+  <data name="options_modelPart_right_pants_leg" xml:space="preserve">
+    <value>پاچه راست</value>
+  </data>
+  <data name="options_modelPart_right_sleeve" xml:space="preserve">
+    <value>آستین راست</value>
+  </data>
+  <data name="options_multiplayer_title" xml:space="preserve">
+    <value>تنظیمات چند نفره...</value>
+  </data>
+  <data name="options_music" xml:space="preserve">
+    <value>موسیقی</value>
+  </data>
+  <data name="options_off" xml:space="preserve">
+    <value>خاموش</value>
+  </data>
+  <data name="options_on" xml:space="preserve">
+    <value>روشن</value>
+  </data>
+  <data name="options_particles" xml:space="preserve">
+    <value>ذرات</value>
+  </data>
+  <data name="options_particles_all" xml:space="preserve">
+    <value>همه</value>
+  </data>
+  <data name="options_particles_decreased" xml:space="preserve">
+    <value>کاهش یافت</value>
+  </data>
+  <data name="options_particles_minimal" xml:space="preserve">
+    <value>حداقل</value>
+  </data>
+  <data name="options_postButton" xml:space="preserve">
+    <value>تنظیمات Post-Processing...</value>
+  </data>
+  <data name="options_postProcessEnable" xml:space="preserve">
+    <value>فعال کردن پس پردازش</value>
+  </data>
+  <data name="options_postVideoTitle" xml:space="preserve">
+    <value>تنظیمات Post-Processing</value>
+  </data>
+  <data name="options_reducedDebugInfo" xml:space="preserve">
+    <value>اطلاعات اشکال زدایی کاهش یافت</value>
+  </data>
+  <data name="options_renderClouds" xml:space="preserve">
+    <value>ابرها</value>
+  </data>
+  <data name="options_renderDistance" xml:space="preserve">
+    <value>بارگزاری فاصله</value>
+  </data>
+  <data name="options_resourcepack" xml:space="preserve">
+    <value>بسته منابع...</value>
+  </data>
+  <data name="options_saturation" xml:space="preserve">
+    <value>اشباع</value>
+  </data>
+  <data name="options_sensitivity" xml:space="preserve">
+    <value>حساسیت</value>
+  </data>
+  <data name="options_sensitivity_max" xml:space="preserve">
+    <value>سرعت مافوق!!!</value>
+  </data>
+  <data name="options_sensitivity_min" xml:space="preserve">
+    <value>* خمیازه *</value>
+  </data>
+  <data name="options_showSubtitles" xml:space="preserve">
+    <value>نمایش زیرنویس</value>
+  </data>
+  <data name="options_skinCustomisation" xml:space="preserve">
+    <value>سفارشی سازی پوسته...</value>
+  </data>
+  <data name="options_skinCustomisation_title" xml:space="preserve">
+    <value>سفارشی سازی پوسته</value>
+  </data>
+  <data name="options_snooper" xml:space="preserve">
+    <value>اجازه دادن به Snooper</value>
+  </data>
+  <data name="options_snooper_desc" xml:space="preserve">
+    <value>ما می خواهیم اطلاعاتی در مورد دستگاه شما جمع آوری کنیم که موجب ارتقاء ماینکرفت شود با دانستن اینکه چه چیزهایی را می توانیم پشتیبانی کنیم و اینکه بزرگ ترین مشکلات چه هستند. تمام این اطلاعات به صورت نا شناس هستند. ما قول می دهیم که با این داده ها هیچ کاری نکنیم ولی اگر می خواهید می توانید در زیر آنرا غیر فعال کنید!</value>
+  </data>
+  <data name="options_snooper_title" xml:space="preserve">
+    <value>مجموعه مشخصات دستگاه</value>
+  </data>
+  <data name="options_snooper_view" xml:space="preserve">
+    <value>تنظیمات snooper...</value>
+  </data>
+  <data name="options_sound" xml:space="preserve">
+    <value>صدا</value>
+  </data>
+  <data name="options_sounds" xml:space="preserve">
+    <value>موسیقی &amp; صداها...</value>
+  </data>
+  <data name="options_sounds_title" xml:space="preserve">
+    <value>موسیقی و انتخاب های صدا</value>
+  </data>
+  <data name="options_title" xml:space="preserve">
+    <value>انتخاب ها</value>
+  </data>
+  <data name="options_touchscreen" xml:space="preserve">
+    <value>مد صفحه نمایش لمسی</value>
+  </data>
+  <data name="options_vbo" xml:space="preserve">
+    <value>استفاده از VBOs</value>
+  </data>
+  <data name="options_video" xml:space="preserve">
+    <value>تنظیمات ویدیو...</value>
+  </data>
+  <data name="options_videoTitle" xml:space="preserve">
+    <value>تنظیمات ویدیو</value>
+  </data>
+  <data name="options_viewBobbing" xml:space="preserve">
+    <value>نمايش حرکت</value>
+  </data>
+  <data name="options_visible" xml:space="preserve">
+    <value>نشان داده شده</value>
+  </data>
+  <data name="options_vsync" xml:space="preserve">
+    <value>VSync استفاده از </value>
+  </data>
+  <data name="potion_effect_water" xml:space="preserve">
+    <value>بطری آب</value>
+  </data>
+  <data name="potion_potency_1" xml:space="preserve">
+    <value>درجه 2</value>
+  </data>
+  <data name="potion_potency_2" xml:space="preserve">
+    <value>درجه 3</value>
+  </data>
+  <data name="record_nowPlaying" xml:space="preserve">
+    <value>در حال پخشِ {0}</value>
+  </data>
+  <data name="resourcePack_available_title" xml:space="preserve">
+    <value>بسته های منابع قابل استفاده</value>
+  </data>
+  <data name="resourcePack_folderInfo" xml:space="preserve">
+    <value>فایل های ریسورس پک را اینجا قرار دهید</value>
+  </data>
+  <data name="resourcePack_incompatible" xml:space="preserve">
+    <value>ناسازگار</value>
+  </data>
+  <data name="resourcePack_incompatible_confirm_new" xml:space="preserve">
+    <value>این بسته منابع برای نسخه جدیدتری از ماینکرفت ساخته شده است و ممکن است به طور صحیح کار نکند.</value>
+  </data>
+  <data name="resourcePack_incompatible_confirm_old" xml:space="preserve">
+    <value>این بسته منابع برای نسخه قدیمی تری از ماینکرفت ساخته شده است و ممکن است دیگر به طور صحیح کار نکند.</value>
+  </data>
+  <data name="resourcePack_incompatible_confirm_title" xml:space="preserve">
+    <value>آیا از بارگذاری این بسته منابع مطمئنید؟</value>
+  </data>
+  <data name="resourcePack_incompatible_new" xml:space="preserve">
+    <value>(ساخته شده برای یک نسخه جدید تر ماینکرفت)</value>
+  </data>
+  <data name="resourcePack_incompatible_old" xml:space="preserve">
+    <value>(ساخته شده برای یک نسخه قدیمی تر ماینکرفت)</value>
+  </data>
+  <data name="resourcePack_openFolder" xml:space="preserve">
+    <value>پوشه منبع بسته را باز کن</value>
+  </data>
+  <data name="resourcePack_selected_title" xml:space="preserve">
+    <value>بسته منابع انتخاب شده</value>
+  </data>
+  <data name="resourcePack_title" xml:space="preserve">
+    <value>انتخاب بسته های منبع</value>
+  </data>
+  <data name="screenshot_failure" xml:space="preserve">
+    <value>عدم توان براي سيو : {0}</value>
+  </data>
+  <data name="screenshot_success" xml:space="preserve">
+    <value>عکس گرفته شد : {0}</value>
+  </data>
+  <data name="selectServer_add" xml:space="preserve">
+    <value>اضافه کردن سرور</value>
+  </data>
+  <data name="selectServer_defaultName" xml:space="preserve">
+    <value>سرور ماین کرفت</value>
+  </data>
+  <data name="selectServer_delete" xml:space="preserve">
+    <value>حذف </value>
+  </data>
+  <data name="selectServer_deleteButton" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="selectServer_deleteQuestion" xml:space="preserve">
+    <value>آیا مطمئن هستید می خواهید این سرور را حذف کنید؟</value>
+  </data>
+  <data name="selectServer_deleteWarning" xml:space="preserve">
+    <value>برای همیشه گم می شود! (یک زمان طولانی!)</value>
+  </data>
+  <data name="selectServer_direct" xml:space="preserve">
+    <value>اتصال مستقیم</value>
+  </data>
+  <data name="selectServer_edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="selectServer_empty" xml:space="preserve">
+    <value>خالی</value>
+  </data>
+  <data name="selectServer_hiddenAddress" xml:space="preserve">
+    <value>(پنهان)</value>
+  </data>
+  <data name="selectServer_refresh" xml:space="preserve">
+    <value>تازه کردن</value>
+  </data>
+  <data name="selectServer_select" xml:space="preserve">
+    <value>پیوستن به سرور</value>
+  </data>
+  <data name="selectServer_title" xml:space="preserve">
+    <value>انتخاب سرور</value>
+  </data>
+  <data name="selectWorld_allowCommands" xml:space="preserve">
+    <value>اجازه داشتن برای وارد کردن کد تقلّب:</value>
+  </data>
+  <data name="selectWorld_allowCommands_info" xml:space="preserve">
+    <value>دستوراتی مانند /gamemode، /xp</value>
+  </data>
+  <data name="selectWorld_bonusItems" xml:space="preserve">
+    <value>صندوقچه جایزه:</value>
+  </data>
+  <data name="selectWorld_cheats" xml:space="preserve">
+    <value>کد تقلب بازی</value>
+  </data>
+  <data name="selectWorld_conversion" xml:space="preserve">
+    <value>باید تبدیل شود!</value>
+  </data>
+  <data name="selectWorld_create" xml:space="preserve">
+    <value>ایجاد دنیای جدید</value>
+  </data>
+  <data name="selectWorld_createDemo" xml:space="preserve">
+    <value>بازی در نسخه ی نمایشی جدید</value>
+  </data>
+  <data name="selectWorld_customizeType" xml:space="preserve">
+    <value>سفارشی کردن</value>
+  </data>
+  <data name="selectWorld_delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="selectWorld_deleteButton" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="selectWorld_deleteQuestion" xml:space="preserve">
+    <value>آیا مطمئن هستید که می خواهید این دنیا را حذف کنید؟</value>
+  </data>
+  <data name="selectWorld_deleteWarning" xml:space="preserve">
+    <value>برای همیشه گم می شود! (زمان طولانی!)</value>
+  </data>
+  <data name="selectWorld_edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="selectWorld_edit_openFolder" xml:space="preserve">
+    <value>باز کردن پوشه</value>
+  </data>
+  <data name="selectWorld_edit_save" xml:space="preserve">
+    <value>ذخیره کردن جهان</value>
+  </data>
+  <data name="selectWorld_edit_title" xml:space="preserve">
+    <value>ویرایش جهان</value>
+  </data>
+  <data name="selectWorld_empty" xml:space="preserve">
+    <value>خالی</value>
+  </data>
+  <data name="selectWorld_enterName" xml:space="preserve">
+    <value>نام دنیا</value>
+  </data>
+  <data name="selectWorld_enterSeed" xml:space="preserve">
+    <value>دانه برای مولد دنیا</value>
+  </data>
+  <data name="selectWorld_gameMode" xml:space="preserve">
+    <value>مد بازی</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure" xml:space="preserve">
+    <value>ماجراجویی</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure_line1" xml:space="preserve">
+    <value>همانند "سوروایول" میباشد ولی بلوک ها نمیتوانند</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure_line2" xml:space="preserve">
+    <value>اضافه یا حذف شوند</value>
+  </data>
+  <data name="selectWorld_gameMode_creative" xml:space="preserve">
+    <value>خلاق</value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line1" xml:space="preserve">
+    <value>منابع بینهایت, پرواز آزاد و</value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line2" xml:space="preserve">
+    <value>بلوک ها را بلافاصله از بین ببر</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore" xml:space="preserve">
+    <value>هاردکور</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line1" xml:space="preserve">
+    <value>مثل حالت "زنده ماندن"، در سخت ترين حالت قفل شده است</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line2" xml:space="preserve">
+    <value>دشواری، و تنها یک جان</value>
+  </data>
+  <data name="selectWorld_gameMode_spectator" xml:space="preserve">
+    <value>تماشاگر</value>
+  </data>
+  <data name="selectWorld_gameMode_spectator_line1" xml:space="preserve">
+    <value>شما می توانید نگاه کنید ولی نمی توانید دست بزنید</value>
+  </data>
+  <data name="selectWorld_gameMode_survival" xml:space="preserve">
+    <value>بقا</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line1" xml:space="preserve">
+    <value>جستجو برای منابع, ابزار، تقویت</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line2" xml:space="preserve">
+    <value>سطوح، سلامتی و گرسنگی</value>
+  </data>
+  <data name="selectWorld_hardcoreMode" xml:space="preserve">
+    <value>هاردکور:</value>
+  </data>
+  <data name="selectWorld_hardcoreMode_info" xml:space="preserve">
+    <value>دنیا پس از مرگ حذف می گردد</value>
+  </data>
+  <data name="selectWorld_mapFeatures" xml:space="preserve">
+    <value>تولید کردن سازه:</value>
+  </data>
+  <data name="selectWorld_mapFeatures_info" xml:space="preserve">
+    <value>روستا, سیاه چال و غیره</value>
+  </data>
+  <data name="selectWorld_mapType" xml:space="preserve">
+    <value>نوع دنیا:</value>
+  </data>
+  <data name="selectWorld_mapType_normal" xml:space="preserve">
+    <value>معمولی</value>
+  </data>
+  <data name="selectWorld_moreWorldOptions" xml:space="preserve">
+    <value>جزئیات بیشتر دنیا...</value>
+  </data>
+  <data name="selectWorld_newWorld" xml:space="preserve">
+    <value>دنیای جدید</value>
+  </data>
+  <data name="selectWorld_newWorld_copyOf" xml:space="preserve">
+    <value>کپی از {0}</value>
+  </data>
+  <data name="selectWorld_recreate" xml:space="preserve">
+    <value>ایجاد دوباره</value>
+  </data>
+  <data name="selectWorld_resultFolder" xml:space="preserve">
+    <value>ذخیره خواهد شد در:</value>
+  </data>
+  <data name="selectWorld_seedInfo" xml:space="preserve">
+    <value>برای دانه تصادفی خالی بگذارید</value>
+  </data>
+  <data name="selectWorld_select" xml:space="preserve">
+    <value>بازی در دنیای انتخاب شده</value>
+  </data>
+  <data name="selectWorld_title" xml:space="preserve">
+    <value>انتخاب دنیا</value>
+  </data>
+  <data name="selectWorld_tooltip_fromNewerVersion1" xml:space="preserve">
+    <value>جهان در یک نسخه جدیدتر ذخیره شده بود،</value>
+  </data>
+  <data name="selectWorld_tooltip_fromNewerVersion2" xml:space="preserve">
+    <value>بارگذاری این جهان می تواند مشکلاتی به دنبال داشته باشد!</value>
+  </data>
+  <data name="selectWorld_tooltip_snapshot1" xml:space="preserve">
+    <value>فراموش نکنید که از این جهان یک نسخه پشتیبان ذخیره کنید کنید</value>
+  </data>
+  <data name="selectWorld_tooltip_snapshot2" xml:space="preserve">
+    <value>قبل از اینکه آن را در این نسخه آزمایشی باز می کنید.</value>
+  </data>
+  <data name="selectWorld_version" xml:space="preserve">
+    <value>نسخه:</value>
+  </data>
+  <data name="selectWorld_versionJoinButton" xml:space="preserve">
+    <value>به هر حال استفاده کن</value>
+  </data>
+  <data name="selectWorld_versionQuestion" xml:space="preserve">
+    <value>آیا از باز کردن این جهان مطمئنید؟</value>
+  </data>
+  <data name="selectWorld_versionUnknown" xml:space="preserve">
+    <value>ناشناخته</value>
+  </data>
+  <data name="selectWorld_versionWarning" xml:space="preserve">
+    <value>این جهان در نسخه {0} ذخیره شده و باز کردن آن در این نسخه ممکن است باعث نابود شدن این جهان شود!</value>
+  </data>
+  <data name="selectWorld_world" xml:space="preserve">
+    <value>دنیا</value>
+  </data>
+  <data name="sign_edit" xml:space="preserve">
+    <value>تغییر نوشته نشانه</value>
+  </data>
+  <data name="soundCategory_ambient" xml:space="preserve">
+    <value>محیط / محیط زیست</value>
+  </data>
+  <data name="soundCategory_block" xml:space="preserve">
+    <value>بلوک</value>
+  </data>
+  <data name="soundCategory_hostile" xml:space="preserve">
+    <value>موجودات متخاصم</value>
+  </data>
+  <data name="soundCategory_master" xml:space="preserve">
+    <value>صدای اصلی</value>
+  </data>
+  <data name="soundCategory_music" xml:space="preserve">
+    <value>موسیقی</value>
+  </data>
+  <data name="soundCategory_neutral" xml:space="preserve">
+    <value>موجودات دوستانه</value>
+  </data>
+  <data name="soundCategory_player" xml:space="preserve">
+    <value>بازیکنان</value>
+  </data>
+  <data name="soundCategory_record" xml:space="preserve">
+    <value>جعبه گرامافون خودکار دارای سوراخی برای ریختن پول و دکمه مخصوص انتخاب صفحه / Noteblocks</value>
+  </data>
+  <data name="soundCategory_voice" xml:space="preserve">
+    <value>صوت/سخن</value>
+  </data>
+  <data name="soundCategory_weather" xml:space="preserve">
+    <value>آب و هوا</value>
+  </data>
+  <data name="stat_animalsBred" xml:space="preserve">
+    <value>حيوانات توليد مثل کرده</value>
+  </data>
+  <data name="stat_blocksButton" xml:space="preserve">
+    <value>بلوک ها</value>
+  </data>
+  <data name="stat_boatOneCm" xml:space="preserve">
+    <value>مقدار حرکت با قايق</value>
+  </data>
+  <data name="stat_breakItem" xml:space="preserve">
+    <value>%1$ها از بين رفته</value>
+  </data>
+  <data name="stat_climbOneCm" xml:space="preserve">
+    <value>مقدار پرش</value>
+  </data>
+  <data name="stat_craftItem" xml:space="preserve">
+    <value>%1$ها ساخته شده</value>
+  </data>
+  <data name="stat_crafted" xml:space="preserve">
+    <value>مقدار ساخته شدن</value>
+  </data>
+  <data name="stat_createWorld" xml:space="preserve">
+    <value>جهان هاي ساخته شده</value>
+  </data>
+  <data name="stat_crouchOneCm" xml:space="preserve">
+    <value>مقدار دولا راه رفتن</value>
+  </data>
+  <data name="stat_damageDealt" xml:space="preserve">
+    <value>آسيب وارد کرده</value>
+  </data>
+  <data name="stat_damageTaken" xml:space="preserve">
+    <value>آسيب وارد شده</value>
+  </data>
+  <data name="stat_deaths" xml:space="preserve">
+    <value>تعداد مرگ</value>
+  </data>
+  <data name="stat_depleted" xml:space="preserve">
+    <value>تعداد خراب کردن</value>
+  </data>
+  <data name="stat_diveOneCm" xml:space="preserve">
+    <value>مقياس شنا کرده</value>
+  </data>
+  <data name="stat_drop" xml:space="preserve">
+    <value>آيتم هاي انداخته</value>
+  </data>
+  <data name="stat_entityKilledBy" xml:space="preserve">
+    <value>{0} killed you {1} time(s)</value>
+  </data>
+  <data name="stat_entityKilledBy_none" xml:space="preserve">
+    <value>شما هرگز توسط {0} کشته نشده اید</value>
+  </data>
+  <data name="stat_entityKills" xml:space="preserve">
+    <value>You killed {0} {1}</value>
+  </data>
+  <data name="stat_entityKills_none" xml:space="preserve">
+    <value>شما هرگز {0} را نکشتید</value>
+  </data>
+  <data name="stat_fallOneCm" xml:space="preserve">
+    <value>مقياس افتاده</value>
+  </data>
+  <data name="stat_fishCaught" xml:space="preserve">
+    <value>ماهي هاي گرفته</value>
+  </data>
+  <data name="stat_flyOneCm" xml:space="preserve">
+    <value>مقياس پرواز کرده</value>
+  </data>
+  <data name="stat_generalButton" xml:space="preserve">
+    <value>عمومی</value>
+  </data>
+  <data name="stat_horseOneCm" xml:space="preserve">
+    <value>مقياس سوار اسب</value>
+  </data>
+  <data name="stat_itemsButton" xml:space="preserve">
+    <value>آيتم ها</value>
+  </data>
+  <data name="stat_joinMultiplayer" xml:space="preserve">
+    <value>اتصال به سرورها</value>
+  </data>
+  <data name="stat_jump" xml:space="preserve">
+    <value>پرش ها</value>
+  </data>
+  <data name="stat_junkFished" xml:space="preserve">
+    <value>آشغال دريايي گرفته</value>
+  </data>
+  <data name="stat_leaveGame" xml:space="preserve">
+    <value>بستن بازي</value>
+  </data>
+  <data name="stat_loadWorld" xml:space="preserve">
+    <value>سيو هاي لود شده</value>
+  </data>
+  <data name="stat_mineBlock" xml:space="preserve">
+    <value>{0} معدن کاوی کرد</value>
+  </data>
+  <data name="stat_minecartOneCm" xml:space="preserve">
+    <value>مقياس با ماشين معدن</value>
+  </data>
+  <data name="stat_mined" xml:space="preserve">
+    <value>کندن</value>
+  </data>
+  <data name="stat_mobKills" xml:space="preserve">
+    <value>موجودات کشته</value>
+  </data>
+  <data name="stat_mobsButton" xml:space="preserve">
+    <value>موجودات</value>
+  </data>
+  <data name="stat_pigOneCm" xml:space="preserve">
+    <value>مقياس با خوک</value>
+  </data>
+  <data name="stat_playOneMinute" xml:space="preserve">
+    <value>دقايق در حال بازي</value>
+  </data>
+  <data name="stat_playerKills" xml:space="preserve">
+    <value>بازيکن هاي کشته</value>
+  </data>
+  <data name="stat_sprintOneCm" xml:space="preserve">
+    <value>مقدار دویدن</value>
+  </data>
+  <data name="stat_startGame" xml:space="preserve">
+    <value>تعداد بازي </value>
+  </data>
+  <data name="stat_swimOneCm" xml:space="preserve">
+    <value>مقياس شنا کرده</value>
+  </data>
+  <data name="stat_talkedToVillager" xml:space="preserve">
+    <value>با روستایی صحبت کردن</value>
+  </data>
+  <data name="stat_timeSinceDeath" xml:space="preserve">
+    <value>از آخرین مرگ</value>
+  </data>
+  <data name="stat_tradedWithVillager" xml:space="preserve">
+    <value>معامله با روستایی</value>
+  </data>
+  <data name="stat_treasureFished" xml:space="preserve">
+    <value>گنج درياي گرفته</value>
+  </data>
+  <data name="stat_useItem" xml:space="preserve">
+    <value>{0} استفاده کرد</value>
+  </data>
+  <data name="stat_used" xml:space="preserve">
+    <value>استفاده شدن</value>
+  </data>
+  <data name="stat_walkOneCm" xml:space="preserve">
+    <value>مقياس راه رفته</value>
+  </data>
+  <data name="stats_tooltip_type_achievement" xml:space="preserve">
+    <value>دستاورد</value>
+  </data>
+  <data name="stats_tooltip_type_statistic" xml:space="preserve">
+    <value>آمار</value>
+  </data>
+  <data name="subtitles_block_anvil_destroy" xml:space="preserve">
+    <value>سندان نابود شد</value>
+  </data>
+  <data name="subtitles_block_anvil_use" xml:space="preserve">
+    <value>سندان استفاده شد</value>
+  </data>
+  <data name="subtitles_block_fire_ambient" xml:space="preserve">
+    <value>جلز و ولز آتش</value>
+  </data>
+  <data name="subtitles_block_fire_extinguish" xml:space="preserve">
+    <value>خاموش شدن آتش</value>
+  </data>
+  <data name="subtitles_block_furnace_fire_crackle" xml:space="preserve">
+    <value>جلز و ولز کوره</value>
+  </data>
+  <data name="subtitles_entity_armorstand_fall" xml:space="preserve">
+    <value>چیزی افتاد</value>
+  </data>
+  <data name="subtitles_entity_bat_death" xml:space="preserve">
+    <value>مردن خفاش</value>
+  </data>
+  <data name="subtitles_entity_donkey_ambient" xml:space="preserve">
+    <value>عرعر الاغ</value>
+  </data>
+  <data name="subtitles_entity_donkey_death" xml:space="preserve">
+    <value>مردن الاغ</value>
+  </data>
+  <data name="subtitles_entity_generic_big_fall" xml:space="preserve">
+    <value>چیزی افتاد</value>
+  </data>
+  <data name="subtitles_entity_horse_ambient" xml:space="preserve">
+    <value>شیهه اسب</value>
+  </data>
+  <data name="tile_acaciaFence_name" xml:space="preserve">
+    <value>نرده های اقاقیا</value>
+  </data>
+  <data name="tile_acaciaFenceGate_name" xml:space="preserve">
+    <value>دروازه حصار اقاقیا</value>
+  </data>
+  <data name="tile_activatorRail_name" xml:space="preserve">
+    <value>ریل فعالساز</value>
+  </data>
+  <data name="tile_anvil_intact_name" xml:space="preserve">
+    <value>سندان</value>
+  </data>
+  <data name="tile_anvil_name" xml:space="preserve">
+    <value>سندان</value>
+  </data>
+  <data name="tile_anvil_slightlyDamaged_name" xml:space="preserve">
+    <value>سندان با آسيب کم</value>
+  </data>
+  <data name="tile_anvil_veryDamaged_name" xml:space="preserve">
+    <value>سندان با آسيب زياد</value>
+  </data>
+  <data name="tile_barrier_name" xml:space="preserve">
+    <value>مانع</value>
+  </data>
+  <data name="tile_beacon_name" xml:space="preserve">
+    <value>فضاجادو</value>
+  </data>
+  <data name="tile_beacon_primary" xml:space="preserve">
+    <value>قدرت اصلي</value>
+  </data>
+  <data name="tile_beacon_secondary" xml:space="preserve">
+    <value>قدرت ثانويه</value>
+  </data>
+  <data name="tile_bed_name" xml:space="preserve">
+    <value>تختخواب</value>
+  </data>
+  <data name="tile_bed_noSleep" xml:space="preserve">
+    <value>شما فقط در شب مي توانيد بخوابيد</value>
+  </data>
+  <data name="tile_bed_notSafe" xml:space="preserve">
+    <value>شما نمي توانيد بخوابيد ، هيولاها نزديک هستند</value>
+  </data>
+  <data name="tile_bed_notValid" xml:space="preserve">
+    <value>تختخواب خانه شما خراب/گم شده است</value>
+  </data>
+  <data name="tile_bed_occupied" xml:space="preserve">
+    <value>اين تختخواب گرفته شده است</value>
+  </data>
+  <data name="tile_bedrock_name" xml:space="preserve">
+    <value>سنگ بستر</value>
+  </data>
+  <data name="tile_beetroots_name" xml:space="preserve">
+    <value>چغندر ها</value>
+  </data>
+  <data name="tile_birchFence_name" xml:space="preserve">
+    <value>حصار توس</value>
+  </data>
+  <data name="tile_birchFenceGate_name" xml:space="preserve">
+    <value>دروازه های حصار توس</value>
+  </data>
+  <data name="tile_blockCoal_name" xml:space="preserve">
+    <value>بلوک ذغال سنگ</value>
+  </data>
+  <data name="tile_blockDiamond_name" xml:space="preserve">
+    <value>بلوک الماس</value>
+  </data>
+  <data name="tile_blockEmerald_name" xml:space="preserve">
+    <value>بلوک زمرد</value>
+  </data>
+  <data name="tile_blockGold_name" xml:space="preserve">
+    <value>بلوک طلا</value>
+  </data>
+  <data name="tile_blockIron_name" xml:space="preserve">
+    <value>بلوک آهن</value>
+  </data>
+  <data name="tile_blockLapis_name" xml:space="preserve">
+    <value>بلوک لاجورد</value>
+  </data>
+  <data name="tile_blockRedstone_name" xml:space="preserve">
+    <value>بلوک رداستون</value>
+  </data>
+  <data name="tile_bookshelf_name" xml:space="preserve">
+    <value>قفسه کتاب</value>
+  </data>
+  <data name="tile_brick_name" xml:space="preserve">
+    <value>بلوک آجر</value>
+  </data>
+  <data name="tile_button_name" xml:space="preserve">
+    <value>کليد</value>
+  </data>
+  <data name="tile_cactus_name" xml:space="preserve">
+    <value>کاکتوس</value>
+  </data>
+  <data name="tile_cake_name" xml:space="preserve">
+    <value>کيک</value>
+  </data>
+  <data name="tile_carrots_name" xml:space="preserve">
+    <value>هويج</value>
+  </data>
+  <data name="tile_cauldron_name" xml:space="preserve">
+    <value>ديگ</value>
+  </data>
+  <data name="tile_chest_name" xml:space="preserve">
+    <value>صندوقچه</value>
+  </data>
+  <data name="tile_chestTrap_name" xml:space="preserve">
+    <value>صندوقچه تله گذاري</value>
+  </data>
+  <data name="tile_chorusFlower_name" xml:space="preserve">
+    <value>گل کر</value>
+  </data>
+  <data name="tile_chorusPlant_name" xml:space="preserve">
+    <value>گیاه کر</value>
+  </data>
+  <data name="tile_clay_name" xml:space="preserve">
+    <value>خاک رس</value>
+  </data>
+  <data name="tile_clayHardened_name" xml:space="preserve">
+    <value>خشت (رس سخت)</value>
+  </data>
+  <data name="tile_cloth_black_name" xml:space="preserve">
+    <value>پشم مشکي</value>
+  </data>
+  <data name="tile_cloth_blue_name" xml:space="preserve">
+    <value>پشم آبي</value>
+  </data>
+  <data name="tile_cloth_brown_name" xml:space="preserve">
+    <value>پشم قهوه اي</value>
+  </data>
+  <data name="tile_cloth_cyan_name" xml:space="preserve">
+    <value>پشم فيروزه اي</value>
+  </data>
+  <data name="tile_cloth_gray_name" xml:space="preserve">
+    <value>پشم خاکستري</value>
+  </data>
+  <data name="tile_cloth_green_name" xml:space="preserve">
+    <value>پشم سبز</value>
+  </data>
+  <data name="tile_cloth_lightBlue_name" xml:space="preserve">
+    <value>پشم آبي آسماني</value>
+  </data>
+  <data name="tile_cloth_lime_name" xml:space="preserve">
+    <value>پشم فسفري</value>
+  </data>
+  <data name="tile_cloth_magenta_name" xml:space="preserve">
+    <value>پشم سرخآبي</value>
+  </data>
+  <data name="tile_cloth_name" xml:space="preserve">
+    <value>پشم</value>
+  </data>
+  <data name="tile_cloth_orange_name" xml:space="preserve">
+    <value>پشم نارنجي</value>
+  </data>
+  <data name="tile_cloth_pink_name" xml:space="preserve">
+    <value>پشم صورتي</value>
+  </data>
+  <data name="tile_cloth_purple_name" xml:space="preserve">
+    <value>پشم بنفش</value>
+  </data>
+  <data name="tile_cloth_red_name" xml:space="preserve">
+    <value>پشم قرمز</value>
+  </data>
+  <data name="tile_cloth_silver_name" xml:space="preserve">
+    <value>پشم نقره اي</value>
+  </data>
+  <data name="tile_cloth_white_name" xml:space="preserve">
+    <value>پشم</value>
+  </data>
+  <data name="tile_cloth_yellow_name" xml:space="preserve">
+    <value>پشم زرد</value>
+  </data>
+  <data name="tile_cobbleWall_mossy_name" xml:space="preserve">
+    <value>ديوار قلوه سنگ لجني</value>
+  </data>
+  <data name="tile_cobbleWall_normal_name" xml:space="preserve">
+    <value>ديوار قلوه سنگ</value>
+  </data>
+  <data name="tile_cocoa_name" xml:space="preserve">
+    <value>کاکائو</value>
+  </data>
+  <data name="tile_commandBlock_name" xml:space="preserve">
+    <value>بلوک دستور</value>
+  </data>
+  <data name="tile_crops_name" xml:space="preserve">
+    <value>گندم در حال رشد</value>
+  </data>
+  <data name="tile_darkOakFence_name" xml:space="preserve">
+    <value>نرده های چوب بلوط تیره</value>
+  </data>
+  <data name="tile_darkOakFenceGate_name" xml:space="preserve">
+    <value>دروازه نرده های چوب بلوط تیره</value>
+  </data>
+  <data name="tile_daylightDetector_name" xml:space="preserve">
+    <value>سنسور خورشيدي</value>
+  </data>
+  <data name="tile_deadbush_name" xml:space="preserve">
+    <value>بته خشک</value>
+  </data>
+  <data name="tile_detectorRail_name" xml:space="preserve">
+    <value>ريل يابنده</value>
+  </data>
+  <data name="tile_dirt_coarse_name" xml:space="preserve">
+    <value>خاک آهکی</value>
+  </data>
+  <data name="tile_dirt_default_name" xml:space="preserve">
+    <value>خاک</value>
+  </data>
+  <data name="tile_dirt_name" xml:space="preserve">
+    <value>خاک</value>
+  </data>
+  <data name="tile_dirt_podzol_name" xml:space="preserve">
+    <value>گیاخاک</value>
+  </data>
+  <data name="tile_dispenser_name" xml:space="preserve">
+    <value>توزيعگر</value>
+  </data>
+  <data name="tile_doorIron_name" xml:space="preserve">
+    <value>در آهنی</value>
+  </data>
+  <data name="tile_doorWood_name" xml:space="preserve">
+    <value>در چوبی</value>
+  </data>
+  <data name="tile_doublePlant_fern_name" xml:space="preserve">
+    <value>سرخس بزرگ</value>
+  </data>
+  <data name="tile_doublePlant_grass_name" xml:space="preserve">
+    <value>چمن بزرگ</value>
+  </data>
+  <data name="tile_doublePlant_name" xml:space="preserve">
+    <value>گیاه</value>
+  </data>
+  <data name="tile_doublePlant_paeonia_name" xml:space="preserve">
+    <value>گل پيونيا</value>
+  </data>
+  <data name="tile_doublePlant_rose_name" xml:space="preserve">
+    <value>بوته رز</value>
+  </data>
+  <data name="tile_doublePlant_sunflower_name" xml:space="preserve">
+    <value>گل آفتابگردان</value>
+  </data>
+  <data name="tile_doublePlant_syringa_name" xml:space="preserve">
+    <value>گل سايرينگا</value>
+  </data>
+  <data name="tile_dragonEgg_name" xml:space="preserve">
+    <value>تخم اژدها</value>
+  </data>
+  <data name="tile_dropper_name" xml:space="preserve">
+    <value>پرتابگر</value>
+  </data>
+  <data name="tile_enchantmentTable_name" xml:space="preserve">
+    <value>ميز افسونگري</value>
+  </data>
+  <data name="tile_endBricks_name" xml:space="preserve">
+    <value>آجر سنگ فرجام</value>
+  </data>
+  <data name="tile_endPortalFrame_name" xml:space="preserve">
+    <value>پرتال فرجام</value>
+  </data>
+  <data name="tile_endRod_name" xml:space="preserve">
+    <value>میله فرجام</value>
+  </data>
+  <data name="tile_enderChest_name" xml:space="preserve">
+    <value>صندوقچه فرجام</value>
+  </data>
+  <data name="tile_farmland_name" xml:space="preserve">
+    <value>خاک مزرعه</value>
+  </data>
+  <data name="tile_fence_name" xml:space="preserve">
+    <value>حصار چوبي</value>
+  </data>
+  <data name="tile_fenceGate_name" xml:space="preserve">
+    <value>دروازه چوبي</value>
+  </data>
+  <data name="tile_fenceIron_name" xml:space="preserve">
+    <value>ميله هاي آهني</value>
+  </data>
+  <data name="tile_fire_name" xml:space="preserve">
+    <value>آتش</value>
+  </data>
+  <data name="tile_flower1_dandelion_name" xml:space="preserve">
+    <value>گل داندليون</value>
+  </data>
+  <data name="tile_flower1_name" xml:space="preserve">
+    <value>گل</value>
+  </data>
+  <data name="tile_flower2_allium_name" xml:space="preserve">
+    <value>گل آليوم</value>
+  </data>
+  <data name="tile_flower2_blueOrchid_name" xml:space="preserve">
+    <value>گل ارکيده آبي</value>
+  </data>
+  <data name="tile_flower2_houstonia_name" xml:space="preserve">
+    <value>گل هاستونيا</value>
+  </data>
+  <data name="tile_flower2_name" xml:space="preserve">
+    <value>گل</value>
+  </data>
+  <data name="tile_flower2_oxeyeDaisy_name" xml:space="preserve">
+    <value>گل آکسي ديسي</value>
+  </data>
+  <data name="tile_flower2_poppy_name" xml:space="preserve">
+    <value>گل پاپي</value>
+  </data>
+  <data name="tile_flower2_tulipOrange_name" xml:space="preserve">
+    <value>گل لاله نارنجي</value>
+  </data>
+  <data name="tile_flower2_tulipPink_name" xml:space="preserve">
+    <value>گل صورتي</value>
+  </data>
+  <data name="tile_flower2_tulipRed_name" xml:space="preserve">
+    <value>گل قرمز</value>
+  </data>
+  <data name="tile_flower2_tulipWhite_name" xml:space="preserve">
+    <value>گل سفيد</value>
+  </data>
+  <data name="tile_furnace_name" xml:space="preserve">
+    <value>کوره</value>
+  </data>
+  <data name="tile_glass_name" xml:space="preserve">
+    <value>شیشه</value>
+  </data>
+  <data name="tile_goldenRail_name" xml:space="preserve">
+    <value>ريل حرکتی</value>
+  </data>
+  <data name="tile_grass_name" xml:space="preserve">
+    <value>بلوک چمن</value>
+  </data>
+  <data name="tile_grassPath_name" xml:space="preserve">
+    <value>راه چمن</value>
+  </data>
+  <data name="tile_gravel_name" xml:space="preserve">
+    <value>ریگ</value>
+  </data>
+  <data name="tile_hayBlock_name" xml:space="preserve">
+    <value>یونجه خشک</value>
+  </data>
+  <data name="tile_hellrock_name" xml:space="preserve">
+    <value>جهنم سنگ</value>
+  </data>
+  <data name="tile_hellsand_name" xml:space="preserve">
+    <value>شن ارواح</value>
+  </data>
+  <data name="tile_hopper_name" xml:space="preserve">
+    <value>قيف</value>
+  </data>
+  <data name="tile_ice_name" xml:space="preserve">
+    <value>يخ</value>
+  </data>
+  <data name="tile_icePacked_name" xml:space="preserve">
+    <value>يخ فشرده</value>
+  </data>
+  <data name="tile_ironTrapdoor_name" xml:space="preserve">
+    <value>دریچه آهن</value>
+  </data>
+  <data name="tile_jukebox_name" xml:space="preserve">
+    <value>جعبه موسيقي</value>
+  </data>
+  <data name="tile_jungleFence_name" xml:space="preserve">
+    <value>نرده های جنگل</value>
+  </data>
+  <data name="tile_jungleFenceGate_name" xml:space="preserve">
+    <value>دروازه حصار جنگل</value>
+  </data>
+  <data name="tile_ladder_name" xml:space="preserve">
+    <value>نردبان</value>
+  </data>
+  <data name="tile_lava_name" xml:space="preserve">
+    <value>گدازه</value>
+  </data>
+  <data name="tile_leaves_acacia_name" xml:space="preserve">
+    <value>برگ اقاقیا</value>
+  </data>
+  <data name="tile_leaves_big_oak_name" xml:space="preserve">
+    <value>برگ بلوط تیره</value>
+  </data>
+  <data name="tile_leaves_birch_name" xml:space="preserve">
+    <value>برگ توس</value>
+  </data>
+  <data name="tile_leaves_jungle_name" xml:space="preserve">
+    <value>برگ جنگلی</value>
+  </data>
+  <data name="tile_leaves_name" xml:space="preserve">
+    <value>برگ</value>
+  </data>
+  <data name="tile_leaves_oak_name" xml:space="preserve">
+    <value>برگ بلوط</value>
+  </data>
+  <data name="tile_leaves_spruce_name" xml:space="preserve">
+    <value>برگ صنوبر</value>
+  </data>
+  <data name="tile_lever_name" xml:space="preserve">
+    <value>اهرم</value>
+  </data>
+  <data name="tile_lightgem_name" xml:space="preserve">
+    <value>سنگ روشنا</value>
+  </data>
+  <data name="tile_litpumpkin_name" xml:space="preserve">
+    <value>کدوتنبل نوري</value>
+  </data>
+  <data name="tile_lockedchest_name" xml:space="preserve">
+    <value>صندوقچه شوخي</value>
+  </data>
+  <data name="tile_log_acacia_name" xml:space="preserve">
+    <value>چوب اقاقیا</value>
+  </data>
+  <data name="tile_log_big_oak_name" xml:space="preserve">
+    <value>چوب بلوط تیره</value>
+  </data>
+  <data name="tile_log_birch_name" xml:space="preserve">
+    <value>چوب توس</value>
+  </data>
+  <data name="tile_log_jungle_name" xml:space="preserve">
+    <value>چوب جنگلی</value>
+  </data>
+  <data name="tile_log_name" xml:space="preserve">
+    <value>چوب</value>
+  </data>
+  <data name="tile_log_oak_name" xml:space="preserve">
+    <value>چوب بلوط</value>
+  </data>
+  <data name="tile_log_spruce_name" xml:space="preserve">
+    <value>چوب صنوبر</value>
+  </data>
+  <data name="tile_melon_name" xml:space="preserve">
+    <value>هندوانه</value>
+  </data>
+  <data name="tile_mobSpawner_name" xml:space="preserve">
+    <value>احضارگر هیولا</value>
+  </data>
+  <data name="tile_monsterStoneEgg_brick_name" xml:space="preserve">
+    <value>آجرسنگ موذي</value>
+  </data>
+  <data name="tile_monsterStoneEgg_chiseledbrick_name" xml:space="preserve">
+    <value>آجرسنگ تراشي موذي</value>
+  </data>
+  <data name="tile_monsterStoneEgg_cobble_name" xml:space="preserve">
+    <value>قلوه سنگ موذي</value>
+  </data>
+  <data name="tile_monsterStoneEgg_crackedbrick_name" xml:space="preserve">
+    <value>آجرسنگ شکسته موذي</value>
+  </data>
+  <data name="tile_monsterStoneEgg_mossybrick_name" xml:space="preserve">
+    <value>آجرسنگ لجني موذي</value>
+  </data>
+  <data name="tile_monsterStoneEgg_name" xml:space="preserve">
+    <value>سنگ موذي</value>
+  </data>
+  <data name="tile_monsterStoneEgg_stone_name" xml:space="preserve">
+    <value>سنگ موذي</value>
+  </data>
+  <data name="tile_mushroom_name" xml:space="preserve">
+    <value>قارچ</value>
+  </data>
+  <data name="tile_musicBlock_name" xml:space="preserve">
+    <value>بلوک نت</value>
+  </data>
+  <data name="tile_mycel_name" xml:space="preserve">
+    <value>قارچخاک</value>
+  </data>
+  <data name="tile_netherBrick_name" xml:space="preserve">
+    <value>آجر جهنمی</value>
+  </data>
+  <data name="tile_netherFence_name" xml:space="preserve">
+    <value>حصار جهنمی</value>
+  </data>
+  <data name="tile_netherStalk_name" xml:space="preserve">
+    <value>گياه جهنمي</value>
+  </data>
+  <data name="tile_netherquartz_name" xml:space="preserve">
+    <value>سنگ معدن کوارتز جهنمي</value>
+  </data>
+  <data name="tile_notGate_name" xml:space="preserve">
+    <value>مشعل رداستون</value>
+  </data>
+  <data name="tile_obsidian_name" xml:space="preserve">
+    <value>آبسيديان</value>
+  </data>
+  <data name="tile_oreCoal_name" xml:space="preserve">
+    <value>سنگ معدن ذغال</value>
+  </data>
+  <data name="tile_oreDiamond_name" xml:space="preserve">
+    <value>سنگ معدن الماس</value>
+  </data>
+  <data name="tile_oreEmerald_name" xml:space="preserve">
+    <value>سنگ معدن زمرد</value>
+  </data>
+  <data name="tile_oreGold_name" xml:space="preserve">
+    <value>سنگ معدن طلا</value>
+  </data>
+  <data name="tile_oreIron_name" xml:space="preserve">
+    <value>سنگ معدن آهن</value>
+  </data>
+  <data name="tile_oreLapis_name" xml:space="preserve">
+    <value>سنگ معدن لاجورد</value>
+  </data>
+  <data name="tile_oreRedstone_name" xml:space="preserve">
+    <value>سنگ معدن رداستون</value>
+  </data>
+  <data name="tile_pistonBase_name" xml:space="preserve">
+    <value>پيستون</value>
+  </data>
+  <data name="tile_pistonStickyBase_name" xml:space="preserve">
+    <value>پيستون چسبناک</value>
+  </data>
+  <data name="tile_portal_name" xml:space="preserve">
+    <value>پرتال جهنم</value>
+  </data>
+  <data name="tile_potatoes_name" xml:space="preserve">
+    <value>سيب زميني ها</value>
+  </data>
+  <data name="tile_pressurePlateStone_name" xml:space="preserve">
+    <value>صفحه فشاری سنگی</value>
+  </data>
+  <data name="tile_pressurePlateWood_name" xml:space="preserve">
+    <value>صفحه فشاری چوبی</value>
+  </data>
+  <data name="tile_prismarine_bricks_name" xml:space="preserve">
+    <value>آجر های منشور دریایی</value>
+  </data>
+  <data name="tile_prismarine_dark_name" xml:space="preserve">
+    <value>منشور دریایی تیره</value>
+  </data>
+  <data name="tile_prismarine_rough_name" xml:space="preserve">
+    <value>منشور دریایی</value>
+  </data>
+  <data name="tile_pumpkin_name" xml:space="preserve">
+    <value>کدوتنبل</value>
+  </data>
+  <data name="tile_pumpkinStem_name" xml:space="preserve">
+    <value>ساقه کدو تنبل</value>
+  </data>
+  <data name="tile_purpurBlock_name" xml:space="preserve">
+    <value>بلوک پور پور</value>
+  </data>
+  <data name="tile_purpurPillar_name" xml:space="preserve">
+    <value>بلوک پور پور ستونی</value>
+  </data>
+  <data name="tile_purpurSlab_name" xml:space="preserve">
+    <value>قطعه پور پور</value>
+  </data>
+  <data name="tile_quartzBlock_chiseled_name" xml:space="preserve">
+    <value>بلوک کوارتز تراشي</value>
+  </data>
+  <data name="tile_quartzBlock_default_name" xml:space="preserve">
+    <value>بلوک کوارتز</value>
+  </data>
+  <data name="tile_quartzBlock_lines_name" xml:space="preserve">
+    <value>بلوک کوارتز ستوني</value>
+  </data>
+  <data name="tile_quartzBlock_name" xml:space="preserve">
+    <value>بلوک کوارتز</value>
+  </data>
+  <data name="tile_rail_name" xml:space="preserve">
+    <value>ریل</value>
+  </data>
+  <data name="tile_redSandStone_chiseled_name" xml:space="preserve">
+    <value>مخروط ماسه سنگ قرمز</value>
+  </data>
+  <data name="tile_redSandStone_default_name" xml:space="preserve">
+    <value>ماسه سنگ قرمز</value>
+  </data>
+  <data name="tile_redSandStone_name" xml:space="preserve">
+    <value>ماسه سنگ قرمز</value>
+  </data>
+  <data name="tile_redSandStone_smooth_name" xml:space="preserve">
+    <value>ماسه سنگ قرمز صاف</value>
+  </data>
+  <data name="tile_redstoneDust_name" xml:space="preserve">
+    <value>گرد رداستون</value>
+  </data>
+  <data name="tile_redstoneLight_name" xml:space="preserve">
+    <value>لامپ</value>
+  </data>
+  <data name="tile_reeds_name" xml:space="preserve">
+    <value>ني شکر</value>
+  </data>
+  <data name="tile_sand_default_name" xml:space="preserve">
+    <value>شن و ماسه</value>
+  </data>
+  <data name="tile_sand_name" xml:space="preserve">
+    <value>ماسه</value>
+  </data>
+  <data name="tile_sand_red_name" xml:space="preserve">
+    <value>شن و ماسه قرمز</value>
+  </data>
+  <data name="tile_sandStone_chiseled_name" xml:space="preserve">
+    <value>ماسه سنگ تراش خورده</value>
+  </data>
+  <data name="tile_sandStone_default_name" xml:space="preserve">
+    <value>ماسه سنگ</value>
+  </data>
+  <data name="tile_sandStone_name" xml:space="preserve">
+    <value>ماسه سنگ</value>
+  </data>
+  <data name="tile_sandStone_smooth_name" xml:space="preserve">
+    <value>ماسه سنگ صاف</value>
+  </data>
+  <data name="tile_sapling_acacia_name" xml:space="preserve">
+    <value>نهال درخت اقاقیا</value>
+  </data>
+  <data name="tile_sapling_big_oak_name" xml:space="preserve">
+    <value>نهال بلوط تیره</value>
+  </data>
+  <data name="tile_sapling_birch_name" xml:space="preserve">
+    <value>نهال درخت توس</value>
+  </data>
+  <data name="tile_sapling_jungle_name" xml:space="preserve">
+    <value>نحال درخت جنگلی</value>
+  </data>
+  <data name="tile_sapling_oak_name" xml:space="preserve">
+    <value>نهال درخت بلوط</value>
+  </data>
+  <data name="tile_sapling_spruce_name" xml:space="preserve">
+    <value>نهال درخت صنوبر</value>
+  </data>
+  <data name="tile_seaLantern_name" xml:space="preserve">
+    <value>فانوس دریایی</value>
+  </data>
+  <data name="tile_sign_name" xml:space="preserve">
+    <value>تابلو</value>
+  </data>
+  <data name="tile_slime_name" xml:space="preserve">
+    <value>بلوک لجن</value>
+  </data>
+  <data name="tile_snow_name" xml:space="preserve">
+    <value>برف</value>
+  </data>
+  <data name="tile_sponge_dry_name" xml:space="preserve">
+    <value>اسفنج</value>
+  </data>
+  <data name="tile_sponge_wet_name" xml:space="preserve">
+    <value>اسفنج مرطوب</value>
+  </data>
+  <data name="tile_spruceFence_name" xml:space="preserve">
+    <value>نرده های صنوبر</value>
+  </data>
+  <data name="tile_spruceFenceGate_name" xml:space="preserve">
+    <value>دروازه های حصار صنوبر</value>
+  </data>
+  <data name="tile_stainedGlass_black_name" xml:space="preserve">
+    <value>شیشه رنگی مشکی</value>
+  </data>
+  <data name="tile_stainedGlass_blue_name" xml:space="preserve">
+    <value>شيشه آبي</value>
+  </data>
+  <data name="tile_stainedGlass_brown_name" xml:space="preserve">
+    <value>شيشه قهوه اي</value>
+  </data>
+  <data name="tile_stainedGlass_cyan_name" xml:space="preserve">
+    <value>شيشه آسمانی</value>
+  </data>
+  <data name="tile_stainedGlass_gray_name" xml:space="preserve">
+    <value>شيشه خاکستري</value>
+  </data>
+  <data name="tile_stainedGlass_green_name" xml:space="preserve">
+    <value>شيشه سبز</value>
+  </data>
+  <data name="tile_stainedGlass_lightBlue_name" xml:space="preserve">
+    <value>شیشه آبی روشن</value>
+  </data>
+  <data name="tile_stainedGlass_lime_name" xml:space="preserve">
+    <value>شیشه لیمویی</value>
+  </data>
+  <data name="tile_stainedGlass_magenta_name" xml:space="preserve">
+    <value>شيشه سرخآبي</value>
+  </data>
+  <data name="tile_stainedGlass_name" xml:space="preserve">
+    <value>شیشه رنگی</value>
+  </data>
+  <data name="tile_stainedGlass_orange_name" xml:space="preserve">
+    <value>شيشه نارنجي</value>
+  </data>
+  <data name="tile_stainedGlass_pink_name" xml:space="preserve">
+    <value>شيشه صورتي</value>
+  </data>
+  <data name="tile_stainedGlass_purple_name" xml:space="preserve">
+    <value>شيشه ارغوانی</value>
+  </data>
+  <data name="tile_stainedGlass_red_name" xml:space="preserve">
+    <value>شیشه قرمز</value>
+  </data>
+  <data name="tile_stainedGlass_silver_name" xml:space="preserve">
+    <value>شيشه نقره اي</value>
+  </data>
+  <data name="tile_stainedGlass_white_name" xml:space="preserve">
+    <value>شيشه سفيد</value>
+  </data>
+  <data name="tile_stainedGlass_yellow_name" xml:space="preserve">
+    <value>شيشه زرد</value>
+  </data>
+  <data name="tile_stairsBrick_name" xml:space="preserve">
+    <value>پله آجري</value>
+  </data>
+  <data name="tile_stairsNetherBrick_name" xml:space="preserve">
+    <value>پله آجر جهنمی</value>
+  </data>
+  <data name="tile_stairsPurpur_name" xml:space="preserve">
+    <value>پله پرپر</value>
+  </data>
+  <data name="tile_stairsQuartz_name" xml:space="preserve">
+    <value>پله کوارتز</value>
+  </data>
+  <data name="tile_stairsRedSandStone_name" xml:space="preserve">
+    <value>پله ماسه سنگ قرمز</value>
+  </data>
+  <data name="tile_stairsSandStone_name" xml:space="preserve">
+    <value>پله ماسه سنگي</value>
+  </data>
+  <data name="tile_stairsStone_name" xml:space="preserve">
+    <value>پله قلوه سنگي</value>
+  </data>
+  <data name="tile_stairsStoneBrickSmooth_name" xml:space="preserve">
+    <value>پله آجرسنگي</value>
+  </data>
+  <data name="tile_stairsWood_name" xml:space="preserve">
+    <value>پله الوار بلوط</value>
+  </data>
+  <data name="tile_stairsWoodAcacia_name" xml:space="preserve">
+    <value>پله الوار اقاقيا</value>
+  </data>
+  <data name="tile_stairsWoodBirch_name" xml:space="preserve">
+    <value>پله الوار توس</value>
+  </data>
+  <data name="tile_stairsWoodDarkOak_name" xml:space="preserve">
+    <value>پله الوار بلوط تيره</value>
+  </data>
+  <data name="tile_stairsWoodJungle_name" xml:space="preserve">
+    <value>پله الوار جنگلي</value>
+  </data>
+  <data name="tile_stairsWoodSpruce_name" xml:space="preserve">
+    <value>پله الوار صنوبر</value>
+  </data>
+  <data name="tile_stone_andesite_name" xml:space="preserve">
+    <value>آندزیت</value>
+  </data>
+  <data name="tile_stone_andesiteSmooth_name" xml:space="preserve">
+    <value>آندزیت تراش خورده</value>
+  </data>
+  <data name="tile_stone_diorite_name" xml:space="preserve">
+    <value>دیوریت</value>
+  </data>
+  <data name="tile_stone_dioriteSmooth_name" xml:space="preserve">
+    <value>دیوریت تراش خورده</value>
+  </data>
+  <data name="tile_stone_granite_name" xml:space="preserve">
+    <value>گرانیت</value>
+  </data>
+  <data name="tile_stone_graniteSmooth_name" xml:space="preserve">
+    <value>گرانیت تراش خورده</value>
+  </data>
+  <data name="tile_stone_stone_name" xml:space="preserve">
+    <value>سنگ</value>
+  </data>
+  <data name="tile_stoneMoss_name" xml:space="preserve">
+    <value>قلوه سنگ لجني</value>
+  </data>
+  <data name="tile_stoneSlab_brick_name" xml:space="preserve">
+    <value>قطعه آجري</value>
+  </data>
+  <data name="tile_stoneSlab_cobble_name" xml:space="preserve">
+    <value>قطعه قلوه سنگي</value>
+  </data>
+  <data name="tile_stoneSlab_name" xml:space="preserve">
+    <value>قطعه سنگي</value>
+  </data>
+  <data name="tile_stoneSlab_netherBrick_name" xml:space="preserve">
+    <value>قطعه آجر جهنمي</value>
+  </data>
+  <data name="tile_stoneSlab_quartz_name" xml:space="preserve">
+    <value>قطعه کوارتزي</value>
+  </data>
+  <data name="tile_stoneSlab_sand_name" xml:space="preserve">
+    <value>قطعه ماسه سنگي</value>
+  </data>
+  <data name="tile_stoneSlab_smoothStoneBrick_name" xml:space="preserve">
+    <value>قطعه آجرسنگي</value>
+  </data>
+  <data name="tile_stoneSlab_stone_name" xml:space="preserve">
+    <value>قطعه سنگي</value>
+  </data>
+  <data name="tile_stoneSlab_wood_name" xml:space="preserve">
+    <value>قطعه الوار</value>
+  </data>
+  <data name="tile_stoneSlab2_red_sandstone_name" xml:space="preserve">
+    <value>قطعه ماسه سنگ قرمز</value>
+  </data>
+  <data name="tile_stonebrick_name" xml:space="preserve">
+    <value>قلوه سنگ</value>
+  </data>
+  <data name="tile_stonebricksmooth_chiseled_name" xml:space="preserve">
+    <value>آجرسنگ تراشي</value>
+  </data>
+  <data name="tile_stonebricksmooth_cracked_name" xml:space="preserve">
+    <value>آجرسنگ شکسته</value>
+  </data>
+  <data name="tile_stonebricksmooth_default_name" xml:space="preserve">
+    <value>آجرسنگ</value>
+  </data>
+  <data name="tile_stonebricksmooth_mossy_name" xml:space="preserve">
+    <value>آجرسنگ لجني</value>
+  </data>
+  <data name="tile_stonebricksmooth_name" xml:space="preserve">
+    <value>آجرسنگ</value>
+  </data>
+  <data name="tile_tallgrass_fern_name" xml:space="preserve">
+    <value>بوته سرخس</value>
+  </data>
+  <data name="tile_tallgrass_grass_name" xml:space="preserve">
+    <value>چمن</value>
+  </data>
+  <data name="tile_tallgrass_name" xml:space="preserve">
+    <value>چمن</value>
+  </data>
+  <data name="tile_tallgrass_shrub_name" xml:space="preserve">
+    <value>درختچه</value>
+  </data>
+  <data name="tile_thinGlass_name" xml:space="preserve">
+    <value>پنجره</value>
+  </data>
+  <data name="tile_thinStainedGlass_black_name" xml:space="preserve">
+    <value>پنجره مشکي</value>
+  </data>
+  <data name="tile_thinStainedGlass_blue_name" xml:space="preserve">
+    <value>پنجره آبي</value>
+  </data>
+  <data name="tile_thinStainedGlass_brown_name" xml:space="preserve">
+    <value>پنجره قهوه اي</value>
+  </data>
+  <data name="tile_thinStainedGlass_cyan_name" xml:space="preserve">
+    <value>پنجره فيروزه اي</value>
+  </data>
+  <data name="tile_thinStainedGlass_gray_name" xml:space="preserve">
+    <value>پنجره خاکستري</value>
+  </data>
+  <data name="tile_thinStainedGlass_green_name" xml:space="preserve">
+    <value>پنجره سبز</value>
+  </data>
+  <data name="tile_thinStainedGlass_lightBlue_name" xml:space="preserve">
+    <value>پنجره آبي آسماني</value>
+  </data>
+  <data name="tile_thinStainedGlass_lime_name" xml:space="preserve">
+    <value>پنجره فسفري</value>
+  </data>
+  <data name="tile_thinStainedGlass_magenta_name" xml:space="preserve">
+    <value>پنجره سرخآبي</value>
+  </data>
+  <data name="tile_thinStainedGlass_name" xml:space="preserve">
+    <value>پنجره رنگی</value>
+  </data>
+  <data name="tile_thinStainedGlass_orange_name" xml:space="preserve">
+    <value>پنجره نارنجي</value>
+  </data>
+  <data name="tile_thinStainedGlass_pink_name" xml:space="preserve">
+    <value>پنجره صورتي</value>
+  </data>
+  <data name="tile_thinStainedGlass_purple_name" xml:space="preserve">
+    <value>پنجره بنفش</value>
+  </data>
+  <data name="tile_thinStainedGlass_red_name" xml:space="preserve">
+    <value>پنجره قرمز</value>
+  </data>
+  <data name="tile_thinStainedGlass_silver_name" xml:space="preserve">
+    <value>پنجره نقره اي</value>
+  </data>
+  <data name="tile_thinStainedGlass_white_name" xml:space="preserve">
+    <value>پنجره سفيد</value>
+  </data>
+  <data name="tile_thinStainedGlass_yellow_name" xml:space="preserve">
+    <value>پنجره زرد</value>
+  </data>
+  <data name="tile_tnt_name" xml:space="preserve">
+    <value>تي ان تي</value>
+  </data>
+  <data name="tile_torch_name" xml:space="preserve">
+    <value>مشعل</value>
+  </data>
+  <data name="tile_trapdoor_name" xml:space="preserve">
+    <value>تله در</value>
+  </data>
+  <data name="tile_tripWire_name" xml:space="preserve">
+    <value>نخ تله</value>
+  </data>
+  <data name="tile_tripWireSource_name" xml:space="preserve">
+    <value>گیره تله نخی</value>
+  </data>
+  <data name="tile_vine_name" xml:space="preserve">
+    <value>تاک ها</value>
+  </data>
+  <data name="tile_water_name" xml:space="preserve">
+    <value>آب</value>
+  </data>
+  <data name="tile_waterlily_name" xml:space="preserve">
+    <value>زنبق دريايي</value>
+  </data>
+  <data name="tile_web_name" xml:space="preserve">
+    <value>تار عنکبوت</value>
+  </data>
+  <data name="tile_weightedPlate_heavy_name" xml:space="preserve">
+    <value>تخته تشخيصگر سنگين</value>
+  </data>
+  <data name="tile_weightedPlate_light_name" xml:space="preserve">
+    <value>تخته تشخيصگر سبک</value>
+  </data>
+  <data name="tile_whiteStone_name" xml:space="preserve">
+    <value>فرجام سنگ</value>
+  </data>
+  <data name="tile_wood_acacia_name" xml:space="preserve">
+    <value>الوار اقاقیا</value>
+  </data>
+  <data name="tile_wood_big_oak_name" xml:space="preserve">
+    <value>الوار بلوط تیره</value>
+  </data>
+  <data name="tile_wood_birch_name" xml:space="preserve">
+    <value>تخته چوب توس</value>
+  </data>
+  <data name="tile_wood_jungle_name" xml:space="preserve">
+    <value>الوار جنگلی</value>
+  </data>
+  <data name="tile_wood_name" xml:space="preserve">
+    <value>تخته های چوبی</value>
+  </data>
+  <data name="tile_wood_oak_name" xml:space="preserve">
+    <value>تخته چوب بلوط</value>
+  </data>
+  <data name="tile_wood_spruce_name" xml:space="preserve">
+    <value>تخته چوب صنوبر</value>
+  </data>
+  <data name="tile_woodSlab_acacia_name" xml:space="preserve">
+    <value>قطعه الوار اقاقيا</value>
+  </data>
+  <data name="tile_woodSlab_big_oak_name" xml:space="preserve">
+    <value>قطعه الوار بلوط تيره</value>
+  </data>
+  <data name="tile_woodSlab_birch_name" xml:space="preserve">
+    <value>قطعه الوار توس</value>
+  </data>
+  <data name="tile_woodSlab_jungle_name" xml:space="preserve">
+    <value>قطعه الوار جنگلي</value>
+  </data>
+  <data name="tile_woodSlab_name" xml:space="preserve">
+    <value>قطعه چوب</value>
+  </data>
+  <data name="tile_woodSlab_oak_name" xml:space="preserve">
+    <value>قطعه الوار بلوط</value>
+  </data>
+  <data name="tile_woodSlab_spruce_name" xml:space="preserve">
+    <value>قطعه الوار صنوبر</value>
+  </data>
+  <data name="tile_woolCarpet_black_name" xml:space="preserve">
+    <value>فرش مشکي</value>
+  </data>
+  <data name="tile_woolCarpet_blue_name" xml:space="preserve">
+    <value>فرش آبي</value>
+  </data>
+  <data name="tile_woolCarpet_brown_name" xml:space="preserve">
+    <value>فرش قهوه اي</value>
+  </data>
+  <data name="tile_woolCarpet_cyan_name" xml:space="preserve">
+    <value>فرش فيروزه اي</value>
+  </data>
+  <data name="tile_woolCarpet_gray_name" xml:space="preserve">
+    <value>فرش خاکستري</value>
+  </data>
+  <data name="tile_woolCarpet_green_name" xml:space="preserve">
+    <value>فرش سبز</value>
+  </data>
+  <data name="tile_woolCarpet_lightBlue_name" xml:space="preserve">
+    <value>فرش آبي آسماني</value>
+  </data>
+  <data name="tile_woolCarpet_lime_name" xml:space="preserve">
+    <value>فرش فسفري</value>
+  </data>
+  <data name="tile_woolCarpet_magenta_name" xml:space="preserve">
+    <value>فرش سرخآبي</value>
+  </data>
+  <data name="tile_woolCarpet_name" xml:space="preserve">
+    <value>فرش</value>
+  </data>
+  <data name="tile_woolCarpet_orange_name" xml:space="preserve">
+    <value>فرش نارنجي</value>
+  </data>
+  <data name="tile_woolCarpet_pink_name" xml:space="preserve">
+    <value>فرش صورتي</value>
+  </data>
+  <data name="tile_woolCarpet_purple_name" xml:space="preserve">
+    <value>فرش بنفش</value>
+  </data>
+  <data name="tile_woolCarpet_red_name" xml:space="preserve">
+    <value>فرش قرمز</value>
+  </data>
+  <data name="tile_woolCarpet_silver_name" xml:space="preserve">
+    <value>فرش خاکستری روشن</value>
+  </data>
+  <data name="tile_woolCarpet_white_name" xml:space="preserve">
+    <value>فرش سفيد</value>
+  </data>
+  <data name="tile_woolCarpet_yellow_name" xml:space="preserve">
+    <value>فرش زرد</value>
+  </data>
+  <data name="tile_workbench_name" xml:space="preserve">
+    <value>ميزکار</value>
+  </data>
+  <data name="title_oldgl1" xml:space="preserve">
+    <value>کارت گرافیک قدیمی شناسایی شد;این ممکن است شما را منع کند از</value>
+  </data>
+  <data name="title_oldgl2" xml:space="preserve">
+    <value>بازی در آینده نیازمند OpenGL 2.0 خواهد بود.</value>
+  </data>
+</root>

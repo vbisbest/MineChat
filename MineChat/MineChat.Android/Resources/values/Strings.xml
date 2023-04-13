@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Firebase Setings -->
+  <string name="ApplicationName">MineChat</string>
+  <string name="ServerClientId">redacted</string>
+  <string name="ApiKey">redacted</string>
+  <string name="ApplicationId">redacted</string>
+  <string name="SenderId">redacted</string>
+  <string name="gcm_defaultSenderId">redacted</string>
+  <string name="google_api_key">redacted</string>
+  <string name="google_app_id">redacted</string>
+
+  <string name="app_name">MineChatLite Android</string>
+  <string name="facebook_app_id">redacted</string>
+  <string name="fb_placement_id">redacted</string>
+  
+</resources>

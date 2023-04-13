@@ -1,0 +1,3966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="achievement_acquireIron" xml:space="preserve">
+    <value>Նոր Ձեռքբերումներ</value>
+  </data>
+  <data name="achievement_acquireIron_desc" xml:space="preserve">
+    <value>Մշակեք երկաթի հանքաքարը</value>
+  </data>
+  <data name="achievement_bakeCake" xml:space="preserve">
+    <value>Սուտը</value>
+  </data>
+  <data name="achievement_bakeCake_desc" xml:space="preserve">
+    <value>Ցորեն, շաքար, կաթ և ձվեր!</value>
+  </data>
+  <data name="achievement_blazeRod" xml:space="preserve">
+    <value>Դեպի Կրակը</value>
+  </data>
+  <data name="achievement_blazeRod_desc" xml:space="preserve">
+    <value>Հայթհայթել Բոցի Ջողեր</value>
+  </data>
+  <data name="achievement_bookcase" xml:space="preserve">
+    <value>Գրադարանավար</value>
+  </data>
+  <data name="achievement_bookcase_desc" xml:space="preserve">
+    <value>Տեղադրիր գրադարակներ կախարդանքի սեղանի շուրջ</value>
+  </data>
+  <data name="achievement_buildBetterPickaxe" xml:space="preserve">
+    <value>Նորություն</value>
+  </data>
+  <data name="achievement_buildBetterPickaxe_desc" xml:space="preserve">
+    <value>Ստեղծեք ավելի լավ քլունգ</value>
+  </data>
+  <data name="achievement_buildFurnace" xml:space="preserve">
+    <value>Թեժ Թեմա</value>
+  </data>
+  <data name="achievement_buildHoe" xml:space="preserve">
+    <value>Հնձելու ժամանակն է!</value>
+  </data>
+  <data name="achievement_buildHoe_desc" xml:space="preserve">
+    <value>Օգտագործեք ֆայտիկները ու տախտակները, որպեսզի ստեղծեք թոխր</value>
+  </data>
+  <data name="achievement_buildPickaxe" xml:space="preserve">
+    <value>Հայթհայթելու Ժամանկն Է!</value>
+  </data>
+  <data name="achievement_buildPickaxe_desc" xml:space="preserve">
+    <value>Օգտագործեք տաղտակները եվ փայտիկները քլունգ ստանալու համար</value>
+  </data>
+  <data name="achievement_buildSword" xml:space="preserve">
+    <value>Պայքարին Պատրաստ եմ!</value>
+  </data>
+  <data name="achievement_buildSword_desc" xml:space="preserve">
+    <value>Ստեղծեք սուր փայտիկներից և տախտակներից</value>
+  </data>
+  <data name="achievement_buildWorkBench" xml:space="preserve">
+    <value>Աշխատանքի Սեղան</value>
+  </data>
+  <data name="achievement_buildWorkBench_desc" xml:space="preserve">
+    <value>Ստեղծեք աշխատանքային սեղան չորս տախտակներից</value>
+  </data>
+  <data name="achievement_cookFish" xml:space="preserve">
+    <value>Համով Ձուկ</value>
+  </data>
+  <data name="achievement_cookFish_desc" xml:space="preserve">
+    <value>Բռնի եվ պատրաստի ձկանը!</value>
+  </data>
+  <data name="achievement_diamonds" xml:space="preserve">
+    <value>ԱԴԱՄԱՆԴՆԵՐ!</value>
+  </data>
+  <data name="achievement_diamonds_desc" xml:space="preserve">
+    <value>Հայհայթել ադամանդներ երկաթե քլունգով</value>
+  </data>
+  <data name="achievement_enchantments" xml:space="preserve">
+    <value>Կախարդիչ</value>
+  </data>
+  <data name="achievement_enchantments_desc" xml:space="preserve">
+    <value>Ստեղծել կախարդանքի սեղան, օգտագործելով գիրք, օբսիդիան և ադամանդներ</value>
+  </data>
+  <data name="achievement_flyPig" xml:space="preserve">
+    <value>Երբ խոզերը թռչում են</value>
+  </data>
+  <data name="achievement_flyPig_desc" xml:space="preserve">
+    <value>Խոզին հեծնած ցատկել ժայռից</value>
+  </data>
+  <data name="achievement_get" xml:space="preserve">
+    <value>Նոր Նվաճում!</value>
+  </data>
+  <data name="achievement_ghast" xml:space="preserve">
+    <value>Վերադարձնել Ուղարկողին</value>
+  </data>
+  <data name="achievement_ghast_desc" xml:space="preserve">
+    <value>Սպանել Գաստին իր իսկ ասուպով</value>
+  </data>
+  <data name="achievement_killCow" xml:space="preserve">
+    <value>Մսագործ</value>
+  </data>
+  <data name="achievement_killCow_desc" xml:space="preserve">
+    <value>Հայթհայթել կաշի</value>
+  </data>
+  <data name="achievement_killEnemy" xml:space="preserve">
+    <value>Հրեշների Որսորդ</value>
+  </data>
+  <data name="achievement_killEnemy_desc" xml:space="preserve">
+    <value>Սպանեք հրեշին</value>
+  </data>
+  <data name="achievement_makeBread" xml:space="preserve">
+    <value>Հաց Թխեք</value>
+  </data>
+  <data name="achievement_makeBread_desc" xml:space="preserve">
+    <value>Ցորեն հաց վերածեք</value>
+  </data>
+  <data name="achievement_mineWood" xml:space="preserve">
+    <value>Փայտ Հայթհայթել</value>
+  </data>
+  <data name="achievement_mineWood_desc" xml:space="preserve">
+    <value>Հարվածել Ծառին, որպեսզի ստանալ փայտ</value>
+  </data>
+  <data name="achievement_onARail" xml:space="preserve">
+    <value>Երկաթուղու վրա</value>
+  </data>
+  <data name="achievement_openInventory" xml:space="preserve">
+    <value>Ստուգել Պայուսակը</value>
+  </data>
+  <data name="achievement_overkill" xml:space="preserve">
+    <value>Մահացո Հարված</value>
+  </data>
+  <data name="achievement_overkill_desc" xml:space="preserve">
+    <value>Մատուցեք ութ կյանքի վնաս մեկ հարվածով</value>
+  </data>
+  <data name="achievement_portal" xml:space="preserve">
+    <value>Մենք պետք է գնանք ավելի խորը</value>
+  </data>
+  <data name="achievement_portal_desc" xml:space="preserve">
+    <value>Ստեղծել պորտալ դեպի Դժոխք</value>
+  </data>
+  <data name="achievement_potion" xml:space="preserve">
+    <value>Տեղական Քիմիկոս</value>
+  </data>
+  <data name="achievement_potion_desc" xml:space="preserve">
+    <value>Եփել Դեղորայք</value>
+  </data>
+  <data name="achievement_requires" xml:space="preserve">
+    <value>Պահանջվում է '{0}'</value>
+  </data>
+  <data name="achievement_snipeSkeleton" xml:space="preserve">
+    <value>Սնայպերների Մենամարտ</value>
+  </data>
+  <data name="achievement_snipeSkeleton_desc" xml:space="preserve">
+    <value>Նետով սպանել կմախքին, ավելի քան 50 մետր հեռավորությունից</value>
+  </data>
+  <data name="achievement_taken" xml:space="preserve">
+    <value>Կատարված է!</value>
+  </data>
+  <data name="achievement_theEnd" xml:space="preserve">
+    <value>Վերջ?</value>
+  </data>
+  <data name="achievement_theEnd_desc" xml:space="preserve">
+    <value>Գտնել Ենդերի աշխարհը</value>
+  </data>
+  <data name="achievement_theEnd2" xml:space="preserve">
+    <value>Վերջ.</value>
+  </data>
+  <data name="achievement_theEnd2_desc" xml:space="preserve">
+    <value>Սպանել Էնդերի Դրակոնին</value>
+  </data>
+  <data name="addServer_add" xml:space="preserve">
+    <value>Պատրաստ</value>
+  </data>
+  <data name="addServer_enterIp" xml:space="preserve">
+    <value>Սերվերի Հասցեն</value>
+  </data>
+  <data name="addServer_enterName" xml:space="preserve">
+    <value>Սերվերի Անունը</value>
+  </data>
+  <data name="addServer_hideAddress" xml:space="preserve">
+    <value>Թաքցնել հասցեն</value>
+  </data>
+  <data name="addServer_title" xml:space="preserve">
+    <value>Կարգավորել Սերվերի Տվյալները</value>
+  </data>
+  <data name="advMode_allPlayers" xml:space="preserve">
+    <value>Օգտագործեք "@a" որպեսզի ընտրեք բոլոր խաղացողներին</value>
+  </data>
+  <data name="advMode_command" xml:space="preserve">
+    <value>Բարձակի Հրամանը</value>
+  </data>
+  <data name="advMode_nearestPlayer" xml:space="preserve">
+    <value>Օգտագործեք "@p" որպեսզի ընրեք ամենամոտիկ խաղացողին</value>
+  </data>
+  <data name="advMode_notAllowed" xml:space="preserve">
+    <value>Խաղացողը պետք է լինի օպերատոր և գտնվի ստեղծագործման ռեւժիմում</value>
+  </data>
+  <data name="advMode_notEnabled" xml:space="preserve">
+    <value>Հրամանի բլոկները այս սերվերում թույլատրված չեն</value>
+  </data>
+  <data name="advMode_randomPlayer" xml:space="preserve">
+    <value>Օգտագործեք "@r" որպեսզի ընրեք պատահական խաղացող</value>
+  </data>
+  <data name="advMode_setCommand" xml:space="preserve">
+    <value>Ընտրել Բլոկի Հրամանը</value>
+  </data>
+  <data name="advMode_setCommand_success" xml:space="preserve">
+    <value>Հրամանը ընտրված է։ {0}</value>
+  </data>
+  <data name="attribute_name_generic_attackDamage" xml:space="preserve">
+    <value>Հարվածի Ուժը</value>
+  </data>
+  <data name="attribute_name_generic_followRange" xml:space="preserve">
+    <value>Մոբերի Հետևլու Սահմանը</value>
+  </data>
+  <data name="attribute_name_generic_knockbackResistance" xml:space="preserve">
+    <value>Բռթելու Դիմադրություն</value>
+  </data>
+  <data name="attribute_name_generic_maxHealth" xml:space="preserve">
+    <value>Առավելագույն Կյանքը</value>
+  </data>
+  <data name="attribute_name_generic_movementSpeed" xml:space="preserve">
+    <value>Արագություն</value>
+  </data>
+  <data name="attribute_name_horse_jumpStrength" xml:space="preserve">
+    <value>Ձիու թռիչքի Ուժը</value>
+  </data>
+  <data name="attribute_name_zombie_spawnReinforcements" xml:space="preserve">
+    <value>Զոմբիի Ուժեղացումներ</value>
+  </data>
+  <data name="book_byAuthor" xml:space="preserve">
+    <value>Հեղինակ {0}</value>
+  </data>
+  <data name="book_editTitle" xml:space="preserve">
+    <value>Մուտքագրեք Գրքի Վերնագիրը։</value>
+  </data>
+  <data name="book_finalizeButton" xml:space="preserve">
+    <value>Ստորագրել և Փակել</value>
+  </data>
+  <data name="book_finalizeWarning" xml:space="preserve">
+    <value>Ուշադրություն. Գիրքը ստորագրելուց հետո, այն այլևս հնարավոր չէ խմբագրել</value>
+  </data>
+  <data name="book_pageIndicator" xml:space="preserve">
+    <value>Էջ {0} {1}-ից</value>
+  </data>
+  <data name="book_signButton" xml:space="preserve">
+    <value>Ստորագրել</value>
+  </data>
+  <data name="build_tooHigh" xml:space="preserve">
+    <value>Կառույցների առավելագույն բարձրությունը {0} բլոկ է</value>
+  </data>
+  <data name="chat_cannotSend" xml:space="preserve">
+    <value>Հաղորդագրությունը հնարավոր չէ ուղարկել</value>
+  </data>
+  <data name="chat_copy" xml:space="preserve">
+    <value>Պատճենել քլիփբորդում</value>
+  </data>
+  <data name="chat_link_confirm" xml:space="preserve">
+    <value>Համոզվա՞ծ եք, որ ուզում եք բացել հետևյալ կայքը</value>
+  </data>
+  <data name="chat_link_confirmTrusted" xml:space="preserve">
+    <value>Ցանկանում եք արդյոք բացե՞լ, թե՞ պատճենել այս հղումը քլիփբորդի մեջ։</value>
+  </data>
+  <data name="chat_link_open" xml:space="preserve">
+    <value>բաց մեջ համար</value>
+  </data>
+  <data name="chat_link_warning" xml:space="preserve">
+    <value>Եչբեք մի՛ բացեք հղումներ այն մարդկանցից, ում չեք վստահում</value>
+  </data>
+  <data name="chat_type_achievement" xml:space="preserve">
+    <value>{0} ունի պարզապես վաստակել որ նվաճում {1}</value>
+  </data>
+  <data name="commands_ban_success" xml:space="preserve">
+    <value>{0} Բանադրվեց</value>
+  </data>
+  <data name="commands_ban_usage" xml:space="preserve">
+    <value>/ban &lt;խաղացող&gt; [պատճառ ...]</value>
+  </data>
+  <data name="commands_banip_invalid" xml:space="preserve">
+    <value>Դուք գրել եք սխալ IP հասցե կամ տվյալ խաղացողը սերվերում չէ</value>
+  </data>
+  <data name="commands_banip_success" xml:space="preserve">
+    <value>{0} IP հասցեն բանադրվեց</value>
+  </data>
+  <data name="commands_banip_success_players" xml:space="preserve">
+    <value>{0} IP հասցեն բանադրվեց, որը պատկանում էր {1}-ին</value>
+  </data>
+  <data name="commands_banip_usage" xml:space="preserve">
+    <value>/ban-ip &lt;հասցե|խաղացող&gt; [պատճառ ...]</value>
+  </data>
+  <data name="commands_banlist_ips" xml:space="preserve">
+    <value>Ընհանուր {0} արգելված IP հասցե:</value>
+  </data>
+  <data name="commands_banlist_players" xml:space="preserve">
+    <value>Ընհանուր {0} բանադրված խաղացողներ:</value>
+  </data>
+  <data name="commands_banlist_usage" xml:space="preserve">
+    <value>/banlist [ips|խաղացողներ]</value>
+  </data>
+  <data name="commands_clear_failure" xml:space="preserve">
+    <value>Հնարավոր չէ մաքրել {0}-ի պայուսակը, քանի որ այն դատարկ է</value>
+  </data>
+  <data name="commands_clear_success" xml:space="preserve">
+    <value>{0} Խաղացողի պայուսակը մաքրված է, ջնջվեց {1} առարկա</value>
+  </data>
+  <data name="commands_debug_notStarted" xml:space="preserve">
+    <value>Դիտարկումը հնարավոր չէ դադարեցնել, քանի որ այն դեռ չի սկսվել</value>
+  </data>
+  <data name="commands_debug_start" xml:space="preserve">
+    <value>Դիտարկման վրիպակազերծման սկիզբ</value>
+  </data>
+  <data name="commands_debug_stop" xml:space="preserve">
+    <value>Դիտարկման վրիպակազերծումը դադարեցվել է  {0} վայրկյանից ({1} ցիկլ)</value>
+  </data>
+  <data name="commands_defaultgamemode_success" xml:space="preserve">
+    <value>Հիմա այս աշխարհի խաղային ռեժիմը {0} է</value>
+  </data>
+  <data name="commands_defaultgamemode_usage" xml:space="preserve">
+    <value>/defaultgamemode &lt;խաղային ռեժիմ&gt;</value>
+  </data>
+  <data name="commands_deop_success" xml:space="preserve">
+    <value>{0} այլևս օպերատոր չէ</value>
+  </data>
+  <data name="commands_deop_usage" xml:space="preserve">
+    <value>/deop &lt;խաղացող&gt;</value>
+  </data>
+  <data name="commands_difficulty_success" xml:space="preserve">
+    <value>Խաղի դժվարությունը սահմանել {0}</value>
+  </data>
+  <data name="commands_difficulty_usage" xml:space="preserve">
+    <value>/difficulty &lt;դժվարություն&gt;</value>
+  </data>
+  <data name="commands_downfall_success" xml:space="preserve">
+    <value>Եղանակը փոխված է</value>
+  </data>
+  <data name="commands_effect_failure_notActive" xml:space="preserve">
+    <value>{0}  Վերցնելը անհաջող էր {1}-ի մոտից, քանի որ նա չուներ այն</value>
+  </data>
+  <data name="commands_effect_failure_notActive_all" xml:space="preserve">
+    <value>Բոլոր ազդեցությունները վերցնելը անհաջող էր {0}-ի մոտից, քանի որ նա չուներ ոչ մի հատ</value>
+  </data>
+  <data name="commands_effect_notFound" xml:space="preserve">
+    <value>{0} ID-ով ազդեցություն գոյություն չունի</value>
+  </data>
+  <data name="commands_effect_success" xml:space="preserve">
+    <value>Տրվեց {0} (ID {1}) * {2} դեպի {3} {4} վարկյան տեվողությամբ</value>
+  </data>
+  <data name="commands_effect_success_removed" xml:space="preserve">
+    <value>Վերցվեց {0} {1}-ի մոտից</value>
+  </data>
+  <data name="commands_effect_success_removed_all" xml:space="preserve">
+    <value>Վերցվեցին բոլոր ազդեցությունները {0}-ից</value>
+  </data>
+  <data name="commands_enchant_cantCombine" xml:space="preserve">
+    <value>{0}-ը հնարավոր չէ միավորել {1}-ի հետ</value>
+  </data>
+  <data name="commands_enchant_cantEnchant" xml:space="preserve">
+    <value>Տվյալ կախարդանքը հնարավոր չէ ավելացնել այդ առարկային</value>
+  </data>
+  <data name="commands_enchant_notFound" xml:space="preserve">
+    <value>{0} ID-ով կախարդանք գոյություն չունի</value>
+  </data>
+  <data name="commands_enchant_success" xml:space="preserve">
+    <value>Կախարդանքը հաջողվեց</value>
+  </data>
+  <data name="commands_enchant_usage" xml:space="preserve">
+    <value>/enchant &lt;խաղացող&gt; &lt;կախարդանքի ID&gt; [աստիճան]</value>
+  </data>
+  <data name="commands_gamemode_success_other" xml:space="preserve">
+    <value>Սահմանել {0}-ի խաղային ռեժիմը {1}</value>
+  </data>
+  <data name="commands_gamemode_success_self" xml:space="preserve">
+    <value>Անձնական խաղային ռեժիմը սահմանել {0}</value>
+  </data>
+  <data name="commands_gamemode_usage" xml:space="preserve">
+    <value>/gamemode &lt;ռեժիմ&gt; [մասնակից]</value>
+  </data>
+  <data name="commands_gamerule_norule" xml:space="preserve">
+    <value>{0} անվամբ խաղային կանոն գոյություն չունի</value>
+  </data>
+  <data name="commands_generic_boolean_invalid" xml:space="preserve">
+    <value>'{0}' ճիշտ կամ սխալ չէ</value>
+  </data>
+  <data name="commands_generic_double_tooBig" xml:space="preserve">
+    <value>Թիվը որը դուք գրել եք ({0}) չափազանց մեծ է, այն պետք է լինի առավելագույնը {1}</value>
+  </data>
+  <data name="commands_generic_double_tooSmall" xml:space="preserve">
+    <value>Թիվը որը դուք գրել եք ({0}) չափազանց փոքր է, այն պետք է լինի նվազագույնը {1}</value>
+  </data>
+  <data name="commands_generic_exception" xml:space="preserve">
+    <value>Խնդիր առաջացավ հրամանը կատարելու ընթացքում</value>
+  </data>
+  <data name="commands_generic_notFound" xml:space="preserve">
+    <value>Անհայ հրաման. Փորձեք /help որպեսզի տեսնեք հրամանների ցանկը</value>
+  </data>
+  <data name="commands_generic_num_invalid" xml:space="preserve">
+    <value>'{0}' չի հանդիսանում որպես ընդունելի համար</value>
+  </data>
+  <data name="commands_generic_num_tooBig" xml:space="preserve">
+    <value>Թիվը որը դուք գրել եք ({0}) չափազանց մեծ է, այն պետք է լինի առավելագույնը {1}</value>
+  </data>
+  <data name="commands_generic_num_tooSmall" xml:space="preserve">
+    <value>Թիվը որը դուք գրել եք ({0}) չափազանց փոքր է, այն պետք է լինի նվազագույնը {1}</value>
+  </data>
+  <data name="commands_generic_permission" xml:space="preserve">
+    <value>Դուք այս հրամանը իրավունք չունեք օգտագործել</value>
+  </data>
+  <data name="commands_generic_player_notFound" xml:space="preserve">
+    <value>Տվյալ խաղացողին հնարավոր չէ գտնել</value>
+  </data>
+  <data name="commands_generic_syntax" xml:space="preserve">
+    <value>Հրամանի շարահյուսությունը սխալ է</value>
+  </data>
+  <data name="commands_generic_usage" xml:space="preserve">
+    <value>Կիրառում: {0}</value>
+  </data>
+  <data name="commands_help_footer" xml:space="preserve">
+    <value>Ակնարկ. Մուտքագրելու ժամանակ օգտագործեք &lt;tab&gt; ստեղնը, հրամանը կամ նրա փաստարկները ավտոմատ լրացնելու համար</value>
+  </data>
+  <data name="commands_help_header" xml:space="preserve">
+    <value>--- Ցուցադրել {0}-ից {1} օգնության էջերը  (/help &lt;page&gt;) ---</value>
+  </data>
+  <data name="commands_help_usage" xml:space="preserve">
+    <value>/help [էջ|հրաման]</value>
+  </data>
+  <data name="commands_kick_success" xml:space="preserve">
+    <value>{0}-ը դուրս հանվեց սերվերից</value>
+  </data>
+  <data name="commands_kick_success_reason" xml:space="preserve">
+    <value>{0}-ը դուրս հանվեց սերվերից: '{1}'</value>
+  </data>
+  <data name="commands_kick_usage" xml:space="preserve">
+    <value>/kick &lt;խաղացող&gt; [պատճառ...]</value>
+  </data>
+  <data name="commands_me_usage" xml:space="preserve">
+    <value>/me &lt;գործողություն ...&gt;</value>
+  </data>
+  <data name="commands_message_display_incoming" xml:space="preserve">
+    <value>{0} ը շշնջաց ձեզ. {1}</value>
+  </data>
+  <data name="commands_message_display_outgoing" xml:space="preserve">
+    <value>Դուք շշնջացիք {0}. {1}</value>
+  </data>
+  <data name="commands_message_sameTarget" xml:space="preserve">
+    <value>Դու չե'ս կարող ինքտ քեզ հաղորդագրություն գրել</value>
+  </data>
+  <data name="commands_message_usage" xml:space="preserve">
+    <value>/tell &lt;մասնակից&gt; &lt;հաղորդագրություն ...&gt;</value>
+  </data>
+  <data name="commands_op_success" xml:space="preserve">
+    <value>{0} դարձավ օպերատոր</value>
+  </data>
+  <data name="commands_op_usage" xml:space="preserve">
+    <value>/op &lt;խաղացող&gt;</value>
+  </data>
+  <data name="commands_players_list" xml:space="preserve">
+    <value>{0}/{1} խաղացող է սերվերում:</value>
+  </data>
+  <data name="commands_publish_failed" xml:space="preserve">
+    <value>Հնարավոր չէ տեղակայել տեղական խաղը</value>
+  </data>
+  <data name="commands_publish_started" xml:space="preserve">
+    <value>Տեղական սերվերը տեղակայված է {0} փորթի վրա</value>
+  </data>
+  <data name="commands_save_disabled" xml:space="preserve">
+    <value>Աշխարհի ավտոմատ պահպանումը անջատվեց</value>
+  </data>
+  <data name="commands_save_enabled" xml:space="preserve">
+    <value>Աշխարհի ավտոմատ պահպանումը միացվեց</value>
+  </data>
+  <data name="commands_save_failed" xml:space="preserve">
+    <value>Աշխարհի պահպանման ժամանակ խնդիր առաջացավ: {0}</value>
+  </data>
+  <data name="commands_save_start" xml:space="preserve">
+    <value>Աշխարհը պահպանվում է...</value>
+  </data>
+  <data name="commands_save_success" xml:space="preserve">
+    <value>Աշխարհը պահպանվեց</value>
+  </data>
+  <data name="commands_say_usage" xml:space="preserve">
+    <value>/say &lt;հաղորդագրություն ...&gt;</value>
+  </data>
+  <data name="commands_scoreboard_objectiveNotFound" xml:space="preserve">
+    <value>'{0}' անունով նպատակ հնարավոր չէր գտնել</value>
+  </data>
+  <data name="commands_scoreboard_objectiveReadOnly" xml:space="preserve">
+    <value>'{0}' նպատակը միայն կարդալու համար է և չի կարող սահմանվել</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_alreadyExists" xml:space="preserve">
+    <value>'{0}' անունով նպատակը արդեն առկա է</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_displayTooLong" xml:space="preserve">
+    <value>'{0}' ցուցադրական անունը չափազանց երկար է, այն պետք է չգերազանցի {1} տառը</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_success" xml:space="preserve">
+    <value>'{0}' անունով նպատակը ավելացված է</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_tooLong" xml:space="preserve">
+    <value>'{0}' անունը չափազանց երկար է, այն պետք է չգերազանցի {1} տառը</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_usage" xml:space="preserve">
+    <value>/scoreboard objectives add &lt;անվանում&gt; &lt;չափանիշի տեսակ&gt; [ցուցադրման անուն ...]</value>
+  </data>
+  <data name="commands_scoreboard_objectives_list_empty" xml:space="preserve">
+    <value>Հաշվի վրա նպատակ չկա</value>
+  </data>
+  <data name="commands_scoreboard_objectives_list_entry" xml:space="preserve">
+    <value>{0} նպատակը ցուցադրվում է ինչպես '{1}' եվ '{2}' տեսակը ունի</value>
+  </data>
+  <data name="commands_scoreboard_objectives_remove_success" xml:space="preserve">
+    <value>'{0}' նպատակը ջնջվեց</value>
+  </data>
+  <data name="commands_scoreboard_objectives_remove_usage" xml:space="preserve">
+    <value>/scoreboard objectives remove &lt;խաղացող&gt;</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_invalidSlot" xml:space="preserve">
+    <value>'{0}' նպատակի վայր գոյություն չունի</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_successCleared" xml:space="preserve">
+    <value>'{0}' նպատակի վայրը մաքրված է</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_successSet" xml:space="preserve">
+    <value>Սահմանվեց նպատակի վայր '{0}'-ից  դեպի '{1}'</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_usage" xml:space="preserve">
+    <value>/scoreboard objectives setdisplay &lt;վայր&gt; [նպատակ]</value>
+  </data>
+  <data name="commands_scoreboard_players_list_empty" xml:space="preserve">
+    <value>Վիճակագրության մեջ հետևվող մասնակիցներ չկան</value>
+  </data>
+  <data name="commands_scoreboard_players_list_player_empty" xml:space="preserve">
+    <value>{0} խմասնակիցը միավորներ չունի</value>
+  </data>
+  <data name="commands_scoreboard_players_reset_success" xml:space="preserve">
+    <value>Վերակարգել մասնակցի բոլոր միավորները {0}</value>
+  </data>
+  <data name="commands_scoreboard_players_set_success" xml:space="preserve">
+    <value>{0} միավորների քանակը {1} խաղացողի համար փոխվեցի դեպի {2}</value>
+  </data>
+  <data name="commands_scoreboard_teamNotFound" xml:space="preserve">
+    <value>'{0}' անունով թիմ հնարավոր չէր գտնել</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_alreadyExists" xml:space="preserve">
+    <value>'{0}' անունով թիմ արդեն գույություն ունի</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_displayTooLong" xml:space="preserve">
+    <value>'{0}' ցուցադրման անունը չափազանց երկար է թիմի անվան համար, այն առավելագույնը կարող է լինել {1} նիշանոց</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_success" xml:space="preserve">
+    <value>'{0}' թիմը ավելացվեց հաջողությամբ</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_tooLong" xml:space="preserve">
+    <value>'{0}' անունը չափազանց երկար է, այն առավելագույնը կարող է լինել {1} նիշանոց</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_usage" xml:space="preserve">
+    <value>/scoreboard teams add &lt;անուն&gt; [ցուցադրման անուն ...]</value>
+  </data>
+  <data name="commands_scoreboard_teams_empty_alreadyEmpty" xml:space="preserve">
+    <value>{0} թիմը արդեն դատարկ է, հնարավոր չէ հեռացնել գոյություն չունեցող մասնակիցներին</value>
+  </data>
+  <data name="commands_scoreboard_teams_empty_success" xml:space="preserve">
+    <value>{0} թիմից հեռացնել բոալոր {1} մասնակիցներին</value>
+  </data>
+  <data name="commands_scoreboard_teams_join_failure" xml:space="preserve">
+    <value>{0}: {1} թիմին չհաջողվեց ավելացնել {2} մասնակից(ներ)</value>
+  </data>
+  <data name="commands_scoreboard_teams_join_success" xml:space="preserve">
+    <value>{0}: {1} թիմին ավելացվեց {2} մասնակից</value>
+  </data>
+  <data name="commands_scoreboard_teams_join_usage" xml:space="preserve">
+    <value>/scoreboard teams join &lt;թիմ&gt; [մասնակից]</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_failure" xml:space="preserve">
+    <value>Իրենց թիմերից չհաջողվեց հեռացնել {0} մասնակից։ {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_noTeam" xml:space="preserve">
+    <value>Դու թիմի մեջ չես</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_success" xml:space="preserve">
+    <value>Իրենց թիմից հեռացվել են {0} մասնակից(ներ)։ {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_usage" xml:space="preserve">
+    <value>/scoreboard teams leave [մասնակից]</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_empty" xml:space="preserve">
+    <value>Ոչ մի թիմ գրանցված չէ վիճակագրության մեջ</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_entry" xml:space="preserve">
+    <value>- {0}: '{1}' ունի {2} մասնակից</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_player_empty" xml:space="preserve">
+    <value>{0} թիմը մասնակիցներ չունի</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_usage" xml:space="preserve">
+    <value>/scoreboard teams list [անուն]</value>
+  </data>
+  <data name="commands_scoreboard_teams_option_noValue" xml:space="preserve">
+    <value>Վավերական արժեք {0}  տարբերակի համար։ {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_option_success" xml:space="preserve">
+    <value>Սահմանել ընտրանք {0}, {1}-ից {2} թիմերի համար</value>
+  </data>
+  <data name="commands_scoreboard_teams_remove_success" xml:space="preserve">
+    <value>Հեռացնել {0} թիմը</value>
+  </data>
+  <data name="commands_scoreboard_teams_remove_usage" xml:space="preserve">
+    <value>/scoreboard teams remove &lt;անուն&gt;</value>
+  </data>
+  <data name="commands_seed_success" xml:space="preserve">
+    <value>Սերմ. {0}</value>
+  </data>
+  <data name="commands_setblock_success" xml:space="preserve">
+    <value>տեղադրված թաղամաս</value>
+  </data>
+  <data name="commands_spawnpoint_success" xml:space="preserve">
+    <value>Սահմանել {0} -ի ծնվելու վայրը ({1}, {2}, {3})</value>
+  </data>
+  <data name="commands_spreadplayers_failure_players" xml:space="preserve">
+    <value>Հնարավոր չե բաշխել {0} մասնակից {1},{2}  շրջակայքով (չափից շատ մասնակիցներ - փորձեք բաշխել ոչ ավել քան {3} )</value>
+  </data>
+  <data name="commands_spreadplayers_failure_teams" xml:space="preserve">
+    <value>Հնարավոր չե բաշխել {0} թիմեր {1},{2}  շրջակայքով (չափից շատ մասնակիցներ - փորձեք բաշխել ոչ ավել քան {3} )</value>
+  </data>
+  <data name="commands_spreadplayers_info_players" xml:space="preserve">
+    <value>(Մասնակիցների միջև եղաց միջին հեռավորությունը  {0} բլոկ է, {1} բզմակրկնությունից հետո)</value>
+  </data>
+  <data name="commands_spreadplayers_info_teams" xml:space="preserve">
+    <value>(Թիմերի միջև եղաց միջին հեռավորությունը  {0} բլոկ է, {1} բզմակրկնությունից հետո)</value>
+  </data>
+  <data name="commands_spreadplayers_spreading_players" xml:space="preserve">
+    <value>Բաշխել {0} մասնակիցներին {1} բլոկ շրջակայքով {2},{3} (նվազագույնը {4} բլոկ հեռավորությամբ)</value>
+  </data>
+  <data name="commands_spreadplayers_spreading_teams" xml:space="preserve">
+    <value>Բաշխել {0} թիմերը {1} բլոկ շրջակայքով {2},{3} (նվազագույնը {4} բլոկ հեռավորությամբ)</value>
+  </data>
+  <data name="commands_spreadplayers_success_players" xml:space="preserve">
+    <value>{0} մասնակիցներ հաջողությամբ բաշխվեցին {1},{2} շրջակայքով</value>
+  </data>
+  <data name="commands_spreadplayers_success_teams" xml:space="preserve">
+    <value>{0} թիմեր հաջողությամբ բաշխվեցին {1},{2} շրջակայքով</value>
+  </data>
+  <data name="commands_spreadplayers_usage" xml:space="preserve">
+    <value>/spreadplayers &lt;x&gt; &lt;z&gt; &lt;տարածման հեռավորությունը&gt; &lt;առավելագույն տարածման հեռավորությունը&gt; &lt;respectTeams true|false&gt; &lt;մասնակից ...&gt;</value>
+  </data>
+  <data name="commands_stop_start" xml:space="preserve">
+    <value>Սերվերը անջատվում է</value>
+  </data>
+  <data name="commands_time_added" xml:space="preserve">
+    <value>Ավելացավ {0} տվյալ ժամանակին</value>
+  </data>
+  <data name="commands_time_set" xml:space="preserve">
+    <value>Ժամանակը փոխվեց դեպի {0}</value>
+  </data>
+  <data name="commands_tp_notSameDimension" xml:space="preserve">
+    <value>Տելեպորտը հնարավոր չէ, խաղացողները գտնվում են տարբեր աշխարհներում</value>
+  </data>
+  <data name="commands_tp_success" xml:space="preserve">
+    <value>{0} տելեպորտ եղավ դեպի {1}</value>
+  </data>
+  <data name="commands_tp_success_coordinates" xml:space="preserve">
+    <value>{0} տելեպորտ եղավ դեպի {1},{2},{3}</value>
+  </data>
+  <data name="commands_unban_success" xml:space="preserve">
+    <value>{0} այլեվս բանադրված չէ</value>
+  </data>
+  <data name="commands_unban_usage" xml:space="preserve">
+    <value>/pardon &lt;խաղացող&gt;</value>
+  </data>
+  <data name="commands_unbanip_invalid" xml:space="preserve">
+    <value>Դուք մուտքագրել էք սխալ IP հասցե</value>
+  </data>
+  <data name="commands_unbanip_success" xml:space="preserve">
+    <value>{0} IP հասցեն այլեվս բանադրված չէ</value>
+  </data>
+  <data name="commands_unbanip_usage" xml:space="preserve">
+    <value>/pardon-ip &lt;IP հասցե&gt;</value>
+  </data>
+  <data name="commands_weather_clear" xml:space="preserve">
+    <value>Փոխել պարզ եղանակի</value>
+  </data>
+  <data name="commands_weather_rain" xml:space="preserve">
+    <value>Փոխել անձրևային եղանակի</value>
+  </data>
+  <data name="commands_weather_thunder" xml:space="preserve">
+    <value>Եղանակը փոխել անձրևի և որոտի</value>
+  </data>
+  <data name="commands_whitelist_add_success" xml:space="preserve">
+    <value>{0}-ը ավելացավ սպիտակ ցուցակ</value>
+  </data>
+  <data name="commands_whitelist_add_usage" xml:space="preserve">
+    <value>/whitelist add &lt;խաղացող&gt;</value>
+  </data>
+  <data name="commands_whitelist_disabled" xml:space="preserve">
+    <value>Սպիտակ ցանկը անջատված է</value>
+  </data>
+  <data name="commands_whitelist_enabled" xml:space="preserve">
+    <value>Սպիտակ ցուցակը միացված է</value>
+  </data>
+  <data name="commands_whitelist_list" xml:space="preserve">
+    <value>Սպիտակ ցուցակում կա {0} խաղացող ({1} խաղացել են):</value>
+  </data>
+  <data name="commands_whitelist_reloaded" xml:space="preserve">
+    <value>Սպիտակ ցուցակը թարմեցված է</value>
+  </data>
+  <data name="commands_whitelist_remove_success" xml:space="preserve">
+    <value>{0} ջնջվեց սպիտակ ցուցակից</value>
+  </data>
+  <data name="commands_whitelist_remove_usage" xml:space="preserve">
+    <value>/whitelist remove &lt;խաղացող&gt;</value>
+  </data>
+  <data name="commands_xp_failure_widthdrawXp" xml:space="preserve">
+    <value>Հնարավոր չէ ուղղարկել խաղացողին բացասական կախարդանքի միավորներ</value>
+  </data>
+  <data name="commands_xp_success" xml:space="preserve">
+    <value>Տրվեց {0} կախարդանքի միավոր {1}-ին</value>
+  </data>
+  <data name="commands_xp_success_levels" xml:space="preserve">
+    <value>Տրվեց {0} կախարդանքի աստիճան {1}-ին</value>
+  </data>
+  <data name="commands_xp_success_negative_levels" xml:space="preserve">
+    <value>Վերցվեց {0} կախարդանքի աստիճան {1}-ին</value>
+  </data>
+  <data name="commands_xp_usage" xml:space="preserve">
+    <value>/xp &lt;քանակ&gt; [խաղացող] ԿԱՄ /xp &lt;քանակ&gt;L [խաղացող]</value>
+  </data>
+  <data name="connect_authorizing" xml:space="preserve">
+    <value>Մուտքագրում...</value>
+  </data>
+  <data name="connect_connecting" xml:space="preserve">
+    <value>Միացում սերվերին...</value>
+  </data>
+  <data name="connect_failed" xml:space="preserve">
+    <value>Միացումը սերվերին անհաջող էր</value>
+  </data>
+  <data name="container_beacon" xml:space="preserve">
+    <value>Փարոս</value>
+  </data>
+  <data name="container_brewing" xml:space="preserve">
+    <value>Դեղորայքի Պատրաստման Կայան</value>
+  </data>
+  <data name="container_chest" xml:space="preserve">
+    <value>Սնդուկ</value>
+  </data>
+  <data name="container_chestDouble" xml:space="preserve">
+    <value>Մեծ Սնդուկ</value>
+  </data>
+  <data name="container_crafting" xml:space="preserve">
+    <value>Ստեղծում</value>
+  </data>
+  <data name="container_creative" xml:space="preserve">
+    <value>Առարկայի Ընտրում</value>
+  </data>
+  <data name="container_dispenser" xml:space="preserve">
+    <value>Վանիչ</value>
+  </data>
+  <data name="container_dropper" xml:space="preserve">
+    <value>Բաշխիչ</value>
+  </data>
+  <data name="container_enchant" xml:space="preserve">
+    <value>Կախարդել</value>
+  </data>
+  <data name="container_enderchest" xml:space="preserve">
+    <value>Էնդերի Սնդուկ</value>
+  </data>
+  <data name="container_furnace" xml:space="preserve">
+    <value>Վառարան</value>
+  </data>
+  <data name="container_hopper" xml:space="preserve">
+    <value>Առարկաների Ձագար</value>
+  </data>
+  <data name="container_inventory" xml:space="preserve">
+    <value>Պայուսակ</value>
+  </data>
+  <data name="container_repair" xml:space="preserve">
+    <value>Նորոգում և Վերանվանում</value>
+  </data>
+  <data name="container_repair_cost" xml:space="preserve">
+    <value>Կախարդանքի արժեքը։ {0}</value>
+  </data>
+  <data name="container_repair_expensive" xml:space="preserve">
+    <value>Չափազանց Թա՛նկ է</value>
+  </data>
+  <data name="controls_reset" xml:space="preserve">
+    <value>Կարգավորումների զրոյացում</value>
+  </data>
+  <data name="controls_resetAll" xml:space="preserve">
+    <value>Զրոյացնել ստեղների կարգավորումները</value>
+  </data>
+  <data name="controls_title" xml:space="preserve">
+    <value>Ղեկավարումներ</value>
+  </data>
+  <data name="createWorld_customize_custom_confirmTitle" xml:space="preserve">
+    <value>ուշադրություն!</value>
+  </data>
+  <data name="createWorld_customize_custom_defaults" xml:space="preserve">
+    <value>ըստ նախնականի</value>
+  </data>
+  <data name="createWorld_customize_custom_fixedBiome" xml:space="preserve">
+    <value>Բիօմ</value>
+  </data>
+  <data name="createWorld_customize_custom_maxHeight" xml:space="preserve">
+    <value>առավելագույն բարձրությունը</value>
+  </data>
+  <data name="createWorld_customize_custom_minHeight" xml:space="preserve">
+    <value>Նվազագույն բարձրությունը</value>
+  </data>
+  <data name="createWorld_customize_custom_next" xml:space="preserve">
+    <value>Հաջորդ էջ</value>
+  </data>
+  <data name="createWorld_customize_custom_page0" xml:space="preserve">
+    <value>Հիմնական պարամետրեր</value>
+  </data>
+  <data name="createWorld_customize_custom_page1" xml:space="preserve">
+    <value>հանքաքարի պարամետրերը</value>
+  </data>
+  <data name="createWorld_customize_custom_page2" xml:space="preserve">
+    <value>Ընդլայնված Կառավարում (</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_goodLuck" xml:space="preserve">
+    <value>Հաջողություն</value>
+  </data>
+  <data name="createWorld_customize_custom_presets" xml:space="preserve">
+    <value>Ձևանմուշ</value>
+  </data>
+  <data name="createWorld_customize_custom_prev" xml:space="preserve">
+    <value>Նախորդ էջ</value>
+  </data>
+  <data name="createWorld_customize_custom_randomize" xml:space="preserve">
+    <value>շանս</value>
+  </data>
+  <data name="createWorld_customize_custom_riverSize" xml:space="preserve">
+    <value>Գետերի չափը</value>
+  </data>
+  <data name="createWorld_customize_custom_seaLevel" xml:space="preserve">
+    <value>ծովի մակարդակը</value>
+  </data>
+  <data name="createWorld_customize_custom_size" xml:space="preserve">
+    <value>Ծննդավայրի չափը</value>
+  </data>
+  <data name="createWorld_customize_custom_useCaves" xml:space="preserve">
+    <value>Գինեգործական</value>
+  </data>
+  <data name="createWorld_customize_custom_useDungeons" xml:space="preserve">
+    <value>բանտ</value>
+  </data>
+  <data name="createWorld_customize_custom_useMonuments" xml:space="preserve">
+    <value>Հուշարձանները ծովի</value>
+  </data>
+  <data name="createWorld_customize_custom_useRavines" xml:space="preserve">
+    <value>Ձորեր</value>
+  </data>
+  <data name="createWorld_customize_custom_useStrongholds" xml:space="preserve">
+    <value>բերդեր</value>
+  </data>
+  <data name="createWorld_customize_custom_useTemples" xml:space="preserve">
+    <value>տաճար</value>
+  </data>
+  <data name="createWorld_customize_custom_useVillages" xml:space="preserve">
+    <value>գյուղեր</value>
+  </data>
+  <data name="createWorld_customize_custom_useWaterLakes" xml:space="preserve">
+    <value>Լճերի ջուր</value>
+  </data>
+  <data name="createWorld_customize_flat_addLayer" xml:space="preserve">
+    <value>Ավելացնել Շերտ</value>
+  </data>
+  <data name="createWorld_customize_flat_air" xml:space="preserve">
+    <value>Օդային</value>
+  </data>
+  <data name="createWorld_customize_flat_editLayer" xml:space="preserve">
+    <value>Կարգավորել Շերտը</value>
+  </data>
+  <data name="createWorld_customize_flat_height" xml:space="preserve">
+    <value>Բարձրություն</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_bottom" xml:space="preserve">
+    <value>Հատակ - {0}</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_top" xml:space="preserve">
+    <value>Գագաթ - {0}</value>
+  </data>
+  <data name="createWorld_customize_flat_removeLayer" xml:space="preserve">
+    <value>Հանել Շերտը</value>
+  </data>
+  <data name="createWorld_customize_flat_tile" xml:space="preserve">
+    <value>Շերտի Նյութը</value>
+  </data>
+  <data name="createWorld_customize_flat_title" xml:space="preserve">
+    <value>Գերհարթի Կարգավորումները</value>
+  </data>
+  <data name="createWorld_customize_presets" xml:space="preserve">
+    <value>Ձևանմուշ</value>
+  </data>
+  <data name="createWorld_customize_presets_list" xml:space="preserve">
+    <value>Հակառակ դեպքում, ահա՛ որոշ տարբերակներ առաջարկված մեր կողմից</value>
+  </data>
+  <data name="createWorld_customize_presets_select" xml:space="preserve">
+    <value>Օգտագործել Ձևանմուշը</value>
+  </data>
+  <data name="createWorld_customize_presets_share" xml:space="preserve">
+    <value>Եթե ուզում ես կիսվել քո ձևանմուշով մյուսների հետ՝ օգտագործի՛ր ներգևի տողը</value>
+  </data>
+  <data name="createWorld_customize_presets_title" xml:space="preserve">
+    <value>Ընտրեք Ձևանմուշ</value>
+  </data>
+  <data name="death_attack_anvil" xml:space="preserve">
+    <value>{0}-գլխին սալ ընկավ</value>
+  </data>
+  <data name="death_attack_arrow" xml:space="preserve">
+    <value>{1} կրակեց {0}-ին</value>
+  </data>
+  <data name="death_attack_arrow_item" xml:space="preserve">
+    <value>{1} կրակեց {0}-ին օգտագործելով {2}</value>
+  </data>
+  <data name="death_attack_cactus" xml:space="preserve">
+    <value>{0} ծակծկվեց ցմահ</value>
+  </data>
+  <data name="death_attack_cactus_player" xml:space="preserve">
+    <value>{0} վազեց կակտուսի վրա, փորցելով փախչել {1}-ից</value>
+  </data>
+  <data name="death_attack_drown" xml:space="preserve">
+    <value>{0} խեղդվեց</value>
+  </data>
+  <data name="death_attack_drown_player" xml:space="preserve">
+    <value>{0} խեղդվեց, փորցելով փախչել {1}-ից</value>
+  </data>
+  <data name="death_attack_explosion" xml:space="preserve">
+    <value>{0} պայթեց</value>
+  </data>
+  <data name="death_attack_explosion_player" xml:space="preserve">
+    <value>{0} պայթեց {1}-ի կողմից</value>
+  </data>
+  <data name="death_attack_fall" xml:space="preserve">
+    <value>{0} ընկավ բարձր վայրից</value>
+  </data>
+  <data name="death_attack_fallingBlock" xml:space="preserve">
+    <value>{0}-գլխին սալի կոճղ ընկավ</value>
+  </data>
+  <data name="death_attack_fireball" xml:space="preserve">
+    <value>{1} կրակե  գնդերով սպանեց {0}</value>
+  </data>
+  <data name="death_attack_fireball_item" xml:space="preserve">
+    <value>{1} կրակե գնդերով սպանեց {0} օգտագործելով {2}</value>
+  </data>
+  <data name="death_attack_generic" xml:space="preserve">
+    <value>{0} մահացավ</value>
+  </data>
+  <data name="death_attack_inFire" xml:space="preserve">
+    <value>{0} այրվեց կրակում</value>
+  </data>
+  <data name="death_attack_inFire_player" xml:space="preserve">
+    <value>{0} այրվեց կրակում, {1}-ի հետ կռվելու ժամանակ</value>
+  </data>
+  <data name="death_attack_inWall" xml:space="preserve">
+    <value>{0} խեղդվեց պատի մեջ</value>
+  </data>
+  <data name="death_attack_indirectMagic" xml:space="preserve">
+    <value>{0} սպանվեց {1}-ի կողմից օգտագործելով կախարդություն</value>
+  </data>
+  <data name="death_attack_indirectMagic_item" xml:space="preserve">
+    <value>{0} սպանվեց {1}-ի կողմից օգտագործելով {2}</value>
+  </data>
+  <data name="death_attack_lava" xml:space="preserve">
+    <value>{0} որոշեց լողանալ լավայում</value>
+  </data>
+  <data name="death_attack_lava_player" xml:space="preserve">
+    <value>{0} որոշեց լողանալ լավայում, որպեսզի փախչի {1}</value>
+  </data>
+  <data name="death_attack_magic" xml:space="preserve">
+    <value>{0} սպանվեց կախարդանքի պատճառով</value>
+  </data>
+  <data name="death_attack_mob" xml:space="preserve">
+    <value>{0} սպանվեց {1}-ի կողմից</value>
+  </data>
+  <data name="death_attack_onFire" xml:space="preserve">
+    <value>{0} այրվեց կրակում</value>
+  </data>
+  <data name="death_attack_onFire_player" xml:space="preserve">
+    <value>{0} կրակի մեջ ոչնչացավ, {1}-ի հետ կռվելիս</value>
+  </data>
+  <data name="death_attack_outOfWorld" xml:space="preserve">
+    <value>{0} ընկավ աշխարհի սահմաններից</value>
+  </data>
+  <data name="death_attack_player" xml:space="preserve">
+    <value>{0} սպանվեց {1}-ի կողմից</value>
+  </data>
+  <data name="death_attack_player_item" xml:space="preserve">
+    <value>{0} սպանվեց {1}-ի կողմից օգտագործելով {2}</value>
+  </data>
+  <data name="death_attack_starve" xml:space="preserve">
+    <value>{0} սովամահ եղավ</value>
+  </data>
+  <data name="death_attack_thorns" xml:space="preserve">
+    <value>{0} սպանվեց փորձելով վնասել {1}-ին</value>
+  </data>
+  <data name="death_attack_thrown" xml:space="preserve">
+    <value>{0} գնդակահարվեց {1}-ի կողմից</value>
+  </data>
+  <data name="death_attack_thrown_item" xml:space="preserve">
+    <value>{0} գնդակահարվեց {1}-ի կողմից օգտագործելով {2}</value>
+  </data>
+  <data name="death_attack_wither" xml:space="preserve">
+    <value>{0} բորբոքվեց ցմահ</value>
+  </data>
+  <data name="death_fell_accident_generic" xml:space="preserve">
+    <value>{0} ընկավ բարձր վայրից</value>
+  </data>
+  <data name="death_fell_accident_ladder" xml:space="preserve">
+    <value>{0} ընկավ սանդուղքից</value>
+  </data>
+  <data name="death_fell_accident_vines" xml:space="preserve">
+    <value>{0} ընկավ որթատունկից</value>
+  </data>
+  <data name="death_fell_accident_water" xml:space="preserve">
+    <value>{0} ընկավ ջրի միջից</value>
+  </data>
+  <data name="death_fell_assist" xml:space="preserve">
+    <value>{0} գցեց {1}-ին բարձր վայրից</value>
+  </data>
+  <data name="death_fell_assist_item" xml:space="preserve">
+    <value>{0} գցեց {1}-ին բարձր վայրից, օգտագործելով {2}</value>
+  </data>
+  <data name="death_fell_finish" xml:space="preserve">
+    <value>{0} ընկավ բարձր վայրից եվ սպանվեց {1}-ի կողմից</value>
+  </data>
+  <data name="death_fell_finish_item" xml:space="preserve">
+    <value>{0} ընկավ բարձր վայրից եվ սպանվեց {1}-ի կողմից օգտագործելով {2}</value>
+  </data>
+  <data name="death_fell_killer" xml:space="preserve">
+    <value>{0} դատապարտված էր ընկնել բարձր վայրից</value>
+  </data>
+  <data name="deathScreen_deleteWorld" xml:space="preserve">
+    <value>Ջնջել Աշխարհը</value>
+  </data>
+  <data name="deathScreen_leaveServer" xml:space="preserve">
+    <value>Դուրս գալ սերվերից</value>
+  </data>
+  <data name="deathScreen_quit_confirm" xml:space="preserve">
+    <value>Վստահ եք, որ ցանկանում եք լքել?</value>
+  </data>
+  <data name="deathScreen_respawn" xml:space="preserve">
+    <value>Վերածնվել</value>
+  </data>
+  <data name="deathScreen_score" xml:space="preserve">
+    <value>Արդյունք</value>
+  </data>
+  <data name="deathScreen_title" xml:space="preserve">
+    <value>Դուք մահացաք!</value>
+  </data>
+  <data name="deathScreen_title_hardcore" xml:space="preserve">
+    <value>Խաղն Ավարտվեց!</value>
+  </data>
+  <data name="deathScreen_titleScreen" xml:space="preserve">
+    <value>Հիմնական Մենյու</value>
+  </data>
+  <data name="demo_day_1" xml:space="preserve">
+    <value>Այս փորձնական աշխարհը կտևի հինգ խախային օր, արե՛ք հնարավոր ամեն ինչ։</value>
+  </data>
+  <data name="demo_day_2" xml:space="preserve">
+    <value>Օր Երկրորդ</value>
+  </data>
+  <data name="demo_day_3" xml:space="preserve">
+    <value>Օր Երրորդ</value>
+  </data>
+  <data name="demo_day_4" xml:space="preserve">
+    <value>Օր Չորրորդ</value>
+  </data>
+  <data name="demo_day_5" xml:space="preserve">
+    <value>Սա ձեր վերջի՛ն օրն է։</value>
+  </data>
+  <data name="demo_day_6" xml:space="preserve">
+    <value>Դուք ավարտեցիք ձեր հինգերորդ օրը, սեղմք F2 ձեր ստեղծածը նկարի տեսքով պահպանելու համար</value>
+  </data>
+  <data name="demo_day_warning" xml:space="preserve">
+    <value>Ձեր ժամանակը մոտենում է իր ավարտին</value>
+  </data>
+  <data name="demo_demoExpired" xml:space="preserve">
+    <value>Փորձնական ժամանակը ավարտվա'ծ է</value>
+  </data>
+  <data name="demo_help_buy" xml:space="preserve">
+    <value>Գնի՛ր այսոր</value>
+  </data>
+  <data name="demo_help_fullWrapped" xml:space="preserve">
+    <value>Այս Փորձնական տարբերակը կտևի հինգ խախային օր (իրական ժամանակով մոտավորապես 1 ժամ 40 րոպե)։ Ավելի շատ ակնարկների համար նայիր Նվաճումներ բաժինը։ Վայելի'ր։</value>
+  </data>
+  <data name="demo_help_inventory" xml:space="preserve">
+    <value>Պայուսակտ բացելու համար՝ սեղմիր {0}</value>
+  </data>
+  <data name="demo_help_jump" xml:space="preserve">
+    <value>Սեղմիր {0} ցատկելու համար</value>
+  </data>
+  <data name="demo_help_later" xml:space="preserve">
+    <value>Շարունակի՛ խաղալը։</value>
+  </data>
+  <data name="demo_help_movement" xml:space="preserve">
+    <value>Օգտագործեք {0}, {1}, {2}, {3} և մկնիկը, որպեսզի տեղաշարժվեք</value>
+  </data>
+  <data name="demo_help_movementMouse" xml:space="preserve">
+    <value>Օգտագործիր մկնիկը, շուրջ բոլորտ նայելու համար</value>
+  </data>
+  <data name="demo_help_movementShort" xml:space="preserve">
+    <value>Շարժվի'ր, սեղմելով {0}, {1}, {2}, {3}</value>
+  </data>
+  <data name="demo_help_title" xml:space="preserve">
+    <value>Minecraft-ի Փորձնական Ռեժիմ</value>
+  </data>
+  <data name="demo_remainingTime" xml:space="preserve">
+    <value>Մնացած ժամանակը. {0}</value>
+  </data>
+  <data name="demo_reminder" xml:space="preserve">
+    <value>Ձեր ժամանակը ավարտվեց։ Գնե'ք խաղը, որպեսզի շարունակեք կամ սկսեք նոր աշխարհ։</value>
+  </data>
+  <data name="disconnect_closed" xml:space="preserve">
+    <value>Կապը ավարտված է</value>
+  </data>
+  <data name="disconnect_disconnected" xml:space="preserve">
+    <value>Անջատում սերվերից</value>
+  </data>
+  <data name="disconnect_endOfStream" xml:space="preserve">
+    <value>Հեռարձակման ավարտ</value>
+  </data>
+  <data name="disconnect_kicked" xml:space="preserve">
+    <value>Հեռացվեց խաղից</value>
+  </data>
+  <data name="disconnect_loginFailed" xml:space="preserve">
+    <value>Մուտքը ձախորդվեց</value>
+  </data>
+  <data name="disconnect_loginFailedInfo" xml:space="preserve">
+    <value>Մուտքը ձախորդվեց {0}</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_invalidSession" xml:space="preserve">
+    <value>Անհասանելի սեսիա (Փորձեք վերսկսել խաղը)</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_serversUnavailable" xml:space="preserve">
+    <value>Իսկության ստուգման ծառայությունը ժամանակավորապես չի աշխատում։</value>
+  </data>
+  <data name="disconnect_lost" xml:space="preserve">
+    <value>Միացման Կորուստ</value>
+  </data>
+  <data name="disconnect_overflow" xml:space="preserve">
+    <value>Բուֆերի գերլցվածություն</value>
+  </data>
+  <data name="disconnect_quitting" xml:space="preserve">
+    <value>Դադարեցում</value>
+  </data>
+  <data name="disconnect_spam" xml:space="preserve">
+    <value>Հեռացվաց է սպամի համար</value>
+  </data>
+  <data name="disconnect_timeout" xml:space="preserve">
+    <value>Միացման Ժամանակը ավարտվեց</value>
+  </data>
+  <data name="enchantment_arrowDamage" xml:space="preserve">
+    <value>Ուժ</value>
+  </data>
+  <data name="enchantment_arrowFire" xml:space="preserve">
+    <value>Հուր</value>
+  </data>
+  <data name="enchantment_arrowInfinite" xml:space="preserve">
+    <value>Անվերջություն</value>
+  </data>
+  <data name="enchantment_arrowKnockback" xml:space="preserve">
+    <value>Հրող</value>
+  </data>
+  <data name="enchantment_damage_all" xml:space="preserve">
+    <value>Սրած</value>
+  </data>
+  <data name="enchantment_damage_arthropods" xml:space="preserve">
+    <value>Միջատների Կործանում</value>
+  </data>
+  <data name="enchantment_damage_undead" xml:space="preserve">
+    <value>Երկնային պատիժ</value>
+  </data>
+  <data name="enchantment_digging" xml:space="preserve">
+    <value>Ազդեցություն</value>
+  </data>
+  <data name="enchantment_durability" xml:space="preserve">
+    <value>Պնդություն</value>
+  </data>
+  <data name="enchantment_fire" xml:space="preserve">
+    <value>Կրակի Կերպարանք</value>
+  </data>
+  <data name="enchantment_fishingSpeed" xml:space="preserve">
+    <value>Շվի Հրապուրել</value>
+  </data>
+  <data name="enchantment_knockback" xml:space="preserve">
+    <value>Հրում</value>
+  </data>
+  <data name="enchantment_level_1" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="enchantment_level_10" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="enchantment_level_2" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="enchantment_level_3" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="enchantment_level_4" xml:space="preserve">
+    <value>IV</value>
+  </data>
+  <data name="enchantment_level_5" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="enchantment_level_6" xml:space="preserve">
+    <value>VI</value>
+  </data>
+  <data name="enchantment_level_7" xml:space="preserve">
+    <value>VII</value>
+  </data>
+  <data name="enchantment_level_8" xml:space="preserve">
+    <value>VIII</value>
+  </data>
+  <data name="enchantment_level_9" xml:space="preserve">
+    <value>IX</value>
+  </data>
+  <data name="enchantment_lootBonus" xml:space="preserve">
+    <value>Կողոպուտ</value>
+  </data>
+  <data name="enchantment_lootBonusDigger" xml:space="preserve">
+    <value>Հաջողություն</value>
+  </data>
+  <data name="enchantment_oxygen" xml:space="preserve">
+    <value>Ձրային Շնչառություն</value>
+  </data>
+  <data name="enchantment_protect_all" xml:space="preserve">
+    <value>Պաշտպանություն</value>
+  </data>
+  <data name="enchantment_protect_explosion" xml:space="preserve">
+    <value>Պայթեցման Պաշտպանություն</value>
+  </data>
+  <data name="enchantment_protect_fall" xml:space="preserve">
+    <value>Ընկնելու Պաշտպանություն</value>
+  </data>
+  <data name="enchantment_protect_fire" xml:space="preserve">
+    <value>Պաշտպանություն Կրակից</value>
+  </data>
+  <data name="enchantment_protect_projectile" xml:space="preserve">
+    <value>Պաշպանություն Արկերից</value>
+  </data>
+  <data name="enchantment_thorns" xml:space="preserve">
+    <value>Փուշեր</value>
+  </data>
+  <data name="enchantment_untouching" xml:space="preserve">
+    <value>Մետաքսի Դիպում</value>
+  </data>
+  <data name="enchantment_waterWorker" xml:space="preserve">
+    <value>Ջրասուզակ</value>
+  </data>
+  <data name="entity_Bat_name" xml:space="preserve">
+    <value>Չղջիկ</value>
+  </data>
+  <data name="entity_Blaze_name" xml:space="preserve">
+    <value>Բոց</value>
+  </data>
+  <data name="entity_Boat_name" xml:space="preserve">
+    <value>Նավակ</value>
+  </data>
+  <data name="entity_Cat_name" xml:space="preserve">
+    <value>Կատու</value>
+  </data>
+  <data name="entity_CaveSpider_name" xml:space="preserve">
+    <value>Քարանձավի Սարդ</value>
+  </data>
+  <data name="entity_Chicken_name" xml:space="preserve">
+    <value>Հավ</value>
+  </data>
+  <data name="entity_Cow_name" xml:space="preserve">
+    <value>Կով</value>
+  </data>
+  <data name="entity_Creeper_name" xml:space="preserve">
+    <value>Քրիփեր</value>
+  </data>
+  <data name="entity_EnderDragon_name" xml:space="preserve">
+    <value>Էնդերի Դրակոն</value>
+  </data>
+  <data name="entity_Enderman_name" xml:space="preserve">
+    <value>Էնդերմեն</value>
+  </data>
+  <data name="entity_EntityHorse_name" xml:space="preserve">
+    <value>Ձի</value>
+  </data>
+  <data name="entity_FallingSand_name" xml:space="preserve">
+    <value>Ընկնող Բլոկ</value>
+  </data>
+  <data name="entity_Fireball_name" xml:space="preserve">
+    <value>Հրագունդ</value>
+  </data>
+  <data name="entity_Ghast_name" xml:space="preserve">
+    <value>Գաստ</value>
+  </data>
+  <data name="entity_Giant_name" xml:space="preserve">
+    <value>Հսկա</value>
+  </data>
+  <data name="entity_Guardian_name" xml:space="preserve">
+    <value>պահակախումբ</value>
+  </data>
+  <data name="entity_Item_name" xml:space="preserve">
+    <value>Առարկա</value>
+  </data>
+  <data name="entity_KillerBunny_name" xml:space="preserve">
+    <value>մարդասպան նապաստակ</value>
+  </data>
+  <data name="entity_LavaSlime_name" xml:space="preserve">
+    <value>Դժողքի Լորձ</value>
+  </data>
+  <data name="entity_Minecart_name" xml:space="preserve">
+    <value>Վագոն</value>
+  </data>
+  <data name="entity_Mob_name" xml:space="preserve">
+    <value>Մոբ</value>
+  </data>
+  <data name="entity_Monster_name" xml:space="preserve">
+    <value>Հրեշ</value>
+  </data>
+  <data name="entity_MushroomCow_name" xml:space="preserve">
+    <value>Սնկային Կով</value>
+  </data>
+  <data name="entity_Ozelot_name" xml:space="preserve">
+    <value>Օցելոտ</value>
+  </data>
+  <data name="entity_Painting_name" xml:space="preserve">
+    <value>Նկար</value>
+  </data>
+  <data name="entity_Pig_name" xml:space="preserve">
+    <value>Խոզ</value>
+  </data>
+  <data name="entity_PigZombie_name" xml:space="preserve">
+    <value>Խոզազոմբի</value>
+  </data>
+  <data name="entity_PrimedTnt_name" xml:space="preserve">
+    <value>Դինամիտի Բլոկ</value>
+  </data>
+  <data name="entity_Rabbit_name" xml:space="preserve">
+    <value>ճագար</value>
+  </data>
+  <data name="entity_Sheep_name" xml:space="preserve">
+    <value>Ոչխար</value>
+  </data>
+  <data name="entity_Silverfish_name" xml:space="preserve">
+    <value>Արծաթաձուկ</value>
+  </data>
+  <data name="entity_Skeleton_name" xml:space="preserve">
+    <value>Կմախք</value>
+  </data>
+  <data name="entity_Slime_name" xml:space="preserve">
+    <value>Լորձ</value>
+  </data>
+  <data name="entity_SmallFireball_name" xml:space="preserve">
+    <value>Փոքր Հրագունդ</value>
+  </data>
+  <data name="entity_SnowMan_name" xml:space="preserve">
+    <value>Ձնեմարդ</value>
+  </data>
+  <data name="entity_Snowball_name" xml:space="preserve">
+    <value>Ձնագնդիկ</value>
+  </data>
+  <data name="entity_Spider_name" xml:space="preserve">
+    <value>Սարդ</value>
+  </data>
+  <data name="entity_Squid_name" xml:space="preserve">
+    <value>Կաղամար</value>
+  </data>
+  <data name="entity_Villager_fisherman" xml:space="preserve">
+    <value>ձկնորս</value>
+  </data>
+  <data name="entity_Villager_name" xml:space="preserve">
+    <value>Գյուղացի</value>
+  </data>
+  <data name="entity_VillagerGolem_name" xml:space="preserve">
+    <value>Երկաթե Գոլեմ</value>
+  </data>
+  <data name="entity_Witch_name" xml:space="preserve">
+    <value>Վհուկ</value>
+  </data>
+  <data name="entity_WitherBoss_name" xml:space="preserve">
+    <value>Ոչնչացնող</value>
+  </data>
+  <data name="entity_Wolf_name" xml:space="preserve">
+    <value>Գայլ</value>
+  </data>
+  <data name="entity_XPOrb_name" xml:space="preserve">
+    <value>Կախարդանքի Գնդիկներ</value>
+  </data>
+  <data name="entity_Zombie_name" xml:space="preserve">
+    <value>Զոմբի</value>
+  </data>
+  <data name="entity_generic_name" xml:space="preserve">
+    <value>անհայտ</value>
+  </data>
+  <data name="gameMode_adventure" xml:space="preserve">
+    <value>Արկածային Ռեժիմ</value>
+  </data>
+  <data name="gameMode_creative" xml:space="preserve">
+    <value>Ստեղծագործման Ռեժիմ</value>
+  </data>
+  <data name="gameMode_hardcore" xml:space="preserve">
+    <value>Գերդժվար Ռեժիմ</value>
+  </data>
+  <data name="gameMode_spectator" xml:space="preserve">
+    <value>հանդիսատես ռեժիմում</value>
+  </data>
+  <data name="gameMode_survival" xml:space="preserve">
+    <value>Գոյատևման Ռեժիմ</value>
+  </data>
+  <data name="generator_amplified" xml:space="preserve">
+    <value>ՉԱՓԱԶԱՆՑՎԱԾ</value>
+  </data>
+  <data name="generator_amplified_info" xml:space="preserve">
+    <value>Ուշադրություն. այս ռեժիմը հաճույքի համար է, պահանջում է հզոր համակարգիչ</value>
+  </data>
+  <data name="generator_default" xml:space="preserve">
+    <value>Լռելյայն</value>
+  </data>
+  <data name="generator_flat" xml:space="preserve">
+    <value>Գերհարթ</value>
+  </data>
+  <data name="generator_largeBiomes" xml:space="preserve">
+    <value>Մեծ Բնատարածքներ</value>
+  </data>
+  <data name="gui_achievements" xml:space="preserve">
+    <value>Նվաճումներ</value>
+  </data>
+  <data name="gui_all" xml:space="preserve">
+    <value>Բոլոր</value>
+  </data>
+  <data name="gui_back" xml:space="preserve">
+    <value>Վերադառնալ</value>
+  </data>
+  <data name="gui_cancel" xml:space="preserve">
+    <value>Չեղարկել</value>
+  </data>
+  <data name="gui_done" xml:space="preserve">
+    <value>Վերջ</value>
+  </data>
+  <data name="gui_down" xml:space="preserve">
+    <value>Ներքև</value>
+  </data>
+  <data name="gui_no" xml:space="preserve">
+    <value>Ոչ</value>
+  </data>
+  <data name="gui_none" xml:space="preserve">
+    <value>ոչ մեկը</value>
+  </data>
+  <data name="gui_stats" xml:space="preserve">
+    <value>Տվյալներ</value>
+  </data>
+  <data name="gui_toMenu" xml:space="preserve">
+    <value>Վերադարնալ համակապյան ցուցակ</value>
+  </data>
+  <data name="gui_toTitle" xml:space="preserve">
+    <value>Վերադառնալ հիմնական մենյու</value>
+  </data>
+  <data name="gui_up" xml:space="preserve">
+    <value>Վերև</value>
+  </data>
+  <data name="gui_yes" xml:space="preserve">
+    <value>Այո</value>
+  </data>
+  <data name="inventory_binSlot" xml:space="preserve">
+    <value>Ոչնչացնել առարկան</value>
+  </data>
+  <data name="item_apple_name" xml:space="preserve">
+    <value>Խնձոր</value>
+  </data>
+  <data name="item_appleGold_name" xml:space="preserve">
+    <value>Ոսկե Խնձորր</value>
+  </data>
+  <data name="item_arrow_name" xml:space="preserve">
+    <value>Աղեղ</value>
+  </data>
+  <data name="item_bed_name" xml:space="preserve">
+    <value>Մահճակալ</value>
+  </data>
+  <data name="item_beefCooked_name" xml:space="preserve">
+    <value>Բիֆշտեքս</value>
+  </data>
+  <data name="item_beefRaw_name" xml:space="preserve">
+    <value>Հում Տավարի Միս</value>
+  </data>
+  <data name="item_blazePowder_name" xml:space="preserve">
+    <value>Բոցի Փոշի</value>
+  </data>
+  <data name="item_blazeRod_name" xml:space="preserve">
+    <value>Բոցի Ձող</value>
+  </data>
+  <data name="item_bone_name" xml:space="preserve">
+    <value>Ոսկոր</value>
+  </data>
+  <data name="item_book_name" xml:space="preserve">
+    <value>Գիրք</value>
+  </data>
+  <data name="item_bootsChain_name" xml:space="preserve">
+    <value>Շղթաե Կոշիկներ</value>
+  </data>
+  <data name="item_bootsCloth_name" xml:space="preserve">
+    <value>Կաշվե Կոշիկներ</value>
+  </data>
+  <data name="item_bootsDiamond_name" xml:space="preserve">
+    <value>Ադամանդե Կոշիկներ</value>
+  </data>
+  <data name="item_bootsGold_name" xml:space="preserve">
+    <value>Ոսկե Կոշիկներ</value>
+  </data>
+  <data name="item_bootsIron_name" xml:space="preserve">
+    <value>Երկաթե Կոշիկներ</value>
+  </data>
+  <data name="item_bow_name" xml:space="preserve">
+    <value>Նետ</value>
+  </data>
+  <data name="item_bowl_name" xml:space="preserve">
+    <value>Աման</value>
+  </data>
+  <data name="item_bread_name" xml:space="preserve">
+    <value>Հաց</value>
+  </data>
+  <data name="item_brewingStand_name" xml:space="preserve">
+    <value>Դեղորայքի Պատրաստման Կայան</value>
+  </data>
+  <data name="item_brick_name" xml:space="preserve">
+    <value>Աղյուս</value>
+  </data>
+  <data name="item_bucket_name" xml:space="preserve">
+    <value>Դույլ</value>
+  </data>
+  <data name="item_bucketLava_name" xml:space="preserve">
+    <value>Լավայով Դույլ</value>
+  </data>
+  <data name="item_bucketWater_name" xml:space="preserve">
+    <value>Ջրով Դույլ</value>
+  </data>
+  <data name="item_cake_name" xml:space="preserve">
+    <value>Տորթ</value>
+  </data>
+  <data name="item_carrotGolden_name" xml:space="preserve">
+    <value>Ոսկե Գազար</value>
+  </data>
+  <data name="item_carrotOnAStick_name" xml:space="preserve">
+    <value>Գազար Փայտիկի Վրա</value>
+  </data>
+  <data name="item_carrots_name" xml:space="preserve">
+    <value>Գազար</value>
+  </data>
+  <data name="item_cauldron_name" xml:space="preserve">
+    <value>Կաթսա</value>
+  </data>
+  <data name="item_charcoal_name" xml:space="preserve">
+    <value>Փայտացուխ</value>
+  </data>
+  <data name="item_chestplateChain_name" xml:space="preserve">
+    <value>Շղթաե Շապիկ</value>
+  </data>
+  <data name="item_chestplateCloth_name" xml:space="preserve">
+    <value>Կաշվե Շապիկ</value>
+  </data>
+  <data name="item_chestplateDiamond_name" xml:space="preserve">
+    <value>Ադամանդե Շապիկ</value>
+  </data>
+  <data name="item_chestplateGold_name" xml:space="preserve">
+    <value>Ոսկե Շապիկ</value>
+  </data>
+  <data name="item_chestplateIron_name" xml:space="preserve">
+    <value>Երկաթե Շապիկ</value>
+  </data>
+  <data name="item_chickenCooked_name" xml:space="preserve">
+    <value>Պատրաստված Հավի միս</value>
+  </data>
+  <data name="item_chickenRaw_name" xml:space="preserve">
+    <value>Հավի հում միս</value>
+  </data>
+  <data name="item_clay_name" xml:space="preserve">
+    <value>Կավ</value>
+  </data>
+  <data name="item_clock_name" xml:space="preserve">
+    <value>Ժամացույց</value>
+  </data>
+  <data name="item_coal_name" xml:space="preserve">
+    <value>Ածուխ</value>
+  </data>
+  <data name="item_comparator_name" xml:space="preserve">
+    <value>Համեմատիչ</value>
+  </data>
+  <data name="item_compass_name" xml:space="preserve">
+    <value>Կողմնացույց</value>
+  </data>
+  <data name="item_cookie_name" xml:space="preserve">
+    <value>Բլիթ</value>
+  </data>
+  <data name="item_diamond_name" xml:space="preserve">
+    <value>Ադամանդ</value>
+  </data>
+  <data name="item_doorIron_name" xml:space="preserve">
+    <value>Երկաթե Դուռ</value>
+  </data>
+  <data name="item_dyePowder_black_name" xml:space="preserve">
+    <value>Թանաք</value>
+  </data>
+  <data name="item_dyePowder_blue_name" xml:space="preserve">
+    <value>Լազուրիտ</value>
+  </data>
+  <data name="item_dyePowder_brown_name" xml:space="preserve">
+    <value>Կակաո-լոբի</value>
+  </data>
+  <data name="item_dyePowder_cyan_name" xml:space="preserve">
+    <value>Փիրուզագույն Ներկ</value>
+  </data>
+  <data name="item_dyePowder_gray_name" xml:space="preserve">
+    <value>Մոխրագույն Ներկ</value>
+  </data>
+  <data name="item_dyePowder_green_name" xml:space="preserve">
+    <value>Կանաչ Ներկ</value>
+  </data>
+  <data name="item_dyePowder_lightBlue_name" xml:space="preserve">
+    <value>Բաց Կապույն Ներկ</value>
+  </data>
+  <data name="item_dyePowder_lime_name" xml:space="preserve">
+    <value>Լայմ Ներկ</value>
+  </data>
+  <data name="item_dyePowder_magenta_name" xml:space="preserve">
+    <value>Մորեգույն Ներկ</value>
+  </data>
+  <data name="item_dyePowder_orange_name" xml:space="preserve">
+    <value>Նարնջագույն Ներկ</value>
+  </data>
+  <data name="item_dyePowder_pink_name" xml:space="preserve">
+    <value>Վարդագույն Ներկ</value>
+  </data>
+  <data name="item_dyePowder_purple_name" xml:space="preserve">
+    <value>Մանուշակագույն Ներկ</value>
+  </data>
+  <data name="item_dyePowder_red_name" xml:space="preserve">
+    <value>Կարմիր Ներկ</value>
+  </data>
+  <data name="item_dyePowder_silver_name" xml:space="preserve">
+    <value>Բաց Մոխրագույն Ներկ</value>
+  </data>
+  <data name="item_dyePowder_white_name" xml:space="preserve">
+    <value>Ոսկորի Փոշի</value>
+  </data>
+  <data name="item_dyePowder_yellow_name" xml:space="preserve">
+    <value>Դեղին Ներկ</value>
+  </data>
+  <data name="item_dyed" xml:space="preserve">
+    <value>Ներկված</value>
+  </data>
+  <data name="item_egg_name" xml:space="preserve">
+    <value>Ձու</value>
+  </data>
+  <data name="item_emerald_name" xml:space="preserve">
+    <value>Զմրուխտ</value>
+  </data>
+  <data name="item_emptyMap_name" xml:space="preserve">
+    <value>Դատարկ Քարտեզ</value>
+  </data>
+  <data name="item_enchantedBook_name" xml:space="preserve">
+    <value>Կախարդական Գիրք</value>
+  </data>
+  <data name="item_enderPearl_name" xml:space="preserve">
+    <value>Էնդերի Մարգարիտ</value>
+  </data>
+  <data name="item_expBottle_name" xml:space="preserve">
+    <value>Փորձառությունների Շիշ</value>
+  </data>
+  <data name="item_eyeOfEnder_name" xml:space="preserve">
+    <value>Էնդերի Աչք</value>
+  </data>
+  <data name="item_feather_name" xml:space="preserve">
+    <value>Փետուր</value>
+  </data>
+  <data name="item_fermentedSpiderEye_name" xml:space="preserve">
+    <value>Սարդի Ֆերմենտացված Աչք</value>
+  </data>
+  <data name="item_fireball_name" xml:space="preserve">
+    <value>Կրակի Գունդ</value>
+  </data>
+  <data name="item_fireworks_flight" xml:space="preserve">
+    <value>Թռիչքի Տեվողություն։</value>
+  </data>
+  <data name="item_fireworks_name" xml:space="preserve">
+    <value>Հրավառություն</value>
+  </data>
+  <data name="item_fireworksCharge_black" xml:space="preserve">
+    <value>Սև</value>
+  </data>
+  <data name="item_fireworksCharge_blue" xml:space="preserve">
+    <value>Կապույտ</value>
+  </data>
+  <data name="item_fireworksCharge_brown" xml:space="preserve">
+    <value>Դարչնագույն</value>
+  </data>
+  <data name="item_fireworksCharge_customColor" xml:space="preserve">
+    <value>Անձնական</value>
+  </data>
+  <data name="item_fireworksCharge_cyan" xml:space="preserve">
+    <value>Փիրուզագույն</value>
+  </data>
+  <data name="item_fireworksCharge_fadeTo" xml:space="preserve">
+    <value>Մարել երբ</value>
+  </data>
+  <data name="item_fireworksCharge_flicker" xml:space="preserve">
+    <value>Առկայծել</value>
+  </data>
+  <data name="item_fireworksCharge_gray" xml:space="preserve">
+    <value>Մոխրագույն</value>
+  </data>
+  <data name="item_fireworksCharge_green" xml:space="preserve">
+    <value>Կանաչ</value>
+  </data>
+  <data name="item_fireworksCharge_lightBlue" xml:space="preserve">
+    <value>Բաց Կապույտ</value>
+  </data>
+  <data name="item_fireworksCharge_lime" xml:space="preserve">
+    <value>Լայմ</value>
+  </data>
+  <data name="item_fireworksCharge_magenta" xml:space="preserve">
+    <value>Մորեգույն</value>
+  </data>
+  <data name="item_fireworksCharge_name" xml:space="preserve">
+    <value>Հրավառության Աստղ</value>
+  </data>
+  <data name="item_fireworksCharge_orange" xml:space="preserve">
+    <value>Նարնջագույն</value>
+  </data>
+  <data name="item_fireworksCharge_pink" xml:space="preserve">
+    <value>Վարդագույն</value>
+  </data>
+  <data name="item_fireworksCharge_purple" xml:space="preserve">
+    <value>Մանուշակագույն</value>
+  </data>
+  <data name="item_fireworksCharge_red" xml:space="preserve">
+    <value>Կարմիր</value>
+  </data>
+  <data name="item_fireworksCharge_silver" xml:space="preserve">
+    <value>Բաց Կապույտ</value>
+  </data>
+  <data name="item_fireworksCharge_trail" xml:space="preserve">
+    <value>Հետք</value>
+  </data>
+  <data name="item_fireworksCharge_type" xml:space="preserve">
+    <value>Անհայտ Ձև</value>
+  </data>
+  <data name="item_fireworksCharge_type_0" xml:space="preserve">
+    <value>Փոքր Գունդ</value>
+  </data>
+  <data name="item_fireworksCharge_type_1" xml:space="preserve">
+    <value>Խոշոր Գունդ</value>
+  </data>
+  <data name="item_fireworksCharge_type_2" xml:space="preserve">
+    <value>Աստղաձև</value>
+  </data>
+  <data name="item_fireworksCharge_type_3" xml:space="preserve">
+    <value>Քրիփերի տեսքով</value>
+  </data>
+  <data name="item_fireworksCharge_type_4" xml:space="preserve">
+    <value>Պայթյուն</value>
+  </data>
+  <data name="item_fireworksCharge_white" xml:space="preserve">
+    <value>Սպիտակ</value>
+  </data>
+  <data name="item_fireworksCharge_yellow" xml:space="preserve">
+    <value>Դեղին</value>
+  </data>
+  <data name="item_fish_clownfish_raw_name" xml:space="preserve">
+    <value>Ծաղրածու-ձուկ</value>
+  </data>
+  <data name="item_fish_cod_cooked_name" xml:space="preserve">
+    <value>Տապակած Ձուկ</value>
+  </data>
+  <data name="item_fish_cod_raw_name" xml:space="preserve">
+    <value>Հում Ձուկ</value>
+  </data>
+  <data name="item_fish_pufferfish_raw_name" xml:space="preserve">
+    <value>Ֆուգու Ձուկ</value>
+  </data>
+  <data name="item_fish_salmon_cooked_name" xml:space="preserve">
+    <value>Տապակած Սաղմոն</value>
+  </data>
+  <data name="item_fish_salmon_raw_name" xml:space="preserve">
+    <value>Հում Սաղմոն</value>
+  </data>
+  <data name="item_fishingRod_name" xml:space="preserve">
+    <value>Կարթաձող</value>
+  </data>
+  <data name="item_flint_name" xml:space="preserve">
+    <value>Կայծքար</value>
+  </data>
+  <data name="item_flintAndSteel_name" xml:space="preserve">
+    <value>Վառիչ</value>
+  </data>
+  <data name="item_flowerPot_name" xml:space="preserve">
+    <value>Ծաղկաման</value>
+  </data>
+  <data name="item_frame_name" xml:space="preserve">
+    <value>Առարկայի Շրջանակ</value>
+  </data>
+  <data name="item_ghastTear_name" xml:space="preserve">
+    <value>Գաստի Արցունք</value>
+  </data>
+  <data name="item_glassBottle_name" xml:space="preserve">
+    <value>Ապակե Շիշ</value>
+  </data>
+  <data name="item_goldNugget_name" xml:space="preserve">
+    <value>Ոսկու Բնակտոր</value>
+  </data>
+  <data name="item_hatchetDiamond_name" xml:space="preserve">
+    <value>Ադամանդե Կացին</value>
+  </data>
+  <data name="item_hatchetGold_name" xml:space="preserve">
+    <value>Ոսկե Կացին</value>
+  </data>
+  <data name="item_hatchetIron_name" xml:space="preserve">
+    <value>Երկաթե Կացին</value>
+  </data>
+  <data name="item_hatchetStone_name" xml:space="preserve">
+    <value>Քարե Կացին</value>
+  </data>
+  <data name="item_hatchetWood_name" xml:space="preserve">
+    <value>Փայտե Կացին</value>
+  </data>
+  <data name="item_helmetChain_name" xml:space="preserve">
+    <value>Շղթաե Սաղավարտ</value>
+  </data>
+  <data name="item_helmetCloth_name" xml:space="preserve">
+    <value>Կաշվե Սաղավարտ</value>
+  </data>
+  <data name="item_helmetDiamond_name" xml:space="preserve">
+    <value>Ադամանդե Սաղավարտ</value>
+  </data>
+  <data name="item_helmetGold_name" xml:space="preserve">
+    <value>Ոսկե Սաղավարտ</value>
+  </data>
+  <data name="item_helmetIron_name" xml:space="preserve">
+    <value>Երկաթե Սաղավարտ</value>
+  </data>
+  <data name="item_hoeDiamond_name" xml:space="preserve">
+    <value>Ադամանդե թոխր</value>
+  </data>
+  <data name="item_hoeGold_name" xml:space="preserve">
+    <value>Ոսկե Թոխր</value>
+  </data>
+  <data name="item_hoeIron_name" xml:space="preserve">
+    <value>Երկաթե թոխր</value>
+  </data>
+  <data name="item_hoeStone_name" xml:space="preserve">
+    <value>Քարե թոխր</value>
+  </data>
+  <data name="item_hoeWood_name" xml:space="preserve">
+    <value>Փայտե թոխր</value>
+  </data>
+  <data name="item_horsearmordiamond_name" xml:space="preserve">
+    <value>Ձիու Ադամանդե Զրահ</value>
+  </data>
+  <data name="item_horsearmorgold_name" xml:space="preserve">
+    <value>Ձիու Ոսկե Զրահ</value>
+  </data>
+  <data name="item_horsearmormetal_name" xml:space="preserve">
+    <value>Ձիու Երկաթե Զրահ</value>
+  </data>
+  <data name="item_ingotGold_name" xml:space="preserve">
+    <value>Ոսկե Ձույլ</value>
+  </data>
+  <data name="item_ingotIron_name" xml:space="preserve">
+    <value>Երկաթե Ձույլ</value>
+  </data>
+  <data name="item_leash_name" xml:space="preserve">
+    <value>Սանձ</value>
+  </data>
+  <data name="item_leather_name" xml:space="preserve">
+    <value>Կաշի</value>
+  </data>
+  <data name="item_leaves_name" xml:space="preserve">
+    <value>Տերևներ</value>
+  </data>
+  <data name="item_leggingsChain_name" xml:space="preserve">
+    <value>Շղթաե Անդրավարտիկ</value>
+  </data>
+  <data name="item_leggingsCloth_name" xml:space="preserve">
+    <value>Կաշվե Անդրավարտիկ</value>
+  </data>
+  <data name="item_leggingsDiamond_name" xml:space="preserve">
+    <value>Ադամանդե Անդրավարտիկ</value>
+  </data>
+  <data name="item_leggingsGold_name" xml:space="preserve">
+    <value>Ոսկե Անդրավարտիկ</value>
+  </data>
+  <data name="item_leggingsIron_name" xml:space="preserve">
+    <value>Երկաթե Անդրավարտիկ</value>
+  </data>
+  <data name="item_magmaCream_name" xml:space="preserve">
+    <value>Մագմայի Կրեմ</value>
+  </data>
+  <data name="item_map_name" xml:space="preserve">
+    <value>Քարտեզ</value>
+  </data>
+  <data name="item_melon_name" xml:space="preserve">
+    <value>Ձմերուկ</value>
+  </data>
+  <data name="item_milk_name" xml:space="preserve">
+    <value>Կաթ</value>
+  </data>
+  <data name="item_minecart_name" xml:space="preserve">
+    <value>Վագոն</value>
+  </data>
+  <data name="item_minecartChest_name" xml:space="preserve">
+    <value>Բեռնատար Վագոն</value>
+  </data>
+  <data name="item_minecartCommandBlock_name" xml:space="preserve">
+    <value>Վագոն Հրամաննեի Բլոկով</value>
+  </data>
+  <data name="item_minecartFurnace_name" xml:space="preserve">
+    <value>Շարժիչով Վագոն</value>
+  </data>
+  <data name="item_minecartHopper_name" xml:space="preserve">
+    <value>Ձագարով Վագոն</value>
+  </data>
+  <data name="item_minecartTnt_name" xml:space="preserve">
+    <value>Դինամիտով Վագոն</value>
+  </data>
+  <data name="item_monsterPlacer_name" xml:space="preserve">
+    <value>Ծնել</value>
+  </data>
+  <data name="item_mushroomStew_name" xml:space="preserve">
+    <value>Շոգեխաշած Սունկ</value>
+  </data>
+  <data name="item_muttonCooked_name" xml:space="preserve">
+    <value>եփում ոչխարներ</value>
+  </data>
+  <data name="item_muttonRaw_name" xml:space="preserve">
+    <value>հում ոչխարի</value>
+  </data>
+  <data name="item_nameTag_name" xml:space="preserve">
+    <value>Անվանապիտակ</value>
+  </data>
+  <data name="item_netherStalkSeeds_name" xml:space="preserve">
+    <value>Դժոխքի Բույս</value>
+  </data>
+  <data name="item_netherStar_name" xml:space="preserve">
+    <value>Դժոխքի Աստղ</value>
+  </data>
+  <data name="item_netherbrick_name" xml:space="preserve">
+    <value>Դժոխային Աղյուս</value>
+  </data>
+  <data name="item_netherquartz_name" xml:space="preserve">
+    <value>Կվարց</value>
+  </data>
+  <data name="item_painting_name" xml:space="preserve">
+    <value>Նկար</value>
+  </data>
+  <data name="item_paper_name" xml:space="preserve">
+    <value>Թուղթ</value>
+  </data>
+  <data name="item_pickaxeDiamond_name" xml:space="preserve">
+    <value>Ադամանդե Քլունգ</value>
+  </data>
+  <data name="item_pickaxeGold_name" xml:space="preserve">
+    <value>Ոսկե Քլունգ</value>
+  </data>
+  <data name="item_pickaxeIron_name" xml:space="preserve">
+    <value>Երկաթե Քլունգ</value>
+  </data>
+  <data name="item_pickaxeStone_name" xml:space="preserve">
+    <value>Քարե Քլունգ</value>
+  </data>
+  <data name="item_pickaxeWood_name" xml:space="preserve">
+    <value>Փայտե Քլունգ</value>
+  </data>
+  <data name="item_porkchopCooked_name" xml:space="preserve">
+    <value>Պատրաստված Խոզի Միս</value>
+  </data>
+  <data name="item_porkchopRaw_name" xml:space="preserve">
+    <value>Հում Խոզի Միս</value>
+  </data>
+  <data name="item_potato_name" xml:space="preserve">
+    <value>Կարտոֆիլ</value>
+  </data>
+  <data name="item_potatoBaked_name" xml:space="preserve">
+    <value>Թխված Կարտոֆիլ</value>
+  </data>
+  <data name="item_potatoPoisonous_name" xml:space="preserve">
+    <value>Թունավոր Կարտոֆիլ</value>
+  </data>
+  <data name="item_potion_name" xml:space="preserve">
+    <value>Դեղորայք</value>
+  </data>
+  <data name="item_pumpkinPie_name" xml:space="preserve">
+    <value>Դդմով Կարկանդակ</value>
+  </data>
+  <data name="item_rabbitCooked_name" xml:space="preserve">
+    <value>նապաստակ եփում</value>
+  </data>
+  <data name="item_rabbitRaw_name" xml:space="preserve">
+    <value>հում նապաստակ</value>
+  </data>
+  <data name="item_record_11_desc" xml:space="preserve">
+    <value>C418 - 11</value>
+  </data>
+  <data name="item_record_13_desc" xml:space="preserve">
+    <value>C418 - 13</value>
+  </data>
+  <data name="item_record_blocks_desc" xml:space="preserve">
+    <value>C418 - blocks</value>
+  </data>
+  <data name="item_record_cat_desc" xml:space="preserve">
+    <value>C418 - cat</value>
+  </data>
+  <data name="item_record_chirp_desc" xml:space="preserve">
+    <value>C418 - chirp</value>
+  </data>
+  <data name="item_record_far_desc" xml:space="preserve">
+    <value>C418 - far</value>
+  </data>
+  <data name="item_record_mall_desc" xml:space="preserve">
+    <value>C418 - mall</value>
+  </data>
+  <data name="item_record_mellohi_desc" xml:space="preserve">
+    <value>C418 - mellohi</value>
+  </data>
+  <data name="item_record_name" xml:space="preserve">
+    <value>Երաժշտության Դիսկ</value>
+  </data>
+  <data name="item_record_stal_desc" xml:space="preserve">
+    <value>C418 - stal</value>
+  </data>
+  <data name="item_record_strad_desc" xml:space="preserve">
+    <value>C418 - strad</value>
+  </data>
+  <data name="item_record_wait_desc" xml:space="preserve">
+    <value>C418 - wait</value>
+  </data>
+  <data name="item_record_ward_desc" xml:space="preserve">
+    <value>C418 - ward</value>
+  </data>
+  <data name="item_redstone_name" xml:space="preserve">
+    <value>Կարմրաքար</value>
+  </data>
+  <data name="item_reeds_name" xml:space="preserve">
+    <value>Եղեգնաշաքար</value>
+  </data>
+  <data name="item_rottenFlesh_name" xml:space="preserve">
+    <value>Փտած Միս</value>
+  </data>
+  <data name="item_saddle_name" xml:space="preserve">
+    <value>Թամբ</value>
+  </data>
+  <data name="item_seeds_name" xml:space="preserve">
+    <value>Սերմեր</value>
+  </data>
+  <data name="item_seeds_melon_name" xml:space="preserve">
+    <value>Ձմերուկի Սերմեր</value>
+  </data>
+  <data name="item_seeds_pumpkin_name" xml:space="preserve">
+    <value>Դդմի Սերմեր</value>
+  </data>
+  <data name="item_shears_name" xml:space="preserve">
+    <value>Մկրատ</value>
+  </data>
+  <data name="item_shovelDiamond_name" xml:space="preserve">
+    <value>Ադամանդե Թիակ</value>
+  </data>
+  <data name="item_shovelGold_name" xml:space="preserve">
+    <value>Ոսկե Թիակ</value>
+  </data>
+  <data name="item_shovelIron_name" xml:space="preserve">
+    <value>Երկաթե Թիակ</value>
+  </data>
+  <data name="item_shovelStone_name" xml:space="preserve">
+    <value>Քարե Թիակ</value>
+  </data>
+  <data name="item_shovelWood_name" xml:space="preserve">
+    <value>Փայտե Թիակ</value>
+  </data>
+  <data name="item_sign_name" xml:space="preserve">
+    <value>Ցուցանակ</value>
+  </data>
+  <data name="item_skull_char_name" xml:space="preserve">
+    <value>Գլուխ</value>
+  </data>
+  <data name="item_skull_creeper_name" xml:space="preserve">
+    <value>Քրիփերի Գլուխ</value>
+  </data>
+  <data name="item_skull_player_name" xml:space="preserve">
+    <value>{0}ի Գլուխ</value>
+  </data>
+  <data name="item_skull_skeleton_name" xml:space="preserve">
+    <value>Կմախքի Գանգ</value>
+  </data>
+  <data name="item_skull_wither_name" xml:space="preserve">
+    <value>Սև Կմախքի Գանգ</value>
+  </data>
+  <data name="item_skull_zombie_name" xml:space="preserve">
+    <value>Զոմբիի Գլուխ</value>
+  </data>
+  <data name="item_slimeball_name" xml:space="preserve">
+    <value>Լորձագնդակ</value>
+  </data>
+  <data name="item_snowball_name" xml:space="preserve">
+    <value>Ձնագնդիկ</value>
+  </data>
+  <data name="item_speckledMelon_name" xml:space="preserve">
+    <value>Շողացող Ձմերուկ</value>
+  </data>
+  <data name="item_spiderEye_name" xml:space="preserve">
+    <value>Սարդի Աչք</value>
+  </data>
+  <data name="item_stick_name" xml:space="preserve">
+    <value>Փայտիկ</value>
+  </data>
+  <data name="item_string_name" xml:space="preserve">
+    <value>Թել</value>
+  </data>
+  <data name="item_sugar_name" xml:space="preserve">
+    <value>Շաքար</value>
+  </data>
+  <data name="item_sulphur_name" xml:space="preserve">
+    <value>Վառոդ</value>
+  </data>
+  <data name="item_swordDiamond_name" xml:space="preserve">
+    <value>Ադամանդե Սուր</value>
+  </data>
+  <data name="item_swordGold_name" xml:space="preserve">
+    <value>Ոսկե Սուր</value>
+  </data>
+  <data name="item_swordIron_name" xml:space="preserve">
+    <value>Երկաթե Սուր</value>
+  </data>
+  <data name="item_swordStone_name" xml:space="preserve">
+    <value>Քարե Սուր</value>
+  </data>
+  <data name="item_swordWood_name" xml:space="preserve">
+    <value>Փայտե Սուր</value>
+  </data>
+  <data name="item_unbreakable" xml:space="preserve">
+    <value>Չջարդվող</value>
+  </data>
+  <data name="item_wheat_name" xml:space="preserve">
+    <value>Ցորեն</value>
+  </data>
+  <data name="item_writingBook_name" xml:space="preserve">
+    <value>Գիրք և Փետուր</value>
+  </data>
+  <data name="item_writtenBook_name" xml:space="preserve">
+    <value>Գրված Գիրք</value>
+  </data>
+  <data name="item_yellowDust_name" xml:space="preserve">
+    <value>Լուսարձակող Քարի Փոշի</value>
+  </data>
+  <data name="itemGroup_brewing" xml:space="preserve">
+    <value>Դեղորայքի Պատրաստում </value>
+  </data>
+  <data name="itemGroup_buildingBlocks" xml:space="preserve">
+    <value>Շինարարական Բլոկներ</value>
+  </data>
+  <data name="itemGroup_combat" xml:space="preserve">
+    <value>Մարտ</value>
+  </data>
+  <data name="itemGroup_decorations" xml:space="preserve">
+    <value>Դեկորատիվ Բլոկներ</value>
+  </data>
+  <data name="itemGroup_food" xml:space="preserve">
+    <value>Սնունդ</value>
+  </data>
+  <data name="itemGroup_inventory" xml:space="preserve">
+    <value>Գոյատևման Պայուսակ</value>
+  </data>
+  <data name="itemGroup_materials" xml:space="preserve">
+    <value>Նյութեր</value>
+  </data>
+  <data name="itemGroup_misc" xml:space="preserve">
+    <value>Այլեվայլ</value>
+  </data>
+  <data name="itemGroup_redstone" xml:space="preserve">
+    <value>Կարմրաքար</value>
+  </data>
+  <data name="itemGroup_search" xml:space="preserve">
+    <value>Որոնում</value>
+  </data>
+  <data name="itemGroup_tools" xml:space="preserve">
+    <value>Գործիքներ</value>
+  </data>
+  <data name="itemGroup_transportation" xml:space="preserve">
+    <value>Տրանսպորտային միջոց</value>
+  </data>
+  <data name="key_attack" xml:space="preserve">
+    <value>Հարվածել/Ջարդել</value>
+  </data>
+  <data name="key_back" xml:space="preserve">
+    <value>Ետ քայլել</value>
+  </data>
+  <data name="key_categories_gameplay" xml:space="preserve">
+    <value>Խաղընթացք</value>
+  </data>
+  <data name="key_categories_inventory" xml:space="preserve">
+    <value>Պայուսակ</value>
+  </data>
+  <data name="key_categories_misc" xml:space="preserve">
+    <value>Տարբեր</value>
+  </data>
+  <data name="key_categories_movement" xml:space="preserve">
+    <value>Շարժում</value>
+  </data>
+  <data name="key_categories_multiplayer" xml:space="preserve">
+    <value>Ցանցային խաղ</value>
+  </data>
+  <data name="key_categories_ui" xml:space="preserve">
+    <value>Խաղի միջերես</value>
+  </data>
+  <data name="key_chat" xml:space="preserve">
+    <value>Բացել չատը</value>
+  </data>
+  <data name="key_command" xml:space="preserve">
+    <value>Հրամանի մուտքագրում</value>
+  </data>
+  <data name="key_forward" xml:space="preserve">
+    <value>Քայլել առաջ</value>
+  </data>
+  <data name="key_hotbar_1" xml:space="preserve">
+    <value>Ակկտիվ մենյու 1</value>
+  </data>
+  <data name="key_hotbar_2" xml:space="preserve">
+    <value>Ակկտիվ մենյու 2</value>
+  </data>
+  <data name="key_hotbar_3" xml:space="preserve">
+    <value>Ակկտիվ մենյու 3</value>
+  </data>
+  <data name="key_hotbar_4" xml:space="preserve">
+    <value>Ակկտիվ մենյու 4</value>
+  </data>
+  <data name="key_hotbar_5" xml:space="preserve">
+    <value>Ակկտիվ մենյու 5</value>
+  </data>
+  <data name="key_hotbar_6" xml:space="preserve">
+    <value>Ակկտիվ մենյու 6</value>
+  </data>
+  <data name="key_hotbar_7" xml:space="preserve">
+    <value>Ակկտիվ մենյու 7</value>
+  </data>
+  <data name="key_hotbar_8" xml:space="preserve">
+    <value>Ակկտիվ մենյու 8</value>
+  </data>
+  <data name="key_hotbar_9" xml:space="preserve">
+    <value>Ակկտիվ մենյու 9</value>
+  </data>
+  <data name="key_jump" xml:space="preserve">
+    <value>Ցատկ</value>
+  </data>
+  <data name="key_left" xml:space="preserve">
+    <value>Քայլել ձախ</value>
+  </data>
+  <data name="key_mouseButton" xml:space="preserve">
+    <value>Կոճակ {0}</value>
+  </data>
+  <data name="key_pickItem" xml:space="preserve">
+    <value>Վերցնել Բլոկը</value>
+  </data>
+  <data name="key_playerlist" xml:space="preserve">
+    <value>Խաղացողների ցուցակ</value>
+  </data>
+  <data name="key_right" xml:space="preserve">
+    <value>Քայլել աջ</value>
+  </data>
+  <data name="key_screenshot" xml:space="preserve">
+    <value>Լուսանկարել էկրանը</value>
+  </data>
+  <data name="key_smoothCamera" xml:space="preserve">
+    <value>Միացնել/անջատել տեսախցիկը</value>
+  </data>
+  <data name="key_sneak" xml:space="preserve">
+    <value>Զգույշ քայլ</value>
+  </data>
+  <data name="key_sprint" xml:space="preserve">
+    <value>Վազք</value>
+  </data>
+  <data name="key_togglePerspective" xml:space="preserve">
+    <value>Փոխել տեսանկյունը</value>
+  </data>
+  <data name="key_use" xml:space="preserve">
+    <value>Օգտագործել առարկան/Տեղադրել բլակը</value>
+  </data>
+  <data name="lanServer_otherPlayers" xml:space="preserve">
+    <value>Կարգավորումներ այլ խաղացողների համար</value>
+  </data>
+  <data name="lanServer_scanning" xml:space="preserve">
+    <value>Արվում է տեղական ցանցի սկան, խաղեր գտնելու համար։</value>
+  </data>
+  <data name="lanServer_start" xml:space="preserve">
+    <value>Սկսել LAN աշխարհ</value>
+  </data>
+  <data name="lanServer_title" xml:space="preserve">
+    <value>LAN Աշխարհ</value>
+  </data>
+  <data name="language_code" xml:space="preserve">
+    <value>hy_AM</value>
+  </data>
+  <data name="language_name" xml:space="preserve">
+    <value>Հայերեն</value>
+  </data>
+  <data name="language_region" xml:space="preserve">
+    <value>Հայաստան</value>
+  </data>
+  <data name="mcoServer_title" xml:space="preserve">
+    <value>Minecraft Առցանց Աշխարհ</value>
+  </data>
+  <data name="menu_convertingLevel" xml:space="preserve">
+    <value>Աշխարհի փոխակերպում</value>
+  </data>
+  <data name="menu_disconnect" xml:space="preserve">
+    <value>Անջատվել</value>
+  </data>
+  <data name="menu_game" xml:space="preserve">
+    <value>Խաղի մենյու</value>
+  </data>
+  <data name="menu_generatingLevel" xml:space="preserve">
+    <value>Նոր աշխարհի սեղծում</value>
+  </data>
+  <data name="menu_generatingTerrain" xml:space="preserve">
+    <value>Տեղանքի կառուցում</value>
+  </data>
+  <data name="menu_loadingLevel" xml:space="preserve">
+    <value>Աշխարհի բեռնում</value>
+  </data>
+  <data name="menu_multiplayer" xml:space="preserve">
+    <value>Ցանցային խաղ</value>
+  </data>
+  <data name="menu_options" xml:space="preserve">
+    <value>Ընտրանքներ...</value>
+  </data>
+  <data name="menu_playdemo" xml:space="preserve">
+    <value>Խաղալ Փորձնական Աշխարհ</value>
+  </data>
+  <data name="menu_quit" xml:space="preserve">
+    <value>Լքել Խաղը</value>
+  </data>
+  <data name="menu_resetdemo" xml:space="preserve">
+    <value>Վերսկսել Փորձնական Աշխարհը</value>
+  </data>
+  <data name="menu_respawning" xml:space="preserve">
+    <value>Վերածնում</value>
+  </data>
+  <data name="menu_returnToGame" xml:space="preserve">
+    <value>Վերադառնալ խաղին</value>
+  </data>
+  <data name="menu_returnToMenu" xml:space="preserve">
+    <value>Պահպանել և վերադառնալ մենյու</value>
+  </data>
+  <data name="menu_shareToLan" xml:space="preserve">
+    <value>Բացել LAN ցանց</value>
+  </data>
+  <data name="menu_singleplayer" xml:space="preserve">
+    <value>Միայնակ խաղ</value>
+  </data>
+  <data name="mount_onboard" xml:space="preserve">
+    <value>Սեղմեք {0} որպեսզի դուրս գաք</value>
+  </data>
+  <data name="multiplayer_connect" xml:space="preserve">
+    <value>Միանալ</value>
+  </data>
+  <data name="multiplayer_downloadingStats" xml:space="preserve">
+    <value>Ներբեռնել իճակագրությունները և ձեռքբերումները</value>
+  </data>
+  <data name="multiplayer_ipinfo" xml:space="preserve">
+    <value>Սերվերին միանալու համար մուտքագրեք IP-ն.</value>
+  </data>
+  <data name="multiplayer_player_joined" xml:space="preserve">
+    <value>{0} միացավ խաղին</value>
+  </data>
+  <data name="multiplayer_player_left" xml:space="preserve">
+    <value>{0} լքեց խաղը</value>
+  </data>
+  <data name="multiplayer_stopSleeping" xml:space="preserve">
+    <value>Լքել Մահճակալը</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line1" xml:space="preserve">
+    <value>Այս սերվերը առաջարկում է օգտագործել իրենց անձնական Ռեսուրսների Փաթեթը։</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line2" xml:space="preserve">
+    <value>Ցանկանու՞մ եք արդյոք, ներբեռնել այն և տեղադրել ավտոմատ կերպով</value>
+  </data>
+  <data name="multiplayer_title" xml:space="preserve">
+    <value>Խաղալ Առցանց</value>
+  </data>
+  <data name="options_anaglyph" xml:space="preserve">
+    <value>3D Ռեժիմ</value>
+  </data>
+  <data name="options_ao" xml:space="preserve">
+    <value>Բարձրորակ Լուսավորություն</value>
+  </data>
+  <data name="options_ao_max" xml:space="preserve">
+    <value>Առավելագույն</value>
+  </data>
+  <data name="options_ao_min" xml:space="preserve">
+    <value>Նվազագույն</value>
+  </data>
+  <data name="options_ao_off" xml:space="preserve">
+    <value>Անջատել</value>
+  </data>
+  <data name="options_chat_color" xml:space="preserve">
+    <value>Գույներ</value>
+  </data>
+  <data name="options_chat_height_focused" xml:space="preserve">
+    <value>Կենտրոնացված Բարձրություն</value>
+  </data>
+  <data name="options_chat_height_unfocused" xml:space="preserve">
+    <value>Ոչ կենտրոնացված բարձրություն</value>
+  </data>
+  <data name="options_chat_links" xml:space="preserve">
+    <value>Հղումներ</value>
+  </data>
+  <data name="options_chat_links_prompt" xml:space="preserve">
+    <value>Թույլատվության հարցում հղումների դեպքում</value>
+  </data>
+  <data name="options_chat_opacity" xml:space="preserve">
+    <value>Անթափանցիկություն</value>
+  </data>
+  <data name="options_chat_scale" xml:space="preserve">
+    <value>Մասշտաբ</value>
+  </data>
+  <data name="options_chat_title" xml:space="preserve">
+    <value>Չատի կարգավորումներ...</value>
+  </data>
+  <data name="options_chat_visibility" xml:space="preserve">
+    <value>Չատ</value>
+  </data>
+  <data name="options_chat_visibility_full" xml:space="preserve">
+    <value>Տեսանելի</value>
+  </data>
+  <data name="options_chat_visibility_hidden" xml:space="preserve">
+    <value>Թաքցված</value>
+  </data>
+  <data name="options_chat_visibility_system" xml:space="preserve">
+    <value>Միայն Հրամանները</value>
+  </data>
+  <data name="options_chat_width" xml:space="preserve">
+    <value>Լայնություն</value>
+  </data>
+  <data name="options_controls" xml:space="preserve">
+    <value>Ղեկավարումներ...</value>
+  </data>
+  <data name="options_difficulty" xml:space="preserve">
+    <value>Դժվարություն</value>
+  </data>
+  <data name="options_difficulty_easy" xml:space="preserve">
+    <value>Հեշտ</value>
+  </data>
+  <data name="options_difficulty_hard" xml:space="preserve">
+    <value>Դժվար</value>
+  </data>
+  <data name="options_difficulty_hardcore" xml:space="preserve">
+    <value>Գերդժվար</value>
+  </data>
+  <data name="options_difficulty_normal" xml:space="preserve">
+    <value>Նորմալ</value>
+  </data>
+  <data name="options_difficulty_peaceful" xml:space="preserve">
+    <value>Խաղաղ</value>
+  </data>
+  <data name="options_farWarning1" xml:space="preserve">
+    <value>«Հեռու» ռեժիմը ակտիվացնելու համար, </value>
+  </data>
+  <data name="options_farWarning2" xml:space="preserve">
+    <value>խորհուրդ է տրվում տեղադրել 64 բիտանոց Java (Ձերը 32 բիտ է)</value>
+  </data>
+  <data name="options_forceUnicodeFont" xml:space="preserve">
+    <value>Գործածել Unicode տառատեսակ</value>
+  </data>
+  <data name="options_fov" xml:space="preserve">
+    <value>Տեսանկյուն</value>
+  </data>
+  <data name="options_fov_max" xml:space="preserve">
+    <value>Quake Pro</value>
+  </data>
+  <data name="options_fov_min" xml:space="preserve">
+    <value>Նորմալ</value>
+  </data>
+  <data name="options_framerateLimit" xml:space="preserve">
+    <value>Կադրերի առավելագույն հաճախականություն</value>
+  </data>
+  <data name="options_framerateLimit_max" xml:space="preserve">
+    <value>Անսահմանափակ</value>
+  </data>
+  <data name="options_fullscreen" xml:space="preserve">
+    <value>Ամբողջ-էկրան ռեժիմ</value>
+  </data>
+  <data name="options_gamma" xml:space="preserve">
+    <value>Պայծառություն</value>
+  </data>
+  <data name="options_gamma_max" xml:space="preserve">
+    <value>Պայծառ</value>
+  </data>
+  <data name="options_gamma_min" xml:space="preserve">
+    <value>Մռայլ</value>
+  </data>
+  <data name="options_graphics" xml:space="preserve">
+    <value>Գրաֆիկա</value>
+  </data>
+  <data name="options_graphics_fancy" xml:space="preserve">
+    <value>Գեղեցիկ</value>
+  </data>
+  <data name="options_graphics_fast" xml:space="preserve">
+    <value>Արագ</value>
+  </data>
+  <data name="options_guiScale" xml:space="preserve">
+    <value>GUI մասշտաբը</value>
+  </data>
+  <data name="options_guiScale_auto" xml:space="preserve">
+    <value>Ավտոմատ</value>
+  </data>
+  <data name="options_guiScale_large" xml:space="preserve">
+    <value>Խոշոր</value>
+  </data>
+  <data name="options_guiScale_normal" xml:space="preserve">
+    <value>Նորմալ</value>
+  </data>
+  <data name="options_guiScale_small" xml:space="preserve">
+    <value>Փոքր</value>
+  </data>
+  <data name="options_hidden" xml:space="preserve">
+    <value>Թաքնված</value>
+  </data>
+  <data name="options_invertMouse" xml:space="preserve">
+    <value>Մկնիկի Փոխակերպում</value>
+  </data>
+  <data name="options_language" xml:space="preserve">
+    <value>Լեզու...</value>
+  </data>
+  <data name="options_languageWarning" xml:space="preserve">
+    <value>Լեզվի թարգմանության 100% -անոց ճշգրտությունը ապահովված չէ</value>
+  </data>
+  <data name="options_mipmapLevels" xml:space="preserve">
+    <value>Mipmap-ի մակարդակները</value>
+  </data>
+  <data name="options_modelPart_cape" xml:space="preserve">
+    <value>թիկնոց</value>
+  </data>
+  <data name="options_modelPart_hat" xml:space="preserve">
+    <value>գլխարկ</value>
+  </data>
+  <data name="options_modelPart_jacket" xml:space="preserve">
+    <value>պիջակ</value>
+  </data>
+  <data name="options_multiplayer_title" xml:space="preserve">
+    <value>Ցանցաին խաղի կարգավորումներ...</value>
+  </data>
+  <data name="options_music" xml:space="preserve">
+    <value>Երաժշտություն</value>
+  </data>
+  <data name="options_off" xml:space="preserve">
+    <value>Անջատած</value>
+  </data>
+  <data name="options_on" xml:space="preserve">
+    <value>Միացած</value>
+  </data>
+  <data name="options_particles" xml:space="preserve">
+    <value>Մասնիկներ</value>
+  </data>
+  <data name="options_particles_all" xml:space="preserve">
+    <value>Բոլոր</value>
+  </data>
+  <data name="options_particles_decreased" xml:space="preserve">
+    <value>Նվազեցված</value>
+  </data>
+  <data name="options_particles_minimal" xml:space="preserve">
+    <value>Մինիմալ</value>
+  </data>
+  <data name="options_postButton" xml:space="preserve">
+    <value>Հետմշակման կարգավորումններ...</value>
+  </data>
+  <data name="options_postProcessEnable" xml:space="preserve">
+    <value>Ակտիվացնել հետմշակումը</value>
+  </data>
+  <data name="options_postVideoTitle" xml:space="preserve">
+    <value>Հետմշակման կարգավորումններ</value>
+  </data>
+  <data name="options_renderClouds" xml:space="preserve">
+    <value>Ամպեր</value>
+  </data>
+  <data name="options_renderDistance" xml:space="preserve">
+    <value>Նյութավորման Հեռավորությունը</value>
+  </data>
+  <data name="options_resourcepack" xml:space="preserve">
+    <value>Ռեսուրսների Փաթեթներ...</value>
+  </data>
+  <data name="options_saturation" xml:space="preserve">
+    <value>Հագեցում</value>
+  </data>
+  <data name="options_sensitivity" xml:space="preserve">
+    <value>Զգայունություն</value>
+  </data>
+  <data name="options_sensitivity_max" xml:space="preserve">
+    <value>ՍՈւՊԵՐ ԱՐԱԳ!!!</value>
+  </data>
+  <data name="options_sensitivity_min" xml:space="preserve">
+    <value>*հորանջ*</value>
+  </data>
+  <data name="options_snooper" xml:space="preserve">
+    <value>Ինֆորմացիայի հավաքում</value>
+  </data>
+  <data name="options_snooper_desc" xml:space="preserve">
+    <value>Մենք ցանկանում ենք հավաքել տեղեկություններ ձեր համակարգչի մասին, որպեսզի բարելավենք Minecraft-ի աշխատանքը, իմանալով թե ինչումն է պրոբլեմը։ Բոլոր այդ տեղեկությունները հավաքվում են ամբողջովին անանուն և տեսանելի են ձեզ ստորև։ Մենք խոստանում ենք չվնասել ձեզ որևէ կերպ, բայց եթե չեք ցանկանում տրամադրել հետևյալ ինֆորմացիան ապա կարեղ եք անջատել այս ֆունկցիան։</value>
+  </data>
+  <data name="options_snooper_title" xml:space="preserve">
+    <value>Սարգերի ինֆորմացիայի հավաքում</value>
+  </data>
+  <data name="options_snooper_view" xml:space="preserve">
+    <value>Ինֆորմացիայի հավաքման կարգավորումներ...</value>
+  </data>
+  <data name="options_sound" xml:space="preserve">
+    <value>Ձայն</value>
+  </data>
+  <data name="options_sounds" xml:space="preserve">
+    <value>Երաժշտությունն ու ձայները...</value>
+  </data>
+  <data name="options_sounds_title" xml:space="preserve">
+    <value>Երաժշտություն և Հնչյունային Կարգավորումներ</value>
+  </data>
+  <data name="options_title" xml:space="preserve">
+    <value>Կարգավորումներ</value>
+  </data>
+  <data name="options_touchscreen" xml:space="preserve">
+    <value>Սենսորային Էկրանի Ռեժիմ</value>
+  </data>
+  <data name="options_video" xml:space="preserve">
+    <value>Վիդեո Կարգավորումներ...</value>
+  </data>
+  <data name="options_videoTitle" xml:space="preserve">
+    <value>Վիդեո Կարգավորումներ</value>
+  </data>
+  <data name="options_viewBobbing" xml:space="preserve">
+    <value>Ցուցադրել ճոճքը շարժման ընթացքում</value>
+  </data>
+  <data name="options_visible" xml:space="preserve">
+    <value>Ցուցադրված</value>
+  </data>
+  <data name="options_vsync" xml:space="preserve">
+    <value>Օգտագործել VSync</value>
+  </data>
+  <data name="potion_potency_1" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="potion_potency_2" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="resourcePack_available_title" xml:space="preserve">
+    <value>Առկա Ռեսուրսների Փաթեթներ</value>
+  </data>
+  <data name="resourcePack_folderInfo" xml:space="preserve">
+    <value>(Տեղադրեք Ռեսուրսների Փաթեթը այստեղ)</value>
+  </data>
+  <data name="resourcePack_openFolder" xml:space="preserve">
+    <value>Բացել Ռեսուրսների Փաթեթների Թղթապանակը</value>
+  </data>
+  <data name="resourcePack_selected_title" xml:space="preserve">
+    <value>Ընտրված Ռեսուրսների Փաթեթները</value>
+  </data>
+  <data name="resourcePack_title" xml:space="preserve">
+    <value>Ընտրել Ռեսուրսների Փաթեթը</value>
+  </data>
+  <data name="selectServer_add" xml:space="preserve">
+    <value>Ավելացնել Սերվեր</value>
+  </data>
+  <data name="selectServer_defaultName" xml:space="preserve">
+    <value>Սերվեր</value>
+  </data>
+  <data name="selectServer_delete" xml:space="preserve">
+    <value>Ջնջել</value>
+  </data>
+  <data name="selectServer_deleteButton" xml:space="preserve">
+    <value>Ջնջել</value>
+  </data>
+  <data name="selectServer_deleteQuestion" xml:space="preserve">
+    <value>Համոզվա՞ծ եք, որ ուզում եք ջնջել այս սերվերը</value>
+  </data>
+  <data name="selectServer_deleteWarning" xml:space="preserve">
+    <value>այն մեկընդմիշտ կկորչի' (Անվերադա'րձ)</value>
+  </data>
+  <data name="selectServer_direct" xml:space="preserve">
+    <value>Ուղիղ Կապ</value>
+  </data>
+  <data name="selectServer_edit" xml:space="preserve">
+    <value>Կարգավորել</value>
+  </data>
+  <data name="selectServer_empty" xml:space="preserve">
+    <value>դատարկ</value>
+  </data>
+  <data name="selectServer_hiddenAddress" xml:space="preserve">
+    <value>(թաքնված)</value>
+  </data>
+  <data name="selectServer_refresh" xml:space="preserve">
+    <value>Թարմացնել</value>
+  </data>
+  <data name="selectServer_select" xml:space="preserve">
+    <value>Միանալ Սերվերին</value>
+  </data>
+  <data name="selectServer_title" xml:space="preserve">
+    <value>Ընտրել Սերվերը</value>
+  </data>
+  <data name="selectWorld_allowCommands" xml:space="preserve">
+    <value>Թույլատրել Նեքին հրամանները։</value>
+  </data>
+  <data name="selectWorld_allowCommands_info" xml:space="preserve">
+    <value>Հարամաններ ինչպիսին են. /gamemode, /xp</value>
+  </data>
+  <data name="selectWorld_bonusItems" xml:space="preserve">
+    <value>Բոնուսային Սնդուկ։</value>
+  </data>
+  <data name="selectWorld_cheats" xml:space="preserve">
+    <value>Ներքին հրամաններ</value>
+  </data>
+  <data name="selectWorld_conversion" xml:space="preserve">
+    <value>Պահանջվում է փոխակերպում</value>
+  </data>
+  <data name="selectWorld_create" xml:space="preserve">
+    <value>Ստեղծել Նոր Աշխարհ</value>
+  </data>
+  <data name="selectWorld_createDemo" xml:space="preserve">
+    <value>Խաղալ Նոր Ցուցադրական Աշխարհում</value>
+  </data>
+  <data name="selectWorld_customizeType" xml:space="preserve">
+    <value>Կարգավորել</value>
+  </data>
+  <data name="selectWorld_delete" xml:space="preserve">
+    <value>Ջնջել</value>
+  </data>
+  <data name="selectWorld_deleteButton" xml:space="preserve">
+    <value>Ջնջել</value>
+  </data>
+  <data name="selectWorld_deleteQuestion" xml:space="preserve">
+    <value>Համոզված ե՞ք, որ ուզում եք ջնջել այս աշխարհը</value>
+  </data>
+  <data name="selectWorld_deleteWarning" xml:space="preserve">
+    <value>կկորչի մեկընդմիշտ։ (Անվերադարձ)</value>
+  </data>
+  <data name="selectWorld_edit" xml:space="preserve">
+    <value>Կարգավորել</value>
+  </data>
+  <data name="selectWorld_edit_openFolder" xml:space="preserve">
+    <value>Թղթապանակի բացում</value>
+  </data>
+  <data name="selectWorld_edit_resetIcon" xml:space="preserve">
+    <value>Պատկերի տեղավորում</value>
+  </data>
+  <data name="selectWorld_edit_save" xml:space="preserve">
+    <value>Աշխարհը պահպանել</value>
+  </data>
+  <data name="selectWorld_edit_title" xml:space="preserve">
+    <value>Պահեստաին Կրկնօրինակներ</value>
+  </data>
+  <data name="selectWorld_empty" xml:space="preserve">
+    <value>դատարկ</value>
+  </data>
+  <data name="selectWorld_enterName" xml:space="preserve">
+    <value>Աշխարհի Անվանումը</value>
+  </data>
+  <data name="selectWorld_enterSeed" xml:space="preserve">
+    <value>Սերմ աշխարհը ստեղծելու համար</value>
+  </data>
+  <data name="selectWorld_gameMode" xml:space="preserve">
+    <value>Խաղային Ռեժիմ</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure" xml:space="preserve">
+    <value>Արկածային</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure_line2" xml:space="preserve">
+    <value>տեղադրել կամ ոչնչացնել բլոկները </value>
+  </data>
+  <data name="selectWorld_gameMode_creative" xml:space="preserve">
+    <value>Ստեղծագործական</value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line2" xml:space="preserve">
+    <value>բլոկները ոչնչացնել միանգամից</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore" xml:space="preserve">
+    <value>Գերդժվար</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line2" xml:space="preserve">
+    <value>դժվար և միայն մեկ կյանք</value>
+  </data>
+  <data name="selectWorld_gameMode_spectator" xml:space="preserve">
+    <value>հանդիսատես</value>
+  </data>
+  <data name="selectWorld_gameMode_survival" xml:space="preserve">
+    <value>Գոյատևում</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line1" xml:space="preserve">
+    <value>Փնտրել ռեսուրսներ, պատրաստել, վաստակել</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line2" xml:space="preserve">
+    <value>միավորներ, առողջություն և քաղց</value>
+  </data>
+  <data name="selectWorld_hardcoreMode" xml:space="preserve">
+    <value>Գերդժվար:</value>
+  </data>
+  <data name="selectWorld_hardcoreMode_info" xml:space="preserve">
+    <value>Աշխարհը ջնջվել է Ձեր մահի արդյունքւմ</value>
+  </data>
+  <data name="selectWorld_mapFeatures" xml:space="preserve">
+    <value>Առաջացնել Կառույցներ։</value>
+  </data>
+  <data name="selectWorld_mapFeatures_info" xml:space="preserve">
+    <value>Գյուղեր, զնդաններ և այլն</value>
+  </data>
+  <data name="selectWorld_mapType" xml:space="preserve">
+    <value>Աշխարհի տեսակը։</value>
+  </data>
+  <data name="selectWorld_mapType_normal" xml:space="preserve">
+    <value>Նորմալ</value>
+  </data>
+  <data name="selectWorld_moreWorldOptions" xml:space="preserve">
+    <value>Աշխարհի ստեղծման այլ կարգավորումներ...</value>
+  </data>
+  <data name="selectWorld_newWorld" xml:space="preserve">
+    <value>Նոր Աշխարհ</value>
+  </data>
+  <data name="selectWorld_newWorld_copyOf" xml:space="preserve">
+    <value>Աշխարհի պատճեն {0}</value>
+  </data>
+  <data name="selectWorld_recreate" xml:space="preserve">
+    <value>Վերաստեղծել</value>
+  </data>
+  <data name="selectWorld_resultFolder" xml:space="preserve">
+    <value>Կպահպանվի հետևյալում.</value>
+  </data>
+  <data name="selectWorld_seedInfo" xml:space="preserve">
+    <value>Թողնեք դատարկ, պատահական բանալու համար</value>
+  </data>
+  <data name="selectWorld_select" xml:space="preserve">
+    <value>Խաղալ Ընտրված Աշխարհը</value>
+  </data>
+  <data name="selectWorld_title" xml:space="preserve">
+    <value>Ընտրել Աշխարհը</value>
+  </data>
+  <data name="selectWorld_version" xml:space="preserve">
+    <value>տարբերակ:</value>
+  </data>
+  <data name="selectWorld_versionQuestion" xml:space="preserve">
+    <value>Իրավե՞ն այս աշխարհը բանալ կուզեք?</value>
+  </data>
+  <data name="selectWorld_versionUnknown" xml:space="preserve">
+    <value>Անհայտ</value>
+  </data>
+  <data name="selectWorld_world" xml:space="preserve">
+    <value>Աշխարհ</value>
+  </data>
+  <data name="soundCategory_ambient" xml:space="preserve">
+    <value>Շրջակա/Միջավայր</value>
+  </data>
+  <data name="soundCategory_block" xml:space="preserve">
+    <value>Բլոկներ</value>
+  </data>
+  <data name="soundCategory_hostile" xml:space="preserve">
+    <value>Թշնամի Արարածներ</value>
+  </data>
+  <data name="soundCategory_master" xml:space="preserve">
+    <value>վարպետ ծավալ</value>
+  </data>
+  <data name="soundCategory_music" xml:space="preserve">
+    <value>երաժշտություն</value>
+  </data>
+  <data name="soundCategory_neutral" xml:space="preserve">
+    <value>Բարեկամ Արարածներ</value>
+  </data>
+  <data name="soundCategory_player" xml:space="preserve">
+    <value>Խաղացողները</value>
+  </data>
+  <data name="soundCategory_record" xml:space="preserve">
+    <value>Երաժշտական բլոկներ</value>
+  </data>
+  <data name="soundCategory_weather" xml:space="preserve">
+    <value>Եղանակ</value>
+  </data>
+  <data name="stat_animalsBred" xml:space="preserve">
+    <value>կենդանիները սնվում</value>
+  </data>
+  <data name="stat_blocksButton" xml:space="preserve">
+    <value>Բլոկներ</value>
+  </data>
+  <data name="stat_boatOneCm" xml:space="preserve">
+    <value>Նավով</value>
+  </data>
+  <data name="stat_breakItem" xml:space="preserve">
+    <value>{0} Ձարդված</value>
+  </data>
+  <data name="stat_climbOneCm" xml:space="preserve">
+    <value>Բարձրացած</value>
+  </data>
+  <data name="stat_craftItem" xml:space="preserve">
+    <value>{0} Ստեղծած</value>
+  </data>
+  <data name="stat_crafted" xml:space="preserve">
+    <value>Անգամ Ստեղծած</value>
+  </data>
+  <data name="stat_createWorld" xml:space="preserve">
+    <value>Աշխարհներ ստեղծած</value>
+  </data>
+  <data name="stat_damageDealt" xml:space="preserve">
+    <value>Վնաս Մատուցած</value>
+  </data>
+  <data name="stat_damageTaken" xml:space="preserve">
+    <value>Վնաս Ստացած</value>
+  </data>
+  <data name="stat_deaths" xml:space="preserve">
+    <value>Մահեր</value>
+  </data>
+  <data name="stat_depleted" xml:space="preserve">
+    <value>Անգամ Ջարդած</value>
+  </data>
+  <data name="stat_diveOneCm" xml:space="preserve">
+    <value>Սկած</value>
+  </data>
+  <data name="stat_drop" xml:space="preserve">
+    <value>Առարկա Գցած</value>
+  </data>
+  <data name="stat_fallOneCm" xml:space="preserve">
+    <value>Ընկած</value>
+  </data>
+  <data name="stat_fishCaught" xml:space="preserve">
+    <value>Ջուկ Բռնած</value>
+  </data>
+  <data name="stat_flyOneCm" xml:space="preserve">
+    <value>Թռած</value>
+  </data>
+  <data name="stat_generalButton" xml:space="preserve">
+    <value>Ընդհանուր</value>
+  </data>
+  <data name="stat_horseOneCm" xml:space="preserve">
+    <value>Հեռավորությունը մի ձիու</value>
+  </data>
+  <data name="stat_itemsButton" xml:space="preserve">
+    <value>Առարկաներ</value>
+  </data>
+  <data name="stat_joinMultiplayer" xml:space="preserve">
+    <value>Առցանց խաղեր միացած</value>
+  </data>
+  <data name="stat_jump" xml:space="preserve">
+    <value>Ցատկ</value>
+  </data>
+  <data name="stat_leaveGame" xml:space="preserve">
+    <value>Խաղերից դուրս եկած</value>
+  </data>
+  <data name="stat_loadWorld" xml:space="preserve">
+    <value>Պահպանվաց խաղեր բեռնած</value>
+  </data>
+  <data name="stat_mineBlock" xml:space="preserve">
+    <value>{0} Հանք Մշակած</value>
+  </data>
+  <data name="stat_minecartOneCm" xml:space="preserve">
+    <value>Հեռավորությունը Անցած Վագոնով</value>
+  </data>
+  <data name="stat_mined" xml:space="preserve">
+    <value>Անգամ Հայթհայթած</value>
+  </data>
+  <data name="stat_mobKills" xml:space="preserve">
+    <value>Մոբ Սպանած</value>
+  </data>
+  <data name="stat_mobsButton" xml:space="preserve">
+    <value>արարածներ</value>
+  </data>
+  <data name="stat_pigOneCm" xml:space="preserve">
+    <value>Խոզով</value>
+  </data>
+  <data name="stat_playOneMinute" xml:space="preserve">
+    <value>Րոպե խաղացած</value>
+  </data>
+  <data name="stat_playerKills" xml:space="preserve">
+    <value>Խաղացող Սպանած</value>
+  </data>
+  <data name="stat_sprintOneCm" xml:space="preserve">
+    <value>Հեռավորությունը prized վայր</value>
+  </data>
+  <data name="stat_startGame" xml:space="preserve">
+    <value>Անգամ խաղացած</value>
+  </data>
+  <data name="stat_swimOneCm" xml:space="preserve">
+    <value>Լողացած</value>
+  </data>
+  <data name="stat_useItem" xml:space="preserve">
+    <value>{0} Օգտագործված</value>
+  </data>
+  <data name="stat_used" xml:space="preserve">
+    <value>Անգամ Օգտագործած</value>
+  </data>
+  <data name="stat_walkOneCm" xml:space="preserve">
+    <value>Քայլած</value>
+  </data>
+  <data name="stats_tooltip_type_achievement" xml:space="preserve">
+    <value>հաջողություն</value>
+  </data>
+  <data name="stats_tooltip_type_statistic" xml:space="preserve">
+    <value>վիճակագրություն</value>
+  </data>
+  <data name="tile_activatorRail_name" xml:space="preserve">
+    <value>Ակտիվացնող Ռելս</value>
+  </data>
+  <data name="tile_anvil_intact_name" xml:space="preserve">
+    <value>Սալ</value>
+  </data>
+  <data name="tile_anvil_name" xml:space="preserve">
+    <value>Սալ</value>
+  </data>
+  <data name="tile_anvil_slightlyDamaged_name" xml:space="preserve">
+    <value>Վնասված Սալ</value>
+  </data>
+  <data name="tile_anvil_veryDamaged_name" xml:space="preserve">
+    <value>Շատ Վնասված Սալ</value>
+  </data>
+  <data name="tile_barrier_name" xml:space="preserve">
+    <value>խոչընդոտ</value>
+  </data>
+  <data name="tile_beacon_name" xml:space="preserve">
+    <value>Փարոս</value>
+  </data>
+  <data name="tile_beacon_primary" xml:space="preserve">
+    <value>Առաջնային Հզորություն</value>
+  </data>
+  <data name="tile_beacon_secondary" xml:space="preserve">
+    <value>Երկրորդական Հզորություն</value>
+  </data>
+  <data name="tile_bed_name" xml:space="preserve">
+    <value>Մահճակալ</value>
+  </data>
+  <data name="tile_bed_noSleep" xml:space="preserve">
+    <value>Դուք կարող եք քնել միայն գիշերը</value>
+  </data>
+  <data name="tile_bed_notSafe" xml:space="preserve">
+    <value>Շրջակայքում հրեշների առկայության պատճառով դուք չեք կարող քնել</value>
+  </data>
+  <data name="tile_bed_notValid" xml:space="preserve">
+    <value>Ձեր տան մահճակալը բացակայում է կամ խապանված է</value>
+  </data>
+  <data name="tile_bed_occupied" xml:space="preserve">
+    <value>Այս մահճակալը զբաղված է</value>
+  </data>
+  <data name="tile_bedrock_name" xml:space="preserve">
+    <value>Հիմնածայր</value>
+  </data>
+  <data name="tile_blockCoal_name" xml:space="preserve">
+    <value>Ածուխի Բլոկ</value>
+  </data>
+  <data name="tile_blockDiamond_name" xml:space="preserve">
+    <value>Ադամանդի Բլոկ</value>
+  </data>
+  <data name="tile_blockEmerald_name" xml:space="preserve">
+    <value>Զմրուխտի Բլոկ</value>
+  </data>
+  <data name="tile_blockGold_name" xml:space="preserve">
+    <value>Ոսկու Բլոկ</value>
+  </data>
+  <data name="tile_blockIron_name" xml:space="preserve">
+    <value>Երկաթի Բլոկ</value>
+  </data>
+  <data name="tile_blockLapis_name" xml:space="preserve">
+    <value>Լազուրիտի Բլոկ</value>
+  </data>
+  <data name="tile_blockRedstone_name" xml:space="preserve">
+    <value>Կարմրաքարի Բլոկ</value>
+  </data>
+  <data name="tile_bookshelf_name" xml:space="preserve">
+    <value>Գրադարակ</value>
+  </data>
+  <data name="tile_brick_name" xml:space="preserve">
+    <value>Աղյուսներ</value>
+  </data>
+  <data name="tile_button_name" xml:space="preserve">
+    <value>Կոճակ</value>
+  </data>
+  <data name="tile_cactus_name" xml:space="preserve">
+    <value>Կակտուս</value>
+  </data>
+  <data name="tile_cake_name" xml:space="preserve">
+    <value>Տորթ</value>
+  </data>
+  <data name="tile_carrots_name" xml:space="preserve">
+    <value>Գազար</value>
+  </data>
+  <data name="tile_cauldron_name" xml:space="preserve">
+    <value>Կաթսա</value>
+  </data>
+  <data name="tile_chest_name" xml:space="preserve">
+    <value>Սնդուկ</value>
+  </data>
+  <data name="tile_chestTrap_name" xml:space="preserve">
+    <value>Թակարդված Սնդուկ</value>
+  </data>
+  <data name="tile_clay_name" xml:space="preserve">
+    <value>Կավ</value>
+  </data>
+  <data name="tile_clayHardened_name" xml:space="preserve">
+    <value>Կոփված Կավ</value>
+  </data>
+  <data name="tile_cloth_black_name" xml:space="preserve">
+    <value>Սեվ Բուրդ</value>
+  </data>
+  <data name="tile_cloth_blue_name" xml:space="preserve">
+    <value>Կապույտ Բուրդ</value>
+  </data>
+  <data name="tile_cloth_brown_name" xml:space="preserve">
+    <value>Դարչնագույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_cyan_name" xml:space="preserve">
+    <value>Փիրուզագույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_gray_name" xml:space="preserve">
+    <value>Մոխրագույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_green_name" xml:space="preserve">
+    <value>Կանաչ Բուրդ</value>
+  </data>
+  <data name="tile_cloth_lightBlue_name" xml:space="preserve">
+    <value>Բաց Կապույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_lime_name" xml:space="preserve">
+    <value>Լայմ Բուրդ</value>
+  </data>
+  <data name="tile_cloth_magenta_name" xml:space="preserve">
+    <value>Մորեգույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_name" xml:space="preserve">
+    <value>Բուրդ</value>
+  </data>
+  <data name="tile_cloth_orange_name" xml:space="preserve">
+    <value>Նարնջագույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_pink_name" xml:space="preserve">
+    <value>Վարդագույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_purple_name" xml:space="preserve">
+    <value>Մանուշակագույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_red_name" xml:space="preserve">
+    <value>Կարմիր Բուրդ</value>
+  </data>
+  <data name="tile_cloth_silver_name" xml:space="preserve">
+    <value>Բաց Մոխրագույն Բուրդ</value>
+  </data>
+  <data name="tile_cloth_white_name" xml:space="preserve">
+    <value>Բուրդ</value>
+  </data>
+  <data name="tile_cloth_yellow_name" xml:space="preserve">
+    <value>Դեղին Բուրդ</value>
+  </data>
+  <data name="tile_cobbleWall_mossy_name" xml:space="preserve">
+    <value>Մամռոտ Սալաքարե Պատ</value>
+  </data>
+  <data name="tile_cobbleWall_normal_name" xml:space="preserve">
+    <value>Սալաքարե Պատ</value>
+  </data>
+  <data name="tile_cocoa_name" xml:space="preserve">
+    <value>Կակաո</value>
+  </data>
+  <data name="tile_commandBlock_name" xml:space="preserve">
+    <value>Հրամանների Բլոկ</value>
+  </data>
+  <data name="tile_crops_name" xml:space="preserve">
+    <value>Բերք</value>
+  </data>
+  <data name="tile_daylightDetector_name" xml:space="preserve">
+    <value>Ցերեկային Լույսի Ցուցիչ</value>
+  </data>
+  <data name="tile_deadbush_name" xml:space="preserve">
+    <value>Մեռյալ Թուփ</value>
+  </data>
+  <data name="tile_detectorRail_name" xml:space="preserve">
+    <value>Հայտնաբերող Ռելս</value>
+  </data>
+  <data name="tile_dirt_default_name" xml:space="preserve">
+    <value>Հող</value>
+  </data>
+  <data name="tile_dirt_name" xml:space="preserve">
+    <value>Հող</value>
+  </data>
+  <data name="tile_dirt_podzol_name" xml:space="preserve">
+    <value>Փոդզոլ</value>
+  </data>
+  <data name="tile_dispenser_name" xml:space="preserve">
+    <value>Վանիչ</value>
+  </data>
+  <data name="tile_doorIron_name" xml:space="preserve">
+    <value>Երկաթե Դուռ</value>
+  </data>
+  <data name="tile_doorWood_name" xml:space="preserve">
+    <value>Փայտե Դուռ</value>
+  </data>
+  <data name="tile_doublePlant_fern_name" xml:space="preserve">
+    <value>Մեծ Պտեր</value>
+  </data>
+  <data name="tile_doublePlant_grass_name" xml:space="preserve">
+    <value>Կրկնակի բարձրախոտ</value>
+  </data>
+  <data name="tile_doublePlant_paeonia_name" xml:space="preserve">
+    <value>Պիոն</value>
+  </data>
+  <data name="tile_doublePlant_rose_name" xml:space="preserve">
+    <value>Վարդի թուփ</value>
+  </data>
+  <data name="tile_doublePlant_sunflower_name" xml:space="preserve">
+    <value>Արևածաղիկ</value>
+  </data>
+  <data name="tile_doublePlant_syringa_name" xml:space="preserve">
+    <value>Յասաման</value>
+  </data>
+  <data name="tile_dragonEgg_name" xml:space="preserve">
+    <value>Դրակոնի Ձու</value>
+  </data>
+  <data name="tile_dropper_name" xml:space="preserve">
+    <value>Բաշխիչ</value>
+  </data>
+  <data name="tile_enchantmentTable_name" xml:space="preserve">
+    <value>Կախարդանքի Սեղան</value>
+  </data>
+  <data name="tile_endPortalFrame_name" xml:space="preserve">
+    <value>«Վերջ»-ի Պորտալ</value>
+  </data>
+  <data name="tile_enderChest_name" xml:space="preserve">
+    <value>Էնդերի Սնդուկ</value>
+  </data>
+  <data name="tile_farmland_name" xml:space="preserve">
+    <value>Մշակահող</value>
+  </data>
+  <data name="tile_fence_name" xml:space="preserve">
+    <value>Ցանկապատ</value>
+  </data>
+  <data name="tile_fenceGate_name" xml:space="preserve">
+    <value>Դարբաս</value>
+  </data>
+  <data name="tile_fenceIron_name" xml:space="preserve">
+    <value>Երկաթե Ճաղեր</value>
+  </data>
+  <data name="tile_fire_name" xml:space="preserve">
+    <value>Կրակ</value>
+  </data>
+  <data name="tile_flower1_dandelion_name" xml:space="preserve">
+    <value>Խատուտիկ</value>
+  </data>
+  <data name="tile_flower1_name" xml:space="preserve">
+    <value>Ծաղիկ</value>
+  </data>
+  <data name="tile_flower2_allium_name" xml:space="preserve">
+    <value>Սոխ</value>
+  </data>
+  <data name="tile_flower2_blueOrchid_name" xml:space="preserve">
+    <value>Կապույտ Օրխիդեա</value>
+  </data>
+  <data name="tile_flower2_houstonia_name" xml:space="preserve">
+    <value>Կապույտ Տերեփուկ</value>
+  </data>
+  <data name="tile_flower2_name" xml:space="preserve">
+    <value>Ծաղիկ</value>
+  </data>
+  <data name="tile_flower2_oxeyeDaisy_name" xml:space="preserve">
+    <value>Մարգարտածաղիկ</value>
+  </data>
+  <data name="tile_flower2_poppy_name" xml:space="preserve">
+    <value>Կակաչ</value>
+  </data>
+  <data name="tile_flower2_tulipOrange_name" xml:space="preserve">
+    <value>Նարնջագույն Վարդակակաչ</value>
+  </data>
+  <data name="tile_flower2_tulipPink_name" xml:space="preserve">
+    <value>Վարդագույն Վարդակակաչ</value>
+  </data>
+  <data name="tile_flower2_tulipRed_name" xml:space="preserve">
+    <value>Կարմիր Վարդակակաչ</value>
+  </data>
+  <data name="tile_flower2_tulipWhite_name" xml:space="preserve">
+    <value>Սպիտակ Վարդակակաչ</value>
+  </data>
+  <data name="tile_furnace_name" xml:space="preserve">
+    <value>Վառարան</value>
+  </data>
+  <data name="tile_glass_name" xml:space="preserve">
+    <value>Ապակի</value>
+  </data>
+  <data name="tile_goldenRail_name" xml:space="preserve">
+    <value>Էներգակիր Ռելս</value>
+  </data>
+  <data name="tile_grass_name" xml:space="preserve">
+    <value>Խոտի Բլոկ</value>
+  </data>
+  <data name="tile_gravel_name" xml:space="preserve">
+    <value>Մանրախիճ</value>
+  </data>
+  <data name="tile_hayBlock_name" xml:space="preserve">
+    <value>Ցորենի Խուրձ</value>
+  </data>
+  <data name="tile_hellrock_name" xml:space="preserve">
+    <value>Դժողքի Քար</value>
+  </data>
+  <data name="tile_hellsand_name" xml:space="preserve">
+    <value>Հոգիների Ավազ</value>
+  </data>
+  <data name="tile_hopper_name" xml:space="preserve">
+    <value>Ձագար</value>
+  </data>
+  <data name="tile_ice_name" xml:space="preserve">
+    <value>Սառույց</value>
+  </data>
+  <data name="tile_icePacked_name" xml:space="preserve">
+    <value>Ձիգ Սառույց</value>
+  </data>
+  <data name="tile_jukebox_name" xml:space="preserve">
+    <value>Նվագարկիչ</value>
+  </data>
+  <data name="tile_ladder_name" xml:space="preserve">
+    <value>Սանդուղք</value>
+  </data>
+  <data name="tile_lava_name" xml:space="preserve">
+    <value>Լավա</value>
+  </data>
+  <data name="tile_leaves_acacia_name" xml:space="preserve">
+    <value>Ակացիաի տերևներ</value>
+  </data>
+  <data name="tile_leaves_big_oak_name" xml:space="preserve">
+    <value>Մուգ կաղնու տերեւներ</value>
+  </data>
+  <data name="tile_leaves_birch_name" xml:space="preserve">
+    <value>Կեչու Տերևներ</value>
+  </data>
+  <data name="tile_leaves_jungle_name" xml:space="preserve">
+    <value>Ջունգլիի Տերևներ</value>
+  </data>
+  <data name="tile_leaves_name" xml:space="preserve">
+    <value>Տերևներ</value>
+  </data>
+  <data name="tile_leaves_oak_name" xml:space="preserve">
+    <value>Կաղնու Տերևներ</value>
+  </data>
+  <data name="tile_leaves_spruce_name" xml:space="preserve">
+    <value>Եղևնու Տերևներ</value>
+  </data>
+  <data name="tile_lever_name" xml:space="preserve">
+    <value>Լծակ</value>
+  </data>
+  <data name="tile_lightgem_name" xml:space="preserve">
+    <value>Լուսարձակող Քար</value>
+  </data>
+  <data name="tile_litpumpkin_name" xml:space="preserve">
+    <value>Ջեկի Լամպը</value>
+  </data>
+  <data name="tile_lockedchest_name" xml:space="preserve">
+    <value>Կողպված Սնդուկ</value>
+  </data>
+  <data name="tile_log_acacia_name" xml:space="preserve">
+    <value>Ակացիաի փայտ</value>
+  </data>
+  <data name="tile_log_big_oak_name" xml:space="preserve">
+    <value>Մուգ կաղնու փայտ</value>
+  </data>
+  <data name="tile_log_birch_name" xml:space="preserve">
+    <value>Կեչու Փայտ</value>
+  </data>
+  <data name="tile_log_jungle_name" xml:space="preserve">
+    <value>Ջունգլիի Փայտ</value>
+  </data>
+  <data name="tile_log_name" xml:space="preserve">
+    <value>Փայտ</value>
+  </data>
+  <data name="tile_log_oak_name" xml:space="preserve">
+    <value>Կաղնու Փայտ</value>
+  </data>
+  <data name="tile_log_spruce_name" xml:space="preserve">
+    <value>Եղևնու Փայտ</value>
+  </data>
+  <data name="tile_melon_name" xml:space="preserve">
+    <value>Ձմերուկ</value>
+  </data>
+  <data name="tile_mobSpawner_name" xml:space="preserve">
+    <value>Հրեշի Ծնարան</value>
+  </data>
+  <data name="tile_monsterStoneEgg_brick_name" xml:space="preserve">
+    <value>Աղյուսաքարե Հրեշի Ձու</value>
+  </data>
+  <data name="tile_monsterStoneEgg_chiseledbrick_name" xml:space="preserve">
+    <value>Փորագրված Քարաղյուս Հրեշի Ձու</value>
+  </data>
+  <data name="tile_monsterStoneEgg_cobble_name" xml:space="preserve">
+    <value>Սալաքարե Հրեշի Ձու</value>
+  </data>
+  <data name="tile_monsterStoneEgg_crackedbrick_name" xml:space="preserve">
+    <value>Ճաքած Քարաղյուս Հրեշի Ձու</value>
+  </data>
+  <data name="tile_monsterStoneEgg_mossybrick_name" xml:space="preserve">
+    <value>Մամռոտ Քարաղյուս Հրեշի Ձու</value>
+  </data>
+  <data name="tile_monsterStoneEgg_stone_name" xml:space="preserve">
+    <value>Հրեշի Ձու Քարից</value>
+  </data>
+  <data name="tile_mushroom_name" xml:space="preserve">
+    <value>Սունկ</value>
+  </data>
+  <data name="tile_musicBlock_name" xml:space="preserve">
+    <value>Մեղեդու Բլոկ</value>
+  </data>
+  <data name="tile_mycel_name" xml:space="preserve">
+    <value>Բորբոսահող</value>
+  </data>
+  <data name="tile_netherBrick_name" xml:space="preserve">
+    <value>Դժոխային Աղյուս</value>
+  </data>
+  <data name="tile_netherFence_name" xml:space="preserve">
+    <value>Դժոխային Ցանկապատ</value>
+  </data>
+  <data name="tile_netherStalk_name" xml:space="preserve">
+    <value>Դժոխային Բույս</value>
+  </data>
+  <data name="tile_netherquartz_name" xml:space="preserve">
+    <value>Կվարցի Հանքաքար</value>
+  </data>
+  <data name="tile_notGate_name" xml:space="preserve">
+    <value>Կարմրաքարի Ջահ</value>
+  </data>
+  <data name="tile_obsidian_name" xml:space="preserve">
+    <value>Օբսիդիան</value>
+  </data>
+  <data name="tile_oreCoal_name" xml:space="preserve">
+    <value>Ածուխի Հանքաքար</value>
+  </data>
+  <data name="tile_oreDiamond_name" xml:space="preserve">
+    <value>Ադամանդի Հանքաքար</value>
+  </data>
+  <data name="tile_oreEmerald_name" xml:space="preserve">
+    <value>Զմրուխտի Հանքաքար</value>
+  </data>
+  <data name="tile_oreGold_name" xml:space="preserve">
+    <value>Ոսկու Հանքաքար</value>
+  </data>
+  <data name="tile_oreIron_name" xml:space="preserve">
+    <value>Երկաթի Հանքաքար</value>
+  </data>
+  <data name="tile_oreLapis_name" xml:space="preserve">
+    <value>Լազուրիտի Հանքաքար</value>
+  </data>
+  <data name="tile_oreRedstone_name" xml:space="preserve">
+    <value>Կարմրաքարի Հանքաքար</value>
+  </data>
+  <data name="tile_pistonBase_name" xml:space="preserve">
+    <value>Մխոց</value>
+  </data>
+  <data name="tile_pistonStickyBase_name" xml:space="preserve">
+    <value>Կպչուն Մխոց</value>
+  </data>
+  <data name="tile_portal_name" xml:space="preserve">
+    <value>Պորտալ</value>
+  </data>
+  <data name="tile_potatoes_name" xml:space="preserve">
+    <value>Կարտոֆիլ</value>
+  </data>
+  <data name="tile_pumpkin_name" xml:space="preserve">
+    <value>Դդում</value>
+  </data>
+  <data name="tile_quartzBlock_chiseled_name" xml:space="preserve">
+    <value>Փորագրված Կվարցի Բլոկ</value>
+  </data>
+  <data name="tile_quartzBlock_default_name" xml:space="preserve">
+    <value>Կվարցի Բլոկ</value>
+  </data>
+  <data name="tile_quartzBlock_lines_name" xml:space="preserve">
+    <value>Սյունաձև Կվարցի Բլոկից</value>
+  </data>
+  <data name="tile_rail_name" xml:space="preserve">
+    <value>Ռելս</value>
+  </data>
+  <data name="tile_redSandStone_default_name" xml:space="preserve">
+    <value>կարմիր ավազ</value>
+  </data>
+  <data name="tile_redSandStone_name" xml:space="preserve">
+    <value>կարմիր ավազ</value>
+  </data>
+  <data name="tile_redstoneDust_name" xml:space="preserve">
+    <value>Կարմիր Փոշի</value>
+  </data>
+  <data name="tile_redstoneLight_name" xml:space="preserve">
+    <value>Կարմրաքարի Լամպ</value>
+  </data>
+  <data name="tile_reeds_name" xml:space="preserve">
+    <value>Եղեգնաշաքար</value>
+  </data>
+  <data name="tile_sand_default_name" xml:space="preserve">
+    <value>Ավազ</value>
+  </data>
+  <data name="tile_sand_name" xml:space="preserve">
+    <value>Ավազ</value>
+  </data>
+  <data name="tile_sand_red_name" xml:space="preserve">
+    <value>Կարմիր ավազ</value>
+  </data>
+  <data name="tile_sandStone_chiseled_name" xml:space="preserve">
+    <value>Փորագրված Ավազաքար</value>
+  </data>
+  <data name="tile_sandStone_default_name" xml:space="preserve">
+    <value>Ավազաքար</value>
+  </data>
+  <data name="tile_sandStone_name" xml:space="preserve">
+    <value>Ավազաքար</value>
+  </data>
+  <data name="tile_sandStone_smooth_name" xml:space="preserve">
+    <value>Հարթ Ավազաքար</value>
+  </data>
+  <data name="tile_sapling_acacia_name" xml:space="preserve">
+    <value>Ակացիաի տնկի</value>
+  </data>
+  <data name="tile_sapling_birch_name" xml:space="preserve">
+    <value>Կեչու Տնկի</value>
+  </data>
+  <data name="tile_sapling_jungle_name" xml:space="preserve">
+    <value>Ջունգլիի Տնկի</value>
+  </data>
+  <data name="tile_sapling_oak_name" xml:space="preserve">
+    <value>Կաղնու տնկի</value>
+  </data>
+  <data name="tile_sapling_spruce_name" xml:space="preserve">
+    <value>Եղևնու տնկի</value>
+  </data>
+  <data name="tile_seaLantern_name" xml:space="preserve">
+    <value>լապտեր ջուր</value>
+  </data>
+  <data name="tile_sign_name" xml:space="preserve">
+    <value>Ցուցատախտակ</value>
+  </data>
+  <data name="tile_snow_name" xml:space="preserve">
+    <value>Ձյուն</value>
+  </data>
+  <data name="tile_sponge_dry_name" xml:space="preserve">
+    <value>Սպունգ</value>
+  </data>
+  <data name="tile_stainedGlass_black_name" xml:space="preserve">
+    <value>Սև Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_blue_name" xml:space="preserve">
+    <value>Կապույտ Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_brown_name" xml:space="preserve">
+    <value>Դարչնագույն ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_cyan_name" xml:space="preserve">
+    <value>Փիրուզագույն Գունավոր Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_gray_name" xml:space="preserve">
+    <value>Մոխրագոյն Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_green_name" xml:space="preserve">
+    <value>Կանաչ Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_lightBlue_name" xml:space="preserve">
+    <value>Բաց Կապույտ Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_lime_name" xml:space="preserve">
+    <value>Բաց Կանաչ Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_magenta_name" xml:space="preserve">
+    <value>Մորեգույն պակի</value>
+  </data>
+  <data name="tile_stainedGlass_orange_name" xml:space="preserve">
+    <value>Նարնջագույն պակի</value>
+  </data>
+  <data name="tile_stainedGlass_pink_name" xml:space="preserve">
+    <value>Վարդագույն Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_purple_name" xml:space="preserve">
+    <value>Մանուշակագույն Գունավոր Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_red_name" xml:space="preserve">
+    <value>Կարմիր Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_silver_name" xml:space="preserve">
+    <value>Բաց Մոխրագոյն Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_white_name" xml:space="preserve">
+    <value>Սպիտակ Ապակի</value>
+  </data>
+  <data name="tile_stainedGlass_yellow_name" xml:space="preserve">
+    <value>Դեղին Ապակի</value>
+  </data>
+  <data name="tile_stairsBrick_name" xml:space="preserve">
+    <value>Աղյուսե Աստիճաններ</value>
+  </data>
+  <data name="tile_stairsNetherBrick_name" xml:space="preserve">
+    <value>Աստիճաններ Դժոխային Աղյուսից</value>
+  </data>
+  <data name="tile_stairsQuartz_name" xml:space="preserve">
+    <value>Կվարցե Աստիչաններ</value>
+  </data>
+  <data name="tile_stairsSandStone_name" xml:space="preserve">
+    <value>Աստիճաններ Ավազաքարից</value>
+  </data>
+  <data name="tile_stairsStone_name" xml:space="preserve">
+    <value>Քարե Աստիճաններ</value>
+  </data>
+  <data name="tile_stairsStoneBrickSmooth_name" xml:space="preserve">
+    <value>Աղյուսաքարե Աստիճաններ</value>
+  </data>
+  <data name="tile_stairsWood_name" xml:space="preserve">
+    <value>Աստիճաններ Կաղնու Փայտից</value>
+  </data>
+  <data name="tile_stairsWoodAcacia_name" xml:space="preserve">
+    <value>Աստիճաներ Ակացիաի Փայտից</value>
+  </data>
+  <data name="tile_stairsWoodBirch_name" xml:space="preserve">
+    <value>Աստիճաններ Կեչու Փայտից</value>
+  </data>
+  <data name="tile_stairsWoodDarkOak_name" xml:space="preserve">
+    <value>Աստիճաններ Մուգ Կաղնու Փայտից</value>
+  </data>
+  <data name="tile_stairsWoodJungle_name" xml:space="preserve">
+    <value>Աստիճաններ Ջունգլիների Փայտից</value>
+  </data>
+  <data name="tile_stairsWoodSpruce_name" xml:space="preserve">
+    <value>Աստիճաններ Եղևնու Փայտից</value>
+  </data>
+  <data name="tile_stone_granite_name" xml:space="preserve">
+    <value>գրանիտ</value>
+  </data>
+  <data name="tile_stone_stone_name" xml:space="preserve">
+    <value>Քար</value>
+  </data>
+  <data name="tile_stoneMoss_name" xml:space="preserve">
+    <value>Մամռոտ Քար</value>
+  </data>
+  <data name="tile_stoneSlab_brick_name" xml:space="preserve">
+    <value>Աղյուսե Սալիկ</value>
+  </data>
+  <data name="tile_stoneSlab_cobble_name" xml:space="preserve">
+    <value>Սալաքարե Սալիկ</value>
+  </data>
+  <data name="tile_stoneSlab_netherBrick_name" xml:space="preserve">
+    <value>Դժոխային Աղյուսի Սալիկ</value>
+  </data>
+  <data name="tile_stoneSlab_quartz_name" xml:space="preserve">
+    <value>Կվարցե Սալիկ</value>
+  </data>
+  <data name="tile_stoneSlab_sand_name" xml:space="preserve">
+    <value>Ավազաքարե Սալիկ</value>
+  </data>
+  <data name="tile_stoneSlab_smoothStoneBrick_name" xml:space="preserve">
+    <value>Քարաղյուսե Սալիկ</value>
+  </data>
+  <data name="tile_stoneSlab_stone_name" xml:space="preserve">
+    <value>Քարե Սալիկ</value>
+  </data>
+  <data name="tile_stoneSlab_wood_name" xml:space="preserve">
+    <value>Փայտե Սալիկ</value>
+  </data>
+  <data name="tile_stonebrick_name" xml:space="preserve">
+    <value>Սալաքար</value>
+  </data>
+  <data name="tile_stonebricksmooth_chiseled_name" xml:space="preserve">
+    <value>Փորագրված Քարաղյուս</value>
+  </data>
+  <data name="tile_stonebricksmooth_cracked_name" xml:space="preserve">
+    <value>Ճաքած Քարաղյուս</value>
+  </data>
+  <data name="tile_stonebricksmooth_default_name" xml:space="preserve">
+    <value>Քարաղյուս</value>
+  </data>
+  <data name="tile_stonebricksmooth_mossy_name" xml:space="preserve">
+    <value>Մամռոտ Քարաղյուս</value>
+  </data>
+  <data name="tile_stonebricksmooth_name" xml:space="preserve">
+    <value>Քարաղյուս</value>
+  </data>
+  <data name="tile_tallgrass_fern_name" xml:space="preserve">
+    <value>Պտեր</value>
+  </data>
+  <data name="tile_tallgrass_grass_name" xml:space="preserve">
+    <value>Խոտ</value>
+  </data>
+  <data name="tile_tallgrass_name" xml:space="preserve">
+    <value>Խոտ</value>
+  </data>
+  <data name="tile_tallgrass_shrub_name" xml:space="preserve">
+    <value>Թուփ</value>
+  </data>
+  <data name="tile_thinGlass_name" xml:space="preserve">
+    <value>Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_black_name" xml:space="preserve">
+    <value>Սև Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_blue_name" xml:space="preserve">
+    <value>Կապոյտ Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_brown_name" xml:space="preserve">
+    <value>Դարչնագույն Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_cyan_name" xml:space="preserve">
+    <value>Փիրուզագույն Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_gray_name" xml:space="preserve">
+    <value>Մոխրագոյն Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_green_name" xml:space="preserve">
+    <value>Կանանչ Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_lightBlue_name" xml:space="preserve">
+    <value>Բաց կապույտ Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_lime_name" xml:space="preserve">
+    <value>Լայմ Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_magenta_name" xml:space="preserve">
+    <value>Մորեգույն Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_orange_name" xml:space="preserve">
+    <value>Նարնջագույն Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_pink_name" xml:space="preserve">
+    <value>Վարդագոյն Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_purple_name" xml:space="preserve">
+    <value>Մանուշակագույն Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_red_name" xml:space="preserve">
+    <value>Կարմիր Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_silver_name" xml:space="preserve">
+    <value>Բաց Մոխրագույն Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_white_name" xml:space="preserve">
+    <value>Սպիտակ Ապակու Շերտ</value>
+  </data>
+  <data name="tile_thinStainedGlass_yellow_name" xml:space="preserve">
+    <value>Դեղին Ապակու Շերտ</value>
+  </data>
+  <data name="tile_tnt_name" xml:space="preserve">
+    <value>Դինամիտ</value>
+  </data>
+  <data name="tile_torch_name" xml:space="preserve">
+    <value>Ջահ</value>
+  </data>
+  <data name="tile_trapdoor_name" xml:space="preserve">
+    <value>Դռնակ</value>
+  </data>
+  <data name="tile_tripWire_name" xml:space="preserve">
+    <value>Թակարդալար</value>
+  </data>
+  <data name="tile_tripWireSource_name" xml:space="preserve">
+    <value>Թակարդի Կեռիկ</value>
+  </data>
+  <data name="tile_vine_name" xml:space="preserve">
+    <value>Որթատունկ</value>
+  </data>
+  <data name="tile_water_name" xml:space="preserve">
+    <value>Ջուր</value>
+  </data>
+  <data name="tile_waterlily_name" xml:space="preserve">
+    <value>Ջրաշուշան</value>
+  </data>
+  <data name="tile_web_name" xml:space="preserve">
+    <value>Սարդոստայն</value>
+  </data>
+  <data name="tile_weightedPlate_heavy_name" xml:space="preserve">
+    <value>Կշռվաժ Ճնշաթիթեղ (Ծանր)</value>
+  </data>
+  <data name="tile_weightedPlate_light_name" xml:space="preserve">
+    <value>Կշռվաժ Ճնշաթիթեղ (Թեթև)</value>
+  </data>
+  <data name="tile_whiteStone_name" xml:space="preserve">
+    <value>Վերջնաքար</value>
+  </data>
+  <data name="tile_wood_acacia_name" xml:space="preserve">
+    <value>Ակացիաի տախտակներ</value>
+  </data>
+  <data name="tile_wood_big_oak_name" xml:space="preserve">
+    <value>Մուգ կաղնու տախտակներ</value>
+  </data>
+  <data name="tile_wood_birch_name" xml:space="preserve">
+    <value>Կեչու Տախտակներ</value>
+  </data>
+  <data name="tile_wood_jungle_name" xml:space="preserve">
+    <value>Ջունգլիի Տախտակներ</value>
+  </data>
+  <data name="tile_wood_name" xml:space="preserve">
+    <value>Փայտե Տախտակներ</value>
+  </data>
+  <data name="tile_wood_oak_name" xml:space="preserve">
+    <value>Կաղնու տախտակներ</value>
+  </data>
+  <data name="tile_wood_spruce_name" xml:space="preserve">
+    <value>Եղևնու տախտակներ</value>
+  </data>
+  <data name="tile_woodSlab_acacia_name" xml:space="preserve">
+    <value>Սալիկ Ակացիաի Փայտից</value>
+  </data>
+  <data name="tile_woodSlab_big_oak_name" xml:space="preserve">
+    <value>Սալիկ Մուգ Կաղնու Փայտից</value>
+  </data>
+  <data name="tile_woodSlab_birch_name" xml:space="preserve">
+    <value>Սալիկ Կեչու Փայտից</value>
+  </data>
+  <data name="tile_woodSlab_jungle_name" xml:space="preserve">
+    <value>Սալիկ Ջունգլիի Փայտից</value>
+  </data>
+  <data name="tile_woodSlab_name" xml:space="preserve">
+    <value>Փայտե սալաքար</value>
+  </data>
+  <data name="tile_woodSlab_oak_name" xml:space="preserve">
+    <value>Սալիկ Կաղնու Փայտից</value>
+  </data>
+  <data name="tile_woodSlab_spruce_name" xml:space="preserve">
+    <value>Սալիկ Եղևնու Փայտից</value>
+  </data>
+  <data name="tile_woolCarpet_black_name" xml:space="preserve">
+    <value>Սև Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_blue_name" xml:space="preserve">
+    <value>Կապույտ Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_brown_name" xml:space="preserve">
+    <value>Դարչնագույն Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_cyan_name" xml:space="preserve">
+    <value>Փիրուզագույն Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_gray_name" xml:space="preserve">
+    <value>Մոխրագույն Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_green_name" xml:space="preserve">
+    <value>Կանաչ Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_lightBlue_name" xml:space="preserve">
+    <value>Բաց Կապույտ Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_lime_name" xml:space="preserve">
+    <value>Լայմ Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_magenta_name" xml:space="preserve">
+    <value>Մորեգույն Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_name" xml:space="preserve">
+    <value>Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_orange_name" xml:space="preserve">
+    <value>Նարնջագույն Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_pink_name" xml:space="preserve">
+    <value>Վարդագույն Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_purple_name" xml:space="preserve">
+    <value>Մանուշակագույն Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_red_name" xml:space="preserve">
+    <value>Կարմիր Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_silver_name" xml:space="preserve">
+    <value>Բաց Մոխրագույն Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_white_name" xml:space="preserve">
+    <value>Գորգ</value>
+  </data>
+  <data name="tile_woolCarpet_yellow_name" xml:space="preserve">
+    <value>Դեղին Գորգ</value>
+  </data>
+  <data name="tile_workbench_name" xml:space="preserve">
+    <value>Արհեստասեղան</value>
+  </data>
+</root>

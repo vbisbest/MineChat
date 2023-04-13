@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineChat.AlertsPage"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             xmlns:i18n="clr-namespace:MineChat;assembly=MineChat"
+             Title="Alerts">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="FillAndExpand" Padding="10, 5, 10, 5">
+      <StackLayout Padding="5, 0, 5, 0" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}">
+        <Label x:Name="labelDescription" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}" HorizontalTextAlignment="Center" FontSize="Small" Text="Add alert words on this page.  When an alert word is seen in chat, it will highlight.  Note: vibrate only works on devices that support vibration." VerticalOptions="Center" HorizontalOptions="Center" />
+      </StackLayout>
+      <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None">
+        <!-- Group Header Customization-->
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.ContextActions>
+                <MenuItem Clicked="OnEdit" CommandParameter="{Binding .}"
+                   Text="{i18n:Translate selectWorld_edit}" />
+                <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}"
+                   Text="{i18n:Translate selectWorld_delete}" IsDestructive="True" />
+              </ViewCell.ContextActions>
+              <ViewCell.View>
+                <StackLayout Padding="5,5,5,5" Orientation="Horizontal" >
+                  <Label HorizontalOptions="FillAndExpand" Text="{Binding Word}" VerticalTextAlignment="Center"/>
+                    <Image Source="sound.png" IsVisible="{Binding Sound}" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}"/>
+                    <Image Source="vibrate.png" IsVisible="{Binding Vibrate}"  BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}"/>
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

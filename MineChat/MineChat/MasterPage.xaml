@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="MineChat.MasterPage"
+			 Padding="0,40,0,0"
+			 Icon="menu.png"
+			 Title="MineChat">
+  <ContentPage.Content>    
+    <StackLayout VerticalOptions="FillAndExpand">      
+      <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" TextColor="Red" />
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

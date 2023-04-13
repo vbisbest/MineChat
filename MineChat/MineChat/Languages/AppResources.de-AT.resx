@@ -1,0 +1,4116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="achievement_acquireIron" xml:space="preserve">
+    <value>Schmiedekunst</value>
+  </data>
+  <data name="achievement_acquireIron_desc" xml:space="preserve">
+    <value>Schmüz Eisnerz im Ofen zu an Eisenborren</value>
+  </data>
+  <data name="achievement_bakeCake" xml:space="preserve">
+    <value>De Lüge</value>
+  </data>
+  <data name="achievement_bakeCake_desc" xml:space="preserve">
+    <value>Weizn, Zugga, Müch und Eia!</value>
+  </data>
+  <data name="achievement_blazeRod" xml:space="preserve">
+    <value>Spü mit'n Feia</value>
+  </data>
+  <data name="achievement_blazeRod_desc" xml:space="preserve">
+    <value>Moch ana Lohe ian Schwonz kirza</value>
+  </data>
+  <data name="achievement_bookcase" xml:space="preserve">
+    <value>Bibliothekar</value>
+  </data>
+  <data name="achievement_bookcase_desc" xml:space="preserve">
+    <value>Bau Biacharegale, um dein Zaubarisch aufzumbessan</value>
+  </data>
+  <data name="achievement_breedCow" xml:space="preserve">
+    <value>Nochzucht</value>
+  </data>
+  <data name="achievement_breedCow_desc" xml:space="preserve">
+    <value>Vamea zwoa Kia mit Weizn</value>
+  </data>
+  <data name="achievement_buildBetterPickaxe" xml:space="preserve">
+    <value>Technischa Fortschritt</value>
+  </data>
+  <data name="achievement_buildBetterPickaxe_desc" xml:space="preserve">
+    <value>Moch a bessare Spitzhock</value>
+  </data>
+  <data name="achievement_buildFurnace" xml:space="preserve">
+    <value>Hoaße Ongelegenheit</value>
+  </data>
+  <data name="achievement_buildFurnace_desc" xml:space="preserve">
+    <value>Bau an Ofen aus ocht Bruchstoana</value>
+  </data>
+  <data name="achievement_buildHoe" xml:space="preserve">
+    <value>Fong u zum Ockan!</value>
+  </data>
+  <data name="achievement_buildHoe_desc" xml:space="preserve">
+    <value>Moch a Hock aus Hoizbrettl und Steck</value>
+  </data>
+  <data name="achievement_buildPickaxe" xml:space="preserve">
+    <value>Glück Auf!</value>
+  </data>
+  <data name="achievement_buildPickaxe_desc" xml:space="preserve">
+    <value>Moch a Spitzhock aus Hoizbrettl und Steck</value>
+  </data>
+  <data name="achievement_buildSword" xml:space="preserve">
+    <value>Zu de Woffn!</value>
+  </data>
+  <data name="achievement_buildSword_desc" xml:space="preserve">
+    <value>Moch a Schwert aus Hoizbrettl und Steck</value>
+  </data>
+  <data name="achievement_buildWorkBench" xml:space="preserve">
+    <value>Fortgschrittns Hondwerk</value>
+  </data>
+  <data name="achievement_buildWorkBench_desc" xml:space="preserve">
+    <value>Moch a Werkbonk aus vier Hoizbrettl</value>
+  </data>
+  <data name="achievement_cookFish" xml:space="preserve">
+    <value>Guada Fisch</value>
+  </data>
+  <data name="achievement_cookFish_desc" xml:space="preserve">
+    <value>Fong und brot an Fisch!</value>
+  </data>
+  <data name="achievement_diamonds" xml:space="preserve">
+    <value>DIAMANTEN!</value>
+  </data>
+  <data name="achievement_diamonds_desc" xml:space="preserve">
+    <value>Bau an Diamanten mit ana Eisenspitzhock o</value>
+  </data>
+  <data name="achievement_diamondsToYou" xml:space="preserve">
+    <value>Diamanten fi di!</value>
+  </data>
+  <data name="achievement_diamondsToYou_desc" xml:space="preserve">
+    <value>Schmeiß an onan Spiela Diamanten zua</value>
+  </data>
+  <data name="achievement_enchantments" xml:space="preserve">
+    <value>Vazaubara</value>
+  </data>
+  <data name="achievement_enchantments_desc" xml:space="preserve">
+    <value>Nimm a Buach, Obsidian und Diamanten, um an Zaubatisch zum Bauen</value>
+  </data>
+  <data name="achievement_exploreAllBiomes" xml:space="preserve">
+    <value>Obenteiazeit</value>
+  </data>
+  <data name="achievement_exploreAllBiomes_desc" xml:space="preserve">
+    <value>Find oi Biome</value>
+  </data>
+  <data name="achievement_flyPig" xml:space="preserve">
+    <value>Wenn Fokn fliang</value>
+  </data>
+  <data name="achievement_flyPig_desc" xml:space="preserve">
+    <value>Fliag mit ana Fok an Obgrund owe</value>
+  </data>
+  <data name="achievement_fullBeacon" xml:space="preserve">
+    <value>Leuchtturmwärta</value>
+  </data>
+  <data name="achievement_fullBeacon_desc" xml:space="preserve">
+    <value>Moch a kompletts Leichtfeia</value>
+  </data>
+  <data name="achievement_get" xml:space="preserve">
+    <value>Afolg!</value>
+  </data>
+  <data name="achievement_ghast" xml:space="preserve">
+    <value>Zrugg zum Osenda</value>
+  </data>
+  <data name="achievement_ghast_desc" xml:space="preserve">
+    <value>Bring an Ghast mit seine eigenen Woffn um</value>
+  </data>
+  <data name="achievement_killCow" xml:space="preserve">
+    <value>Kuaschubsa</value>
+  </data>
+  <data name="achievement_killCow_desc" xml:space="preserve">
+    <value>Somme bissi Leder</value>
+  </data>
+  <data name="achievement_killEnemy" xml:space="preserve">
+    <value>Monsterjaga</value>
+  </data>
+  <data name="achievement_killEnemy_desc" xml:space="preserve">
+    <value>Greif a Monster u und brings um</value>
+  </data>
+  <data name="achievement_killWither" xml:space="preserve">
+    <value>Da Ufong.</value>
+  </data>
+  <data name="achievement_killWither_desc" xml:space="preserve">
+    <value>Bring an Wither um</value>
+  </data>
+  <data name="achievement_makeBread" xml:space="preserve">
+    <value>Bock Brot</value>
+  </data>
+  <data name="achievement_makeBread_desc" xml:space="preserve">
+    <value>Bock a Brot aus Weizn</value>
+  </data>
+  <data name="achievement_mineWood" xml:space="preserve">
+    <value>Dreimoi auf Hoiz klopft!</value>
+  </data>
+  <data name="achievement_mineWood_desc" xml:space="preserve">
+    <value>Schlog an Bam, bis a Block Hoiz außafoid</value>
+  </data>
+  <data name="achievement_onARail" xml:space="preserve">
+    <value>Bahn frei!</value>
+  </data>
+  <data name="achievement_onARail_desc" xml:space="preserve">
+    <value>Leg mit an Minecraft mindestens oan Kilometer am Stuck zrugg</value>
+  </data>
+  <data name="achievement_openInventory" xml:space="preserve">
+    <value>Inventur</value>
+  </data>
+  <data name="achievement_openInventory_desc" xml:space="preserve">
+    <value>Druck '{0}' um dei Inventar zum Seng</value>
+  </data>
+  <data name="achievement_overkill" xml:space="preserve">
+    <value>Kompfmeister</value>
+  </data>
+  <data name="achievement_overkill_desc" xml:space="preserve">
+    <value>Moch mit an oanzign Schlog nei Herzn Schodn</value>
+  </data>
+  <data name="achievement_overpowered" xml:space="preserve">
+    <value>Übamächtig</value>
+  </data>
+  <data name="achievement_overpowered_desc" xml:space="preserve">
+    <value>Iss an Notch-Opfe</value>
+  </data>
+  <data name="achievement_portal" xml:space="preserve">
+    <value>Wia miaßn nu tiafa</value>
+  </data>
+  <data name="achievement_portal_desc" xml:space="preserve">
+    <value>Bau a Portal zum Nether</value>
+  </data>
+  <data name="achievement_potion" xml:space="preserve">
+    <value>Oichemie</value>
+  </data>
+  <data name="achievement_potion_desc" xml:space="preserve">
+    <value>Brau an Tronk</value>
+  </data>
+  <data name="achievement_requires" xml:space="preserve">
+    <value>Braucht '{0}'</value>
+  </data>
+  <data name="achievement_snipeSkeleton" xml:space="preserve">
+    <value>Schorfschütznduell</value>
+  </data>
+  <data name="achievement_snipeSkeleton_desc" xml:space="preserve">
+    <value>Bring a Skelett mit am Pfeil aus ana Entfernung vo mea als 50 Meter um</value>
+  </data>
+  <data name="achievement_spawnWither" xml:space="preserve">
+    <value>Da Ufong?</value>
+  </data>
+  <data name="achievement_spawnWither_desc" xml:space="preserve">
+    <value>Moch an Wither</value>
+  </data>
+  <data name="achievement_taken" xml:space="preserve">
+    <value>Gschofft!</value>
+  </data>
+  <data name="achievement_theEnd" xml:space="preserve">
+    <value>As End?</value>
+  </data>
+  <data name="achievement_theEnd_desc" xml:space="preserve">
+    <value>Find as End</value>
+  </data>
+  <data name="achievement_theEnd2" xml:space="preserve">
+    <value>As End.</value>
+  </data>
+  <data name="achievement_theEnd2_desc" xml:space="preserve">
+    <value>Bring an Enderdrochn um</value>
+  </data>
+  <data name="achievement_unknown" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="addServer_add" xml:space="preserve">
+    <value>Basst</value>
+  </data>
+  <data name="addServer_enterIp" xml:space="preserve">
+    <value>Serveradress</value>
+  </data>
+  <data name="addServer_enterName" xml:space="preserve">
+    <value>Servernom</value>
+  </data>
+  <data name="addServer_hideAddress" xml:space="preserve">
+    <value>Adress vasteckn</value>
+  </data>
+  <data name="addServer_resourcePack" xml:space="preserve">
+    <value>Server-Ressourcenpakete</value>
+  </data>
+  <data name="addServer_resourcePack_disabled" xml:space="preserve">
+    <value>Ausgschoitn</value>
+  </data>
+  <data name="addServer_resourcePack_enabled" xml:space="preserve">
+    <value>Ugschoitn</value>
+  </data>
+  <data name="addServer_resourcePack_prompt" xml:space="preserve">
+    <value>Ofrog</value>
+  </data>
+  <data name="addServer_title" xml:space="preserve">
+    <value>Serverinfos beorbeitn</value>
+  </data>
+  <data name="advMode_mode_redstone" xml:space="preserve">
+    <value>Impuls</value>
+  </data>
+  <data name="advMode_mode_redstoneTriggered" xml:space="preserve">
+    <value>Braucht Redstone</value>
+  </data>
+  <data name="attribute_modifier_plus_0" xml:space="preserve">
+    <value>+{0} {1}</value>
+  </data>
+  <data name="attribute_modifier_plus_1" xml:space="preserve">
+    <value>+{0}% {1}</value>
+  </data>
+  <data name="attribute_modifier_plus_2" xml:space="preserve">
+    <value>+{0}% {1}</value>
+  </data>
+  <data name="attribute_modifier_take_0" xml:space="preserve">
+    <value>-{0} {1}</value>
+  </data>
+  <data name="attribute_modifier_take_1" xml:space="preserve">
+    <value>-{0}% {1}</value>
+  </data>
+  <data name="attribute_modifier_take_2" xml:space="preserve">
+    <value>-{0}% {1}</value>
+  </data>
+  <data name="book_byAuthor" xml:space="preserve">
+    <value>vo {0}</value>
+  </data>
+  <data name="book_editTitle" xml:space="preserve">
+    <value>Buachnom eigebn:</value>
+  </data>
+  <data name="book_finalizeButton" xml:space="preserve">
+    <value>Untaschreibn und Schliaßn</value>
+  </data>
+  <data name="book_finalizeWarning" xml:space="preserve">
+    <value>Hoch zua! Wenn du des Buach untaschreibst, kos neama beoabatet wean.</value>
+  </data>
+  <data name="book_generation_0" xml:space="preserve">
+    <value>Original</value>
+  </data>
+  <data name="book_generation_1" xml:space="preserve">
+    <value>Kopie des Originals</value>
+  </data>
+  <data name="book_generation_2" xml:space="preserve">
+    <value>Kopie oana Kopie</value>
+  </data>
+  <data name="book_generation_3" xml:space="preserve">
+    <value>Z'fetzt</value>
+  </data>
+  <data name="book_pageIndicator" xml:space="preserve">
+    <value>Seitn {0} von {1}</value>
+  </data>
+  <data name="book_signButton" xml:space="preserve">
+    <value>Schüd</value>
+  </data>
+  <data name="chat_cannotSend" xml:space="preserve">
+    <value>Chat-Nochricht hots nid sendn kinnt</value>
+  </data>
+  <data name="chat_copy" xml:space="preserve">
+    <value>Link kopian</value>
+  </data>
+  <data name="chat_link_confirm" xml:space="preserve">
+    <value>Bist da sicha, dass'd de foigende Website öffnen wüst?</value>
+  </data>
+  <data name="chat_link_confirmTrusted" xml:space="preserve">
+    <value>Wüst du diesn Link öffnan oda in de Zwischnoblog kopian?</value>
+  </data>
+  <data name="chat_link_open" xml:space="preserve">
+    <value>Im Browser aufmochn</value>
+  </data>
+  <data name="chat_link_warning" xml:space="preserve">
+    <value>Öffne nia Links vo Leit, denens'd nid vatraust!</value>
+  </data>
+  <data name="chat_type_achievement" xml:space="preserve">
+    <value>{0} hot grod den Afoig {1} griag</value>
+  </data>
+  <data name="chat_type_achievement_taken" xml:space="preserve">
+    <value>{0} hot den Afoig {1} valuan</value>
+  </data>
+  <data name="chat_type_admin" xml:space="preserve">
+    <value>[{0}: {1}]</value>
+  </data>
+  <data name="chat_type_announcement" xml:space="preserve">
+    <value>[{0}] {1}</value>
+  </data>
+  <data name="chat_type_emote" xml:space="preserve">
+    <value>* {0} {1}</value>
+  </data>
+  <data name="chat_type_text" xml:space="preserve">
+    <value>&lt;{0}&gt; {1}</value>
+  </data>
+  <data name="commands_achievement_alreadyHave" xml:space="preserve">
+    <value>Spiela {0} hot scho an Afolg {1}</value>
+  </data>
+  <data name="commands_achievement_dontHave" xml:space="preserve">
+    <value>Spiela {0} hot an Afolg {1} ned</value>
+  </data>
+  <data name="commands_achievement_give_success_all" xml:space="preserve">
+    <value>Oi Afolge an {0} gem</value>
+  </data>
+  <data name="commands_achievement_give_success_one" xml:space="preserve">
+    <value>Spiela {0} hot an Afolg '{1}' griag</value>
+  </data>
+  <data name="commands_achievement_take_success_all" xml:space="preserve">
+    <value>Oi Afolge an {0} weggnumma</value>
+  </data>
+  <data name="commands_achievement_take_success_one" xml:space="preserve">
+    <value>Afolg {0} an {1} weggnumma</value>
+  </data>
+  <data name="commands_achievement_unknownAchievement" xml:space="preserve">
+    <value>Unbekonnta Afolg '{0}'</value>
+  </data>
+  <data name="commands_achievement_usage" xml:space="preserve">
+    <value>/achievement give|take &lt;ErfolgNom&gt; [Spiela]</value>
+  </data>
+  <data name="commands_ban_usage" xml:space="preserve">
+    <value>/ban &lt;Spiela&gt; [&lt;Grund ...&gt;]</value>
+  </data>
+  <data name="commands_banip_usage" xml:space="preserve">
+    <value>/ban-ip &lt;Adress|Spiela&gt; [&lt;Grund ...&gt;]</value>
+  </data>
+  <data name="commands_defaultgamemode_success" xml:space="preserve">
+    <value>Da Standartspümodus auf dea Wöd is etz {0}</value>
+  </data>
+  <data name="commands_defaultgamemode_usage" xml:space="preserve">
+    <value>/defaultgamemode &lt;Modus&gt;</value>
+  </data>
+  <data name="commands_downfall_usage" xml:space="preserve">
+    <value>/toggledownfall</value>
+  </data>
+  <data name="commands_gamemode_success_other" xml:space="preserve">
+    <value>Da Spümodus vo {0} is auf {1} gsetzt won</value>
+  </data>
+  <data name="commands_gamemode_success_self" xml:space="preserve">
+    <value>Dei Spümodus is auf {0} gsetzt won</value>
+  </data>
+  <data name="commands_gamemode_usage" xml:space="preserve">
+    <value>/gamemode &lt;mode&gt; [Spiela]</value>
+  </data>
+  <data name="commands_kick_usage" xml:space="preserve">
+    <value>/kick &lt;Spiela&gt; [&lt;Grund ...&gt;]</value>
+  </data>
+  <data name="commands_players_usage" xml:space="preserve">
+    <value>/list</value>
+  </data>
+  <data name="commands_publish_usage" xml:space="preserve">
+    <value>/publish</value>
+  </data>
+  <data name="commands_replaceitem_usage" xml:space="preserve">
+    <value>/replaceitem entity|block ...</value>
+  </data>
+  <data name="commands_save_off_usage" xml:space="preserve">
+    <value>/save-off</value>
+  </data>
+  <data name="commands_save_on_usage" xml:space="preserve">
+    <value>/save-on</value>
+  </data>
+  <data name="commands_save_usage" xml:space="preserve">
+    <value>/save-all</value>
+  </data>
+  <data name="commands_scoreboard_players_list_player_entry" xml:space="preserve">
+    <value>- {1}: {0} ({2})</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_player_entry" xml:space="preserve">
+    <value>- {1}: {0} ({2})</value>
+  </data>
+  <data name="commands_seed_usage" xml:space="preserve">
+    <value>/seed</value>
+  </data>
+  <data name="commands_setblock_noChange" xml:space="preserve">
+    <value>Da Block ku ned platziad wean</value>
+  </data>
+  <data name="commands_setblock_success" xml:space="preserve">
+    <value>Block wead platziad</value>
+  </data>
+  <data name="commands_stats_block_usage" xml:space="preserve">
+    <value>/stats block &lt;x&gt; &lt;y&gt; &lt;z&gt; set|clear ...</value>
+  </data>
+  <data name="commands_stats_cleared" xml:space="preserve">
+    <value>Statistik {0} zrugggsetzt</value>
+  </data>
+  <data name="commands_stats_usage" xml:space="preserve">
+    <value>/stats entity|block ...</value>
+  </data>
+  <data name="commands_stop_usage" xml:space="preserve">
+    <value>/stop</value>
+  </data>
+  <data name="commands_whitelist_usage" xml:space="preserve">
+    <value>/whitelist add|remove &lt;Spiela&gt; ODA /whitelist on|off|list|reload</value>
+  </data>
+  <data name="commands_xp_usage" xml:space="preserve">
+    <value>/xp &lt;Meng&gt; [&lt;Spiela&gt;] ODA /xp &lt;Meng&gt;L [&lt;Spiela&gt;]</value>
+  </data>
+  <data name="connect_authorizing" xml:space="preserve">
+    <value>Umödn...</value>
+  </data>
+  <data name="connect_connecting" xml:space="preserve">
+    <value>Verbind zum Server...</value>
+  </data>
+  <data name="connect_failed" xml:space="preserve">
+    <value>Fehla beim Verbindn mitn Server</value>
+  </data>
+  <data name="container_chest" xml:space="preserve">
+    <value>Kistn</value>
+  </data>
+  <data name="container_chestDouble" xml:space="preserve">
+    <value>Groaße Kistn</value>
+  </data>
+  <data name="container_dispenser" xml:space="preserve">
+    <value>Werfa</value>
+  </data>
+  <data name="container_dropper" xml:space="preserve">
+    <value>Spenda</value>
+  </data>
+  <data name="container_enderchest" xml:space="preserve">
+    <value>Enderkistn</value>
+  </data>
+  <data name="container_spectatorCantOpen" xml:space="preserve">
+    <value>Ku ned aufgmocht wean. Inhoit is nu ned generiad won.</value>
+  </data>
+  <data name="controls_reset" xml:space="preserve">
+    <value>Zrucksetzn</value>
+  </data>
+  <data name="controls_resetAll" xml:space="preserve">
+    <value>Tasten zrucksetzn</value>
+  </data>
+  <data name="controls_title" xml:space="preserve">
+    <value>Steierung</value>
+  </data>
+  <data name="createWorld_customize_custom_biomeSize" xml:space="preserve">
+    <value>Biomgreß</value>
+  </data>
+  <data name="createWorld_customize_custom_confirm1" xml:space="preserve">
+    <value>Des übaschreib endgültig de</value>
+  </data>
+  <data name="createWorld_customize_custom_confirm2" xml:space="preserve">
+    <value>aktuellen Eistellungen. Bist da sicha?</value>
+  </data>
+  <data name="createWorld_customize_custom_confirmTitle" xml:space="preserve">
+    <value>Achtung!</value>
+  </data>
+  <data name="createWorld_customize_custom_defaults" xml:space="preserve">
+    <value>Zrugg wias wor</value>
+  </data>
+  <data name="createWorld_customize_custom_dungeonChance" xml:space="preserve">
+    <value>Onzoih Kerka</value>
+  </data>
+  <data name="createWorld_customize_custom_fixedBiome" xml:space="preserve">
+    <value>Biome</value>
+  </data>
+  <data name="createWorld_customize_custom_next" xml:space="preserve">
+    <value>Weida</value>
+  </data>
+  <data name="createWorld_customize_custom_page0" xml:space="preserve">
+    <value>Grudneistellungen</value>
+  </data>
+  <data name="createWorld_customize_custom_page1" xml:space="preserve">
+    <value>Erz-Eistellungen</value>
+  </data>
+  <data name="createWorld_customize_custom_page2" xml:space="preserve">
+    <value>Vatiafte Eistellungen (fi gonz wiffe Leid!)</value>
+  </data>
+  <data name="createWorld_customize_custom_page3" xml:space="preserve">
+    <value>Zusätzliche erweiterte Eistellungen (nur erfohrene Benutzer!)</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_caveChaos" xml:space="preserve">
+    <value>Höhln des Durchanondas</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_caveDelight" xml:space="preserve">
+    <value>Bergoarbatas Freid</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_drought" xml:space="preserve">
+    <value>Trocknheit</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_goodLuck" xml:space="preserve">
+    <value>Vü Glück</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_isleLand" xml:space="preserve">
+    <value>Insellond</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_mountains" xml:space="preserve">
+    <value>Extreme Berg</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_waterWorld" xml:space="preserve">
+    <value>Wossawöd</value>
+  </data>
+  <data name="createWorld_customize_custom_presets" xml:space="preserve">
+    <value>Vorlogn</value>
+  </data>
+  <data name="createWorld_customize_custom_prev" xml:space="preserve">
+    <value>Zrugg</value>
+  </data>
+  <data name="createWorld_customize_custom_randomize" xml:space="preserve">
+    <value>Zufällig</value>
+  </data>
+  <data name="createWorld_customize_custom_riverSize" xml:space="preserve">
+    <value>Flussgreß</value>
+  </data>
+  <data name="createWorld_customize_custom_seaLevel" xml:space="preserve">
+    <value>Höhnmeta</value>
+  </data>
+  <data name="createWorld_customize_custom_size" xml:space="preserve">
+    <value>Odagreß</value>
+  </data>
+  <data name="createWorld_customize_custom_useCaves" xml:space="preserve">
+    <value>Höhln</value>
+  </data>
+  <data name="createWorld_customize_custom_useDungeons" xml:space="preserve">
+    <value>Kerka</value>
+  </data>
+  <data name="createWorld_customize_custom_useMineShafts" xml:space="preserve">
+    <value>Minen</value>
+  </data>
+  <data name="createWorld_customize_custom_useRavines" xml:space="preserve">
+    <value>Schluchtn</value>
+  </data>
+  <data name="createWorld_customize_custom_useStrongholds" xml:space="preserve">
+    <value>Festunga</value>
+  </data>
+  <data name="createWorld_customize_custom_useTemples" xml:space="preserve">
+    <value>Tempel</value>
+  </data>
+  <data name="createWorld_customize_custom_useVillages" xml:space="preserve">
+    <value>Derfa</value>
+  </data>
+  <data name="createWorld_customize_custom_useWaterLakes" xml:space="preserve">
+    <value>Pfützn</value>
+  </data>
+  <data name="createWorld_customize_custom_waterLakeChance" xml:space="preserve">
+    <value>Sötenheit Lockn</value>
+  </data>
+  <data name="createWorld_customize_flat_addLayer" xml:space="preserve">
+    <value>Schicht dazua doa</value>
+  </data>
+  <data name="createWorld_customize_flat_air" xml:space="preserve">
+    <value>Luft</value>
+  </data>
+  <data name="createWorld_customize_flat_editLayer" xml:space="preserve">
+    <value>Schicht beorbeitn</value>
+  </data>
+  <data name="createWorld_customize_flat_height" xml:space="preserve">
+    <value>Hech</value>
+  </data>
+  <data name="createWorld_customize_flat_layer" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_bottom" xml:space="preserve">
+    <value>Bon - {0}</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_top" xml:space="preserve">
+    <value>Deck - {0}</value>
+  </data>
+  <data name="createWorld_customize_flat_removeLayer" xml:space="preserve">
+    <value>Schicht weg doa</value>
+  </data>
+  <data name="createWorld_customize_flat_tile" xml:space="preserve">
+    <value>Schichtmaterial</value>
+  </data>
+  <data name="createWorld_customize_flat_title" xml:space="preserve">
+    <value>Flachlondeinstellungen</value>
+  </data>
+  <data name="createWorld_customize_presets" xml:space="preserve">
+    <value>Vorlogn</value>
+  </data>
+  <data name="createWorld_customize_presets_list" xml:space="preserve">
+    <value>Alternativ kust a a poor vo ins nemma!</value>
+  </data>
+  <data name="createWorld_customize_presets_select" xml:space="preserve">
+    <value>Vorlog heanemma</value>
+  </data>
+  <data name="createWorld_customize_presets_share" xml:space="preserve">
+    <value>Wüst du de Vorlog ebban weidagem? Nimm des Eigobeföd!</value>
+  </data>
+  <data name="createWorld_customize_presets_title" xml:space="preserve">
+    <value>Vorlog auswöhn</value>
+  </data>
+  <data name="death_attack_hotFloor" xml:space="preserve">
+    <value>{0} is da Bon zhoaß won</value>
+  </data>
+  <data name="deathScreen_deleteWorld" xml:space="preserve">
+    <value>Wöd löschn</value>
+  </data>
+  <data name="deathScreen_leaveServer" xml:space="preserve">
+    <value>Vom Server geh</value>
+  </data>
+  <data name="deathScreen_quit_confirm" xml:space="preserve">
+    <value>Bist da sicha, dass'd as Spü valossn megst?</value>
+  </data>
+  <data name="deathScreen_respawn" xml:space="preserve">
+    <value>Wiederbelem</value>
+  </data>
+  <data name="deathScreen_score" xml:space="preserve">
+    <value>Punktestond</value>
+  </data>
+  <data name="deathScreen_spectate" xml:space="preserve">
+    <value>Wöd beobochtn</value>
+  </data>
+  <data name="deathScreen_title" xml:space="preserve">
+    <value>Du bist gstorbn!</value>
+  </data>
+  <data name="deathScreen_title_hardcore" xml:space="preserve">
+    <value>Game over!</value>
+  </data>
+  <data name="deathScreen_titleScreen" xml:space="preserve">
+    <value>Startseitn</value>
+  </data>
+  <data name="demo_day_1" xml:space="preserve">
+    <value>Diese Demo dauert fünf Spütog, gib dei Bests!</value>
+  </data>
+  <data name="demo_day_2" xml:space="preserve">
+    <value>Tog 2</value>
+  </data>
+  <data name="demo_day_3" xml:space="preserve">
+    <value>Tog 3</value>
+  </data>
+  <data name="demo_day_4" xml:space="preserve">
+    <value>Tog 4</value>
+  </data>
+  <data name="demo_day_5" xml:space="preserve">
+    <value>Fünfta und letzta Tog!</value>
+  </data>
+  <data name="demo_day_6" xml:space="preserve">
+    <value>Dei fünfta Spütog is umma, druck F2 um an Screenshot vo deim Werk zu speichan</value>
+  </data>
+  <data name="demo_day_warning" xml:space="preserve">
+    <value>Dei Zeit is scho fost umma!</value>
+  </data>
+  <data name="demo_demoExpired" xml:space="preserve">
+    <value>De Demo-Zeit is ogloffn!</value>
+  </data>
+  <data name="demo_help_buy" xml:space="preserve">
+    <value>Kaff das jetz!</value>
+  </data>
+  <data name="demo_help_fullWrapped" xml:space="preserve">
+    <value>Diese Demo dauat 5 Spü-Tog (des san zirka 1 Stund und 40 Minutn echte Zeit). Schau da de Erfoige und Hinweise oh! Vü Spaß!</value>
+  </data>
+  <data name="demo_help_inventory" xml:space="preserve">
+    <value>Mit {0} kost du dei Inventar aufmochn</value>
+  </data>
+  <data name="demo_help_jump" xml:space="preserve">
+    <value>Druck {0}, um zu hupfn</value>
+  </data>
+  <data name="demo_help_later" xml:space="preserve">
+    <value>Weitaspün!</value>
+  </data>
+  <data name="demo_help_movement" xml:space="preserve">
+    <value>Benutz {0}, {1}, {2}, {3} und de Maus, um di zu bewegn</value>
+  </data>
+  <data name="demo_help_movementMouse" xml:space="preserve">
+    <value>Schau di mit da Maus um</value>
+  </data>
+  <data name="demo_help_movementShort" xml:space="preserve">
+    <value>Beweg di mit {0}, {1}, {2}, {3}</value>
+  </data>
+  <data name="demo_help_title" xml:space="preserve">
+    <value>Minecraft Demo-Modus</value>
+  </data>
+  <data name="demo_remainingTime" xml:space="preserve">
+    <value>Vableibnde Zeit: {0}</value>
+  </data>
+  <data name="demo_reminder" xml:space="preserve">
+    <value>Dei Demo is obglaffn, kaff da s'Spü oda erstöh da a neie Wöt!</value>
+  </data>
+  <data name="difficulty_lock_question" xml:space="preserve">
+    <value>Bist da sicha, dass du de Schwierigkeit vo diesa Wöt fixiern mechst? Des wird de Wöt fia imma auf {0} setzn und du wiast diese Einstellung neama ändan kennan.</value>
+  </data>
+  <data name="difficulty_lock_title" xml:space="preserve">
+    <value>Schwierigkeit vo diesa Wöt fixian</value>
+  </data>
+  <data name="disconnect_closed" xml:space="preserve">
+    <value>Vabindung gschlossn</value>
+  </data>
+  <data name="disconnect_disconnected" xml:space="preserve">
+    <value>Vom Server ausgstiegn</value>
+  </data>
+  <data name="disconnect_endOfStream" xml:space="preserve">
+    <value>Ende dea Übatrogung</value>
+  </data>
+  <data name="disconnect_genericReason" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="disconnect_kicked" xml:space="preserve">
+    <value>Is ausm Spü gschmissn won</value>
+  </data>
+  <data name="disconnect_loginFailed" xml:space="preserve">
+    <value>Fehla bam Omödn</value>
+  </data>
+  <data name="disconnect_loginFailedInfo" xml:space="preserve">
+    <value>Fehla bam Omödn: {0}</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_invalidSession" xml:space="preserve">
+    <value>Ungültige Sitzung (Probia moi s'Spü nei z'startn)</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_serversUnavailable" xml:space="preserve">
+    <value>De Anmeldeserver san dawei zua Woatung obagfoahn.</value>
+  </data>
+  <data name="disconnect_lost" xml:space="preserve">
+    <value>Vabindung untabrochn</value>
+  </data>
+  <data name="disconnect_overflow" xml:space="preserve">
+    <value>Pufferübalauf</value>
+  </data>
+  <data name="disconnect_quitting" xml:space="preserve">
+    <value>Aussteign</value>
+  </data>
+  <data name="disconnect_spam" xml:space="preserve">
+    <value>Ausigschmissn wegn Spamming</value>
+  </data>
+  <data name="disconnect_timeout" xml:space="preserve">
+    <value>Zeitübaschreitung</value>
+  </data>
+  <data name="effect_confusion" xml:space="preserve">
+    <value>Is da schlecht?</value>
+  </data>
+  <data name="entity_Creeper_name" xml:space="preserve">
+    <value>Creeper</value>
+  </data>
+  <data name="entity_Enderman_name" xml:space="preserve">
+    <value>Enderman</value>
+  </data>
+  <data name="entity_Endermite_name" xml:space="preserve">
+    <value>Endermite</value>
+  </data>
+  <data name="entity_Ghast_name" xml:space="preserve">
+    <value>Ghast</value>
+  </data>
+  <data name="entity_Minecart_name" xml:space="preserve">
+    <value>Wagon</value>
+  </data>
+  <data name="entity_MinecartChest_name" xml:space="preserve">
+    <value>Wagon mit Kistn</value>
+  </data>
+  <data name="entity_MinecartHopper_name" xml:space="preserve">
+    <value>Wagon mit Trichta</value>
+  </data>
+  <data name="entity_MushroomCow_name" xml:space="preserve">
+    <value>Mooshroom</value>
+  </data>
+  <data name="entity_Shulker_name" xml:space="preserve">
+    <value>Shulker</value>
+  </data>
+  <data name="entity_WitherBoss_name" xml:space="preserve">
+    <value>Wither</value>
+  </data>
+  <data name="gameMode_adventure" xml:space="preserve">
+    <value>Obenteiamodus</value>
+  </data>
+  <data name="gameMode_changed" xml:space="preserve">
+    <value>Dei Spümodus is zu {0} gändat woadn</value>
+  </data>
+  <data name="gameMode_creative" xml:space="preserve">
+    <value>Kreativmodus</value>
+  </data>
+  <data name="gameMode_hardcore" xml:space="preserve">
+    <value>Hardcore-Modus!</value>
+  </data>
+  <data name="gameMode_spectator" xml:space="preserve">
+    <value>Zuaschauamodus</value>
+  </data>
+  <data name="gameMode_survival" xml:space="preserve">
+    <value>Üwalebnsmodus</value>
+  </data>
+  <data name="generator_amplified" xml:space="preserve">
+    <value>DURCHLECHAT</value>
+  </data>
+  <data name="generator_amplified_info" xml:space="preserve">
+    <value>Hinweis: Nua ois Spaß docht, braucht an guadn Computer</value>
+  </data>
+  <data name="generator_customized" xml:space="preserve">
+    <value>Upasst</value>
+  </data>
+  <data name="generator_debug_all_block_states" xml:space="preserve">
+    <value>Debug-Modus</value>
+  </data>
+  <data name="generator_default" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="generator_flat" xml:space="preserve">
+    <value>Flochlond</value>
+  </data>
+  <data name="generator_largeBiomes" xml:space="preserve">
+    <value>Groaße Biome</value>
+  </data>
+  <data name="gui_achievements" xml:space="preserve">
+    <value>Afolge</value>
+  </data>
+  <data name="gui_all" xml:space="preserve">
+    <value>Oi</value>
+  </data>
+  <data name="gui_back" xml:space="preserve">
+    <value>Zrugg</value>
+  </data>
+  <data name="gui_cancel" xml:space="preserve">
+    <value>Obbrechn</value>
+  </data>
+  <data name="gui_done" xml:space="preserve">
+    <value>Basst</value>
+  </data>
+  <data name="gui_down" xml:space="preserve">
+    <value>Owe</value>
+  </data>
+  <data name="gui_no" xml:space="preserve">
+    <value>Na</value>
+  </data>
+  <data name="gui_none" xml:space="preserve">
+    <value>Nix</value>
+  </data>
+  <data name="gui_stats" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="gui_toMenu" xml:space="preserve">
+    <value>Zrugg zur Serverlistn</value>
+  </data>
+  <data name="gui_toTitle" xml:space="preserve">
+    <value>Zrugg zum Hauptmenü</value>
+  </data>
+  <data name="gui_up" xml:space="preserve">
+    <value>Auffe</value>
+  </data>
+  <data name="gui_yes" xml:space="preserve">
+    <value>Jo</value>
+  </data>
+  <data name="item_apple_name" xml:space="preserve">
+    <value>Opfe</value>
+  </data>
+  <data name="item_arrow_name" xml:space="preserve">
+    <value>Pfeil</value>
+  </data>
+  <data name="item_banner_black_name" xml:space="preserve">
+    <value>Schworzs Banner</value>
+  </data>
+  <data name="item_banner_blue_name" xml:space="preserve">
+    <value>Blaus Banner</value>
+  </data>
+  <data name="item_banner_border_black" xml:space="preserve">
+    <value>Schworza Bord</value>
+  </data>
+  <data name="item_banner_border_magenta" xml:space="preserve">
+    <value>Magentas Bord</value>
+  </data>
+  <data name="item_banner_bricks_black" xml:space="preserve">
+    <value>Föd schworz gmauad</value>
+  </data>
+  <data name="item_banner_bricks_blue" xml:space="preserve">
+    <value>Föd blau gmauad</value>
+  </data>
+  <data name="item_banner_bricks_brown" xml:space="preserve">
+    <value>Föd braun gmauad</value>
+  </data>
+  <data name="item_banner_bricks_cyan" xml:space="preserve">
+    <value>Föd türkis gmauad</value>
+  </data>
+  <data name="item_banner_bricks_gray" xml:space="preserve">
+    <value>Föd grau gmauad</value>
+  </data>
+  <data name="item_banner_bricks_green" xml:space="preserve">
+    <value>Föd grün gmauad</value>
+  </data>
+  <data name="item_banner_bricks_lightBlue" xml:space="preserve">
+    <value>Föd hellblau gmauad</value>
+  </data>
+  <data name="item_banner_bricks_lime" xml:space="preserve">
+    <value>Föd hellgrün gmauad</value>
+  </data>
+  <data name="item_banner_bricks_magenta" xml:space="preserve">
+    <value>Föd magenta gmauad</value>
+  </data>
+  <data name="item_banner_bricks_orange" xml:space="preserve">
+    <value>Föd orange gmauad</value>
+  </data>
+  <data name="item_banner_bricks_pink" xml:space="preserve">
+    <value>Föd rosa gmauad</value>
+  </data>
+  <data name="item_banner_bricks_purple" xml:space="preserve">
+    <value>Föd lila gmauad</value>
+  </data>
+  <data name="item_banner_bricks_red" xml:space="preserve">
+    <value>Föd rot gmauad</value>
+  </data>
+  <data name="item_banner_bricks_silver" xml:space="preserve">
+    <value>Föd hellgrau gmauad</value>
+  </data>
+  <data name="item_banner_bricks_white" xml:space="preserve">
+    <value>Föd weiß gmauad</value>
+  </data>
+  <data name="item_banner_bricks_yellow" xml:space="preserve">
+    <value>Föd gelb gmauad</value>
+  </data>
+  <data name="item_banner_brown_name" xml:space="preserve">
+    <value>Brauns Banner</value>
+  </data>
+  <data name="item_banner_circle_black" xml:space="preserve">
+    <value>Schworze Kugel</value>
+  </data>
+  <data name="item_banner_circle_blue" xml:space="preserve">
+    <value>Blaue Kugel</value>
+  </data>
+  <data name="item_banner_circle_brown" xml:space="preserve">
+    <value>Braune Kugel</value>
+  </data>
+  <data name="item_banner_circle_cyan" xml:space="preserve">
+    <value>Türkise Kugel</value>
+  </data>
+  <data name="item_banner_circle_gray" xml:space="preserve">
+    <value>Graue Kugel</value>
+  </data>
+  <data name="item_banner_circle_green" xml:space="preserve">
+    <value>Grüne Kugel</value>
+  </data>
+  <data name="item_banner_circle_lightBlue" xml:space="preserve">
+    <value>Hellblaue Kugel</value>
+  </data>
+  <data name="item_banner_circle_lime" xml:space="preserve">
+    <value>Hellgrüne Kugel</value>
+  </data>
+  <data name="item_banner_circle_magenta" xml:space="preserve">
+    <value>Magentane Kugel</value>
+  </data>
+  <data name="item_banner_circle_orange" xml:space="preserve">
+    <value>Orange Kugel</value>
+  </data>
+  <data name="item_banner_circle_pink" xml:space="preserve">
+    <value>Rosane Kugel</value>
+  </data>
+  <data name="item_banner_circle_purple" xml:space="preserve">
+    <value>Lilane Kugel</value>
+  </data>
+  <data name="item_banner_circle_red" xml:space="preserve">
+    <value>Rote Kugel</value>
+  </data>
+  <data name="item_banner_circle_silver" xml:space="preserve">
+    <value>Hellgraue Kugel</value>
+  </data>
+  <data name="item_banner_circle_white" xml:space="preserve">
+    <value>Weiße Kugel</value>
+  </data>
+  <data name="item_banner_circle_yellow" xml:space="preserve">
+    <value>Gelbe Kugel</value>
+  </data>
+  <data name="item_banner_creeper_black" xml:space="preserve">
+    <value>Schworza Creeper</value>
+  </data>
+  <data name="item_banner_creeper_magenta" xml:space="preserve">
+    <value>Magentana Creeper</value>
+  </data>
+  <data name="item_banner_cross_black" xml:space="preserve">
+    <value>Schworzs Andreaskreiz</value>
+  </data>
+  <data name="item_banner_cross_magenta" xml:space="preserve">
+    <value>Magentas Andreaskreiz</value>
+  </data>
+  <data name="item_banner_curly_border_black" xml:space="preserve">
+    <value>Schworza Spicklbord</value>
+  </data>
+  <data name="item_banner_curly_border_magenta" xml:space="preserve">
+    <value>Magentas Spicklbord</value>
+  </data>
+  <data name="item_banner_cyan_name" xml:space="preserve">
+    <value>Türkises Banner</value>
+  </data>
+  <data name="item_banner_diagonal_left_black" xml:space="preserve">
+    <value>Schworz schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_blue" xml:space="preserve">
+    <value>Blau schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_brown" xml:space="preserve">
+    <value>Braun schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_cyan" xml:space="preserve">
+    <value>Türkis schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_gray" xml:space="preserve">
+    <value>Grau schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_green" xml:space="preserve">
+    <value>Grün schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_lightBlue" xml:space="preserve">
+    <value>Hellblau schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_lime" xml:space="preserve">
+    <value>Hellgrün schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_magenta" xml:space="preserve">
+    <value>Magenta schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_orange" xml:space="preserve">
+    <value>Orange schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_pink" xml:space="preserve">
+    <value>Rosa schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_purple" xml:space="preserve">
+    <value>Lila schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_red" xml:space="preserve">
+    <value>Rot schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_silver" xml:space="preserve">
+    <value>Hellgrau schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_white" xml:space="preserve">
+    <value>Weiß schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_left_yellow" xml:space="preserve">
+    <value>Gelb schräglinks teilt</value>
+  </data>
+  <data name="item_banner_diagonal_right_black" xml:space="preserve">
+    <value>Schworz schrägrechts teilt</value>
+  </data>
+  <data name="item_banner_diagonal_right_magenta" xml:space="preserve">
+    <value>Magenta schrägrechts teilt</value>
+  </data>
+  <data name="item_banner_diagonal_up_left_black" xml:space="preserve">
+    <value>Schworz schrägrechts teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_left_magenta" xml:space="preserve">
+    <value>Magenta schrägrechts teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_black" xml:space="preserve">
+    <value>Schworz schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_blue" xml:space="preserve">
+    <value>Blau schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_brown" xml:space="preserve">
+    <value>Braun schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_cyan" xml:space="preserve">
+    <value>Türkis schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_gray" xml:space="preserve">
+    <value>Grau schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_green" xml:space="preserve">
+    <value>Grün schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_lightBlue" xml:space="preserve">
+    <value>Hellblau schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_lime" xml:space="preserve">
+    <value>Hellgrün schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_magenta" xml:space="preserve">
+    <value>Magenta schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_orange" xml:space="preserve">
+    <value>Orange schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_pink" xml:space="preserve">
+    <value>Rosa schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_purple" xml:space="preserve">
+    <value>Lila schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_red" xml:space="preserve">
+    <value>Rot schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_silver" xml:space="preserve">
+    <value>Hellgrau schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_white" xml:space="preserve">
+    <value>Weiß schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_diagonal_up_right_yellow" xml:space="preserve">
+    <value>Gelb schräglinks teilt (Invertiert)</value>
+  </data>
+  <data name="item_banner_flower_black" xml:space="preserve">
+    <value>Schworze Blume</value>
+  </data>
+  <data name="item_banner_flower_magenta" xml:space="preserve">
+    <value>Magentane Blume</value>
+  </data>
+  <data name="item_banner_gradient_black" xml:space="preserve">
+    <value>Schworza Forbvalauf</value>
+  </data>
+  <data name="item_banner_gradient_magenta" xml:space="preserve">
+    <value>Magentana Forbvalauf</value>
+  </data>
+  <data name="item_banner_gradient_up_black" xml:space="preserve">
+    <value>Schworza Forbvalauf (Invertiert)</value>
+  </data>
+  <data name="item_banner_gradient_up_magenta" xml:space="preserve">
+    <value>Magentana Forbvalauf (Invertiert)</value>
+  </data>
+  <data name="item_banner_gray_name" xml:space="preserve">
+    <value>Graus Banner</value>
+  </data>
+  <data name="item_banner_green_name" xml:space="preserve">
+    <value>Grüns Banner</value>
+  </data>
+  <data name="item_banner_half_horizontal_black" xml:space="preserve">
+    <value>Obn schworz teilt</value>
+  </data>
+  <data name="item_banner_half_horizontal_magenta" xml:space="preserve">
+    <value>Obn magenta teilt</value>
+  </data>
+  <data name="item_banner_half_horizontal_bottom_black" xml:space="preserve">
+    <value>Untn schworz teilt</value>
+  </data>
+  <data name="item_banner_half_horizontal_bottom_magenta" xml:space="preserve">
+    <value>Untn magenta teilt</value>
+  </data>
+  <data name="item_banner_half_vertical_black" xml:space="preserve">
+    <value>Recht schworz gspoitn</value>
+  </data>
+  <data name="item_banner_half_vertical_magenta" xml:space="preserve">
+    <value>Rechts magenta gspoitn</value>
+  </data>
+  <data name="item_banner_half_vertical_right_black" xml:space="preserve">
+    <value>Links schworz gspoitn</value>
+  </data>
+  <data name="item_banner_half_vertical_right_magenta" xml:space="preserve">
+    <value>Links magenta gspoitn</value>
+  </data>
+  <data name="item_banner_lightBlue_name" xml:space="preserve">
+    <value>Hellblaus Banner</value>
+  </data>
+  <data name="item_banner_lime_name" xml:space="preserve">
+    <value>Hellgrüns Banner</value>
+  </data>
+  <data name="item_banner_magenta_name" xml:space="preserve">
+    <value>Magentana Banner</value>
+  </data>
+  <data name="item_banner_mojang_black" xml:space="preserve">
+    <value>Schworzs Mojang-Logo</value>
+  </data>
+  <data name="item_banner_mojang_magenta" xml:space="preserve">
+    <value>Magentas Mojang-Logo</value>
+  </data>
+  <data name="item_banner_orange_name" xml:space="preserve">
+    <value>Orangs Banner</value>
+  </data>
+  <data name="item_banner_pink_name" xml:space="preserve">
+    <value>Rosas Banner</value>
+  </data>
+  <data name="item_banner_purple_name" xml:space="preserve">
+    <value>Lilas Banner</value>
+  </data>
+  <data name="item_banner_red_name" xml:space="preserve">
+    <value>Rots Banner</value>
+  </data>
+  <data name="item_banner_rhombus_black" xml:space="preserve">
+    <value>Schworze Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_blue" xml:space="preserve">
+    <value>Blaue Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_brown" xml:space="preserve">
+    <value>Braune Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_cyan" xml:space="preserve">
+    <value>Türkise Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_gray" xml:space="preserve">
+    <value>Graue Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_green" xml:space="preserve">
+    <value>Grüne Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_lightBlue" xml:space="preserve">
+    <value>Hellblaue Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_lime" xml:space="preserve">
+    <value>Hellgrüne Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_magenta" xml:space="preserve">
+    <value>Magentane Raute</value>
+  </data>
+  <data name="item_banner_rhombus_orange" xml:space="preserve">
+    <value>Orange Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_pink" xml:space="preserve">
+    <value>Rosane Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_purple" xml:space="preserve">
+    <value>Lilane Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_red" xml:space="preserve">
+    <value>Rote Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_silver" xml:space="preserve">
+    <value>Hellgraue Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_white" xml:space="preserve">
+    <value>Weiße Rautn</value>
+  </data>
+  <data name="item_banner_rhombus_yellow" xml:space="preserve">
+    <value>Gelbe Rautn</value>
+  </data>
+  <data name="item_banner_silver_name" xml:space="preserve">
+    <value>Hellgraus Banner</value>
+  </data>
+  <data name="item_banner_skull_black" xml:space="preserve">
+    <value>Schworza Schädl</value>
+  </data>
+  <data name="item_banner_skull_magenta" xml:space="preserve">
+    <value>Magentana Schädl</value>
+  </data>
+  <data name="item_banner_small_stripes_black" xml:space="preserve">
+    <value>Vier schworze Pfoi</value>
+  </data>
+  <data name="item_banner_small_stripes_magenta" xml:space="preserve">
+    <value>Vier magentane Pfoi</value>
+  </data>
+  <data name="item_banner_square_bottom_left_black" xml:space="preserve">
+    <value>Schworzs rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_blue" xml:space="preserve">
+    <value>Blaus rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_brown" xml:space="preserve">
+    <value>Brauns rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_cyan" xml:space="preserve">
+    <value>Türkises rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_gray" xml:space="preserve">
+    <value>Graus rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_green" xml:space="preserve">
+    <value>Grüns rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_lightBlue" xml:space="preserve">
+    <value>Hellblaus rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_lime" xml:space="preserve">
+    <value>Hellgrüns rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_magenta" xml:space="preserve">
+    <value>Magentas rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_orange" xml:space="preserve">
+    <value>Orangs rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_pink" xml:space="preserve">
+    <value>Rosas rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_purple" xml:space="preserve">
+    <value>Lilas rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_red" xml:space="preserve">
+    <value>Rots rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_silver" xml:space="preserve">
+    <value>Hellgraus rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_white" xml:space="preserve">
+    <value>Weißs rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_left_yellow" xml:space="preserve">
+    <value>Gelbs rechts Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_black" xml:space="preserve">
+    <value>Schworzs links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_blue" xml:space="preserve">
+    <value>Blaus links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_brown" xml:space="preserve">
+    <value>Brauns links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_cyan" xml:space="preserve">
+    <value>Türkises links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_gray" xml:space="preserve">
+    <value>Graus links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_green" xml:space="preserve">
+    <value>Grüns links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_lightBlue" xml:space="preserve">
+    <value>Hellblaus links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_lime" xml:space="preserve">
+    <value>Hellgrüns links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_magenta" xml:space="preserve">
+    <value>Magentas links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_orange" xml:space="preserve">
+    <value>Orangs links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_pink" xml:space="preserve">
+    <value>Rosas links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_purple" xml:space="preserve">
+    <value>Lilas links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_red" xml:space="preserve">
+    <value>Rots links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_silver" xml:space="preserve">
+    <value>Hellgraus links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_white" xml:space="preserve">
+    <value>Weißs links Untaegg</value>
+  </data>
+  <data name="item_banner_square_bottom_right_yellow" xml:space="preserve">
+    <value>Gelbs links Untaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_black" xml:space="preserve">
+    <value>Schworzs rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_blue" xml:space="preserve">
+    <value>Blaus rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_brown" xml:space="preserve">
+    <value>Brauns rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_cyan" xml:space="preserve">
+    <value>Türkises rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_gray" xml:space="preserve">
+    <value>Graus rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_green" xml:space="preserve">
+    <value>Grüns rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_lightBlue" xml:space="preserve">
+    <value>Hellblaus rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_lime" xml:space="preserve">
+    <value>Hellgrüns rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_magenta" xml:space="preserve">
+    <value>Magentas rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_orange" xml:space="preserve">
+    <value>Orangs rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_pink" xml:space="preserve">
+    <value>Pinkts rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_purple" xml:space="preserve">
+    <value>Lilas rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_red" xml:space="preserve">
+    <value>Rots rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_silver" xml:space="preserve">
+    <value>Hellgraus rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_white" xml:space="preserve">
+    <value>Weißs rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_left_yellow" xml:space="preserve">
+    <value>Gelbs rechts Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_black" xml:space="preserve">
+    <value>Schworzs links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_blue" xml:space="preserve">
+    <value>Blaus links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_brown" xml:space="preserve">
+    <value>Brauns links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_cyan" xml:space="preserve">
+    <value>Türkises links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_gray" xml:space="preserve">
+    <value>Graus links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_green" xml:space="preserve">
+    <value>Grüns links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_lightBlue" xml:space="preserve">
+    <value>Hellblaus links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_lime" xml:space="preserve">
+    <value>Hellgrüns links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_magenta" xml:space="preserve">
+    <value>Magentas links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_orange" xml:space="preserve">
+    <value>Orangs links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_pink" xml:space="preserve">
+    <value>Rosas links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_purple" xml:space="preserve">
+    <value>Lilas links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_red" xml:space="preserve">
+    <value>Rots links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_silver" xml:space="preserve">
+    <value>Hellgraus links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_white" xml:space="preserve">
+    <value>Weißs links Obaegg</value>
+  </data>
+  <data name="item_banner_square_top_right_yellow" xml:space="preserve">
+    <value>Gelbs links Obaegg</value>
+  </data>
+  <data name="item_banner_straight_cross_black" xml:space="preserve">
+    <value>Schworzs Kreiz</value>
+  </data>
+  <data name="item_banner_straight_cross_magenta" xml:space="preserve">
+    <value>Magentas Kreiz</value>
+  </data>
+  <data name="item_banner_stripe_bottom_black" xml:space="preserve">
+    <value>Schworza Bannerfuaß</value>
+  </data>
+  <data name="item_banner_stripe_bottom_magenta" xml:space="preserve">
+    <value>Magentana Bannerfuaß</value>
+  </data>
+  <data name="item_banner_stripe_center_black" xml:space="preserve">
+    <value>Schworza Pfoi</value>
+  </data>
+  <data name="item_banner_stripe_center_magenta" xml:space="preserve">
+    <value>Magentana Pfoi</value>
+  </data>
+  <data name="item_banner_stripe_downleft_black" xml:space="preserve">
+    <value>Schworza Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_blue" xml:space="preserve">
+    <value>Blaua Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_brown" xml:space="preserve">
+    <value>Brauna Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_cyan" xml:space="preserve">
+    <value>Türkisa Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_gray" xml:space="preserve">
+    <value>Graua Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_green" xml:space="preserve">
+    <value>Grüna Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_lightBlue" xml:space="preserve">
+    <value>Hellblaua Schräglinksboiken</value>
+  </data>
+  <data name="item_banner_stripe_downleft_lime" xml:space="preserve">
+    <value>Hellgrüna Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_magenta" xml:space="preserve">
+    <value>Magentana Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_orange" xml:space="preserve">
+    <value>Oranga Schräglinksboiken</value>
+  </data>
+  <data name="item_banner_stripe_downleft_pink" xml:space="preserve">
+    <value>Rosana Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_purple" xml:space="preserve">
+    <value>Lilana Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_red" xml:space="preserve">
+    <value>Rota Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_silver" xml:space="preserve">
+    <value>Hellgraua Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downleft_white" xml:space="preserve">
+    <value>Weißa Schräglinksboiken</value>
+  </data>
+  <data name="item_banner_stripe_downleft_yellow" xml:space="preserve">
+    <value>Gelba Schräglinksboikn</value>
+  </data>
+  <data name="item_banner_stripe_downright_black" xml:space="preserve">
+    <value>Schworza Schrägboikn</value>
+  </data>
+  <data name="item_banner_stripe_downright_magenta" xml:space="preserve">
+    <value>Magentana Schrägboiken</value>
+  </data>
+  <data name="item_banner_stripe_left_black" xml:space="preserve">
+    <value>Schworze rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_blue" xml:space="preserve">
+    <value>Blaue rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_brown" xml:space="preserve">
+    <value>Braune rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_cyan" xml:space="preserve">
+    <value>Türkise rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_gray" xml:space="preserve">
+    <value>Graue rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_green" xml:space="preserve">
+    <value>Grüne rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_lightBlue" xml:space="preserve">
+    <value>Hellblaue rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_lime" xml:space="preserve">
+    <value>Hellgrüne rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_magenta" xml:space="preserve">
+    <value>Magentane rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_orange" xml:space="preserve">
+    <value>Orange rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_pink" xml:space="preserve">
+    <value>Rosane rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_purple" xml:space="preserve">
+    <value>Lilane rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_red" xml:space="preserve">
+    <value>Rote rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_silver" xml:space="preserve">
+    <value>Hellgraue rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_white" xml:space="preserve">
+    <value>Weiße rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_left_yellow" xml:space="preserve">
+    <value>Gelbe rechte Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_middle_black" xml:space="preserve">
+    <value>Schworza Boikn</value>
+  </data>
+  <data name="item_banner_stripe_middle_magenta" xml:space="preserve">
+    <value>Magentana Boiken</value>
+  </data>
+  <data name="item_banner_stripe_right_black" xml:space="preserve">
+    <value>Schworze linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_blue" xml:space="preserve">
+    <value>Blaue linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_brown" xml:space="preserve">
+    <value>Braune linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_cyan" xml:space="preserve">
+    <value>Türkise linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_gray" xml:space="preserve">
+    <value>Graue linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_green" xml:space="preserve">
+    <value>Grüne linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_lightBlue" xml:space="preserve">
+    <value>Hellblaue linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_lime" xml:space="preserve">
+    <value>Hellgrüne linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_magenta" xml:space="preserve">
+    <value>Magentane linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_orange" xml:space="preserve">
+    <value>Orange linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_pink" xml:space="preserve">
+    <value>Rosane linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_purple" xml:space="preserve">
+    <value>Lilane linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_red" xml:space="preserve">
+    <value>Rote linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_silver" xml:space="preserve">
+    <value>Hellgraue linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_white" xml:space="preserve">
+    <value>Weiße linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_right_yellow" xml:space="preserve">
+    <value>Gelbe linke Flonkn</value>
+  </data>
+  <data name="item_banner_stripe_top_black" xml:space="preserve">
+    <value>Schworzs Bannerhaupt</value>
+  </data>
+  <data name="item_banner_stripe_top_magenta" xml:space="preserve">
+    <value>Magentas Bannerhaupt</value>
+  </data>
+  <data name="item_banner_triangle_bottom_black" xml:space="preserve">
+    <value>Schworze hoiwe Spitzn</value>
+  </data>
+  <data name="item_banner_triangle_bottom_magenta" xml:space="preserve">
+    <value>Magentane hoiwe Spitzn</value>
+  </data>
+  <data name="item_banner_triangle_top_black" xml:space="preserve">
+    <value>Schworze gstürzte hoiwe Spitzn</value>
+  </data>
+  <data name="item_banner_triangle_top_magenta" xml:space="preserve">
+    <value>Magentane gstürzte hoiwe Spitzn</value>
+  </data>
+  <data name="item_banner_triangles_bottom_black" xml:space="preserve">
+    <value>Schworza gspicklta Bannerfuaß</value>
+  </data>
+  <data name="item_banner_triangles_bottom_magenta" xml:space="preserve">
+    <value>Magentana gspicklta Bannerfuaß</value>
+  </data>
+  <data name="item_banner_triangles_top_black" xml:space="preserve">
+    <value>Schworzs gspicklts Bannerhaupt</value>
+  </data>
+  <data name="item_banner_triangles_top_magenta" xml:space="preserve">
+    <value>Magentas gspicklts Bannerhaupt</value>
+  </data>
+  <data name="item_banner_white_name" xml:space="preserve">
+    <value>Weißs Banner</value>
+  </data>
+  <data name="item_banner_yellow_name" xml:space="preserve">
+    <value>Gelbs Banner</value>
+  </data>
+  <data name="item_bootsChain_name" xml:space="preserve">
+    <value>Kettnstiefe</value>
+  </data>
+  <data name="item_bootsCloth_name" xml:space="preserve">
+    <value>Ledastiefe</value>
+  </data>
+  <data name="item_bootsDiamond_name" xml:space="preserve">
+    <value>Diamantstiefe</value>
+  </data>
+  <data name="item_bootsGold_name" xml:space="preserve">
+    <value>Goidstiefe</value>
+  </data>
+  <data name="item_bootsIron_name" xml:space="preserve">
+    <value>Eisnstiefe</value>
+  </data>
+  <data name="item_bow_name" xml:space="preserve">
+    <value>Bogn</value>
+  </data>
+  <data name="item_bowl_name" xml:space="preserve">
+    <value>Schissl</value>
+  </data>
+  <data name="item_bread_name" xml:space="preserve">
+    <value>Brot</value>
+  </data>
+  <data name="item_brick_name" xml:space="preserve">
+    <value>Ziagl</value>
+  </data>
+  <data name="item_charcoal_name" xml:space="preserve">
+    <value>Hoizkohle</value>
+  </data>
+  <data name="item_chestplateChain_name" xml:space="preserve">
+    <value>Kettnhemd</value>
+  </data>
+  <data name="item_chestplateCloth_name" xml:space="preserve">
+    <value>Ledajanga</value>
+  </data>
+  <data name="item_chestplateDiamond_name" xml:space="preserve">
+    <value>Diamantbrustplottn</value>
+  </data>
+  <data name="item_chestplateGold_name" xml:space="preserve">
+    <value>Goidbrustplottn</value>
+  </data>
+  <data name="item_chestplateIron_name" xml:space="preserve">
+    <value>Eisnbrustplottn</value>
+  </data>
+  <data name="item_coal_name" xml:space="preserve">
+    <value>Kohle</value>
+  </data>
+  <data name="item_comparator_name" xml:space="preserve">
+    <value>Redstone-Komparator</value>
+  </data>
+  <data name="item_cookie_name" xml:space="preserve">
+    <value>Keks</value>
+  </data>
+  <data name="item_diamond_name" xml:space="preserve">
+    <value>Diamant</value>
+  </data>
+  <data name="item_dyePowder_black_name" xml:space="preserve">
+    <value>Tintnbeitl</value>
+  </data>
+  <data name="item_dyePowder_blue_name" xml:space="preserve">
+    <value>Lapislazuli</value>
+  </data>
+  <data name="item_dyePowder_brown_name" xml:space="preserve">
+    <value>Kakaobohnen</value>
+  </data>
+  <data name="item_dyePowder_cyan_name" xml:space="preserve">
+    <value>Türkise Forb</value>
+  </data>
+  <data name="item_dyePowder_gray_name" xml:space="preserve">
+    <value>Graue Forb</value>
+  </data>
+  <data name="item_dyePowder_green_name" xml:space="preserve">
+    <value>Grüne Forb</value>
+  </data>
+  <data name="item_dyePowder_lightBlue_name" xml:space="preserve">
+    <value>Hellblaue Forb</value>
+  </data>
+  <data name="item_dyePowder_lime_name" xml:space="preserve">
+    <value>Hellgrüne Forb</value>
+  </data>
+  <data name="item_dyePowder_magenta_name" xml:space="preserve">
+    <value>Magentane Forb</value>
+  </data>
+  <data name="item_dyePowder_orange_name" xml:space="preserve">
+    <value>Orange Forb</value>
+  </data>
+  <data name="item_dyePowder_pink_name" xml:space="preserve">
+    <value>Rosane Forb</value>
+  </data>
+  <data name="item_dyePowder_purple_name" xml:space="preserve">
+    <value>Lilane Forb</value>
+  </data>
+  <data name="item_dyePowder_red_name" xml:space="preserve">
+    <value>Rote Forb</value>
+  </data>
+  <data name="item_dyePowder_silver_name" xml:space="preserve">
+    <value>Hellgraue Forb</value>
+  </data>
+  <data name="item_dyePowder_white_name" xml:space="preserve">
+    <value>Knochnmöh</value>
+  </data>
+  <data name="item_dyePowder_yellow_name" xml:space="preserve">
+    <value>Gelbe Forb</value>
+  </data>
+  <data name="item_dyed" xml:space="preserve">
+    <value>Gfärbt</value>
+  </data>
+  <data name="item_emerald_name" xml:space="preserve">
+    <value>Smaragd</value>
+  </data>
+  <data name="item_feather_name" xml:space="preserve">
+    <value>Feda</value>
+  </data>
+  <data name="item_fireworksCharge_black" xml:space="preserve">
+    <value>Schworz</value>
+  </data>
+  <data name="item_fireworksCharge_blue" xml:space="preserve">
+    <value>Blau</value>
+  </data>
+  <data name="item_fireworksCharge_brown" xml:space="preserve">
+    <value>Braun</value>
+  </data>
+  <data name="item_fireworksCharge_customColor" xml:space="preserve">
+    <value>Benutzerdefiniert</value>
+  </data>
+  <data name="item_fireworksCharge_cyan" xml:space="preserve">
+    <value>Türkis</value>
+  </data>
+  <data name="item_fireworksCharge_gray" xml:space="preserve">
+    <value>Grau</value>
+  </data>
+  <data name="item_fireworksCharge_green" xml:space="preserve">
+    <value>Grün</value>
+  </data>
+  <data name="item_fireworksCharge_lightBlue" xml:space="preserve">
+    <value>Hellblau</value>
+  </data>
+  <data name="item_fireworksCharge_lime" xml:space="preserve">
+    <value>Hellgrün</value>
+  </data>
+  <data name="item_fireworksCharge_magenta" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="item_fireworksCharge_orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="item_fireworksCharge_pink" xml:space="preserve">
+    <value>Rosa</value>
+  </data>
+  <data name="item_fireworksCharge_purple" xml:space="preserve">
+    <value>Lila</value>
+  </data>
+  <data name="item_fireworksCharge_red" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="item_fireworksCharge_silver" xml:space="preserve">
+    <value>Hellgrau</value>
+  </data>
+  <data name="item_fireworksCharge_white" xml:space="preserve">
+    <value>Weiß</value>
+  </data>
+  <data name="item_fireworksCharge_yellow" xml:space="preserve">
+    <value>Gelb</value>
+  </data>
+  <data name="item_flint_name" xml:space="preserve">
+    <value>Feiastoa</value>
+  </data>
+  <data name="item_flintAndSteel_name" xml:space="preserve">
+    <value>Feiazeig</value>
+  </data>
+  <data name="item_hatchetDiamond_name" xml:space="preserve">
+    <value>Diamantoxt</value>
+  </data>
+  <data name="item_hatchetGold_name" xml:space="preserve">
+    <value>Goidoxt</value>
+  </data>
+  <data name="item_hatchetIron_name" xml:space="preserve">
+    <value>Eisnoxt</value>
+  </data>
+  <data name="item_hatchetStone_name" xml:space="preserve">
+    <value>Stoaoxt</value>
+  </data>
+  <data name="item_hatchetWood_name" xml:space="preserve">
+    <value>Hoizoxt</value>
+  </data>
+  <data name="item_helmetChain_name" xml:space="preserve">
+    <value>Kettnhöm</value>
+  </data>
+  <data name="item_helmetCloth_name" xml:space="preserve">
+    <value>Ledakoppn</value>
+  </data>
+  <data name="item_helmetDiamond_name" xml:space="preserve">
+    <value>Diamanthöm</value>
+  </data>
+  <data name="item_helmetGold_name" xml:space="preserve">
+    <value>Goidhöm</value>
+  </data>
+  <data name="item_helmetIron_name" xml:space="preserve">
+    <value>Eisnhelm</value>
+  </data>
+  <data name="item_hoeDiamond_name" xml:space="preserve">
+    <value>Diamanthock</value>
+  </data>
+  <data name="item_hoeGold_name" xml:space="preserve">
+    <value>Goidhock</value>
+  </data>
+  <data name="item_hoeIron_name" xml:space="preserve">
+    <value>Eisnhock</value>
+  </data>
+  <data name="item_hoeStone_name" xml:space="preserve">
+    <value>Stoahock</value>
+  </data>
+  <data name="item_hoeWood_name" xml:space="preserve">
+    <value>Hoizhock</value>
+  </data>
+  <data name="item_ingotGold_name" xml:space="preserve">
+    <value>Goidborrn</value>
+  </data>
+  <data name="item_ingotIron_name" xml:space="preserve">
+    <value>Eisnborrn</value>
+  </data>
+  <data name="item_leash_name" xml:space="preserve">
+    <value>Leine</value>
+  </data>
+  <data name="item_leggingsChain_name" xml:space="preserve">
+    <value>Kettnhosn</value>
+  </data>
+  <data name="item_leggingsCloth_name" xml:space="preserve">
+    <value>Lederhosn</value>
+  </data>
+  <data name="item_melon_name" xml:space="preserve">
+    <value>Melone</value>
+  </data>
+  <data name="item_minecart_name" xml:space="preserve">
+    <value>Wagon</value>
+  </data>
+  <data name="item_minecartChest_name" xml:space="preserve">
+    <value>Wagon mit Kistn</value>
+  </data>
+  <data name="item_minecartCommandBlock_name" xml:space="preserve">
+    <value>Wagon mit Befehlsblock</value>
+  </data>
+  <data name="item_minecartFurnace_name" xml:space="preserve">
+    <value>Wagon mit Ofen</value>
+  </data>
+  <data name="item_minecartHopper_name" xml:space="preserve">
+    <value>Wagon mit Trichta</value>
+  </data>
+  <data name="item_minecartTnt_name" xml:space="preserve">
+    <value>Wagon mit TNT</value>
+  </data>
+  <data name="item_monsterPlacer_name" xml:space="preserve">
+    <value>Aschof</value>
+  </data>
+  <data name="item_mushroomStew_name" xml:space="preserve">
+    <value>Püzsuppn</value>
+  </data>
+  <data name="item_nameTag_name" xml:space="preserve">
+    <value>Nomensschild</value>
+  </data>
+  <data name="item_netherbrick_name" xml:space="preserve">
+    <value>Netherziagl</value>
+  </data>
+  <data name="item_pickaxeDiamond_name" xml:space="preserve">
+    <value>Diamantspitzhock</value>
+  </data>
+  <data name="item_pickaxeGold_name" xml:space="preserve">
+    <value>Goidspitzhock</value>
+  </data>
+  <data name="item_pickaxeIron_name" xml:space="preserve">
+    <value>Eisnspitzhock</value>
+  </data>
+  <data name="item_pickaxeStone_name" xml:space="preserve">
+    <value>Stoaspitzhock</value>
+  </data>
+  <data name="item_pickaxeWood_name" xml:space="preserve">
+    <value>Hoizspitzhock</value>
+  </data>
+  <data name="item_prismarineCrystals_name" xml:space="preserve">
+    <value>Prismarinkristoin</value>
+  </data>
+  <data name="item_record_11_desc" xml:space="preserve">
+    <value>C418 - 11</value>
+  </data>
+  <data name="item_record_13_desc" xml:space="preserve">
+    <value>C418 - 13</value>
+  </data>
+  <data name="item_record_blocks_desc" xml:space="preserve">
+    <value>C418 - Blocks</value>
+  </data>
+  <data name="item_record_cat_desc" xml:space="preserve">
+    <value>C418 - Cat</value>
+  </data>
+  <data name="item_record_chirp_desc" xml:space="preserve">
+    <value>C418 - Chirp</value>
+  </data>
+  <data name="item_record_far_desc" xml:space="preserve">
+    <value>C418 - Far</value>
+  </data>
+  <data name="item_record_mall_desc" xml:space="preserve">
+    <value>C418 - Mall</value>
+  </data>
+  <data name="item_record_mellohi_desc" xml:space="preserve">
+    <value>C418 - Mellohi</value>
+  </data>
+  <data name="item_record_stal_desc" xml:space="preserve">
+    <value>C418 - Stal</value>
+  </data>
+  <data name="item_record_strad_desc" xml:space="preserve">
+    <value>C418 - Strad</value>
+  </data>
+  <data name="item_record_wait_desc" xml:space="preserve">
+    <value>C418 - Wait</value>
+  </data>
+  <data name="item_record_ward_desc" xml:space="preserve">
+    <value>C418 - Ward</value>
+  </data>
+  <data name="item_redstone_name" xml:space="preserve">
+    <value>Redstone</value>
+  </data>
+  <data name="item_seeds_name" xml:space="preserve">
+    <value>Weiznkeandl</value>
+  </data>
+  <data name="item_seeds_melon_name" xml:space="preserve">
+    <value>Melonenkeandl</value>
+  </data>
+  <data name="item_seeds_pumpkin_name" xml:space="preserve">
+    <value>Kürbiskeandl</value>
+  </data>
+  <data name="item_shield_black_name" xml:space="preserve">
+    <value>Schworzs Schüd</value>
+  </data>
+  <data name="item_shield_magenta_name" xml:space="preserve">
+    <value>Magentas Schüd</value>
+  </data>
+  <data name="item_shield_red_name" xml:space="preserve">
+    <value>Rots Schüd</value>
+  </data>
+  <data name="item_shovelDiamond_name" xml:space="preserve">
+    <value>Diamantschaufe</value>
+  </data>
+  <data name="item_shovelGold_name" xml:space="preserve">
+    <value>Goidschaufe</value>
+  </data>
+  <data name="item_shovelIron_name" xml:space="preserve">
+    <value>Eisnschaufe</value>
+  </data>
+  <data name="item_shovelStone_name" xml:space="preserve">
+    <value>Stoaschaufe</value>
+  </data>
+  <data name="item_shovelWood_name" xml:space="preserve">
+    <value>Hoizschaufe</value>
+  </data>
+  <data name="item_spectral_arrow_name" xml:space="preserve">
+    <value>Spektralpfeil</value>
+  </data>
+  <data name="item_stick_name" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="item_string_name" xml:space="preserve">
+    <value>Fodn</value>
+  </data>
+  <data name="item_sulphur_name" xml:space="preserve">
+    <value>Schworzpuiva</value>
+  </data>
+  <data name="item_swordDiamond_name" xml:space="preserve">
+    <value>Diamantschwert</value>
+  </data>
+  <data name="item_swordGold_name" xml:space="preserve">
+    <value>Goidschwert</value>
+  </data>
+  <data name="item_swordIron_name" xml:space="preserve">
+    <value>Eisnschwert</value>
+  </data>
+  <data name="item_swordStone_name" xml:space="preserve">
+    <value>Stoaschwert</value>
+  </data>
+  <data name="item_swordWood_name" xml:space="preserve">
+    <value>Hoizschwert</value>
+  </data>
+  <data name="item_tipped_arrow_name" xml:space="preserve">
+    <value>Getränkta Pfeil</value>
+  </data>
+  <data name="item_wheat_name" xml:space="preserve">
+    <value>Weizn</value>
+  </data>
+  <data name="item_yellowDust_name" xml:space="preserve">
+    <value>Glowstonestab</value>
+  </data>
+  <data name="itemGroup_redstone" xml:space="preserve">
+    <value>Redstone</value>
+  </data>
+  <data name="key_attack" xml:space="preserve">
+    <value>Ogreifn/Obbaun</value>
+  </data>
+  <data name="key_back" xml:space="preserve">
+    <value>Rückwärts</value>
+  </data>
+  <data name="key_categories_gameplay" xml:space="preserve">
+    <value>Spümechanik</value>
+  </data>
+  <data name="key_categories_inventory" xml:space="preserve">
+    <value>Inventar</value>
+  </data>
+  <data name="key_categories_misc" xml:space="preserve">
+    <value>Vaschiedenes</value>
+  </data>
+  <data name="key_categories_movement" xml:space="preserve">
+    <value>Bewegung</value>
+  </data>
+  <data name="key_categories_multiplayer" xml:space="preserve">
+    <value>Mehrspiela</value>
+  </data>
+  <data name="key_categories_ui" xml:space="preserve">
+    <value>Spüsteiarung</value>
+  </data>
+  <data name="key_chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="key_drop" xml:space="preserve">
+    <value>Gegnstond foin lossn</value>
+  </data>
+  <data name="key_forward" xml:space="preserve">
+    <value>Vorwärts</value>
+  </data>
+  <data name="key_fullscreen" xml:space="preserve">
+    <value>Voibüd wechsln</value>
+  </data>
+  <data name="key_hotbar_1" xml:space="preserve">
+    <value>Schnöizuagriff 1</value>
+  </data>
+  <data name="key_hotbar_2" xml:space="preserve">
+    <value>Schnöizuagriff 2</value>
+  </data>
+  <data name="key_hotbar_3" xml:space="preserve">
+    <value>Schnöizuagriff 3</value>
+  </data>
+  <data name="key_hotbar_4" xml:space="preserve">
+    <value>Schnöizuagriff 4</value>
+  </data>
+  <data name="key_hotbar_5" xml:space="preserve">
+    <value>Schnöizuagriff 5</value>
+  </data>
+  <data name="key_hotbar_6" xml:space="preserve">
+    <value>Schnöizuagriff 6</value>
+  </data>
+  <data name="key_hotbar_7" xml:space="preserve">
+    <value>Schnöizuagriff 7</value>
+  </data>
+  <data name="key_hotbar_8" xml:space="preserve">
+    <value>Schnöizuagriff 8</value>
+  </data>
+  <data name="key_hotbar_9" xml:space="preserve">
+    <value>Schnöizuagriff 9</value>
+  </data>
+  <data name="key_inventory" xml:space="preserve">
+    <value>Inventar öffnan/schliaßn</value>
+  </data>
+  <data name="key_jump" xml:space="preserve">
+    <value>Springa</value>
+  </data>
+  <data name="key_left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="key_mouseButton" xml:space="preserve">
+    <value>Tastn {0}</value>
+  </data>
+  <data name="key_pickItem" xml:space="preserve">
+    <value>Block auswöhn</value>
+  </data>
+  <data name="key_playerlist" xml:space="preserve">
+    <value>Spiela auflistn</value>
+  </data>
+  <data name="key_right" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="key_screenshot" xml:space="preserve">
+    <value>Screenshot</value>
+  </data>
+  <data name="key_smoothCamera" xml:space="preserve">
+    <value>Kameravahoitn wechsln</value>
+  </data>
+  <data name="key_sneak" xml:space="preserve">
+    <value>Schleichn</value>
+  </data>
+  <data name="key_spectatorOutlines" xml:space="preserve">
+    <value>Spiela markian (Zuaschaua)</value>
+  </data>
+  <data name="key_sprint" xml:space="preserve">
+    <value>Sprintn</value>
+  </data>
+  <data name="key_swapHands" xml:space="preserve">
+    <value>Gegnstond in de Händ wechsln</value>
+  </data>
+  <data name="key_togglePerspective" xml:space="preserve">
+    <value>Perspektive wechsln</value>
+  </data>
+  <data name="key_use" xml:space="preserve">
+    <value>Benutzn/Platzian</value>
+  </data>
+  <data name="lanServer_otherPlayers" xml:space="preserve">
+    <value>Einstellungen fia ondare Spiela</value>
+  </data>
+  <data name="lanServer_scanning" xml:space="preserve">
+    <value>Suach noch Spieln in deim lokaln Netwerk</value>
+  </data>
+  <data name="lanServer_start" xml:space="preserve">
+    <value>LAN-Wöd startn</value>
+  </data>
+  <data name="lanServer_title" xml:space="preserve">
+    <value>LAN-Wöd</value>
+  </data>
+  <data name="language_code" xml:space="preserve">
+    <value>de_AT</value>
+  </data>
+  <data name="language_name" xml:space="preserve">
+    <value>Deitsch</value>
+  </data>
+  <data name="language_region" xml:space="preserve">
+    <value>Östareich</value>
+  </data>
+  <data name="mcoServer_title" xml:space="preserve">
+    <value>Minecraft Online Wöd</value>
+  </data>
+  <data name="menu_convertingLevel" xml:space="preserve">
+    <value>Wöd wead umgwondlt</value>
+  </data>
+  <data name="menu_disconnect" xml:space="preserve">
+    <value>Vom Server geh</value>
+  </data>
+  <data name="menu_game" xml:space="preserve">
+    <value>Spümenü</value>
+  </data>
+  <data name="menu_generatingLevel" xml:space="preserve">
+    <value>Wöd wead generiad</value>
+  </data>
+  <data name="menu_generatingTerrain" xml:space="preserve">
+    <value>Londschof wead generiad</value>
+  </data>
+  <data name="menu_loadingLevel" xml:space="preserve">
+    <value>Wöd wead glon</value>
+  </data>
+  <data name="menu_multiplayer" xml:space="preserve">
+    <value>Mehrspiela</value>
+  </data>
+  <data name="menu_online" xml:space="preserve">
+    <value>Minecraft Realms</value>
+  </data>
+  <data name="menu_options" xml:space="preserve">
+    <value>Optionen...</value>
+  </data>
+  <data name="menu_playdemo" xml:space="preserve">
+    <value>Demo-Wöd spün</value>
+  </data>
+  <data name="menu_quit" xml:space="preserve">
+    <value>Spü schliassn</value>
+  </data>
+  <data name="menu_resetdemo" xml:space="preserve">
+    <value>Demo-Wöd zruggsetzn</value>
+  </data>
+  <data name="menu_respawning" xml:space="preserve">
+    <value>Wiedereistieg</value>
+  </data>
+  <data name="menu_returnToGame" xml:space="preserve">
+    <value>Zrugg zum Spü</value>
+  </data>
+  <data name="menu_returnToMenu" xml:space="preserve">
+    <value>Speichan und zrugg zum Hauptmenü</value>
+  </data>
+  <data name="menu_shareToLan" xml:space="preserve">
+    <value>Fis LAN aufmochn</value>
+  </data>
+  <data name="menu_singleplayer" xml:space="preserve">
+    <value>Oanzlspiela</value>
+  </data>
+  <data name="merchant_deprecated" xml:space="preserve">
+    <value>Hondl wos ondas fia a neis Angebot!</value>
+  </data>
+  <data name="multiplayer_connect" xml:space="preserve">
+    <value>Vabindn</value>
+  </data>
+  <data name="multiplayer_downloadingStats" xml:space="preserve">
+    <value>Statistikn und Afolge wean obaglon...</value>
+  </data>
+  <data name="multiplayer_downloadingTerrain" xml:space="preserve">
+    <value>Londschoft wead glodn</value>
+  </data>
+  <data name="multiplayer_ipinfo" xml:space="preserve">
+    <value>Gib de IP-Adress vo am Server ei, um di mit eam zu vabindn:</value>
+  </data>
+  <data name="multiplayer_player_joined" xml:space="preserve">
+    <value>{0} is aufn Server kemma</value>
+  </data>
+  <data name="multiplayer_player_joined_renamed" xml:space="preserve">
+    <value>{0} (friara bekonnt als {1}) is aufn Server kemma</value>
+  </data>
+  <data name="multiplayer_player_left" xml:space="preserve">
+    <value>{0} is vom Server gonga</value>
+  </data>
+  <data name="multiplayer_stopSleeping" xml:space="preserve">
+    <value>Aufsteh</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line1" xml:space="preserve">
+    <value>Diesa Server empföht de Verwendung vo am benutzerdefiniertn Ressourcenpaket.</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line2" xml:space="preserve">
+    <value>Megst's automagisch obalodn und installian?</value>
+  </data>
+  <data name="multiplayer_title" xml:space="preserve">
+    <value>Mehrspielamodus spün</value>
+  </data>
+  <data name="options_anaglyph" xml:space="preserve">
+    <value>3D-Effekt</value>
+  </data>
+  <data name="options_ao" xml:space="preserve">
+    <value>Woachs Liacht</value>
+  </data>
+  <data name="options_ao_max" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="options_ao_min" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="options_ao_off" xml:space="preserve">
+    <value>Aus</value>
+  </data>
+  <data name="options_attack_crosshair" xml:space="preserve">
+    <value>Fodenkreiz</value>
+  </data>
+  <data name="options_attack_hotbar" xml:space="preserve">
+    <value>Schöizuagr.</value>
+  </data>
+  <data name="options_attackIndicator" xml:space="preserve">
+    <value>Ongriffsonzeige</value>
+  </data>
+  <data name="options_autoJump" xml:space="preserve">
+    <value>Automatisch hupfn</value>
+  </data>
+  <data name="options_chat_color" xml:space="preserve">
+    <value>Foabn</value>
+  </data>
+  <data name="options_chat_height_focused" xml:space="preserve">
+    <value>Hechn (g'öffnet)</value>
+  </data>
+  <data name="options_chat_height_unfocused" xml:space="preserve">
+    <value>Hechn (gschlossn)</value>
+  </data>
+  <data name="options_chat_links" xml:space="preserve">
+    <value>Intanetlinks</value>
+  </data>
+  <data name="options_chat_links_prompt" xml:space="preserve">
+    <value>Links bestätign lossn</value>
+  </data>
+  <data name="options_chat_opacity" xml:space="preserve">
+    <value>Deckkroft</value>
+  </data>
+  <data name="options_chat_scale" xml:space="preserve">
+    <value>Skala</value>
+  </data>
+  <data name="options_chat_title" xml:space="preserve">
+    <value>Chat-Einstellungen...</value>
+  </data>
+  <data name="options_chat_visibility" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="options_chat_visibility_full" xml:space="preserve">
+    <value>Ozoagt</value>
+  </data>
+  <data name="options_chat_visibility_hidden" xml:space="preserve">
+    <value>Vasteckt</value>
+  </data>
+  <data name="options_chat_visibility_system" xml:space="preserve">
+    <value>Nua Befehle ozoagn</value>
+  </data>
+  <data name="options_chat_width" xml:space="preserve">
+    <value>Broadn</value>
+  </data>
+  <data name="options_controls" xml:space="preserve">
+    <value>Steiarung...</value>
+  </data>
+  <data name="options_customizeTitle" xml:space="preserve">
+    <value>Opasste Wöt - Einstellungen</value>
+  </data>
+  <data name="options_difficulty" xml:space="preserve">
+    <value>Schwierigkeit</value>
+  </data>
+  <data name="options_difficulty_easy" xml:space="preserve">
+    <value>Oafoch</value>
+  </data>
+  <data name="options_difficulty_hard" xml:space="preserve">
+    <value>Wax</value>
+  </data>
+  <data name="options_difficulty_hardcore" xml:space="preserve">
+    <value>Hardcore</value>
+  </data>
+  <data name="options_difficulty_normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="options_difficulty_peaceful" xml:space="preserve">
+    <value>Nett</value>
+  </data>
+  <data name="options_entityShadows" xml:space="preserve">
+    <value>Objektschottn</value>
+  </data>
+  <data name="options_farWarning1" xml:space="preserve">
+    <value>A 64-Bit Java-Installation wiad empfoin</value>
+  </data>
+  <data name="options_farWarning2" xml:space="preserve">
+    <value>wiad a 64-Bit Java-Installation empfoin (du host glei 32-Bit)</value>
+  </data>
+  <data name="options_forceUnicodeFont" xml:space="preserve">
+    <value>Unicode erzwinga</value>
+  </data>
+  <data name="options_fov" xml:space="preserve">
+    <value>Sichtföd (FOV)</value>
+  </data>
+  <data name="options_fov_max" xml:space="preserve">
+    <value>Quake Pro</value>
+  </data>
+  <data name="options_fov_min" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="options_framerateLimit" xml:space="preserve">
+    <value>Max. Büdrot</value>
+  </data>
+  <data name="options_framerateLimit_max" xml:space="preserve">
+    <value>Unbegrenzt</value>
+  </data>
+  <data name="options_fullscreen" xml:space="preserve">
+    <value>Voibüd</value>
+  </data>
+  <data name="options_gamma" xml:space="preserve">
+    <value>Höigkeit</value>
+  </data>
+  <data name="options_gamma_max" xml:space="preserve">
+    <value>Hö</value>
+  </data>
+  <data name="options_gamma_min" xml:space="preserve">
+    <value>Dunke</value>
+  </data>
+  <data name="options_graphics" xml:space="preserve">
+    <value>Grafikmodus</value>
+  </data>
+  <data name="options_graphics_fancy" xml:space="preserve">
+    <value>Sche</value>
+  </data>
+  <data name="options_graphics_fast" xml:space="preserve">
+    <value>Schnöi</value>
+  </data>
+  <data name="options_guiScale" xml:space="preserve">
+    <value>GUI-Greß</value>
+  </data>
+  <data name="options_guiScale_auto" xml:space="preserve">
+    <value>Automatisch</value>
+  </data>
+  <data name="options_guiScale_large" xml:space="preserve">
+    <value>Groaß</value>
+  </data>
+  <data name="options_guiScale_normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="options_guiScale_small" xml:space="preserve">
+    <value>Kloa</value>
+  </data>
+  <data name="options_hidden" xml:space="preserve">
+    <value>Vasteckt</value>
+  </data>
+  <data name="options_invertMouse" xml:space="preserve">
+    <value>Maus vadrahn</value>
+  </data>
+  <data name="options_language" xml:space="preserve">
+    <value>Sproch...</value>
+  </data>
+  <data name="options_languageWarning" xml:space="preserve">
+    <value>De Übersetzungen san eventuell ned 100%ig richtig</value>
+  </data>
+  <data name="options_mainHand" xml:space="preserve">
+    <value>Haupthond</value>
+  </data>
+  <data name="options_mainHand_left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="options_mainHand_right" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="options_mipmapLevels" xml:space="preserve">
+    <value>Mipmap-Stufn</value>
+  </data>
+  <data name="options_modelPart_cape" xml:space="preserve">
+    <value>Umhong</value>
+  </data>
+  <data name="options_modelPart_hat" xml:space="preserve">
+    <value>Huat</value>
+  </data>
+  <data name="options_modelPart_jacket" xml:space="preserve">
+    <value>Jackn</value>
+  </data>
+  <data name="options_modelPart_left_pants_leg" xml:space="preserve">
+    <value>Links Hosenboa</value>
+  </data>
+  <data name="options_modelPart_left_sleeve" xml:space="preserve">
+    <value>Linka Ärmel</value>
+  </data>
+  <data name="options_modelPart_right_pants_leg" xml:space="preserve">
+    <value>Rechts Hosenrboa</value>
+  </data>
+  <data name="options_modelPart_right_sleeve" xml:space="preserve">
+    <value>Rechta Ärmel</value>
+  </data>
+  <data name="options_multiplayer_title" xml:space="preserve">
+    <value>Mehrspielaeistellungen...</value>
+  </data>
+  <data name="options_music" xml:space="preserve">
+    <value>Musi</value>
+  </data>
+  <data name="options_off" xml:space="preserve">
+    <value>Aus</value>
+  </data>
+  <data name="options_on" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="options_particles" xml:space="preserve">
+    <value>Partikl</value>
+  </data>
+  <data name="options_particles_all" xml:space="preserve">
+    <value>Ois</value>
+  </data>
+  <data name="options_particles_decreased" xml:space="preserve">
+    <value>Verringat</value>
+  </data>
+  <data name="options_particles_minimal" xml:space="preserve">
+    <value>Minimal</value>
+  </data>
+  <data name="options_postButton" xml:space="preserve">
+    <value>Nochbeorbeitung...</value>
+  </data>
+  <data name="options_postProcessEnable" xml:space="preserve">
+    <value>Nochbeorbeitung uschoitn</value>
+  </data>
+  <data name="options_realmsNotifications" xml:space="preserve">
+    <value>Realms-Nochrichtn</value>
+  </data>
+  <data name="options_reducedDebugInfo" xml:space="preserve">
+    <value>Reduziate Debug-Infos</value>
+  </data>
+  <data name="options_renderClouds" xml:space="preserve">
+    <value>Woikn</value>
+  </data>
+  <data name="options_renderDistance" xml:space="preserve">
+    <value>Sichtweitn</value>
+  </data>
+  <data name="options_resourcepack" xml:space="preserve">
+    <value>Ressourcenpakete ...</value>
+  </data>
+  <data name="options_saturation" xml:space="preserve">
+    <value>Sättigung</value>
+  </data>
+  <data name="options_sensitivity" xml:space="preserve">
+    <value>Empfindlichkeit</value>
+  </data>
+  <data name="options_sensitivity_max" xml:space="preserve">
+    <value>TURBO!</value>
+  </data>
+  <data name="options_sensitivity_min" xml:space="preserve">
+    <value>*zzz*</value>
+  </data>
+  <data name="options_showSubtitles" xml:space="preserve">
+    <value>Untatitl uzoang</value>
+  </data>
+  <data name="options_skinCustomisation" xml:space="preserve">
+    <value>Skin-Opassung...</value>
+  </data>
+  <data name="options_skinCustomisation_title" xml:space="preserve">
+    <value>Skin-Opassung</value>
+  </data>
+  <data name="options_snooper" xml:space="preserve">
+    <value>Datnerhöhung erlaubn</value>
+  </data>
+  <data name="options_snooper_desc" xml:space="preserve">
+    <value>Wia würdn gern Infos üba dein Computer sommln, um Minecraft duach de Erkenntnis größara Probleme verbessan zu kena. Oll diese Infos san voikommen anonym und kennan nochfoigend eigsegn werdn. Wia vasprechn, dass wia mit diese Datn koane schlechtn Obsichtn vafoign. Wenn du des trotzdem nid wüst, kost du diese Funtkon a gern ausschoidn!</value>
+  </data>
+  <data name="options_snooper_title" xml:space="preserve">
+    <value>Zommstellung dea Rechnerspezifikation</value>
+  </data>
+  <data name="options_snooper_view" xml:space="preserve">
+    <value>Datnerhöhungseinstellung...</value>
+  </data>
+  <data name="options_sound" xml:space="preserve">
+    <value>Geräusche</value>
+  </data>
+  <data name="options_sounds" xml:space="preserve">
+    <value>Musik &amp; Geräusche...</value>
+  </data>
+  <data name="options_sounds_title" xml:space="preserve">
+    <value>Musik- &amp; Geräuschoptionen</value>
+  </data>
+  <data name="options_title" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="options_touchscreen" xml:space="preserve">
+    <value>Touchscreen-Modus</value>
+  </data>
+  <data name="options_vbo" xml:space="preserve">
+    <value>VBOs heanemma</value>
+  </data>
+  <data name="options_video" xml:space="preserve">
+    <value>Grafikeistellungen...</value>
+  </data>
+  <data name="options_videoTitle" xml:space="preserve">
+    <value>Grafikeistellungen</value>
+  </data>
+  <data name="options_viewBobbing" xml:space="preserve">
+    <value>Gehbewegung</value>
+  </data>
+  <data name="options_visible" xml:space="preserve">
+    <value>Ois uzoang</value>
+  </data>
+  <data name="options_vsync" xml:space="preserve">
+    <value>VSync heanemma</value>
+  </data>
+  <data name="record_nowPlaying" xml:space="preserve">
+    <value>Jetzt wird gspüt: {0}</value>
+  </data>
+  <data name="resourcePack_available_title" xml:space="preserve">
+    <value>Vafügbore Ressourcenpakete</value>
+  </data>
+  <data name="resourcePack_folderInfo" xml:space="preserve">
+    <value>(Ressourcenpakete hia eifügn)</value>
+  </data>
+  <data name="resourcePack_incompatible" xml:space="preserve">
+    <value>Nid kompatibel</value>
+  </data>
+  <data name="resourcePack_incompatible_confirm_new" xml:space="preserve">
+    <value>Dieses Ressourcenpaket is fia a neiare Version vo Minecraft gmocht woan und funktionert womöglich nid einwondfrei.</value>
+  </data>
+  <data name="resourcePack_incompatible_confirm_old" xml:space="preserve">
+    <value>Dieses Ressourcenpaket is fia a ötare Version vo Minecraft gmocht woan und funktionert womöglich neama einwondfrei.</value>
+  </data>
+  <data name="resourcePack_incompatible_confirm_title" xml:space="preserve">
+    <value>Bist da sicha, dass'd des Ressourcenpaket lodn mechst?</value>
+  </data>
+  <data name="resourcePack_incompatible_new" xml:space="preserve">
+    <value>(Fia a neiare Version vo Minecraft gmocht)</value>
+  </data>
+  <data name="resourcePack_incompatible_old" xml:space="preserve">
+    <value>(Fia a ötare Version vo Minecraft gmocht)</value>
+  </data>
+  <data name="resourcePack_openFolder" xml:space="preserve">
+    <value>Ordna aufmochn</value>
+  </data>
+  <data name="resourcePack_selected_title" xml:space="preserve">
+    <value>Ausgwöhte Ressourcenpakete</value>
+  </data>
+  <data name="resourcePack_title" xml:space="preserve">
+    <value>Ressourcenpakete auswöhn</value>
+  </data>
+  <data name="screenshot_success" xml:space="preserve">
+    <value>Screenshot gspeichad unta {0}</value>
+  </data>
+  <data name="selectServer_add" xml:space="preserve">
+    <value>Server dazua doa</value>
+  </data>
+  <data name="selectServer_defaultName" xml:space="preserve">
+    <value>Minecraft-Server</value>
+  </data>
+  <data name="selectServer_delete" xml:space="preserve">
+    <value>Löschn</value>
+  </data>
+  <data name="selectServer_deleteButton" xml:space="preserve">
+    <value>Löschn</value>
+  </data>
+  <data name="selectServer_deleteQuestion" xml:space="preserve">
+    <value>Bist da sicha, dass'd den Server weg doa megst?</value>
+  </data>
+  <data name="selectServer_direct" xml:space="preserve">
+    <value>Direkt verbindn</value>
+  </data>
+  <data name="selectServer_edit" xml:space="preserve">
+    <value>Beorbeitn</value>
+  </data>
+  <data name="selectServer_empty" xml:space="preserve">
+    <value>laar</value>
+  </data>
+  <data name="selectServer_hiddenAddress" xml:space="preserve">
+    <value>(Vasteckt)</value>
+  </data>
+  <data name="selectServer_refresh" xml:space="preserve">
+    <value>Aktualisian</value>
+  </data>
+  <data name="selectServer_select" xml:space="preserve">
+    <value>Aufn Server geh</value>
+  </data>
+  <data name="selectServer_title" xml:space="preserve">
+    <value>Server auswöhn</value>
+  </data>
+  <data name="selectWorld_allowCommands" xml:space="preserve">
+    <value>Cheats dalam:</value>
+  </data>
+  <data name="selectWorld_allowCommands_info" xml:space="preserve">
+    <value>Befehle wie /gamemode, /xp</value>
+  </data>
+  <data name="selectWorld_bonusItems" xml:space="preserve">
+    <value>Bonuskistn:</value>
+  </data>
+  <data name="selectWorld_cheats" xml:space="preserve">
+    <value>Cheats</value>
+  </data>
+  <data name="selectWorld_conversion" xml:space="preserve">
+    <value>Muaß umgwondlt wean!</value>
+  </data>
+  <data name="selectWorld_create" xml:space="preserve">
+    <value>Neie Wöd astön</value>
+  </data>
+  <data name="selectWorld_createDemo" xml:space="preserve">
+    <value>Neie Demo-Wöd spün</value>
+  </data>
+  <data name="selectWorld_customizeType" xml:space="preserve">
+    <value>Upassn</value>
+  </data>
+  <data name="selectWorld_delete" xml:space="preserve">
+    <value>Löschn</value>
+  </data>
+  <data name="selectWorld_deleteButton" xml:space="preserve">
+    <value>Löschn</value>
+  </data>
+  <data name="selectWorld_deleteQuestion" xml:space="preserve">
+    <value>Bist da sicha, dass'd de Wöd löschn megst?</value>
+  </data>
+  <data name="selectWorld_deleteWarning" xml:space="preserve">
+    <value>is fi imma weg! (imma is a longe Zeit!)</value>
+  </data>
+  <data name="selectWorld_edit" xml:space="preserve">
+    <value>Beorbeitn</value>
+  </data>
+  <data name="selectWorld_edit_openFolder" xml:space="preserve">
+    <value>Ordna aufmochn</value>
+  </data>
+  <data name="selectWorld_edit_resetIcon" xml:space="preserve">
+    <value>Symbol zruggsetzn</value>
+  </data>
+  <data name="selectWorld_edit_save" xml:space="preserve">
+    <value>Wöd speichan</value>
+  </data>
+  <data name="selectWorld_edit_title" xml:space="preserve">
+    <value>Wöd beorbeitn</value>
+  </data>
+  <data name="selectWorld_empty" xml:space="preserve">
+    <value>laar</value>
+  </data>
+  <data name="selectWorld_enterName" xml:space="preserve">
+    <value>Wöd Nom</value>
+  </data>
+  <data name="selectWorld_enterSeed" xml:space="preserve">
+    <value>Seed fin Wödgenerator</value>
+  </data>
+  <data name="selectWorld_gameMode" xml:space="preserve">
+    <value>Spümodus</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure" xml:space="preserve">
+    <value>Abenteia</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure_line1" xml:space="preserve">
+    <value>Gleich wie Übalebnsmodus, Blöcke kennan oba ned</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure_line2" xml:space="preserve">
+    <value>plaziat oda zastöat wean</value>
+  </data>
+  <data name="selectWorld_gameMode_creative" xml:space="preserve">
+    <value>Kreativ</value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line1" xml:space="preserve">
+    <value>Unendlich vü Rohstoffe, Fliagn und</value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line2" xml:space="preserve">
+    <value>moch Blöcke sufurt hi</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore" xml:space="preserve">
+    <value>Hoat</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line1" xml:space="preserve">
+    <value>Übalebn auf da höchstn</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line2" xml:space="preserve">
+    <value>Schwierigkeit mit koam Wiedereinstieg</value>
+  </data>
+  <data name="selectWorld_gameMode_spectator" xml:space="preserve">
+    <value>Zuaschaua</value>
+  </data>
+  <data name="selectWorld_gameMode_spectator_line1" xml:space="preserve">
+    <value>Nua schaun, nix ofossn</value>
+  </data>
+  <data name="selectWorld_gameMode_survival" xml:space="preserve">
+    <value>Übalebn</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line1" xml:space="preserve">
+    <value>Suach noch Materialien, bau Werkzeig, sommel</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line2" xml:space="preserve">
+    <value>Erfohrung und kämpf ums Übalebn</value>
+  </data>
+  <data name="selectWorld_hardcoreMode" xml:space="preserve">
+    <value>Hardcore:</value>
+  </data>
+  <data name="selectWorld_hardcoreMode_info" xml:space="preserve">
+    <value>Wöt wird bam Tod glöscht</value>
+  </data>
+  <data name="selectWorld_mapFeatures" xml:space="preserve">
+    <value>Hittn generian:</value>
+  </data>
+  <data name="selectWorld_mapFeatures_info" xml:space="preserve">
+    <value>Dörfa, Templ, Valiese</value>
+  </data>
+  <data name="selectWorld_mapType" xml:space="preserve">
+    <value>Wödtyp:</value>
+  </data>
+  <data name="selectWorld_mapType_normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="selectWorld_moreWorldOptions" xml:space="preserve">
+    <value>Mehr Wödoptionen...</value>
+  </data>
+  <data name="selectWorld_newWorld" xml:space="preserve">
+    <value>Neie Wöd</value>
+  </data>
+  <data name="selectWorld_newWorld_copyOf" xml:space="preserve">
+    <value>Kopie fo {0}</value>
+  </data>
+  <data name="selectWorld_recreate" xml:space="preserve">
+    <value>Nei astön</value>
+  </data>
+  <data name="selectWorld_resultFolder" xml:space="preserve">
+    <value>Wead gspeichad in:</value>
+  </data>
+  <data name="selectWorld_seedInfo" xml:space="preserve">
+    <value>Laar lossn fi an zufällign Seed</value>
+  </data>
+  <data name="selectWorld_select" xml:space="preserve">
+    <value>Ausgwöhde Wöd spün</value>
+  </data>
+  <data name="selectWorld_title" xml:space="preserve">
+    <value>Wöd auswöhn</value>
+  </data>
+  <data name="selectWorld_tooltip_fromNewerVersion1" xml:space="preserve">
+    <value>De Wöd is in ana neian Version gspeichad won,</value>
+  </data>
+  <data name="selectWorld_tooltip_fromNewerVersion2" xml:space="preserve">
+    <value>wenn du sie etz lodst, kunt des problematische Folgen hom!</value>
+  </data>
+  <data name="selectWorld_tooltip_snapshot1" xml:space="preserve">
+    <value>Vergiss ned, de Wöd zum speichern,</value>
+  </data>
+  <data name="selectWorld_tooltip_snapshot2" xml:space="preserve">
+    <value>bevor du sie in dea Version aufmochst.</value>
+  </data>
+  <data name="selectWorld_version" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="selectWorld_versionJoinButton" xml:space="preserve">
+    <value>Trotzdem heanemma</value>
+  </data>
+  <data name="selectWorld_versionQuestion" xml:space="preserve">
+    <value>Megst du de Wöd wirklich lona?</value>
+  </data>
+  <data name="selectWorld_versionUnknown" xml:space="preserve">
+    <value>unbekonnt</value>
+  </data>
+  <data name="selectWorld_versionWarning" xml:space="preserve">
+    <value>De Wöd is in da Version '{0}' gspeichad. Wenn du sie in dea Version lodst, ku des de Wöd zaschiaßn!</value>
+  </data>
+  <data name="selectWorld_world" xml:space="preserve">
+    <value>Wöd</value>
+  </data>
+  <data name="sign_edit" xml:space="preserve">
+    <value>Beschriftung eigem</value>
+  </data>
+  <data name="soundCategory_ambient" xml:space="preserve">
+    <value>Umgebung</value>
+  </data>
+  <data name="soundCategory_block" xml:space="preserve">
+    <value>Bleck</value>
+  </data>
+  <data name="soundCategory_hostile" xml:space="preserve">
+    <value>Monsta</value>
+  </data>
+  <data name="soundCategory_master" xml:space="preserve">
+    <value>Gesomtlautstärke</value>
+  </data>
+  <data name="soundCategory_music" xml:space="preserve">
+    <value>Musi</value>
+  </data>
+  <data name="soundCategory_neutral" xml:space="preserve">
+    <value>Freindliche Viecha</value>
+  </data>
+  <data name="soundCategory_player" xml:space="preserve">
+    <value>Spiela</value>
+  </data>
+  <data name="soundCategory_voice" xml:space="preserve">
+    <value>Stimm/Sproch</value>
+  </data>
+  <data name="soundCategory_weather" xml:space="preserve">
+    <value>Wetta</value>
+  </data>
+  <data name="stat_animalsBred" xml:space="preserve">
+    <value>Viecha züchtet</value>
+  </data>
+  <data name="stat_bannerCleaned" xml:space="preserve">
+    <value>Banner gwoschn</value>
+  </data>
+  <data name="stat_blocksButton" xml:space="preserve">
+    <value>Bleck</value>
+  </data>
+  <data name="stat_createWorld" xml:space="preserve">
+    <value>Wöten erstöd</value>
+  </data>
+  <data name="stat_minecartOneCm" xml:space="preserve">
+    <value>Streckn in an Wagon gfohn</value>
+  </data>
+  <data name="stat_trappedChestTriggered" xml:space="preserve">
+    <value>Redstonekistn ausglöst</value>
+  </data>
+  <data name="stats_tooltip_type_achievement" xml:space="preserve">
+    <value>Afolg</value>
+  </data>
+  <data name="structure_block_button_detect_size" xml:space="preserve">
+    <value>DAKENA</value>
+  </data>
+  <data name="structure_block_button_load" xml:space="preserve">
+    <value>LONA</value>
+  </data>
+  <data name="structure_block_button_save" xml:space="preserve">
+    <value>SPEICHAN</value>
+  </data>
+  <data name="structure_block_hover_corner" xml:space="preserve">
+    <value>Eggn: {0}</value>
+  </data>
+  <data name="structure_block_hover_data" xml:space="preserve">
+    <value>Daten: {0}</value>
+  </data>
+  <data name="structure_block_hover_load" xml:space="preserve">
+    <value>Lona: {0}</value>
+  </data>
+  <data name="structure_block_hover_save" xml:space="preserve">
+    <value>Speichan: {0}</value>
+  </data>
+  <data name="structure_block_load_prepare" xml:space="preserve">
+    <value>Position vu Konstruktion '{0}' vorbereitet</value>
+  </data>
+  <data name="structure_block_load_success" xml:space="preserve">
+    <value>Konstruktion '{0}' glon</value>
+  </data>
+  <data name="structure_block_mode_corner" xml:space="preserve">
+    <value>[E]</value>
+  </data>
+  <data name="structure_block_mode_data" xml:space="preserve">
+    <value>[D]</value>
+  </data>
+  <data name="structure_block_mode_load" xml:space="preserve">
+    <value>[L]</value>
+  </data>
+  <data name="structure_block_mode_save" xml:space="preserve">
+    <value>[S]</value>
+  </data>
+  <data name="structure_block_mode_info_save" xml:space="preserve">
+    <value>Speicha-Modus - in Datei speichan</value>
+  </data>
+  <data name="structure_block_save_failure" xml:space="preserve">
+    <value>Konstruktion '{0}' hot ned gspeichad wean kina</value>
+  </data>
+  <data name="structure_block_save_success" xml:space="preserve">
+    <value>Konstroktion als '{0}' gspeichad</value>
+  </data>
+  <data name="structure_block_size_failure" xml:space="preserve">
+    <value>Konstruktionsgreß ku ned dakennt wead - dua Eggn mit an gleichn Konstruktionsnom dazua</value>
+  </data>
+  <data name="structure_block_size_success" xml:space="preserve">
+    <value>Greß vu '{0}' dakennt</value>
+  </data>
+  <data name="subtitles_block_chest_close" xml:space="preserve">
+    <value>Kistn schliaßt</value>
+  </data>
+  <data name="subtitles_block_chest_locked" xml:space="preserve">
+    <value>Kistn zusgspad</value>
+  </data>
+  <data name="subtitles_block_redstone_torch_burnout" xml:space="preserve">
+    <value>Focke zischt</value>
+  </data>
+  <data name="subtitles_entity_leashknot_place" xml:space="preserve">
+    <value>Leine ubundn</value>
+  </data>
+  <data name="subtitles_entity_minecart_riding" xml:space="preserve">
+    <value>Wagon roit</value>
+  </data>
+  <data name="subtitles_item_shovel_flatten" xml:space="preserve">
+    <value>Schaufe planiad</value>
+  </data>
+  <data name="tile_acaciaFence_name" xml:space="preserve">
+    <value>Akazienzaun</value>
+  </data>
+  <data name="tile_acaciaFenceGate_name" xml:space="preserve">
+    <value>Akazienhoizzauntor</value>
+  </data>
+  <data name="tile_activatorRail_name" xml:space="preserve">
+    <value>Aktivierungsschiene</value>
+  </data>
+  <data name="tile_anvil_intact_name" xml:space="preserve">
+    <value>Amboss</value>
+  </data>
+  <data name="tile_anvil_name" xml:space="preserve">
+    <value>Amboss</value>
+  </data>
+  <data name="tile_anvil_slightlyDamaged_name" xml:space="preserve">
+    <value>Leicht kaputta Amboss</value>
+  </data>
+  <data name="tile_anvil_veryDamaged_name" xml:space="preserve">
+    <value>Stoak kaputta Amboss</value>
+  </data>
+  <data name="tile_barrier_name" xml:space="preserve">
+    <value>Barriere</value>
+  </data>
+  <data name="tile_bed_name" xml:space="preserve">
+    <value>Bett</value>
+  </data>
+  <data name="tile_bed_noSleep" xml:space="preserve">
+    <value>Du konnst di glei in da Nocht hilegn</value>
+  </data>
+  <data name="tile_bed_notSafe" xml:space="preserve">
+    <value>Du kost jetz no nid schlofn, es san Monsta in da Nähe</value>
+  </data>
+  <data name="tile_bed_notValid" xml:space="preserve">
+    <value>Dei Bett is blockiat oda zerstöat woan</value>
+  </data>
+  <data name="tile_bed_occupied" xml:space="preserve">
+    <value>Des Bett is scho b'setzt</value>
+  </data>
+  <data name="tile_bedrock_name" xml:space="preserve">
+    <value>Grundstoa</value>
+  </data>
+  <data name="tile_beetroots_name" xml:space="preserve">
+    <value>Rahner</value>
+  </data>
+  <data name="tile_birchFence_name" xml:space="preserve">
+    <value>Birknhoizzaun</value>
+  </data>
+  <data name="tile_birchFenceGate_name" xml:space="preserve">
+    <value>Birknhoizzauntor</value>
+  </data>
+  <data name="tile_blockCoal_name" xml:space="preserve">
+    <value>Kohleblock</value>
+  </data>
+  <data name="tile_blockDiamond_name" xml:space="preserve">
+    <value>Diamantblock</value>
+  </data>
+  <data name="tile_blockEmerald_name" xml:space="preserve">
+    <value>Smaragdblock</value>
+  </data>
+  <data name="tile_blockGold_name" xml:space="preserve">
+    <value>Goidblock</value>
+  </data>
+  <data name="tile_blockIron_name" xml:space="preserve">
+    <value>Eisnblock</value>
+  </data>
+  <data name="tile_blockLapis_name" xml:space="preserve">
+    <value>Lapislazuliblock</value>
+  </data>
+  <data name="tile_blockRedstone_name" xml:space="preserve">
+    <value>Redstone-Block</value>
+  </data>
+  <data name="tile_boneBlock_name" xml:space="preserve">
+    <value>Knochnblock</value>
+  </data>
+  <data name="tile_bookshelf_name" xml:space="preserve">
+    <value>Bücharegal</value>
+  </data>
+  <data name="tile_brick_name" xml:space="preserve">
+    <value>Ziagl</value>
+  </data>
+  <data name="tile_button_name" xml:space="preserve">
+    <value>Knopf</value>
+  </data>
+  <data name="tile_cactus_name" xml:space="preserve">
+    <value>Kaktus</value>
+  </data>
+  <data name="tile_cake_name" xml:space="preserve">
+    <value>Nudl</value>
+  </data>
+  <data name="tile_carrots_name" xml:space="preserve">
+    <value>Karottn</value>
+  </data>
+  <data name="tile_cauldron_name" xml:space="preserve">
+    <value>Topf</value>
+  </data>
+  <data name="tile_chainCommandBlock_name" xml:space="preserve">
+    <value>Kettn-Befehlsblock</value>
+  </data>
+  <data name="tile_chest_name" xml:space="preserve">
+    <value>Kistn</value>
+  </data>
+  <data name="tile_chestTrap_name" xml:space="preserve">
+    <value>Redstonekistn</value>
+  </data>
+  <data name="tile_chorusFlower_name" xml:space="preserve">
+    <value>Chorusblütn</value>
+  </data>
+  <data name="tile_chorusPlant_name" xml:space="preserve">
+    <value>Choruspflonzn</value>
+  </data>
+  <data name="tile_clay_name" xml:space="preserve">
+    <value>Ton</value>
+  </data>
+  <data name="tile_clayHardened_name" xml:space="preserve">
+    <value>Gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_black_name" xml:space="preserve">
+    <value>Schwoaza gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_blue_name" xml:space="preserve">
+    <value>Blaua gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_brown_name" xml:space="preserve">
+    <value>Brauna gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_cyan_name" xml:space="preserve">
+    <value>Türkisa gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_gray_name" xml:space="preserve">
+    <value>Graua gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_green_name" xml:space="preserve">
+    <value>Greana gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_lightBlue_name" xml:space="preserve">
+    <value>Hellblaua gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_lime_name" xml:space="preserve">
+    <value>Hellgrüna gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_magenta_name" xml:space="preserve">
+    <value>Magentana brennta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_name" xml:space="preserve">
+    <value>Gfärbta gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_orange_name" xml:space="preserve">
+    <value>Oranger gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_pink_name" xml:space="preserve">
+    <value>Rosa gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_purple_name" xml:space="preserve">
+    <value>Lila gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_red_name" xml:space="preserve">
+    <value>Rota bronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_silver_name" xml:space="preserve">
+    <value>Hellgraua gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_white_name" xml:space="preserve">
+    <value>Weißa gebronnta Ton</value>
+  </data>
+  <data name="tile_clayHardenedStained_yellow_name" xml:space="preserve">
+    <value>Göba gebronnta Ton</value>
+  </data>
+  <data name="tile_cloth_black_name" xml:space="preserve">
+    <value>Schwoaze Woin</value>
+  </data>
+  <data name="tile_cloth_blue_name" xml:space="preserve">
+    <value>Blaue Woin</value>
+  </data>
+  <data name="tile_cloth_brown_name" xml:space="preserve">
+    <value>Braune Woin</value>
+  </data>
+  <data name="tile_cloth_cyan_name" xml:space="preserve">
+    <value>Türkise Woin</value>
+  </data>
+  <data name="tile_cloth_gray_name" xml:space="preserve">
+    <value>Graue Woin</value>
+  </data>
+  <data name="tile_cloth_green_name" xml:space="preserve">
+    <value>Greane Woin</value>
+  </data>
+  <data name="tile_cloth_lightBlue_name" xml:space="preserve">
+    <value>Hellblaue Woin</value>
+  </data>
+  <data name="tile_cloth_lime_name" xml:space="preserve">
+    <value>Hellgrüne Woin</value>
+  </data>
+  <data name="tile_cloth_magenta_name" xml:space="preserve">
+    <value>Magentane Woin</value>
+  </data>
+  <data name="tile_cloth_name" xml:space="preserve">
+    <value>Woin</value>
+  </data>
+  <data name="tile_cloth_orange_name" xml:space="preserve">
+    <value>Orange Woin</value>
+  </data>
+  <data name="tile_cloth_pink_name" xml:space="preserve">
+    <value>Rosa Woin</value>
+  </data>
+  <data name="tile_cloth_purple_name" xml:space="preserve">
+    <value>Lila Woin</value>
+  </data>
+  <data name="tile_cloth_red_name" xml:space="preserve">
+    <value>Rote Woin</value>
+  </data>
+  <data name="tile_cloth_silver_name" xml:space="preserve">
+    <value>Hellgraue Woin</value>
+  </data>
+  <data name="tile_cloth_white_name" xml:space="preserve">
+    <value>Woin</value>
+  </data>
+  <data name="tile_cloth_yellow_name" xml:space="preserve">
+    <value>Göbe Woin</value>
+  </data>
+  <data name="tile_cocoa_name" xml:space="preserve">
+    <value>Kakao</value>
+  </data>
+  <data name="tile_commandBlock_name" xml:space="preserve">
+    <value>Befehlsblock</value>
+  </data>
+  <data name="tile_crops_name" xml:space="preserve">
+    <value>Getreide</value>
+  </data>
+  <data name="tile_darkOakFence_name" xml:space="preserve">
+    <value>Schwoazoachnhoizzaun</value>
+  </data>
+  <data name="tile_darkOakFenceGate_name" xml:space="preserve">
+    <value>Schwoazoachnhoizzauntor</value>
+  </data>
+  <data name="tile_deadbush_name" xml:space="preserve">
+    <value>Toda Busch</value>
+  </data>
+  <data name="tile_detectorRail_name" xml:space="preserve">
+    <value>Sensorschiene</value>
+  </data>
+  <data name="tile_dirt_coarse_name" xml:space="preserve">
+    <value>Grobe Ean</value>
+  </data>
+  <data name="tile_dirt_default_name" xml:space="preserve">
+    <value>Ean</value>
+  </data>
+  <data name="tile_dirt_name" xml:space="preserve">
+    <value>Ean</value>
+  </data>
+  <data name="tile_dirt_podzol_name" xml:space="preserve">
+    <value>Podsol</value>
+  </data>
+  <data name="tile_dispenser_name" xml:space="preserve">
+    <value>Werfa</value>
+  </data>
+  <data name="tile_doorIron_name" xml:space="preserve">
+    <value>Eisntia</value>
+  </data>
+  <data name="tile_doorWood_name" xml:space="preserve">
+    <value>Hoiztia</value>
+  </data>
+  <data name="tile_doublePlant_fern_name" xml:space="preserve">
+    <value>Großa Farn</value>
+  </data>
+  <data name="tile_doublePlant_grass_name" xml:space="preserve">
+    <value>Hohs Gros</value>
+  </data>
+  <data name="tile_doublePlant_name" xml:space="preserve">
+    <value>Pflonzn</value>
+  </data>
+  <data name="tile_doublePlant_paeonia_name" xml:space="preserve">
+    <value>Pfingstrosn</value>
+  </data>
+  <data name="tile_doublePlant_rose_name" xml:space="preserve">
+    <value>Rosngwächs</value>
+  </data>
+  <data name="tile_doublePlant_sunflower_name" xml:space="preserve">
+    <value>Sonnenblume</value>
+  </data>
+  <data name="tile_doublePlant_syringa_name" xml:space="preserve">
+    <value>Flieda</value>
+  </data>
+  <data name="tile_dragonEgg_name" xml:space="preserve">
+    <value>Drochnei</value>
+  </data>
+  <data name="tile_dropper_name" xml:space="preserve">
+    <value>Spenda</value>
+  </data>
+  <data name="tile_enchantmentTable_name" xml:space="preserve">
+    <value>Zaubatisch</value>
+  </data>
+  <data name="tile_endBricks_name" xml:space="preserve">
+    <value>Endstoaziagl</value>
+  </data>
+  <data name="tile_endPortalFrame_name" xml:space="preserve">
+    <value>Endportalrahmen</value>
+  </data>
+  <data name="tile_endRod_name" xml:space="preserve">
+    <value>Endstob</value>
+  </data>
+  <data name="tile_enderChest_name" xml:space="preserve">
+    <value>Enderkistn</value>
+  </data>
+  <data name="tile_farmland_name" xml:space="preserve">
+    <value>Ocka</value>
+  </data>
+  <data name="tile_fence_name" xml:space="preserve">
+    <value>Oachnhoizzaun</value>
+  </data>
+  <data name="tile_fenceGate_name" xml:space="preserve">
+    <value>Oachnhoizzauntor</value>
+  </data>
+  <data name="tile_fenceIron_name" xml:space="preserve">
+    <value>Eisngitta</value>
+  </data>
+  <data name="tile_fire_name" xml:space="preserve">
+    <value>Feia</value>
+  </data>
+  <data name="tile_flower1_dandelion_name" xml:space="preserve">
+    <value>Löwnzohn</value>
+  </data>
+  <data name="tile_flower1_name" xml:space="preserve">
+    <value>Bleam</value>
+  </data>
+  <data name="tile_flower2_allium_name" xml:space="preserve">
+    <value>Sternlauch</value>
+  </data>
+  <data name="tile_flower2_blueOrchid_name" xml:space="preserve">
+    <value>Blaue Orchidee</value>
+  </data>
+  <data name="tile_flower2_houstonia_name" xml:space="preserve">
+    <value>Porzellansternchen</value>
+  </data>
+  <data name="tile_flower2_name" xml:space="preserve">
+    <value>Bleam</value>
+  </data>
+  <data name="tile_flower2_oxeyeDaisy_name" xml:space="preserve">
+    <value>Gänsebleaml</value>
+  </data>
+  <data name="tile_flower2_poppy_name" xml:space="preserve">
+    <value>Mohnbleaml</value>
+  </data>
+  <data name="tile_flower2_tulipOrange_name" xml:space="preserve">
+    <value>Orange Tulpn</value>
+  </data>
+  <data name="tile_flower2_tulipPink_name" xml:space="preserve">
+    <value>Rosa Tulpn</value>
+  </data>
+  <data name="tile_flower2_tulipRed_name" xml:space="preserve">
+    <value>Rote Tulpn</value>
+  </data>
+  <data name="tile_flower2_tulipWhite_name" xml:space="preserve">
+    <value>Weiße Tulpn</value>
+  </data>
+  <data name="tile_frostedIce_name" xml:space="preserve">
+    <value>Brucheis</value>
+  </data>
+  <data name="tile_furnace_name" xml:space="preserve">
+    <value>Ofn</value>
+  </data>
+  <data name="tile_glass_name" xml:space="preserve">
+    <value>Glos</value>
+  </data>
+  <data name="tile_goldenRail_name" xml:space="preserve">
+    <value>Ontriebsschiene</value>
+  </data>
+  <data name="tile_grass_name" xml:space="preserve">
+    <value>Gros</value>
+  </data>
+  <data name="tile_grassPath_name" xml:space="preserve">
+    <value>Steig</value>
+  </data>
+  <data name="tile_gravel_name" xml:space="preserve">
+    <value>Schotta</value>
+  </data>
+  <data name="tile_hayBlock_name" xml:space="preserve">
+    <value>Heiboin</value>
+  </data>
+  <data name="tile_hellrock_name" xml:space="preserve">
+    <value>Netherrack</value>
+  </data>
+  <data name="tile_hellsand_name" xml:space="preserve">
+    <value>Seelnsond</value>
+  </data>
+  <data name="tile_ice_name" xml:space="preserve">
+    <value>Eis</value>
+  </data>
+  <data name="tile_icePacked_name" xml:space="preserve">
+    <value>Pockeis</value>
+  </data>
+  <data name="tile_ironTrapdoor_name" xml:space="preserve">
+    <value>Eisnfalltür</value>
+  </data>
+  <data name="tile_jukebox_name" xml:space="preserve">
+    <value>Plottnspiela</value>
+  </data>
+  <data name="tile_jungleFence_name" xml:space="preserve">
+    <value>Regnwoidhoizzaun</value>
+  </data>
+  <data name="tile_jungleFenceGate_name" xml:space="preserve">
+    <value>Regnwoidhoizzauntor</value>
+  </data>
+  <data name="tile_ladder_name" xml:space="preserve">
+    <value>Leita</value>
+  </data>
+  <data name="tile_lava_name" xml:space="preserve">
+    <value>Lava</value>
+  </data>
+  <data name="tile_leaves_acacia_name" xml:space="preserve">
+    <value>Akazienlaub</value>
+  </data>
+  <data name="tile_leaves_big_oak_name" xml:space="preserve">
+    <value>Schwoazoachnlaub</value>
+  </data>
+  <data name="tile_leaves_birch_name" xml:space="preserve">
+    <value>Birknlaub</value>
+  </data>
+  <data name="tile_leaves_jungle_name" xml:space="preserve">
+    <value>Regnwoidbamlaub</value>
+  </data>
+  <data name="tile_leaves_name" xml:space="preserve">
+    <value>Blätta</value>
+  </data>
+  <data name="tile_leaves_oak_name" xml:space="preserve">
+    <value>Oachnlaub</value>
+  </data>
+  <data name="tile_leaves_spruce_name" xml:space="preserve">
+    <value>Fichtnnodln</value>
+  </data>
+  <data name="tile_lever_name" xml:space="preserve">
+    <value>Schoita</value>
+  </data>
+  <data name="tile_lightgem_name" xml:space="preserve">
+    <value>Glowstone</value>
+  </data>
+  <data name="tile_litpumpkin_name" xml:space="preserve">
+    <value>Kürbislatern</value>
+  </data>
+  <data name="tile_lockedchest_name" xml:space="preserve">
+    <value>Zuagspeate Kistn</value>
+  </data>
+  <data name="tile_log_acacia_name" xml:space="preserve">
+    <value>Akazienhoiz</value>
+  </data>
+  <data name="tile_log_big_oak_name" xml:space="preserve">
+    <value>Schwoazoachnhoiz</value>
+  </data>
+  <data name="tile_log_birch_name" xml:space="preserve">
+    <value>Birknhoiz</value>
+  </data>
+  <data name="tile_log_jungle_name" xml:space="preserve">
+    <value>Regnwoidhoiz</value>
+  </data>
+  <data name="tile_log_name" xml:space="preserve">
+    <value>Hoiz</value>
+  </data>
+  <data name="tile_log_oak_name" xml:space="preserve">
+    <value>Oachnhoiz</value>
+  </data>
+  <data name="tile_log_spruce_name" xml:space="preserve">
+    <value>Fichtnhoiz</value>
+  </data>
+  <data name="tile_magma_name" xml:space="preserve">
+    <value>Magmablock</value>
+  </data>
+  <data name="tile_melon_name" xml:space="preserve">
+    <value>Melone</value>
+  </data>
+  <data name="tile_mobSpawner_name" xml:space="preserve">
+    <value>Monsterspawner</value>
+  </data>
+  <data name="tile_monsterStoneEgg_brick_name" xml:space="preserve">
+    <value>Stoaziegl (Süwafisch)</value>
+  </data>
+  <data name="tile_monsterStoneEgg_chiseledbrick_name" xml:space="preserve">
+    <value>Gmoaßlte Stoaziegl (Süwafisch)</value>
+  </data>
+  <data name="tile_monsterStoneEgg_cobble_name" xml:space="preserve">
+    <value>Bruchstoa (Sübafisch)</value>
+  </data>
+  <data name="tile_monsterStoneEgg_crackedbrick_name" xml:space="preserve">
+    <value>Zabrochne Stoaziagl (Süwafisch)</value>
+  </data>
+  <data name="tile_monsterStoneEgg_mossybrick_name" xml:space="preserve">
+    <value>Bemooste Stoaziagl (Süwafisch)</value>
+  </data>
+  <data name="tile_monsterStoneEgg_name" xml:space="preserve">
+    <value>Stoa (Sübafisch)</value>
+  </data>
+  <data name="tile_monsterStoneEgg_stone_name" xml:space="preserve">
+    <value>Stoa (Sübafisch)</value>
+  </data>
+  <data name="tile_mushroom_name" xml:space="preserve">
+    <value>Püz</value>
+  </data>
+  <data name="tile_musicBlock_name" xml:space="preserve">
+    <value>Notnblock</value>
+  </data>
+  <data name="tile_mycel_name" xml:space="preserve">
+    <value>Myzl</value>
+  </data>
+  <data name="tile_netherBrick_name" xml:space="preserve">
+    <value>Netherziagl</value>
+  </data>
+  <data name="tile_netherFence_name" xml:space="preserve">
+    <value>Netherziaglzaun</value>
+  </data>
+  <data name="tile_netherStalk_name" xml:space="preserve">
+    <value>Netherwoazn</value>
+  </data>
+  <data name="tile_netherWartBlock_name" xml:space="preserve">
+    <value>Netherwarzenblock</value>
+  </data>
+  <data name="tile_notGate_name" xml:space="preserve">
+    <value>Redstone-Focke</value>
+  </data>
+  <data name="tile_obsidian_name" xml:space="preserve">
+    <value>Obsidian</value>
+  </data>
+  <data name="tile_oreCoal_name" xml:space="preserve">
+    <value>Stoakohle</value>
+  </data>
+  <data name="tile_oreDiamond_name" xml:space="preserve">
+    <value>Diamanterz</value>
+  </data>
+  <data name="tile_oreEmerald_name" xml:space="preserve">
+    <value>Smaragderz</value>
+  </data>
+  <data name="tile_oreGold_name" xml:space="preserve">
+    <value>Goiderz</value>
+  </data>
+  <data name="tile_oreIron_name" xml:space="preserve">
+    <value>Eisnerz</value>
+  </data>
+  <data name="tile_oreLapis_name" xml:space="preserve">
+    <value>Lapislazulierz</value>
+  </data>
+  <data name="tile_oreRedstone_name" xml:space="preserve">
+    <value>Redstone-Erz</value>
+  </data>
+  <data name="tile_pistonBase_name" xml:space="preserve">
+    <value>Kolbn</value>
+  </data>
+  <data name="tile_pistonStickyBase_name" xml:space="preserve">
+    <value>Pickiga Kolbn</value>
+  </data>
+  <data name="tile_portal_name" xml:space="preserve">
+    <value>Portal</value>
+  </data>
+  <data name="tile_potatoes_name" xml:space="preserve">
+    <value>Kartoffen</value>
+  </data>
+  <data name="tile_pressurePlateStone_name" xml:space="preserve">
+    <value>Stoadruckplottn</value>
+  </data>
+  <data name="tile_pressurePlateWood_name" xml:space="preserve">
+    <value>Hoizdruckplottn</value>
+  </data>
+  <data name="tile_prismarine_bricks_name" xml:space="preserve">
+    <value>Prismarinziagl</value>
+  </data>
+  <data name="tile_prismarine_dark_name" xml:space="preserve">
+    <value>Dunkla Prismarin</value>
+  </data>
+  <data name="tile_prismarine_rough_name" xml:space="preserve">
+    <value>Prismarin</value>
+  </data>
+  <data name="tile_pumpkin_name" xml:space="preserve">
+    <value>Kürbis</value>
+  </data>
+  <data name="tile_pumpkinStem_name" xml:space="preserve">
+    <value>Kürbispflonzn</value>
+  </data>
+  <data name="tile_purpurBlock_name" xml:space="preserve">
+    <value>Purpurblock</value>
+  </data>
+  <data name="tile_purpurPillar_name" xml:space="preserve">
+    <value>Purpuasäule</value>
+  </data>
+  <data name="tile_purpurSlab_name" xml:space="preserve">
+    <value>Purpuastufn</value>
+  </data>
+  <data name="tile_quartzBlock_chiseled_name" xml:space="preserve">
+    <value>Gmeißlta Quarzblock</value>
+  </data>
+  <data name="tile_quartzBlock_default_name" xml:space="preserve">
+    <value>Quarzblock</value>
+  </data>
+  <data name="tile_quartzBlock_lines_name" xml:space="preserve">
+    <value>Quarzsäule</value>
+  </data>
+  <data name="tile_quartzBlock_name" xml:space="preserve">
+    <value>Quarzblock</value>
+  </data>
+  <data name="tile_rail_name" xml:space="preserve">
+    <value>Schiene</value>
+  </data>
+  <data name="tile_redNetherBrick_name" xml:space="preserve">
+    <value>Rote Netherziagl</value>
+  </data>
+  <data name="tile_redSandStone_chiseled_name" xml:space="preserve">
+    <value>Gmeißlta Rota Sondstoa</value>
+  </data>
+  <data name="tile_redSandStone_default_name" xml:space="preserve">
+    <value>Rota Sondstoa</value>
+  </data>
+  <data name="tile_redSandStone_name" xml:space="preserve">
+    <value>Rota Sondstoa</value>
+  </data>
+  <data name="tile_redSandStone_smooth_name" xml:space="preserve">
+    <value>Glotta Rota Sondstoa</value>
+  </data>
+  <data name="tile_redstoneDust_name" xml:space="preserve">
+    <value>Redstone-Stab</value>
+  </data>
+  <data name="tile_redstoneLight_name" xml:space="preserve">
+    <value>Redstone-Lompn</value>
+  </data>
+  <data name="tile_reeds_name" xml:space="preserve">
+    <value>Bambus</value>
+  </data>
+  <data name="tile_repeatingCommandBlock_name" xml:space="preserve">
+    <value>Wiederhoi-Befehlsblock</value>
+  </data>
+  <data name="tile_sand_default_name" xml:space="preserve">
+    <value>Sond</value>
+  </data>
+  <data name="tile_sand_name" xml:space="preserve">
+    <value>Sond</value>
+  </data>
+  <data name="tile_sand_red_name" xml:space="preserve">
+    <value>Rota Sond</value>
+  </data>
+  <data name="tile_sandStone_chiseled_name" xml:space="preserve">
+    <value>Gmeißlta Sondstoa</value>
+  </data>
+  <data name="tile_sandStone_default_name" xml:space="preserve">
+    <value>Sondstoa</value>
+  </data>
+  <data name="tile_sandStone_name" xml:space="preserve">
+    <value>Sondstoa</value>
+  </data>
+  <data name="tile_sandStone_smooth_name" xml:space="preserve">
+    <value>Glotta Sondstoa</value>
+  </data>
+  <data name="tile_sapling_acacia_name" xml:space="preserve">
+    <value>Akaziensetzling</value>
+  </data>
+  <data name="tile_sapling_big_oak_name" xml:space="preserve">
+    <value>Schworzoachesetzling</value>
+  </data>
+  <data name="tile_sapling_birch_name" xml:space="preserve">
+    <value>Birknsetzling</value>
+  </data>
+  <data name="tile_sapling_jungle_name" xml:space="preserve">
+    <value>Tropenbamsetzling</value>
+  </data>
+  <data name="tile_sapling_oak_name" xml:space="preserve">
+    <value>Oachesetzling</value>
+  </data>
+  <data name="tile_sapling_spruce_name" xml:space="preserve">
+    <value>Fichtnsetzling</value>
+  </data>
+  <data name="tile_sign_name" xml:space="preserve">
+    <value>Schüd</value>
+  </data>
+  <data name="tile_slime_name" xml:space="preserve">
+    <value>Schleimblock</value>
+  </data>
+  <data name="tile_snow_name" xml:space="preserve">
+    <value>Schnea</value>
+  </data>
+  <data name="tile_sponge_dry_name" xml:space="preserve">
+    <value>Schwomm</value>
+  </data>
+  <data name="tile_sponge_wet_name" xml:space="preserve">
+    <value>Nossa Schwomm</value>
+  </data>
+  <data name="tile_spruceFence_name" xml:space="preserve">
+    <value>Fichtnhoizzaun</value>
+  </data>
+  <data name="tile_spruceFenceGate_name" xml:space="preserve">
+    <value>Fichtnhoizzauntor</value>
+  </data>
+  <data name="tile_stainedGlass_black_name" xml:space="preserve">
+    <value>Schwoazas Glos</value>
+  </data>
+  <data name="tile_stainedGlass_blue_name" xml:space="preserve">
+    <value>Blaus Glos</value>
+  </data>
+  <data name="tile_stainedGlass_brown_name" xml:space="preserve">
+    <value>Brauns Glos</value>
+  </data>
+  <data name="tile_stainedGlass_cyan_name" xml:space="preserve">
+    <value>Türkises Glos</value>
+  </data>
+  <data name="tile_stainedGlass_gray_name" xml:space="preserve">
+    <value>Graues Glos</value>
+  </data>
+  <data name="tile_stainedGlass_green_name" xml:space="preserve">
+    <value>Greans Glos</value>
+  </data>
+  <data name="tile_stainedGlass_lightBlue_name" xml:space="preserve">
+    <value>Hellblaus Glos</value>
+  </data>
+  <data name="tile_stainedGlass_lime_name" xml:space="preserve">
+    <value>Hellgrüns Glos</value>
+  </data>
+  <data name="tile_stainedGlass_magenta_name" xml:space="preserve">
+    <value>Magentas Glos</value>
+  </data>
+  <data name="tile_stainedGlass_name" xml:space="preserve">
+    <value>Gfärbts Glos</value>
+  </data>
+  <data name="tile_stainedGlass_orange_name" xml:space="preserve">
+    <value>Oranges Glos</value>
+  </data>
+  <data name="tile_stainedGlass_pink_name" xml:space="preserve">
+    <value>Rosa Glos</value>
+  </data>
+  <data name="tile_stainedGlass_purple_name" xml:space="preserve">
+    <value>Lilas Glos</value>
+  </data>
+  <data name="tile_stainedGlass_red_name" xml:space="preserve">
+    <value>Rots Glos</value>
+  </data>
+  <data name="tile_stainedGlass_silver_name" xml:space="preserve">
+    <value>Hellgraus Glos</value>
+  </data>
+  <data name="tile_stainedGlass_white_name" xml:space="preserve">
+    <value>Weißas Glos</value>
+  </data>
+  <data name="tile_stainedGlass_yellow_name" xml:space="preserve">
+    <value>Göbs Glos</value>
+  </data>
+  <data name="tile_stairsBrick_name" xml:space="preserve">
+    <value>Ziegltreppn</value>
+  </data>
+  <data name="tile_stairsNetherBrick_name" xml:space="preserve">
+    <value>Netherziagltreppn</value>
+  </data>
+  <data name="tile_stairsPurpur_name" xml:space="preserve">
+    <value>Purpuatreppn</value>
+  </data>
+  <data name="tile_stairsRedSandStone_name" xml:space="preserve">
+    <value>Rote Sondstoatreppn</value>
+  </data>
+  <data name="tile_stairsSandStone_name" xml:space="preserve">
+    <value>Sondstoatreppn</value>
+  </data>
+  <data name="tile_stairsStone_name" xml:space="preserve">
+    <value>Bruchstoatreppn</value>
+  </data>
+  <data name="tile_stairsStoneBrickSmooth_name" xml:space="preserve">
+    <value>Stoaziegltreppn</value>
+  </data>
+  <data name="tile_stairsWood_name" xml:space="preserve">
+    <value>Oachnhoiztreppn</value>
+  </data>
+  <data name="tile_stairsWoodAcacia_name" xml:space="preserve">
+    <value>Akazienhoiztreppn</value>
+  </data>
+  <data name="tile_stairsWoodBirch_name" xml:space="preserve">
+    <value>Birknhoiztreppn</value>
+  </data>
+  <data name="tile_stairsWoodDarkOak_name" xml:space="preserve">
+    <value>Schwoazoachnhoiztreppn</value>
+  </data>
+  <data name="tile_stairsWoodJungle_name" xml:space="preserve">
+    <value>Regnwoidhoiztreppn</value>
+  </data>
+  <data name="tile_stairsWoodSpruce_name" xml:space="preserve">
+    <value>Fichtnhoiztreppn</value>
+  </data>
+  <data name="tile_stone_andesite_name" xml:space="preserve">
+    <value>Andesit</value>
+  </data>
+  <data name="tile_stone_andesiteSmooth_name" xml:space="preserve">
+    <value>Poliada Andesit</value>
+  </data>
+  <data name="tile_stone_diorite_name" xml:space="preserve">
+    <value>Diorit</value>
+  </data>
+  <data name="tile_stone_dioriteSmooth_name" xml:space="preserve">
+    <value>Poliada Diorit</value>
+  </data>
+  <data name="tile_stone_granite_name" xml:space="preserve">
+    <value>Granit</value>
+  </data>
+  <data name="tile_stone_graniteSmooth_name" xml:space="preserve">
+    <value>Poliada Granit</value>
+  </data>
+  <data name="tile_stone_stone_name" xml:space="preserve">
+    <value>Stoa</value>
+  </data>
+  <data name="tile_stoneMoss_name" xml:space="preserve">
+    <value>Bemoosta Bruchstoa</value>
+  </data>
+  <data name="tile_stoneSlab_brick_name" xml:space="preserve">
+    <value>Ziaglstufn</value>
+  </data>
+  <data name="tile_stoneSlab_cobble_name" xml:space="preserve">
+    <value>Bruchstoastufn</value>
+  </data>
+  <data name="tile_stoneSlab_name" xml:space="preserve">
+    <value>Stoastufn</value>
+  </data>
+  <data name="tile_stoneSlab_netherBrick_name" xml:space="preserve">
+    <value>Netherziaglstufn</value>
+  </data>
+  <data name="tile_stoneSlab_quartz_name" xml:space="preserve">
+    <value>Quarzstufn</value>
+  </data>
+  <data name="tile_stoneSlab_sand_name" xml:space="preserve">
+    <value>Sondstoastufn</value>
+  </data>
+  <data name="tile_stoneSlab_smoothStoneBrick_name" xml:space="preserve">
+    <value>Stoaziaglstufn</value>
+  </data>
+  <data name="tile_stoneSlab_stone_name" xml:space="preserve">
+    <value>Stoastufn</value>
+  </data>
+  <data name="tile_stoneSlab_wood_name" xml:space="preserve">
+    <value>Hoizstufn</value>
+  </data>
+  <data name="tile_stoneSlab2_red_sandstone_name" xml:space="preserve">
+    <value>Rote Sondstoastufn</value>
+  </data>
+  <data name="tile_stonebrick_name" xml:space="preserve">
+    <value>Bruchstoa</value>
+  </data>
+  <data name="tile_stonebricksmooth_chiseled_name" xml:space="preserve">
+    <value>Gmoaßlte Stoaziagl</value>
+  </data>
+  <data name="tile_stonebricksmooth_cracked_name" xml:space="preserve">
+    <value>Zabrochne Stoaziagl</value>
+  </data>
+  <data name="tile_stonebricksmooth_default_name" xml:space="preserve">
+    <value>Stoaziagl</value>
+  </data>
+  <data name="tile_stonebricksmooth_mossy_name" xml:space="preserve">
+    <value>Bemooste Stoaziagl</value>
+  </data>
+  <data name="tile_stonebricksmooth_name" xml:space="preserve">
+    <value>Stoaziagl</value>
+  </data>
+  <data name="tile_structureBlock_name" xml:space="preserve">
+    <value>Konstruktionsblock</value>
+  </data>
+  <data name="tile_structureVoid_name" xml:space="preserve">
+    <value>Konstruktionsleere</value>
+  </data>
+  <data name="tile_tallgrass_fern_name" xml:space="preserve">
+    <value>Farn</value>
+  </data>
+  <data name="tile_tallgrass_grass_name" xml:space="preserve">
+    <value>Gros</value>
+  </data>
+  <data name="tile_tallgrass_name" xml:space="preserve">
+    <value>Gros</value>
+  </data>
+  <data name="tile_tallgrass_shrub_name" xml:space="preserve">
+    <value>Heckn</value>
+  </data>
+  <data name="tile_thinGlass_name" xml:space="preserve">
+    <value>Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_black_name" xml:space="preserve">
+    <value>Schwoaze Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_blue_name" xml:space="preserve">
+    <value>Blaue Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_brown_name" xml:space="preserve">
+    <value>Braune Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_cyan_name" xml:space="preserve">
+    <value>Türkise Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_gray_name" xml:space="preserve">
+    <value>Graue Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_green_name" xml:space="preserve">
+    <value>Greane Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_lightBlue_name" xml:space="preserve">
+    <value>Hellblaue Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_lime_name" xml:space="preserve">
+    <value>Hellgrüne Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_magenta_name" xml:space="preserve">
+    <value>Magentane Glosscheim</value>
+  </data>
+  <data name="tile_thinStainedGlass_name" xml:space="preserve">
+    <value>Gfärbte Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_orange_name" xml:space="preserve">
+    <value>Orange Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_pink_name" xml:space="preserve">
+    <value>Rosane Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_purple_name" xml:space="preserve">
+    <value>Lilane Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_red_name" xml:space="preserve">
+    <value>Rote Glosscheim</value>
+  </data>
+  <data name="tile_thinStainedGlass_silver_name" xml:space="preserve">
+    <value>Hellgraue Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_white_name" xml:space="preserve">
+    <value>Weiße Glosscheibn</value>
+  </data>
+  <data name="tile_thinStainedGlass_yellow_name" xml:space="preserve">
+    <value>Göbe Glosscheibn</value>
+  </data>
+  <data name="tile_tnt_name" xml:space="preserve">
+    <value>Dynamit</value>
+  </data>
+  <data name="tile_torch_name" xml:space="preserve">
+    <value>Focke</value>
+  </data>
+  <data name="tile_trapdoor_name" xml:space="preserve">
+    <value>Hoizfalltür</value>
+  </data>
+  <data name="tile_vine_name" xml:space="preserve">
+    <value>Lianen</value>
+  </data>
+  <data name="tile_water_name" xml:space="preserve">
+    <value>Wossa</value>
+  </data>
+  <data name="tile_waterlily_name" xml:space="preserve">
+    <value>Searosn</value>
+  </data>
+  <data name="tile_web_name" xml:space="preserve">
+    <value>Spinnwebn</value>
+  </data>
+  <data name="tile_weightedPlate_heavy_name" xml:space="preserve">
+    <value>Wägeplottn (schware Gwichte)</value>
+  </data>
+  <data name="tile_weightedPlate_light_name" xml:space="preserve">
+    <value>Wägeplottn (leichte Gwichte)</value>
+  </data>
+  <data name="tile_whiteStone_name" xml:space="preserve">
+    <value>Endstoa</value>
+  </data>
+  <data name="tile_wood_acacia_name" xml:space="preserve">
+    <value>Akazienhoizbrettl</value>
+  </data>
+  <data name="tile_wood_big_oak_name" xml:space="preserve">
+    <value>Schworzoachnhoizbrettl</value>
+  </data>
+  <data name="tile_wood_birch_name" xml:space="preserve">
+    <value>Birknhoizbrettl</value>
+  </data>
+  <data name="tile_wood_jungle_name" xml:space="preserve">
+    <value>Regnwoidhoizbrettl</value>
+  </data>
+  <data name="tile_wood_name" xml:space="preserve">
+    <value>Hoizbrettl</value>
+  </data>
+  <data name="tile_wood_oak_name" xml:space="preserve">
+    <value>Oachnhoizbrettl</value>
+  </data>
+  <data name="tile_wood_spruce_name" xml:space="preserve">
+    <value>Fichtnhoizbrettl</value>
+  </data>
+  <data name="tile_woodSlab_acacia_name" xml:space="preserve">
+    <value>Akazienhoizstufn</value>
+  </data>
+  <data name="tile_woodSlab_big_oak_name" xml:space="preserve">
+    <value>Schwoazoachnhoizstufn</value>
+  </data>
+  <data name="tile_woodSlab_birch_name" xml:space="preserve">
+    <value>Birknhoizstufn</value>
+  </data>
+  <data name="tile_woodSlab_jungle_name" xml:space="preserve">
+    <value>Regnwoidhoizstufn</value>
+  </data>
+  <data name="tile_woodSlab_name" xml:space="preserve">
+    <value>Hoizstufn</value>
+  </data>
+  <data name="tile_woodSlab_oak_name" xml:space="preserve">
+    <value>Oachnhoizstufn</value>
+  </data>
+  <data name="tile_woodSlab_spruce_name" xml:space="preserve">
+    <value>Fichtnhoizstufn</value>
+  </data>
+  <data name="tile_woolCarpet_black_name" xml:space="preserve">
+    <value>Schwoaza Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_blue_name" xml:space="preserve">
+    <value>Blaua Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_brown_name" xml:space="preserve">
+    <value>Brauna Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_cyan_name" xml:space="preserve">
+    <value>Türkisa Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_gray_name" xml:space="preserve">
+    <value>Graua Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_green_name" xml:space="preserve">
+    <value>Greana Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_lightBlue_name" xml:space="preserve">
+    <value>Hellblaua Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_lime_name" xml:space="preserve">
+    <value>Hellgrüna Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_magenta_name" xml:space="preserve">
+    <value>Magentana Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_name" xml:space="preserve">
+    <value>Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_orange_name" xml:space="preserve">
+    <value>Oranger Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_pink_name" xml:space="preserve">
+    <value>Rosa Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_purple_name" xml:space="preserve">
+    <value>Lila Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_red_name" xml:space="preserve">
+    <value>Rota Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_silver_name" xml:space="preserve">
+    <value>Hellgraua Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_white_name" xml:space="preserve">
+    <value>Teppich</value>
+  </data>
+  <data name="tile_woolCarpet_yellow_name" xml:space="preserve">
+    <value>Göba Teppich</value>
+  </data>
+  <data name="tile_workbench_name" xml:space="preserve">
+    <value>Oabatstisch</value>
+  </data>
+  <data name="title_oldgl1" xml:space="preserve">
+    <value>Oite Grafikkoatn erkonnt: Des kennt di in da Zukunft</value>
+  </data>
+  <data name="title_oldgl2" xml:space="preserve">
+    <value>am Spün hindan, da OpenGL 2.0 benötigt wiad.</value>
+  </data>
+</root>

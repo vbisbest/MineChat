@@ -1,0 +1,4041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="achievement_acquireIron" xml:space="preserve">
+    <value>हार्डवेयर मोल</value>
+  </data>
+  <data name="achievement_acquireIron_desc" xml:space="preserve">
+    <value>एक लोहे के पिंड गलाना</value>
+  </data>
+  <data name="achievement_bakeCake" xml:space="preserve">
+    <value>लेटें</value>
+  </data>
+  <data name="achievement_bakeCake_desc" xml:space="preserve">
+    <value>गेहूं, चीनी, दूध और अंडे!</value>
+  </data>
+  <data name="achievement_blazeRod" xml:space="preserve">
+    <value>आग में</value>
+  </data>
+  <data name="achievement_blazeRod_desc" xml:space="preserve">
+    <value>अपनी छड़ी के एक ब्लेज़ छुटकारा पाने के</value>
+  </data>
+  <data name="achievement_bookcase" xml:space="preserve">
+    <value>लाइब्रेरियन</value>
+  </data>
+  <data name="achievement_bookcase_desc" xml:space="preserve">
+    <value>कुछ किताबो बनाएँ करने के लिए अपने आकर्षण तालिका में सुधार</value>
+  </data>
+  <data name="achievement_breedCow" xml:space="preserve">
+    <value>Repopulation</value>
+  </data>
+  <data name="achievement_breedCow_desc" xml:space="preserve">
+    <value>गेहूं के साथ दो गायों पालें</value>
+  </data>
+  <data name="achievement_buildBetterPickaxe" xml:space="preserve">
+    <value>एक उन्नयन</value>
+  </data>
+  <data name="achievement_buildBetterPickaxe_desc" xml:space="preserve">
+    <value>एक बेहतर कुदाल से मिट्टी खुरपना निर्माण</value>
+  </data>
+  <data name="achievement_buildFurnace" xml:space="preserve">
+    <value>गरम विषय</value>
+  </data>
+  <data name="achievement_buildHoe" xml:space="preserve">
+    <value>फार्म के लिए समय!</value>
+  </data>
+  <data name="achievement_buildHoe_desc" xml:space="preserve">
+    <value>बोर्डों और लाठी का प्रयोग बनाने के लिए एक कुदाल</value>
+  </data>
+  <data name="achievement_buildPickaxe" xml:space="preserve">
+    <value>खदान के लिए समय!</value>
+  </data>
+  <data name="achievement_buildPickaxe_desc" xml:space="preserve">
+    <value>बोर्डों और लाठी का उपयोग करने के लिए एक कुदाल से मिट्टी खुरपना बनाने</value>
+  </data>
+  <data name="achievement_buildSword" xml:space="preserve">
+    <value>हड़ताल करने के लिए समय!</value>
+  </data>
+  <data name="achievement_buildSword_desc" xml:space="preserve">
+    <value>बोर्डों और लाठी का उपयोग करने के लिए एक तलवार बनाने</value>
+  </data>
+  <data name="achievement_buildWorkBench" xml:space="preserve">
+    <value>बेंचमार्किंग</value>
+  </data>
+  <data name="achievement_buildWorkBench_desc" xml:space="preserve">
+    <value>बोर्डों के चार ब्लॉक के साथ एक कार्यक्षेत्र क्राफ्ट</value>
+  </data>
+  <data name="achievement_cookFish" xml:space="preserve">
+    <value>स्वादिष्ट मछली</value>
+  </data>
+  <data name="achievement_cookFish_desc" xml:space="preserve">
+    <value>मछली पकड़ो और खाना बनाना!</value>
+  </data>
+  <data name="achievement_diamonds" xml:space="preserve">
+    <value>हीरे!</value>
+  </data>
+  <data name="achievement_diamonds_desc" xml:space="preserve">
+    <value>अपने लोहे के उपकरणों के साथ हीरे मोल</value>
+  </data>
+  <data name="achievement_enchantments" xml:space="preserve">
+    <value>जादूगार</value>
+  </data>
+  <data name="achievement_enchantments_desc" xml:space="preserve">
+    <value>एक किताब, ओब्सीडियन, और हीरे का उपयोग करने के लिए एक आकर्षण तालिका का निर्माण</value>
+  </data>
+  <data name="achievement_flyPig" xml:space="preserve">
+    <value>जब सूअरों मक्खी</value>
+  </data>
+  <data name="achievement_flyPig_desc" xml:space="preserve">
+    <value>एक चट्टान से एक सुअर फ्लाई</value>
+  </data>
+  <data name="achievement_get" xml:space="preserve">
+    <value>उपलब्धि हो जाओ!</value>
+  </data>
+  <data name="achievement_ghast" xml:space="preserve">
+    <value>प्रेषक को लौटें</value>
+  </data>
+  <data name="achievement_ghast_desc" xml:space="preserve">
+    <value>एक आग का गोला के साथ एक फ्लाइंग भूत नष्ट</value>
+  </data>
+  <data name="achievement_killCow" xml:space="preserve">
+    <value>गाय टिपर</value>
+  </data>
+  <data name="achievement_killCow_desc" xml:space="preserve">
+    <value>कुछ चमड़े हार्वेस्ट</value>
+  </data>
+  <data name="achievement_killEnemy" xml:space="preserve">
+    <value>दानव हंटर</value>
+  </data>
+  <data name="achievement_killEnemy_desc" xml:space="preserve">
+    <value>हमला करते हैं और एक राक्षस को नष्ट</value>
+  </data>
+  <data name="achievement_makeBread" xml:space="preserve">
+    <value>बनाओ रोटी</value>
+  </data>
+  <data name="achievement_makeBread_desc" xml:space="preserve">
+    <value>रोटी में गेहूं मुड़ें</value>
+  </data>
+  <data name="achievement_mineWood" xml:space="preserve">
+    <value>लकड़ी हो रही है</value>
+  </data>
+  <data name="achievement_mineWood_desc" xml:space="preserve">
+    <value>एक पेड़ को हमला करो जब तक लकड़ी का एक खंड बाहर चबूतरे</value>
+  </data>
+  <data name="achievement_onARail" xml:space="preserve">
+    <value>एक रेल पर</value>
+  </data>
+  <data name="achievement_openInventory" xml:space="preserve">
+    <value>सूची लेना</value>
+  </data>
+  <data name="achievement_overkill" xml:space="preserve">
+    <value>ओवरकिल</value>
+  </data>
+  <data name="achievement_overkill_desc" xml:space="preserve">
+    <value>एक हिट एकल में क्षति के आठ दिल डील</value>
+  </data>
+  <data name="achievement_portal" xml:space="preserve">
+    <value>हम गहराई में जाने की जरूरत है</value>
+  </data>
+  <data name="achievement_portal_desc" xml:space="preserve">
+    <value>नीचे के लिए एक पोर्टल बनाएँ</value>
+  </data>
+  <data name="achievement_potion" xml:space="preserve">
+    <value>स्थानीय शराब की भठ्ठी</value>
+  </data>
+  <data name="achievement_potion_desc" xml:space="preserve">
+    <value>औषधि काढ़ा</value>
+  </data>
+  <data name="achievement_requires" xml:space="preserve">
+    <value>'{0}' की आवश्यकता है</value>
+  </data>
+  <data name="achievement_snipeSkeleton" xml:space="preserve">
+    <value>निशानची द्वंद्वयुद्ध</value>
+  </data>
+  <data name="achievement_snipeSkeleton_desc" xml:space="preserve">
+    <value>पचास से अधिक मीटर से एक तीर के साथ एक कंकाल को मार डालो</value>
+  </data>
+  <data name="achievement_taken" xml:space="preserve">
+    <value>लिया!</value>
+  </data>
+  <data name="achievement_theEnd" xml:space="preserve">
+    <value>अंत?</value>
+  </data>
+  <data name="achievement_theEnd_desc" xml:space="preserve">
+    <value>अंत का पता लगाएँ</value>
+  </data>
+  <data name="achievement_theEnd2" xml:space="preserve">
+    <value>अंत.</value>
+  </data>
+  <data name="achievement_theEnd2_desc" xml:space="preserve">
+    <value>अंत ड्रैगन हार</value>
+  </data>
+  <data name="addServer_add" xml:space="preserve">
+    <value>ठीक है</value>
+  </data>
+  <data name="addServer_enterIp" xml:space="preserve">
+    <value>सर्वर पता</value>
+  </data>
+  <data name="addServer_enterName" xml:space="preserve">
+    <value>सर्वर का नाम</value>
+  </data>
+  <data name="addServer_hideAddress" xml:space="preserve">
+    <value>पते छुपाएँ</value>
+  </data>
+  <data name="addServer_resourcePack_disabled" xml:space="preserve">
+    <value>बंद</value>
+  </data>
+  <data name="addServer_resourcePack_enabled" xml:space="preserve">
+    <value>चालू</value>
+  </data>
+  <data name="addServer_title" xml:space="preserve">
+    <value>सर्वर जानकारी संपादित करें</value>
+  </data>
+  <data name="advMode_allPlayers" xml:space="preserve">
+    <value>सभी खिलाड़ियों को लक्षित करने के लिए "@a" का उपयोग करें</value>
+  </data>
+  <data name="advMode_command" xml:space="preserve">
+    <value>सांत्वना कमांड</value>
+  </data>
+  <data name="advMode_nearestPlayer" xml:space="preserve">
+    <value>"@P" खिलाड़ी निकटतम लक्ष्य करने के लिए उपयोग करें</value>
+  </data>
+  <data name="advMode_notAllowed" xml:space="preserve">
+    <value>एक opped खिलाड़ी रचनात्मक मोड में होना चाहिए</value>
+  </data>
+  <data name="advMode_notEnabled" xml:space="preserve">
+    <value>आदेश ब्लॉक इस सर्वर पर सक्षम नहीं है</value>
+  </data>
+  <data name="advMode_previousOutput" xml:space="preserve">
+    <value>पिछला उत्पादन</value>
+  </data>
+  <data name="advMode_randomPlayer" xml:space="preserve">
+    <value>यादृच्छिक खिलाड़ी के लक्ष्य के लिए "@r" का उपयोग करें</value>
+  </data>
+  <data name="advMode_setCommand" xml:space="preserve">
+    <value>ब्लॉक के लिए सेट करें कंसोल आदेश</value>
+  </data>
+  <data name="advMode_setCommand_success" xml:space="preserve">
+    <value>कमान के सेट: {0}</value>
+  </data>
+  <data name="attribute_name_generic_attackDamage" xml:space="preserve">
+    <value>हमले क्षति</value>
+  </data>
+  <data name="attribute_name_generic_followRange" xml:space="preserve">
+    <value>भीड़ का पालन रेंज</value>
+  </data>
+  <data name="attribute_name_generic_knockbackResistance" xml:space="preserve">
+    <value>प्रतिरोध वापस दस्तक</value>
+  </data>
+  <data name="attribute_name_generic_maxHealth" xml:space="preserve">
+    <value>अधिकतम स्वास्थ्य</value>
+  </data>
+  <data name="attribute_name_generic_movementSpeed" xml:space="preserve">
+    <value>गति</value>
+  </data>
+  <data name="attribute_name_horse_jumpStrength" xml:space="preserve">
+    <value>घोड़े कूद ताकत</value>
+  </data>
+  <data name="attribute_name_zombie_spawnReinforcements" xml:space="preserve">
+    <value>ज़ोंबी सुदृढीकरण</value>
+  </data>
+  <data name="book_byAuthor" xml:space="preserve">
+    <value>द्वारा {0}</value>
+  </data>
+  <data name="book_editTitle" xml:space="preserve">
+    <value>पुस्तक शीर्षक दर्ज करें:</value>
+  </data>
+  <data name="book_finalizeButton" xml:space="preserve">
+    <value>साइन इन करें और बंद</value>
+  </data>
+  <data name="book_finalizeWarning" xml:space="preserve">
+    <value>ध्यान दें! जब आप पुस्तक पर हस्ताक्षर, यह अब संपादन योग्य हो जाएगा.</value>
+  </data>
+  <data name="book_generation_0" xml:space="preserve">
+    <value>असली</value>
+  </data>
+  <data name="book_generation_1" xml:space="preserve">
+    <value>असलियत की प्रतिलिपि</value>
+  </data>
+  <data name="book_generation_2" xml:space="preserve">
+    <value>एक प्रतिलिपि की प्रतिलिपि</value>
+  </data>
+  <data name="book_generation_3" xml:space="preserve">
+    <value>तार – तार</value>
+  </data>
+  <data name="book_pageIndicator" xml:space="preserve">
+    <value>पेज {0} की {1}</value>
+  </data>
+  <data name="book_signButton" xml:space="preserve">
+    <value>साइन इन करें</value>
+  </data>
+  <data name="build_tooHigh" xml:space="preserve">
+    <value>इमारत की ऊंचाई सीमा% एस ब्लॉक है</value>
+  </data>
+  <data name="chat_cannotSend" xml:space="preserve">
+    <value>चैट संदेश नहीं भेज सका</value>
+  </data>
+  <data name="chat_copy" xml:space="preserve">
+    <value>क्लिपबोर्ड पर कॉपी</value>
+  </data>
+  <data name="chat_link_confirm" xml:space="preserve">
+    <value>क्या आप सुनिश्चित करें कि आप के लिए निम्नलिखित वेबसाइट को खोलना चाहते हैं?</value>
+  </data>
+  <data name="chat_link_confirmTrusted" xml:space="preserve">
+    <value>आप अपने क्लिपबोर्ड को कॉपी की इस कड़ी को खोलने के लिए चाहते हैं?</value>
+  </data>
+  <data name="chat_link_open" xml:space="preserve">
+    <value>ब्राउज़र में खोलें</value>
+  </data>
+  <data name="chat_link_warning" xml:space="preserve">
+    <value>लोगों को लगता है कि तुम पर भरोसा नहीं से कभी नहीं खुले लिंक!</value>
+  </data>
+  <data name="chat_type_achievement" xml:space="preserve">
+    <value>{0} sólo ha obtenido el logro {1}</value>
+  </data>
+  <data name="commands_achievement_give_success_all" xml:space="preserve">
+    <value>सफलतापूर्वक {0} के लिए सभी कारनामे देखते हुए</value>
+  </data>
+  <data name="commands_ban_success" xml:space="preserve">
+    <value>रोक लगाया हुआ खिलाड़ी {0}</value>
+  </data>
+  <data name="commands_ban_usage" xml:space="preserve">
+    <value>/ban &lt;नाम&gt; [कारण ...]</value>
+  </data>
+  <data name="commands_banip_invalid" xml:space="preserve">
+    <value>आपने एक अमान्य IP पते या ऑनलाइन नहीं है कि एक दिया है खिलाड़ी दिया है</value>
+  </data>
+  <data name="commands_banip_success" xml:space="preserve">
+    <value>पर प्रतिबंध लगादिया आइपी पता {0}</value>
+  </data>
+  <data name="commands_banip_success_players" xml:space="preserve">
+    <value>पर प्रतिबंध लगा दिया आई पी पते {0} {1} से संबंधित</value>
+  </data>
+  <data name="commands_banip_usage" xml:space="preserve">
+    <value>/ban-ip &lt;पता|नाम&gt; [कारण...]</value>
+  </data>
+  <data name="commands_banlist_ips" xml:space="preserve">
+    <value>वहाँ हैं {0} रोक कुल लगाया हुआ खिलाड़ियों</value>
+  </data>
+  <data name="commands_banlist_players" xml:space="preserve">
+    <value>{0} कुल प्रतिबंधित खिलाड़ी हैं:</value>
+  </data>
+  <data name="commands_banlist_usage" xml:space="preserve">
+    <value>/banlist [ips|players]</value>
+  </data>
+  <data name="commands_clear_failure" xml:space="preserve">
+    <value>सकता है नहीं साफ है यह इनवेंटरी की {0} नहीं आइटम से हटाना</value>
+  </data>
+  <data name="commands_clear_success" xml:space="preserve">
+    <value>{0}, {1} आइटम्स को हटाने की सूची को मंजूरी दे दी</value>
+  </data>
+  <data name="commands_debug_notStarted" xml:space="preserve">
+    <value>जब हम अभी तक शुरू नहीं किया है रूपरेखा नहीं रोक सकता!</value>
+  </data>
+  <data name="commands_debug_start" xml:space="preserve">
+    <value>शुरू डीबग रूपरेखा</value>
+  </data>
+  <data name="commands_debug_stop" xml:space="preserve">
+    <value>{0} ({1} ticks) सेकंड के बाद बंद डिबग रूपरेखा</value>
+  </data>
+  <data name="commands_defaultgamemode_success" xml:space="preserve">
+    <value>अब दुनिया डिफ़ॉल्ट खेल मोड {0}</value>
+  </data>
+  <data name="commands_defaultgamemode_usage" xml:space="preserve">
+    <value>/defaultgamemode &lt;मोड&gt;</value>
+  </data>
+  <data name="commands_deop_success" xml:space="preserve">
+    <value>De-opped {0}</value>
+  </data>
+  <data name="commands_deop_usage" xml:space="preserve">
+    <value>/deop &lt;खिलाड़ी&gt;</value>
+  </data>
+  <data name="commands_difficulty_success" xml:space="preserve">
+    <value>{0} के लिए सेट करें गेम की कठिनाई</value>
+  </data>
+  <data name="commands_difficulty_usage" xml:space="preserve">
+    <value>/difficulty &lt;नई कठिनाई&gt;</value>
+  </data>
+  <data name="commands_downfall_success" xml:space="preserve">
+    <value>टॉगल पतन</value>
+  </data>
+  <data name="commands_effect_failure_notActive" xml:space="preserve">
+    <value>वे प्रभाव नहीं है के रूप में {0} {1} से ले नहीं सकता</value>
+  </data>
+  <data name="commands_effect_failure_notActive_all" xml:space="preserve">
+    <value>{0} से कोई भी प्रभाव लेने के रूप में वे किसी भी नहीं है नहीं कर सका</value>
+  </data>
+  <data name="commands_effect_notFound" xml:space="preserve">
+    <value>आईडी{0} से ऐसी भीड़ प्रभाव है कोई</value>
+  </data>
+  <data name="commands_effect_success" xml:space="preserve">
+    <value>{0} (ID %2$ डी) दी * असक्षम %5$ के लिए $s के लिए %3$ घ घ सेकंड</value>
+  </data>
+  <data name="commands_effect_success_removed_all" xml:space="preserve">
+    <value>से सभी प्रभावों ले लिया {0}</value>
+  </data>
+  <data name="commands_enchant_cantCombine" xml:space="preserve">
+    <value>{0} साथ मिलकर नहीं किया जा सकता। {1}</value>
+  </data>
+  <data name="commands_enchant_cantEnchant" xml:space="preserve">
+    <value>चयनित जादू लक्षित आइटम से जोड़ा नहीं जा सकता</value>
+  </data>
+  <data name="commands_enchant_notFound" xml:space="preserve">
+    <value>ऐसा कोई जादू इस D {0} के साथ नहीं है </value>
+  </data>
+  <data name="commands_enchant_success" xml:space="preserve">
+    <value>माओजहां सफल</value>
+  </data>
+  <data name="commands_enchant_usage" xml:space="preserve">
+    <value>/enchant &lt;खिलाडी&gt; &lt;जादुई ID&gt; [स्तर]</value>
+  </data>
+  <data name="commands_gamemode_success_other" xml:space="preserve">
+    <value>सेट {0} खेल मोड के {1}</value>
+  </data>
+  <data name="commands_gamemode_success_self" xml:space="preserve">
+    <value>सेट आपके खेल मोड के {0}</value>
+  </data>
+  <data name="commands_gamemode_usage" xml:space="preserve">
+    <value>/gamemode &lt;मोड&gt; [खिलाड़ी]</value>
+  </data>
+  <data name="commands_gamerule_norule" xml:space="preserve">
+    <value>'{0}' नामक कोई खेल नियम उपलब्ध है</value>
+  </data>
+  <data name="commands_generic_boolean_invalid" xml:space="preserve">
+    <value>'{0}' झूठे का सच नहीं है.</value>
+  </data>
+  <data name="commands_generic_double_tooBig" xml:space="preserve">
+    <value>नंबर आपने दर्ज किया है ({0}) भी बड़े है, यह अधिक से अधिक होना आवश्यक है {1}</value>
+  </data>
+  <data name="commands_generic_double_tooSmall" xml:space="preserve">
+    <value>नंबर आपने दर्ज किया है ({0}) बहुत छोटा है, यह कम से कम होना चाहिए {1}</value>
+  </data>
+  <data name="commands_generic_exception" xml:space="preserve">
+    <value>एक अज्ञात त्रुटि हुआ करने का प्रयास तक प्रदर्शन यह कार्रवाई.</value>
+  </data>
+  <data name="commands_generic_notFound" xml:space="preserve">
+    <value>अज्ञात कमांड. आदेशों की एक सूची के लिए मदद / प्रयोग करें.</value>
+  </data>
+  <data name="commands_generic_num_invalid" xml:space="preserve">
+    <value>'{0}' है नहीं एक वैध संख्या</value>
+  </data>
+  <data name="commands_generic_num_tooBig" xml:space="preserve">
+    <value>आप के पास चला की संख्या (% (घ) बहुत बडा, यह सर्वाधिक प्रतिशत पर होना चाहिए (घ)</value>
+  </data>
+  <data name="commands_generic_num_tooSmall" xml:space="preserve">
+    <value>आप के पास चला की संख्या (% (घ) बहुत छोटा है, हमें इस पर विचार करना चाहिए कम-से-कम% डी.</value>
+  </data>
+  <data name="commands_generic_permission" xml:space="preserve">
+    <value>आप इस आदेश का उपयोग करने की अनुमति नहीं है</value>
+  </data>
+  <data name="commands_generic_player_notFound" xml:space="preserve">
+    <value>कि खिलाड़ी नहीं कर सकता होना पाया</value>
+  </data>
+  <data name="commands_generic_syntax" xml:space="preserve">
+    <value>अमान्य आदेश वाक्यविन्यास</value>
+  </data>
+  <data name="commands_generic_usage" xml:space="preserve">
+    <value>दस्तूर: {0}</value>
+  </data>
+  <data name="commands_help_footer" xml:space="preserve">
+    <value>सुझाव: &lt;टैब&gt; कुंजी का उपयोग करते हुए स्वत: पूर्ण आदेश या इसके तर्क के लिए एक कमांड टाइप</value>
+  </data>
+  <data name="commands_help_header" xml:space="preserve">
+    <value>ज्ञापक मदद पेज {0} की {1} (/मदद &lt;पेज&gt;)</value>
+  </data>
+  <data name="commands_help_usage" xml:space="preserve">
+    <value>/help [पेज|आदेश नाम]</value>
+  </data>
+  <data name="commands_kick_success" xml:space="preserve">
+    <value>खेल से kicked {0}</value>
+  </data>
+  <data name="commands_kick_success_reason" xml:space="preserve">
+    <value>{0} इस खेल से लात मारी: '{1}'</value>
+  </data>
+  <data name="commands_kick_usage" xml:space="preserve">
+    <value>/kick &lt;खिलाड़ी&gt; [कारण ...]</value>
+  </data>
+  <data name="commands_me_usage" xml:space="preserve">
+    <value>/me &lt;कार्रवाई...&gt;</value>
+  </data>
+  <data name="commands_message_display_incoming" xml:space="preserve">
+    <value>आप {0} फुसफुसाते हुए: {1}</value>
+  </data>
+  <data name="commands_message_display_outgoing" xml:space="preserve">
+    <value>आप {0}: {1} के लिए कानाफूसी</value>
+  </data>
+  <data name="commands_message_sameTarget" xml:space="preserve">
+    <value>तुम अपने आप को एक निजी संदेश भेजें नहीं कर सकता!</value>
+  </data>
+  <data name="commands_message_usage" xml:space="preserve">
+    <value>/tell &lt;खिलाड़ी&gt; &lt; निजी संदेश... &gt;</value>
+  </data>
+  <data name="commands_op_success" xml:space="preserve">
+    <value>ऑपरेटर {0}</value>
+  </data>
+  <data name="commands_op_usage" xml:space="preserve">
+    <value>/op &lt;खिलाड़ी&gt;</value>
+  </data>
+  <data name="commands_players_list" xml:space="preserve">
+    <value>वहाँ हैं {0}{1} खिलाड़ियों ऑनलाइन</value>
+  </data>
+  <data name="commands_publish_failed" xml:space="preserve">
+    <value>मेजबान स्थानीय खेल करने में असमर्थ</value>
+  </data>
+  <data name="commands_publish_started" xml:space="preserve">
+    <value>स्थानीय खेल पोर्ट {0} पर होस्ट किया गया</value>
+  </data>
+  <data name="commands_save_disabled" xml:space="preserve">
+    <value>ऑटो की बचत की दुनिया बंद कर दिया</value>
+  </data>
+  <data name="commands_save_enabled" xml:space="preserve">
+    <value>ऑटो की बचत की दुनिया पर बदल गया</value>
+  </data>
+  <data name="commands_save_failed" xml:space="preserve">
+    <value>सहेजा जा रहा है:{0}</value>
+  </data>
+  <data name="commands_save_start" xml:space="preserve">
+    <value>बचत...</value>
+  </data>
+  <data name="commands_save_success" xml:space="preserve">
+    <value>दुनिया को बचाया</value>
+  </data>
+  <data name="commands_say_usage" xml:space="preserve">
+    <value>/say &lt;संदेश ...&gt;</value>
+  </data>
+  <data name="commands_scoreboard_objectiveNotFound" xml:space="preserve">
+    <value>उद्देश्य के नाम से नहीं मिला {0}</value>
+  </data>
+  <data name="commands_scoreboard_objectiveReadOnly" xml:space="preserve">
+    <value>उद्देश्य '{0}' केवल-पढ़ने के लिए है और सेट नहीं किया जा सकता</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_alreadyExists" xml:space="preserve">
+    <value>नाम "{0}" के साथ एक उद्देश्य पहले से मौजूद है</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_displayTooLong" xml:space="preserve">
+    <value>प्रदर्शन नाम '{0}' के लिए एक उद्देश्य बहुत लंबा है, यह सबसे कम {1} वर्णों तक लंबा हो सकता है</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_success" xml:space="preserve">
+    <value>नई उद्देश्य '{0}' सफलतापूर्वक जोड़ा गया</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_tooLong" xml:space="preserve">
+    <value>नाम '{0}' के लिए एक उद्देश्य बहुत लंबा है, यह सबसे कम {1} वर्णों तक लंबा हो सकता है</value>
+  </data>
+  <data name="commands_scoreboard_objectives_add_usage" xml:space="preserve">
+    <value>/scoreboard objectives add &lt;name&gt; &lt;criteriaType&gt; [प्रदर्शन नाम...] जोड़ें</value>
+  </data>
+  <data name="commands_scoreboard_objectives_list_empty" xml:space="preserve">
+    <value>स्कोरबोर्ड पर कोई उद्देश्य हैं</value>
+  </data>
+  <data name="commands_scoreboard_objectives_list_entry" xml:space="preserve">
+    <value>-{0}: '{1}' के रूप में प्रदर्शित करता है और '{2}' प्रकार है</value>
+  </data>
+  <data name="commands_scoreboard_objectives_remove_success" xml:space="preserve">
+    <value>उद्देश्य '{0}' सफलतापूर्वक हटाया</value>
+  </data>
+  <data name="commands_scoreboard_objectives_remove_usage" xml:space="preserve">
+    <value>/scoreboard objectives remove &lt;नाम हटाने के&gt;</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_invalidSlot" xml:space="preserve">
+    <value>कोई ऐसी प्रदर्शन स्लॉट {0}</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_successCleared" xml:space="preserve">
+    <value>उद्देश्य प्रदर्शन स्लॉट '{0}' को मंजूरी दे दी</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_successSet" xml:space="preserve">
+    <value>'{0}' के लिए '{1}' स्लॉट में उद्देश्य के प्रदर्शन सेट करें</value>
+  </data>
+  <data name="commands_scoreboard_objectives_setdisplay_usage" xml:space="preserve">
+    <value>/scoreboard objectives setdisplay &lt;slot&gt; [उद्देश्य]</value>
+  </data>
+  <data name="commands_scoreboard_players_list_empty" xml:space="preserve">
+    <value>स्कोरबोर्ड पर कोई नज़र रखी खिलाड़ी हैं</value>
+  </data>
+  <data name="commands_scoreboard_players_list_player_empty" xml:space="preserve">
+    <value>{0} खिलाड़ी कोई स्कोर दर्ज की गई है</value>
+  </data>
+  <data name="commands_scoreboard_players_list_usage" xml:space="preserve">
+    <value>/scoreboard players list [नाम]</value>
+  </data>
+  <data name="commands_scoreboard_players_reset_success" xml:space="preserve">
+    <value>खिलाड़ी के सभी स्कोर रीसेट {0}</value>
+  </data>
+  <data name="commands_scoreboard_players_set_success" xml:space="preserve">
+    <value>स्कोर खिलाड़ी {0} के लिए {1} की {2} के लिए सेट करें</value>
+  </data>
+  <data name="commands_scoreboard_teamNotFound" xml:space="preserve">
+    <value>टीम के नाम से नहीं मिला {0}</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_alreadyExists" xml:space="preserve">
+    <value>एक टीम के साथ नाम '{0}' पहले से मौजूद है</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_displayTooLong" xml:space="preserve">
+    <value>प्रदर्शन नाम '{0}' कोई टीम के लिए बहुत लंबा है, यह सबसे कम {1} वर्णों तक लंबा हो सकता है</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_success" xml:space="preserve">
+    <value>नई टीम '{0}' सफलतापूर्वक जोड़ा गया</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_tooLong" xml:space="preserve">
+    <value>नाम '{0}' कोई टीम के लिए बहुत लंबा है, यह सबसे कम {1} वर्णों तक लंबा हो सकता है</value>
+  </data>
+  <data name="commands_scoreboard_teams_add_usage" xml:space="preserve">
+    <value>/scoreboard teams add &lt;name&gt; [display name ...]</value>
+  </data>
+  <data name="commands_scoreboard_teams_empty_alreadyEmpty" xml:space="preserve">
+    <value>टीम {0} पहले से ही खाली है, nonexistant खिलाड़ियों को निकाल नहीं सकते</value>
+  </data>
+  <data name="commands_scoreboard_teams_empty_success" xml:space="preserve">
+    <value>सभी {0} player(s) टीम {1} से हटाया</value>
+  </data>
+  <data name="commands_scoreboard_teams_join_failure" xml:space="preserve">
+    <value>टीम: {0} {1} के लिए {2} player(s) में नहीं जोड़ सकता</value>
+  </data>
+  <data name="commands_scoreboard_teams_join_success" xml:space="preserve">
+    <value>जोड़ा गया {0}: {1} {2} टीम के लिए player(s)</value>
+  </data>
+  <data name="commands_scoreboard_teams_join_usage" xml:space="preserve">
+    <value>/scoreboard teams join &lt;team&gt; [player]</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_failure" xml:space="preserve">
+    <value>हटा नहीं सका {0} player(s) from their teams: {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_noTeam" xml:space="preserve">
+    <value>आप एक टीम में नहीं हैं</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_success" xml:space="preserve">
+    <value>{0} player(s) उनकी टीमों से हटा दिया: {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_leave_usage" xml:space="preserve">
+    <value>/scoreboard teams leave [प्लेयर]</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_empty" xml:space="preserve">
+    <value>कोई scoreboar पर पंजीकृत टीमों</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_entry" xml:space="preserve">
+    <value>-{0}: '{1}' है %3$ घ खिलाड़ियों</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_player_empty" xml:space="preserve">
+    <value>कोई खिलाड़ी टीम {0} है</value>
+  </data>
+  <data name="commands_scoreboard_teams_list_usage" xml:space="preserve">
+    <value>/scoreboard teams list [नाम]</value>
+  </data>
+  <data name="commands_scoreboard_teams_option_noValue" xml:space="preserve">
+    <value>विकल्प के लिए मान्य मान {0} हैं: {1}</value>
+  </data>
+  <data name="commands_scoreboard_teams_option_success" xml:space="preserve">
+    <value>{0} {1} के लिए टीम के लिए {2} विकल्प सेट करें</value>
+  </data>
+  <data name="commands_scoreboard_teams_remove_success" xml:space="preserve">
+    <value>निकाला गया टीम {0}</value>
+  </data>
+  <data name="commands_scoreboard_teams_remove_usage" xml:space="preserve">
+    <value>/scoreboard teams remove &lt;नाम&gt;</value>
+  </data>
+  <data name="commands_seed_success" xml:space="preserve">
+    <value>बीज: {0}</value>
+  </data>
+  <data name="commands_spawnpoint_success" xml:space="preserve">
+    <value>{0} के अंडे बिंदु सेट करें ({1}, {2}, {3} के लिए)</value>
+  </data>
+  <data name="commands_spreadplayers_failure_players" xml:space="preserve">
+    <value>{0} {1}, {2} (अंतरिक्ष - के लिए भी कई खिलाड़ियों की कोशिश करो प्रसार सबसे कम {3} का उपयोग कर) के आसपास खिलाड़ियों का प्रसार नहीं कर सकता</value>
+  </data>
+  <data name="commands_spreadplayers_failure_teams" xml:space="preserve">
+    <value>{0} {1}, {2} (अंतरिक्ष - के लिए भी कई खिलाड़ियों की कोशिश करो प्रसार सबसे कम {3} का उपयोग कर) के आसपास टीमों का प्रसार नहीं कर सकता</value>
+  </data>
+  <data name="commands_spreadplayers_info_players" xml:space="preserve">
+    <value>({0} पुनरूक्तियाँ के बाद {1} ब्लाकों के अलावा खिलाड़ियों के बीच की औसत दूरी है)</value>
+  </data>
+  <data name="commands_spreadplayers_info_teams" xml:space="preserve">
+    <value>({0} पुनरूक्तियाँ के बाद {1} ब्लाकों के अलावा टीमों के बीच की औसत दूरी है)</value>
+  </data>
+  <data name="commands_spreadplayers_spreading_players" xml:space="preserve">
+    <value>{0} खिलाड़ियों {1} {2}, {3} (min {4} ब्लाकों के अलावा) के आसपास ब्लॉकों के प्रसार</value>
+  </data>
+  <data name="commands_spreadplayers_spreading_teams" xml:space="preserve">
+    <value>फैल {0} {1} {2}, {3} (अलावा min {4} ब्लॉक) के आसपास ब्लॉकों टीमों</value>
+  </data>
+  <data name="commands_spreadplayers_success_players" xml:space="preserve">
+    <value>सफलतापूर्वक {0} {1}, {2} के आसपास खिलाड़ियों का प्रसार</value>
+  </data>
+  <data name="commands_spreadplayers_success_teams" xml:space="preserve">
+    <value>सफलतापूर्वक {0} {1}, {2} के आसपास टीमों का प्रसार</value>
+  </data>
+  <data name="commands_spreadplayers_usage" xml:space="preserve">
+    <value>/spreadplayers &lt;z&gt;&lt;spreadDistance&gt;&lt;maxRange&gt;&lt; respectTeams true|false &gt; &lt;x&gt;&lt; खिलाड़ी... &gt;</value>
+  </data>
+  <data name="commands_stop_start" xml:space="preserve">
+    <value>सर्वर को रोकना</value>
+  </data>
+  <data name="commands_time_added" xml:space="preserve">
+    <value>समय के लिए जोड़ा गया {0}</value>
+  </data>
+  <data name="commands_time_set" xml:space="preserve">
+    <value>समय निर्धारित करें {0}</value>
+  </data>
+  <data name="commands_tp_notSameDimension" xml:space="preserve">
+    <value>करने में असमर्थ teleport में नहीं हैं क्योंकि खिलाड़ी वही आयाम</value>
+  </data>
+  <data name="commands_tp_success" xml:space="preserve">
+    <value>Teleported {0} {1}</value>
+  </data>
+  <data name="commands_tp_success_coordinates" xml:space="preserve">
+    <value>{0},{1},{2} करने के लिए {3} Teleported</value>
+  </data>
+  <data name="commands_unban_success" xml:space="preserve">
+    <value>Unbanned प्लेयर {0}</value>
+  </data>
+  <data name="commands_unban_usage" xml:space="preserve">
+    <value>/pardon &lt;name&gt;</value>
+  </data>
+  <data name="commands_unbanip_invalid" xml:space="preserve">
+    <value>तुम एक अवैध IP पता दर्ज किया है</value>
+  </data>
+  <data name="commands_unbanip_success" xml:space="preserve">
+    <value>unbanned आइपी पता {0}</value>
+  </data>
+  <data name="commands_unbanip_usage" xml:space="preserve">
+    <value>/pardon-ip &lt;address&gt;</value>
+  </data>
+  <data name="commands_weather_clear" xml:space="preserve">
+    <value>मौसम साफ़ करने के लिए परिवर्तित करना</value>
+  </data>
+  <data name="commands_weather_rain" xml:space="preserve">
+    <value>बरसात के मौसम को परिवर्तित करना</value>
+  </data>
+  <data name="commands_weather_thunder" xml:space="preserve">
+    <value>बारिश और गरज के लिए परिवर्तित करना</value>
+  </data>
+  <data name="commands_whitelist_add_success" xml:space="preserve">
+    <value>श्वेत सूची करने के लिए जोड़ा गया {0}</value>
+  </data>
+  <data name="commands_whitelist_add_usage" xml:space="preserve">
+    <value>/whitelist add &lt;खिलाड़ी&gt;</value>
+  </data>
+  <data name="commands_whitelist_disabled" xml:space="preserve">
+    <value>बंद श्वेतसूची में बदल गया</value>
+  </data>
+  <data name="commands_whitelist_enabled" xml:space="preserve">
+    <value>श्वेतसूची पर बदल गया</value>
+  </data>
+  <data name="commands_whitelist_list" xml:space="preserve">
+    <value>{0} ({1} देखा) से बाहर whitelisted खिलाड़ी हैं:</value>
+  </data>
+  <data name="commands_whitelist_reloaded" xml:space="preserve">
+    <value>श्वेतसूची रीलोडेड</value>
+  </data>
+  <data name="commands_whitelist_remove_success" xml:space="preserve">
+    <value>हटाया {0} से सफेद सूची</value>
+  </data>
+  <data name="commands_whitelist_remove_usage" xml:space="preserve">
+    <value>/whitelist remove &lt;खिलाड़ी&gt;</value>
+  </data>
+  <data name="commands_worldborder_center_usage" xml:space="preserve">
+    <value>/worldborder center &lt;x&gt; &lt;z&gt;</value>
+  </data>
+  <data name="commands_xp_failure_widthdrawXp" xml:space="preserve">
+    <value>नकारात्मक अनुभव अंक दे सकते हैं खिलाड़ी</value>
+  </data>
+  <data name="commands_xp_success" xml:space="preserve">
+    <value>{0} के लिए दिए गए {1} अनुभव</value>
+  </data>
+  <data name="commands_xp_success_levels" xml:space="preserve">
+    <value>{0} के लिए दिए गए {1} स्तर</value>
+  </data>
+  <data name="commands_xp_success_negative_levels" xml:space="preserve">
+    <value>{0} से {1} स्तर लिया</value>
+  </data>
+  <data name="commands_xp_usage" xml:space="preserve">
+    <value>/xp &lt;राशि&gt; [प्लेयर] OR /xp &lt;राशि&gt;L [प्लेयर]</value>
+  </data>
+  <data name="connect_authorizing" xml:space="preserve">
+    <value>लॉग्गिंग इन ...</value>
+  </data>
+  <data name="connect_connecting" xml:space="preserve">
+    <value>सर्वर से कनेक्ट हो रहा है ...</value>
+  </data>
+  <data name="connect_failed" xml:space="preserve">
+    <value>सर्वर से कनेक्ट करने में विफल</value>
+  </data>
+  <data name="container_beacon" xml:space="preserve">
+    <value>बीकन</value>
+  </data>
+  <data name="container_brewing" xml:space="preserve">
+    <value>चल खड़े हो जाओ</value>
+  </data>
+  <data name="container_chest" xml:space="preserve">
+    <value>छाती</value>
+  </data>
+  <data name="container_chestDouble" xml:space="preserve">
+    <value>बड़ी बॉक्स</value>
+  </data>
+  <data name="container_crafting" xml:space="preserve">
+    <value>क्राफ्टिंग</value>
+  </data>
+  <data name="container_creative" xml:space="preserve">
+    <value>आइटम चयन</value>
+  </data>
+  <data name="container_dispenser" xml:space="preserve">
+    <value>दवासाज़</value>
+  </data>
+  <data name="container_dropper" xml:space="preserve">
+    <value>गिराने</value>
+  </data>
+  <data name="container_enchant" xml:space="preserve">
+    <value>मोहित करना</value>
+  </data>
+  <data name="container_enderchest" xml:space="preserve">
+    <value>अंतवह छाती</value>
+  </data>
+  <data name="container_furnace" xml:space="preserve">
+    <value>भट्ठी</value>
+  </data>
+  <data name="container_hopper" xml:space="preserve">
+    <value>आइटम हूपर</value>
+  </data>
+  <data name="container_inventory" xml:space="preserve">
+    <value>इन्वेंटरी</value>
+  </data>
+  <data name="container_repair" xml:space="preserve">
+    <value>मरम्मत &amp; नाम</value>
+  </data>
+  <data name="container_repair_cost" xml:space="preserve">
+    <value>लागत आकर्षण: {0}</value>
+  </data>
+  <data name="container_repair_expensive" xml:space="preserve">
+    <value>बहुत ही महंगा!</value>
+  </data>
+  <data name="controls_reset" xml:space="preserve">
+    <value>रीसेट करें</value>
+  </data>
+  <data name="controls_resetAll" xml:space="preserve">
+    <value>कुंजी रीसेट करें</value>
+  </data>
+  <data name="controls_title" xml:space="preserve">
+    <value>नियंत्रण</value>
+  </data>
+  <data name="createWorld_customize_custom_biomeSize" xml:space="preserve">
+    <value>पर्यावरण का साइज़</value>
+  </data>
+  <data name="createWorld_customize_custom_confirmTitle" xml:space="preserve">
+    <value>चेतावनी!</value>
+  </data>
+  <data name="createWorld_customize_custom_defaults" xml:space="preserve">
+    <value>चूक</value>
+  </data>
+  <data name="createWorld_customize_custom_dungeonChance" xml:space="preserve">
+    <value>काल कोठरी गिन्ति</value>
+  </data>
+  <data name="createWorld_customize_custom_fixedBiome" xml:space="preserve">
+    <value>पर्यावरण</value>
+  </data>
+  <data name="createWorld_customize_custom_heightScale" xml:space="preserve">
+    <value>ऊँचाई के पैमाने</value>
+  </data>
+  <data name="createWorld_customize_custom_minHeight" xml:space="preserve">
+    <value>मि. ऊंचाई</value>
+  </data>
+  <data name="createWorld_customize_custom_next" xml:space="preserve">
+    <value>अगले पृष्ठ</value>
+  </data>
+  <data name="createWorld_customize_custom_page0" xml:space="preserve">
+    <value>सामान्य सेटिंग्स</value>
+  </data>
+  <data name="createWorld_customize_custom_page2" xml:space="preserve">
+    <value>एडवांस सेटिंग्स (एक्सपर्ट उपयोगकर्ताओं के लिए!)</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_caveChaos" xml:space="preserve">
+    <value>अराजकता की गुफाएं</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_drought" xml:space="preserve">
+    <value>अकाल</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_goodLuck" xml:space="preserve">
+    <value>शुभकामनाएँ</value>
+  </data>
+  <data name="createWorld_customize_custom_preset_waterWorld" xml:space="preserve">
+    <value>पानी की दुनिया</value>
+  </data>
+  <data name="createWorld_customize_custom_presets" xml:space="preserve">
+    <value>प्रीसेट</value>
+  </data>
+  <data name="createWorld_customize_custom_prev" xml:space="preserve">
+    <value>पिछला पृष्ठ</value>
+  </data>
+  <data name="createWorld_customize_custom_randomize" xml:space="preserve">
+    <value>अनियमित</value>
+  </data>
+  <data name="createWorld_customize_custom_riverSize" xml:space="preserve">
+    <value>नदी का साइज़</value>
+  </data>
+  <data name="createWorld_customize_custom_seaLevel" xml:space="preserve">
+    <value>समुद्र स्तर</value>
+  </data>
+  <data name="createWorld_customize_custom_stretchY" xml:space="preserve">
+    <value>ऊंचाई खिंचाव</value>
+  </data>
+  <data name="createWorld_customize_custom_useCaves" xml:space="preserve">
+    <value>गुफाओं</value>
+  </data>
+  <data name="createWorld_customize_custom_useDungeons" xml:space="preserve">
+    <value>काल कोठरी</value>
+  </data>
+  <data name="createWorld_customize_custom_useLavaLakes" xml:space="preserve">
+    <value>लावा की नदी</value>
+  </data>
+  <data name="createWorld_customize_custom_useLavaOceans" xml:space="preserve">
+    <value>लावा का सागर</value>
+  </data>
+  <data name="createWorld_customize_custom_useMineShafts" xml:space="preserve">
+    <value>रेल सुरंग</value>
+  </data>
+  <data name="createWorld_customize_custom_useMonuments" xml:space="preserve">
+    <value>सागर का स्मारकों</value>
+  </data>
+  <data name="createWorld_customize_custom_useStrongholds" xml:space="preserve">
+    <value>गढ़ों</value>
+  </data>
+  <data name="createWorld_customize_custom_useTemples" xml:space="preserve">
+    <value>मंदिरों</value>
+  </data>
+  <data name="createWorld_customize_custom_useVillages" xml:space="preserve">
+    <value>गांव</value>
+  </data>
+  <data name="createWorld_customize_custom_useWaterLakes" xml:space="preserve">
+    <value>नदी</value>
+  </data>
+  <data name="createWorld_customize_flat_addLayer" xml:space="preserve">
+    <value>परत को जोड़ें</value>
+  </data>
+  <data name="createWorld_customize_flat_air" xml:space="preserve">
+    <value>हवा</value>
+  </data>
+  <data name="createWorld_customize_flat_editLayer" xml:space="preserve">
+    <value>परत संपादित करें</value>
+  </data>
+  <data name="createWorld_customize_flat_height" xml:space="preserve">
+    <value>ऊँचाई</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_bottom" xml:space="preserve">
+    <value>तल-{0}</value>
+  </data>
+  <data name="createWorld_customize_flat_layer_top" xml:space="preserve">
+    <value>शीर्ष-{0}</value>
+  </data>
+  <data name="createWorld_customize_flat_removeLayer" xml:space="preserve">
+    <value>परत को हटाने</value>
+  </data>
+  <data name="createWorld_customize_flat_tile" xml:space="preserve">
+    <value>परत सामग्री</value>
+  </data>
+  <data name="createWorld_customize_flat_title" xml:space="preserve">
+    <value>सपाट दुनिया अनुकूलन</value>
+  </data>
+  <data name="createWorld_customize_presets" xml:space="preserve">
+    <value>प्रीसेट</value>
+  </data>
+  <data name="createWorld_customize_presets_list" xml:space="preserve">
+    <value>वैकल्पिक रूप से, यहाँ कुछ हम पहले ही कर दिया है!</value>
+  </data>
+  <data name="createWorld_customize_presets_select" xml:space="preserve">
+    <value>प्रीसेट का उपयोग करें</value>
+  </data>
+  <data name="createWorld_customize_presets_share" xml:space="preserve">
+    <value>आपके प्रीसेट किसी के साथ साझा करना चाहते हैं? का प्रयोग करें बॉक्स के नीचे!</value>
+  </data>
+  <data name="createWorld_customize_presets_title" xml:space="preserve">
+    <value>प्रीसेट का चयन करें</value>
+  </data>
+  <data name="death_attack_anvil" xml:space="preserve">
+    <value>{0} एक गिरने निहाई द्वारा कुचल गया था</value>
+  </data>
+  <data name="death_attack_arrow" xml:space="preserve">
+    <value>{0} द्वारा गोली मार दी गई {1}</value>
+  </data>
+  <data name="death_attack_arrow_item" xml:space="preserve">
+    <value>{0} द्वारा गोली मार दी गई {1} का उपयोग करते हुए {2}</value>
+  </data>
+  <data name="death_attack_cactus" xml:space="preserve">
+    <value>{0} मौत को चुभ गया था</value>
+  </data>
+  <data name="death_attack_cactus_player" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="death_attack_drown" xml:space="preserve">
+    <value>{0} डूब गए</value>
+  </data>
+  <data name="death_attack_drown_player" xml:space="preserve">
+    <value>{0} भागने की कोशिश करते समय डूब गए {1}</value>
+  </data>
+  <data name="death_attack_explosion" xml:space="preserve">
+    <value>{0} को विस्फोट से उड़ा दिया</value>
+  </data>
+  <data name="death_attack_explosion_player" xml:space="preserve">
+    <value>{0} द्वारा उड़ा दिया गया था {1}</value>
+  </data>
+  <data name="death_attack_fall" xml:space="preserve">
+    <value>{0} बहुत कठिन मैदान मारा</value>
+  </data>
+  <data name="death_attack_fallingBlock" xml:space="preserve">
+    <value>{0} एक गिरने ब्लॉक द्वारा कुचल गया था</value>
+  </data>
+  <data name="death_attack_fireball" xml:space="preserve">
+    <value>{0} द्वारा एक आग का गोला के द्वारा मारा गया {1}</value>
+  </data>
+  <data name="death_attack_fireball_item" xml:space="preserve">
+    <value>{0} द्वारा एक आग का गोला के द्वारा मारा गया {1} का उपयोग करते हुए {2}</value>
+  </data>
+  <data name="death_attack_generic" xml:space="preserve">
+    <value>{0} मर गया</value>
+  </data>
+  <data name="death_attack_inFire" xml:space="preserve">
+    <value>{0} आग की लपटों में चला गया</value>
+  </data>
+  <data name="death_attack_inFire_player" xml:space="preserve">
+    <value>{0} आग से लड़ने के whilst में चला गया {1}</value>
+  </data>
+  <data name="death_attack_inWall" xml:space="preserve">
+    <value>{0} एक दीवार में घुटन</value>
+  </data>
+  <data name="death_attack_indirectMagic" xml:space="preserve">
+    <value>{0} द्वारा मारा गया {1} जादू का उपयोग</value>
+  </data>
+  <data name="death_attack_indirectMagic_item" xml:space="preserve">
+    <value>{0} द्वारा मारा गया {1} का उपयोग करते हुए {2}</value>
+  </data>
+  <data name="death_attack_lava" xml:space="preserve">
+    <value>{0} लावा में तैरने की कोशिश की</value>
+  </data>
+  <data name="death_attack_lava_player" xml:space="preserve">
+    <value>{0} बचने के लिए लावा में तैरने की कोशिश की {1}</value>
+  </data>
+  <data name="death_attack_magic" xml:space="preserve">
+    <value>{0} जादू द्वारा मारा गया</value>
+  </data>
+  <data name="death_attack_mob" xml:space="preserve">
+    <value>{0} द्वारा मृत था {1}</value>
+  </data>
+  <data name="death_attack_onFire" xml:space="preserve">
+    <value>{0} मौत को जला दिया</value>
+  </data>
+  <data name="death_attack_onFire_player" xml:space="preserve">
+    <value>{0} एक कुरकुरा whilst से लड़ने के लिए जला दिया गया था {1}</value>
+  </data>
+  <data name="death_attack_outOfWorld" xml:space="preserve">
+    <value>{0} दुनिया से बाहर गिर गई</value>
+  </data>
+  <data name="death_attack_player" xml:space="preserve">
+    <value>{0} द्वारा मृत था {1}</value>
+  </data>
+  <data name="death_attack_player_item" xml:space="preserve">
+    <value>{0} द्वारा मृत था {1} का उपयोग करते हुए {2}</value>
+  </data>
+  <data name="death_attack_starve" xml:space="preserve">
+    <value>{0} मौत के भूखे</value>
+  </data>
+  <data name="death_attack_thorns" xml:space="preserve">
+    <value>{0} चोट की कोशिश कर मारा गया {1}</value>
+  </data>
+  <data name="death_attack_thrown" xml:space="preserve">
+    <value>{0} द्वारा पस्त था {1}</value>
+  </data>
+  <data name="death_attack_thrown_item" xml:space="preserve">
+    <value>{0} द्वारा पस्त था {1} का उपयोग करते हुए {2}</value>
+  </data>
+  <data name="death_attack_wither" xml:space="preserve">
+    <value>{0} दूर सूख</value>
+  </data>
+  <data name="death_fell_accident_generic" xml:space="preserve">
+    <value>{0} एक ऊंचे स्थान से गिर गया</value>
+  </data>
+  <data name="death_fell_accident_ladder" xml:space="preserve">
+    <value>{0} एक सीढ़ी से गिर गया</value>
+  </data>
+  <data name="death_fell_accident_vines" xml:space="preserve">
+    <value>{0} कुछ दाखलताओं गिर गया</value>
+  </data>
+  <data name="death_fell_accident_water" xml:space="preserve">
+    <value>{0} पानी से बाहर गिर गया</value>
+  </data>
+  <data name="death_fell_assist" xml:space="preserve">
+    <value>{0} से गिर बर्बाद {1}</value>
+  </data>
+  <data name="death_fell_assist_item" xml:space="preserve">
+    <value>{0} से गिर बर्बाद {1} का उपयोग कर {2}</value>
+  </data>
+  <data name="death_fell_finish" xml:space="preserve">
+    <value>{0} बहुत दूर गिर गया और से समाप्त हो गया था {1}</value>
+  </data>
+  <data name="death_fell_finish_item" xml:space="preserve">
+    <value>{0} बहुत दूर गिर गया और से समाप्त हो गया था {1} का उपयोग करते हुए {2}</value>
+  </data>
+  <data name="death_fell_killer" xml:space="preserve">
+    <value>{0} गिर बर्बाद हो गया था</value>
+  </data>
+  <data name="deathScreen_deleteWorld" xml:space="preserve">
+    <value>हटाएँ वर्ल्ड</value>
+  </data>
+  <data name="deathScreen_leaveServer" xml:space="preserve">
+    <value>सर्वर छोड़ दो</value>
+  </data>
+  <data name="deathScreen_quit_confirm" xml:space="preserve">
+    <value>सुनिश्चित करें कि आप गेम छोड़ना चाहते हैं?</value>
+  </data>
+  <data name="deathScreen_respawn" xml:space="preserve">
+    <value>फिर स्पोन</value>
+  </data>
+  <data name="deathScreen_score" xml:space="preserve">
+    <value>स्कोर</value>
+  </data>
+  <data name="deathScreen_title" xml:space="preserve">
+    <value>आप मर गए!</value>
+  </data>
+  <data name="deathScreen_title_hardcore" xml:space="preserve">
+    <value>गेम खत्म!</value>
+  </data>
+  <data name="deathScreen_titleScreen" xml:space="preserve">
+    <value>शीर्षक स्क्रीन</value>
+  </data>
+  <data name="demo_day_1" xml:space="preserve">
+    <value>इस डेमो पिछले पाँच खेल दिन, तुम्हारा सबसे अच्छा है!</value>
+  </data>
+  <data name="demo_day_2" xml:space="preserve">
+    <value>दूसरे दिन</value>
+  </data>
+  <data name="demo_day_3" xml:space="preserve">
+    <value>तीन दिन</value>
+  </data>
+  <data name="demo_day_4" xml:space="preserve">
+    <value>चार दिन</value>
+  </data>
+  <data name="demo_day_5" xml:space="preserve">
+    <value>यह तुम्हारा आखिरी दिन है!</value>
+  </data>
+  <data name="demo_day_6" xml:space="preserve">
+    <value>आप अपने पांचवें दिन बीत चुके हैं, F2 का उपयोग करने के लिए आपकी रचना के एक स्क्रीनशॉट को बचाने के</value>
+  </data>
+  <data name="demo_day_warning" xml:space="preserve">
+    <value>आपका समय लगभग है!</value>
+  </data>
+  <data name="demo_demoExpired" xml:space="preserve">
+    <value>डेमो का समय है!</value>
+  </data>
+  <data name="demo_help_buy" xml:space="preserve">
+    <value>अब खरीद!</value>
+  </data>
+  <data name="demo_help_fullWrapped" xml:space="preserve">
+    <value>इस डेमो 5 ingame दिनों (के बारे में 1 घंटे और वास्तविक समय के 40 मिनट) पिछले जाएगा. संकेत के लिए उपलब्धियों की जाँच करें! मज़ा है!</value>
+  </data>
+  <data name="demo_help_inventory" xml:space="preserve">
+    <value>{0} प्रयोग के लिए अपनी सूची खोलने</value>
+  </data>
+  <data name="demo_help_jump" xml:space="preserve">
+    <value>{0} दबाकर कूदो</value>
+  </data>
+  <data name="demo_help_later" xml:space="preserve">
+    <value>बजाना जारी रखें!</value>
+  </data>
+  <data name="demo_help_movement" xml:space="preserve">
+    <value>{0}, {1}, {2}, {3} और चारों ओर ले जाने के लिए माउस का प्रयोग करें</value>
+  </data>
+  <data name="demo_help_movementMouse" xml:space="preserve">
+    <value>माउस का उपयोग कर के आसपास देखो</value>
+  </data>
+  <data name="demo_help_movementShort" xml:space="preserve">
+    <value>हिलना द्वारा दबाने के कारण छाप {0}, {1}, {2}, {3}</value>
+  </data>
+  <data name="demo_help_title" xml:space="preserve">
+    <value>Minecraft डेमो मोड</value>
+  </data>
+  <data name="demo_remainingTime" xml:space="preserve">
+    <value>समय शेष: {0}</value>
+  </data>
+  <data name="demo_reminder" xml:space="preserve">
+    <value>डेमो समय समाप्त हो गया है, खेल खरीदने के लिए जारी रखने के लिए या एक नई दुनिया शुरू!</value>
+  </data>
+  <data name="difficulty_lock_question" xml:space="preserve">
+    <value>क्या आप वाकई इस दुनिया की कठिनाई लॉक करना चाहते हो? ये ये दुनिया को हमेशा के लिए {0} कर्देग, और आप इसे कभी वापिस बदल नही सकोगे</value>
+  </data>
+  <data name="difficulty_lock_title" xml:space="preserve">
+    <value>दुनिया की कठिनाई को लोक करदो</value>
+  </data>
+  <data name="disconnect_closed" xml:space="preserve">
+    <value>कनेक्शन बंद</value>
+  </data>
+  <data name="disconnect_disconnected" xml:space="preserve">
+    <value>सर्वर के द्वारा काट दिया</value>
+  </data>
+  <data name="disconnect_endOfStream" xml:space="preserve">
+    <value>धारा का अंत</value>
+  </data>
+  <data name="disconnect_genericReason" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="disconnect_kicked" xml:space="preserve">
+    <value>खेल से लात मारी किया गया था</value>
+  </data>
+  <data name="disconnect_loginFailed" xml:space="preserve">
+    <value>लॉगिन विफल</value>
+  </data>
+  <data name="disconnect_loginFailedInfo" xml:space="preserve">
+    <value>लॉगिन करने में विफल: {0}</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_invalidSession" xml:space="preserve">
+    <value>अवैध सत्र (अपने खेल को शुरु करने की कोशिश करें)</value>
+  </data>
+  <data name="disconnect_loginFailedInfo_serversUnavailable" xml:space="preserve">
+    <value>प्रमाणीकरण के रखरखाव के लिए वर्तमान में हैं</value>
+  </data>
+  <data name="disconnect_lost" xml:space="preserve">
+    <value>कनेक्शन खोया</value>
+  </data>
+  <data name="disconnect_overflow" xml:space="preserve">
+    <value>बफर अतिप्रवाह</value>
+  </data>
+  <data name="disconnect_quitting" xml:space="preserve">
+    <value>छोड़ने</value>
+  </data>
+  <data name="disconnect_spam" xml:space="preserve">
+    <value>स्पैमिंग के लिए लात मारी</value>
+  </data>
+  <data name="disconnect_timeout" xml:space="preserve">
+    <value>बाहर समय</value>
+  </data>
+  <data name="effect_blindness" xml:space="preserve">
+    <value>अंधापन</value>
+  </data>
+  <data name="effect_damageBoost" xml:space="preserve">
+    <value>ताक़त</value>
+  </data>
+  <data name="effect_digSpeed" xml:space="preserve">
+    <value>जल्दी पना</value>
+  </data>
+  <data name="effect_hunger" xml:space="preserve">
+    <value>भूख</value>
+  </data>
+  <data name="effect_luck" xml:space="preserve">
+    <value>किस्मत</value>
+  </data>
+  <data name="effect_moveSpeed" xml:space="preserve">
+    <value>रफ़्तार</value>
+  </data>
+  <data name="effect_poison" xml:space="preserve">
+    <value>जहर</value>
+  </data>
+  <data name="effect_unluck" xml:space="preserve">
+    <value>बुरी किस्मत</value>
+  </data>
+  <data name="effect_weakness" xml:space="preserve">
+    <value>कमजोरी</value>
+  </data>
+  <data name="enchantment_arrowDamage" xml:space="preserve">
+    <value>बिजली</value>
+  </data>
+  <data name="enchantment_arrowFire" xml:space="preserve">
+    <value>लौ</value>
+  </data>
+  <data name="enchantment_arrowInfinite" xml:space="preserve">
+    <value>अनन्तता</value>
+  </data>
+  <data name="enchantment_arrowKnockback" xml:space="preserve">
+    <value>एक प्रकार की मदिरा</value>
+  </data>
+  <data name="enchantment_damage_all" xml:space="preserve">
+    <value>तीखेपन</value>
+  </data>
+  <data name="enchantment_damage_arthropods" xml:space="preserve">
+    <value>मकड़े के बने</value>
+  </data>
+  <data name="enchantment_damage_undead" xml:space="preserve">
+    <value>हराना</value>
+  </data>
+  <data name="enchantment_digging" xml:space="preserve">
+    <value>दक्षता</value>
+  </data>
+  <data name="enchantment_durability" xml:space="preserve">
+    <value>स्थायित्व</value>
+  </data>
+  <data name="enchantment_fire" xml:space="preserve">
+    <value>आग पहलू</value>
+  </data>
+  <data name="enchantment_fishingSpeed" xml:space="preserve">
+    <value>लालच</value>
+  </data>
+  <data name="enchantment_knockback" xml:space="preserve">
+    <value>वापस दस्तक</value>
+  </data>
+  <data name="enchantment_level_1" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="enchantment_level_10" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="enchantment_level_2" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="enchantment_level_3" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="enchantment_level_4" xml:space="preserve">
+    <value>IV</value>
+  </data>
+  <data name="enchantment_level_5" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="enchantment_level_6" xml:space="preserve">
+    <value>VI</value>
+  </data>
+  <data name="enchantment_level_7" xml:space="preserve">
+    <value>VII</value>
+  </data>
+  <data name="enchantment_level_8" xml:space="preserve">
+    <value>VIII</value>
+  </data>
+  <data name="enchantment_level_9" xml:space="preserve">
+    <value>IX</value>
+  </data>
+  <data name="enchantment_lootBonus" xml:space="preserve">
+    <value>लूटपाट</value>
+  </data>
+  <data name="enchantment_lootBonusDigger" xml:space="preserve">
+    <value>भाग्य</value>
+  </data>
+  <data name="enchantment_lootBonusFishing" xml:space="preserve">
+    <value>समुद्र की शुभकामनाएँ</value>
+  </data>
+  <data name="enchantment_oxygen" xml:space="preserve">
+    <value>श्वसन</value>
+  </data>
+  <data name="enchantment_protect_all" xml:space="preserve">
+    <value>सुरक्षा</value>
+  </data>
+  <data name="enchantment_protect_explosion" xml:space="preserve">
+    <value>विस्फोट से संरक्षण</value>
+  </data>
+  <data name="enchantment_protect_fall" xml:space="preserve">
+    <value>पंख गिरने</value>
+  </data>
+  <data name="enchantment_protect_fire" xml:space="preserve">
+    <value>आग से संरक्षण</value>
+  </data>
+  <data name="enchantment_protect_projectile" xml:space="preserve">
+    <value>फेंकने संरक्षण</value>
+  </data>
+  <data name="enchantment_thorns" xml:space="preserve">
+    <value>काँटे</value>
+  </data>
+  <data name="enchantment_untouching" xml:space="preserve">
+    <value>सिल्क टच</value>
+  </data>
+  <data name="enchantment_waterWorker" xml:space="preserve">
+    <value>एक्वा आत्मीयता</value>
+  </data>
+  <data name="entity_Arrow_name" xml:space="preserve">
+    <value>तीर</value>
+  </data>
+  <data name="entity_Bat_name" xml:space="preserve">
+    <value>चमगादड़</value>
+  </data>
+  <data name="entity_Blaze_name" xml:space="preserve">
+    <value>ज्वाला</value>
+  </data>
+  <data name="entity_Boat_name" xml:space="preserve">
+    <value>नाव</value>
+  </data>
+  <data name="entity_Cat_name" xml:space="preserve">
+    <value>बिल्ली</value>
+  </data>
+  <data name="entity_CaveSpider_name" xml:space="preserve">
+    <value>गुफा में रहनेवाली मकड़ी</value>
+  </data>
+  <data name="entity_Chicken_name" xml:space="preserve">
+    <value>मुर्गी</value>
+  </data>
+  <data name="entity_Cow_name" xml:space="preserve">
+    <value>गाय</value>
+  </data>
+  <data name="entity_Creeper_name" xml:space="preserve">
+    <value>रेंगनेवाला</value>
+  </data>
+  <data name="entity_EnderDragon_name" xml:space="preserve">
+    <value>एंडर ड्रैगन</value>
+  </data>
+  <data name="entity_Enderman_name" xml:space="preserve">
+    <value>अंत आदमी</value>
+  </data>
+  <data name="entity_EntityHorse_name" xml:space="preserve">
+    <value>घोड़ा</value>
+  </data>
+  <data name="entity_FallingSand_name" xml:space="preserve">
+    <value>गिरने ब्लॉक</value>
+  </data>
+  <data name="entity_Fireball_name" xml:space="preserve">
+    <value>आग का गोला</value>
+  </data>
+  <data name="entity_Ghast_name" xml:space="preserve">
+    <value>फ्लाइंग भूत</value>
+  </data>
+  <data name="entity_Giant_name" xml:space="preserve">
+    <value>विशाल</value>
+  </data>
+  <data name="entity_Item_name" xml:space="preserve">
+    <value>मद</value>
+  </data>
+  <data name="entity_LavaSlime_name" xml:space="preserve">
+    <value>लावा घन</value>
+  </data>
+  <data name="entity_Minecart_name" xml:space="preserve">
+    <value>गाड़ी</value>
+  </data>
+  <data name="entity_Mob_name" xml:space="preserve">
+    <value>भीड़</value>
+  </data>
+  <data name="entity_Monster_name" xml:space="preserve">
+    <value>राक्षस</value>
+  </data>
+  <data name="entity_MushroomCow_name" xml:space="preserve">
+    <value>मशरूम गाय</value>
+  </data>
+  <data name="entity_Ozelot_name" xml:space="preserve">
+    <value>औसीलट</value>
+  </data>
+  <data name="entity_Painting_name" xml:space="preserve">
+    <value>चित्र</value>
+  </data>
+  <data name="entity_Pig_name" xml:space="preserve">
+    <value>सुअर</value>
+  </data>
+  <data name="entity_PigZombie_name" xml:space="preserve">
+    <value>ज़ोंबी Pigman</value>
+  </data>
+  <data name="entity_PrimedTnt_name" xml:space="preserve">
+    <value>टीएनटी का ब्लॉक</value>
+  </data>
+  <data name="entity_Rabbit_name" xml:space="preserve">
+    <value>खरगोश</value>
+  </data>
+  <data name="entity_Sheep_name" xml:space="preserve">
+    <value>भेड़</value>
+  </data>
+  <data name="entity_Silverfish_name" xml:space="preserve">
+    <value>सिल्वर मछली</value>
+  </data>
+  <data name="entity_Skeleton_name" xml:space="preserve">
+    <value>कंकाल</value>
+  </data>
+  <data name="entity_Slime_name" xml:space="preserve">
+    <value>ज़ोंबी</value>
+  </data>
+  <data name="entity_SmallFireball_name" xml:space="preserve">
+    <value>लघु आग का गोला</value>
+  </data>
+  <data name="entity_SnowMan_name" xml:space="preserve">
+    <value>बर्फ Golem</value>
+  </data>
+  <data name="entity_Snowball_name" xml:space="preserve">
+    <value>बर्फ का गोला</value>
+  </data>
+  <data name="entity_Spider_name" xml:space="preserve">
+    <value>मकड़ी</value>
+  </data>
+  <data name="entity_Squid_name" xml:space="preserve">
+    <value>व्यंग्य</value>
+  </data>
+  <data name="entity_Villager_name" xml:space="preserve">
+    <value>ग्रामवासी</value>
+  </data>
+  <data name="entity_VillagerGolem_name" xml:space="preserve">
+    <value>लौह Golem</value>
+  </data>
+  <data name="entity_Witch_name" xml:space="preserve">
+    <value>चुड़ैल</value>
+  </data>
+  <data name="entity_WitherBoss_name" xml:space="preserve">
+    <value>कुम्हलाना</value>
+  </data>
+  <data name="entity_Wolf_name" xml:space="preserve">
+    <value>वुल्फ</value>
+  </data>
+  <data name="entity_XPOrb_name" xml:space="preserve">
+    <value>अनुभव ओर्ब</value>
+  </data>
+  <data name="entity_Zombie_name" xml:space="preserve">
+    <value>ज़ोंबी</value>
+  </data>
+  <data name="entity_generic_name" xml:space="preserve">
+    <value>अज्ञात</value>
+  </data>
+  <data name="gameMode_adventure" xml:space="preserve">
+    <value>साहसिक विधा</value>
+  </data>
+  <data name="gameMode_changed" xml:space="preserve">
+    <value>आपकी गेम {0} हो गयी है</value>
+  </data>
+  <data name="gameMode_creative" xml:space="preserve">
+    <value>क्रिएटिव मोड</value>
+  </data>
+  <data name="gameMode_hardcore" xml:space="preserve">
+    <value>हार्डकोर मोड!</value>
+  </data>
+  <data name="gameMode_spectator" xml:space="preserve">
+    <value>दर्शक मोड</value>
+  </data>
+  <data name="gameMode_survival" xml:space="preserve">
+    <value>अस्तित्व मोड</value>
+  </data>
+  <data name="generator_amplified" xml:space="preserve">
+    <value>प्रवर्धित</value>
+  </data>
+  <data name="generator_amplified_info" xml:space="preserve">
+    <value>सूचना: बस मस्ती के लिए, मांसल कंप्यूटर की आवश्यकता</value>
+  </data>
+  <data name="generator_default" xml:space="preserve">
+    <value>डिफ़ॉल्ट</value>
+  </data>
+  <data name="generator_flat" xml:space="preserve">
+    <value>सुपर फ्लैट</value>
+  </data>
+  <data name="generator_largeBiomes" xml:space="preserve">
+    <value>बड़े biomes</value>
+  </data>
+  <data name="gui_achievements" xml:space="preserve">
+    <value>उपलब्धियां</value>
+  </data>
+  <data name="gui_all" xml:space="preserve">
+    <value>सब</value>
+  </data>
+  <data name="gui_back" xml:space="preserve">
+    <value>वापस</value>
+  </data>
+  <data name="gui_cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="gui_done" xml:space="preserve">
+    <value>हो गया</value>
+  </data>
+  <data name="gui_down" xml:space="preserve">
+    <value>नीचे</value>
+  </data>
+  <data name="gui_no" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="gui_none" xml:space="preserve">
+    <value>कोई नहीं</value>
+  </data>
+  <data name="gui_stats" xml:space="preserve">
+    <value>आँकड़े</value>
+  </data>
+  <data name="gui_toMenu" xml:space="preserve">
+    <value>सर्वर सूची पर वापस जाएं</value>
+  </data>
+  <data name="gui_toTitle" xml:space="preserve">
+    <value>वापस जाएँ शीर्षक स्क्रीन से</value>
+  </data>
+  <data name="gui_up" xml:space="preserve">
+    <value>ऊपर</value>
+  </data>
+  <data name="gui_yes" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="inventory_binSlot" xml:space="preserve">
+    <value>आइटम नष्ट</value>
+  </data>
+  <data name="item_apple_name" xml:space="preserve">
+    <value>सेब</value>
+  </data>
+  <data name="item_appleGold_name" xml:space="preserve">
+    <value>गोल्ड सेब</value>
+  </data>
+  <data name="item_arrow_name" xml:space="preserve">
+    <value>तीर</value>
+  </data>
+  <data name="item_bed_name" xml:space="preserve">
+    <value>बिस्तर</value>
+  </data>
+  <data name="item_beefCooked_name" xml:space="preserve">
+    <value>स्टेक</value>
+  </data>
+  <data name="item_beefRaw_name" xml:space="preserve">
+    <value>कच्चे बीफ</value>
+  </data>
+  <data name="item_blazePowder_name" xml:space="preserve">
+    <value>ब्लेज़ पाउडर</value>
+  </data>
+  <data name="item_blazeRod_name" xml:space="preserve">
+    <value>ब्लेज़ रॉड</value>
+  </data>
+  <data name="item_bone_name" xml:space="preserve">
+    <value>हड्डी</value>
+  </data>
+  <data name="item_book_name" xml:space="preserve">
+    <value>किताब</value>
+  </data>
+  <data name="item_bootsChain_name" xml:space="preserve">
+    <value>चेन जूते</value>
+  </data>
+  <data name="item_bootsCloth_name" xml:space="preserve">
+    <value>चमड़ा जूते</value>
+  </data>
+  <data name="item_bootsDiamond_name" xml:space="preserve">
+    <value>डायमंड जूते</value>
+  </data>
+  <data name="item_bootsGold_name" xml:space="preserve">
+    <value>गोल्डन बूट</value>
+  </data>
+  <data name="item_bootsIron_name" xml:space="preserve">
+    <value>आयरन जूते</value>
+  </data>
+  <data name="item_bow_name" xml:space="preserve">
+    <value>धनुष</value>
+  </data>
+  <data name="item_bowl_name" xml:space="preserve">
+    <value>कटोरा</value>
+  </data>
+  <data name="item_bread_name" xml:space="preserve">
+    <value>रोटी</value>
+  </data>
+  <data name="item_brewingStand_name" xml:space="preserve">
+    <value>पक खड़े हो जाओ</value>
+  </data>
+  <data name="item_brick_name" xml:space="preserve">
+    <value>ईंट</value>
+  </data>
+  <data name="item_bucket_name" xml:space="preserve">
+    <value>बाल्टी</value>
+  </data>
+  <data name="item_bucketLava_name" xml:space="preserve">
+    <value>लावा बाल्टी</value>
+  </data>
+  <data name="item_bucketWater_name" xml:space="preserve">
+    <value>बाल्टी पानी</value>
+  </data>
+  <data name="item_cake_name" xml:space="preserve">
+    <value>केक</value>
+  </data>
+  <data name="item_carrotGolden_name" xml:space="preserve">
+    <value>सोने का गाजर</value>
+  </data>
+  <data name="item_carrotOnAStick_name" xml:space="preserve">
+    <value>एक छड़ी पर गाजर</value>
+  </data>
+  <data name="item_carrots_name" xml:space="preserve">
+    <value>गाजर</value>
+  </data>
+  <data name="item_cauldron_name" xml:space="preserve">
+    <value>देग़</value>
+  </data>
+  <data name="item_charcoal_name" xml:space="preserve">
+    <value>लकड़ी का कोयला</value>
+  </data>
+  <data name="item_chestplateChain_name" xml:space="preserve">
+    <value>चेन चेस्ट प्लेट</value>
+  </data>
+  <data name="item_chestplateCloth_name" xml:space="preserve">
+    <value>चमड़ा अंगरखा</value>
+  </data>
+  <data name="item_chestplateDiamond_name" xml:space="preserve">
+    <value>डायमंड चेस्ट प्लेट</value>
+  </data>
+  <data name="item_chestplateGold_name" xml:space="preserve">
+    <value>गोल्डन चेस्ट प्लेट</value>
+  </data>
+  <data name="item_chestplateIron_name" xml:space="preserve">
+    <value>आयरन चेस्ट प्लेट</value>
+  </data>
+  <data name="item_chickenCooked_name" xml:space="preserve">
+    <value>पकाया चिकन</value>
+  </data>
+  <data name="item_chickenRaw_name" xml:space="preserve">
+    <value>कच्चा चिकन</value>
+  </data>
+  <data name="item_clay_name" xml:space="preserve">
+    <value>मिट्टी</value>
+  </data>
+  <data name="item_clock_name" xml:space="preserve">
+    <value>घड़ी</value>
+  </data>
+  <data name="item_coal_name" xml:space="preserve">
+    <value>कोयला</value>
+  </data>
+  <data name="item_comparator_name" xml:space="preserve">
+    <value>लाल पत्थर तुलनित्र</value>
+  </data>
+  <data name="item_compass_name" xml:space="preserve">
+    <value>कंपास</value>
+  </data>
+  <data name="item_cookie_name" xml:space="preserve">
+    <value>कुकी</value>
+  </data>
+  <data name="item_diamond_name" xml:space="preserve">
+    <value>हीरा</value>
+  </data>
+  <data name="item_doorIron_name" xml:space="preserve">
+    <value>लौह द्वार</value>
+  </data>
+  <data name="item_dyePowder_black_name" xml:space="preserve">
+    <value>इंक बोरी</value>
+  </data>
+  <data name="item_dyePowder_blue_name" xml:space="preserve">
+    <value>लापीस लाजुली</value>
+  </data>
+  <data name="item_dyePowder_brown_name" xml:space="preserve">
+    <value>कोको बीन्स</value>
+  </data>
+  <data name="item_dyePowder_cyan_name" xml:space="preserve">
+    <value>सियान डाई</value>
+  </data>
+  <data name="item_dyePowder_gray_name" xml:space="preserve">
+    <value>ग्रे डाई</value>
+  </data>
+  <data name="item_dyePowder_green_name" xml:space="preserve">
+    <value>कैक्टस ग्रीन</value>
+  </data>
+  <data name="item_dyePowder_lightBlue_name" xml:space="preserve">
+    <value>हल्की ब्लू डाई</value>
+  </data>
+  <data name="item_dyePowder_lime_name" xml:space="preserve">
+    <value>निम्बुड़ा डाई</value>
+  </data>
+  <data name="item_dyePowder_magenta_name" xml:space="preserve">
+    <value>मैजंटा डाई</value>
+  </data>
+  <data name="item_dyePowder_orange_name" xml:space="preserve">
+    <value>ऑरेंज डाई</value>
+  </data>
+  <data name="item_dyePowder_pink_name" xml:space="preserve">
+    <value>गुलाबी डाई</value>
+  </data>
+  <data name="item_dyePowder_purple_name" xml:space="preserve">
+    <value>बैंगनी डाई</value>
+  </data>
+  <data name="item_dyePowder_red_name" xml:space="preserve">
+    <value>गुलाब लाल</value>
+  </data>
+  <data name="item_dyePowder_silver_name" xml:space="preserve">
+    <value>हल्की ग्रे डाई</value>
+  </data>
+  <data name="item_dyePowder_white_name" xml:space="preserve">
+    <value>हड्डी का चूरा</value>
+  </data>
+  <data name="item_dyePowder_yellow_name" xml:space="preserve">
+    <value>पीला डाई</value>
+  </data>
+  <data name="item_dyed" xml:space="preserve">
+    <value>रंगे</value>
+  </data>
+  <data name="item_egg_name" xml:space="preserve">
+    <value>अंडा</value>
+  </data>
+  <data name="item_emerald_name" xml:space="preserve">
+    <value>पन्ना</value>
+  </data>
+  <data name="item_emptyMap_name" xml:space="preserve">
+    <value>खाली मानचित्र</value>
+  </data>
+  <data name="item_enchantedBook_name" xml:space="preserve">
+    <value>जादूई पुस्तक</value>
+  </data>
+  <data name="item_enderPearl_name" xml:space="preserve">
+    <value>अंत पर्ल</value>
+  </data>
+  <data name="item_expBottle_name" xml:space="preserve">
+    <value>बोतल ओ' करामाती</value>
+  </data>
+  <data name="item_eyeOfEnder_name" xml:space="preserve">
+    <value>के नेत्र अंत</value>
+  </data>
+  <data name="item_feather_name" xml:space="preserve">
+    <value>पंख</value>
+  </data>
+  <data name="item_fermentedSpiderEye_name" xml:space="preserve">
+    <value>किण्वित स्पाइडर आँखों</value>
+  </data>
+  <data name="item_fireball_name" xml:space="preserve">
+    <value>आग प्रभार</value>
+  </data>
+  <data name="item_fireworks_flight" xml:space="preserve">
+    <value>उड़ान की अवधि:</value>
+  </data>
+  <data name="item_fireworks_name" xml:space="preserve">
+    <value>आतिशबाजी रॉकेट</value>
+  </data>
+  <data name="item_fireworksCharge_black" xml:space="preserve">
+    <value>काला </value>
+  </data>
+  <data name="item_fireworksCharge_blue" xml:space="preserve">
+    <value>नीला</value>
+  </data>
+  <data name="item_fireworksCharge_brown" xml:space="preserve">
+    <value>भूरा</value>
+  </data>
+  <data name="item_fireworksCharge_customColor" xml:space="preserve">
+    <value>कस्टम</value>
+  </data>
+  <data name="item_fireworksCharge_cyan" xml:space="preserve">
+    <value>नीला-हरा </value>
+  </data>
+  <data name="item_fireworksCharge_fadeTo" xml:space="preserve">
+    <value>फीका होना</value>
+  </data>
+  <data name="item_fireworksCharge_flicker" xml:space="preserve">
+    <value>टीमटिमाना</value>
+  </data>
+  <data name="item_fireworksCharge_gray" xml:space="preserve">
+    <value>भूरा</value>
+  </data>
+  <data name="item_fireworksCharge_green" xml:space="preserve">
+    <value>हरा</value>
+  </data>
+  <data name="item_fireworksCharge_lightBlue" xml:space="preserve">
+    <value>हल्का नीला </value>
+  </data>
+  <data name="item_fireworksCharge_lime" xml:space="preserve">
+    <value>निम्बू रंग </value>
+  </data>
+  <data name="item_fireworksCharge_magenta" xml:space="preserve">
+    <value>मैजेंटा</value>
+  </data>
+  <data name="item_fireworksCharge_name" xml:space="preserve">
+    <value>आतिशबाजी सितारा</value>
+  </data>
+  <data name="item_fireworksCharge_orange" xml:space="preserve">
+    <value>नारंगी</value>
+  </data>
+  <data name="item_fireworksCharge_pink" xml:space="preserve">
+    <value>गुलाबी</value>
+  </data>
+  <data name="item_fireworksCharge_purple" xml:space="preserve">
+    <value>बैंगनी</value>
+  </data>
+  <data name="item_fireworksCharge_red" xml:space="preserve">
+    <value>लाल</value>
+  </data>
+  <data name="item_fireworksCharge_silver" xml:space="preserve">
+    <value>हल्का भूरा</value>
+  </data>
+  <data name="item_fireworksCharge_trail" xml:space="preserve">
+    <value>निशान</value>
+  </data>
+  <data name="item_fireworksCharge_type" xml:space="preserve">
+    <value>अज्ञात आकार</value>
+  </data>
+  <data name="item_fireworksCharge_type_0" xml:space="preserve">
+    <value>छोटी गेंद</value>
+  </data>
+  <data name="item_fireworksCharge_type_1" xml:space="preserve">
+    <value>बड़ी गेंद</value>
+  </data>
+  <data name="item_fireworksCharge_type_2" xml:space="preserve">
+    <value>सितारा के आकार का</value>
+  </data>
+  <data name="item_fireworksCharge_type_3" xml:space="preserve">
+    <value>बेल के आकार का</value>
+  </data>
+  <data name="item_fireworksCharge_type_4" xml:space="preserve">
+    <value>फूटना </value>
+  </data>
+  <data name="item_fireworksCharge_white" xml:space="preserve">
+    <value>सफ़ेद</value>
+  </data>
+  <data name="item_fireworksCharge_yellow" xml:space="preserve">
+    <value>पिला </value>
+  </data>
+  <data name="item_fish_clownfish_raw_name" xml:space="preserve">
+    <value>Clownfish मछली</value>
+  </data>
+  <data name="item_fish_cod_cooked_name" xml:space="preserve">
+    <value>पकाया मछली</value>
+  </data>
+  <data name="item_fish_cod_raw_name" xml:space="preserve">
+    <value>कच्ची मछली</value>
+  </data>
+  <data name="item_fish_pufferfish_raw_name" xml:space="preserve">
+    <value>Pufferfish</value>
+  </data>
+  <data name="item_fish_salmon_cooked_name" xml:space="preserve">
+    <value>पकाया सामन मछली</value>
+  </data>
+  <data name="item_fish_salmon_raw_name" xml:space="preserve">
+    <value>कच्ची सामन मछली</value>
+  </data>
+  <data name="item_fishingRod_name" xml:space="preserve">
+    <value>बंसी</value>
+  </data>
+  <data name="item_flint_name" xml:space="preserve">
+    <value>चकमक पत्थर</value>
+  </data>
+  <data name="item_flintAndSteel_name" xml:space="preserve">
+    <value>चकमक और इस्पात</value>
+  </data>
+  <data name="item_flowerPot_name" xml:space="preserve">
+    <value>गमला</value>
+  </data>
+  <data name="item_frame_name" xml:space="preserve">
+    <value>आइटम सीमा</value>
+  </data>
+  <data name="item_ghastTear_name" xml:space="preserve">
+    <value>भूत फाड़</value>
+  </data>
+  <data name="item_glassBottle_name" xml:space="preserve">
+    <value>कांच की बोतल</value>
+  </data>
+  <data name="item_goldNugget_name" xml:space="preserve">
+    <value>गोल्ड सोने का डला</value>
+  </data>
+  <data name="item_hatchetDiamond_name" xml:space="preserve">
+    <value>डायमंड कुल्हाड़ी</value>
+  </data>
+  <data name="item_hatchetGold_name" xml:space="preserve">
+    <value>गोल्डन कुल्हाड़ी</value>
+  </data>
+  <data name="item_hatchetIron_name" xml:space="preserve">
+    <value>आयरन कुल्हाड़ी</value>
+  </data>
+  <data name="item_hatchetStone_name" xml:space="preserve">
+    <value>स्टोन कुल्हाड़ी</value>
+  </data>
+  <data name="item_hatchetWood_name" xml:space="preserve">
+    <value>लकड़ी कुल्हाड़ी</value>
+  </data>
+  <data name="item_helmetChain_name" xml:space="preserve">
+    <value>चेन हेलमेट</value>
+  </data>
+  <data name="item_helmetCloth_name" xml:space="preserve">
+    <value>चमड़ा कैप</value>
+  </data>
+  <data name="item_helmetDiamond_name" xml:space="preserve">
+    <value>डायमंड हेलमेट</value>
+  </data>
+  <data name="item_helmetGold_name" xml:space="preserve">
+    <value>गोल्डन हेलमेट</value>
+  </data>
+  <data name="item_helmetIron_name" xml:space="preserve">
+    <value>आयरन हेलमेट</value>
+  </data>
+  <data name="item_hoeDiamond_name" xml:space="preserve">
+    <value>डायमंड कुदाल</value>
+  </data>
+  <data name="item_hoeGold_name" xml:space="preserve">
+    <value>गोल्डन कुदाल</value>
+  </data>
+  <data name="item_hoeIron_name" xml:space="preserve">
+    <value>आयरन कुदाल</value>
+  </data>
+  <data name="item_hoeStone_name" xml:space="preserve">
+    <value>स्टोन कुदाल</value>
+  </data>
+  <data name="item_hoeWood_name" xml:space="preserve">
+    <value>लकड़ी कुदाल</value>
+  </data>
+  <data name="item_horsearmordiamond_name" xml:space="preserve">
+    <value>डायमंड हार्स कवच</value>
+  </data>
+  <data name="item_horsearmorgold_name" xml:space="preserve">
+    <value>गोल्ड हार्स कवच</value>
+  </data>
+  <data name="item_horsearmormetal_name" xml:space="preserve">
+    <value>लौह हार्स कवच</value>
+  </data>
+  <data name="item_ingotGold_name" xml:space="preserve">
+    <value>स्वर्ण पिंड</value>
+  </data>
+  <data name="item_ingotIron_name" xml:space="preserve">
+    <value>लौह पिंड</value>
+  </data>
+  <data name="item_leash_name" xml:space="preserve">
+    <value>पेंसिल का सुरमा</value>
+  </data>
+  <data name="item_leather_name" xml:space="preserve">
+    <value>चमड़ा</value>
+  </data>
+  <data name="item_leaves_name" xml:space="preserve">
+    <value>पत्ते</value>
+  </data>
+  <data name="item_leggingsChain_name" xml:space="preserve">
+    <value>चेन लेगिंग</value>
+  </data>
+  <data name="item_leggingsCloth_name" xml:space="preserve">
+    <value>चमड़े की पैंट</value>
+  </data>
+  <data name="item_leggingsDiamond_name" xml:space="preserve">
+    <value>डायमंड लेगिंग</value>
+  </data>
+  <data name="item_leggingsGold_name" xml:space="preserve">
+    <value>गोल्डन लेगिंग</value>
+  </data>
+  <data name="item_leggingsIron_name" xml:space="preserve">
+    <value>आयरन लेगिंग</value>
+  </data>
+  <data name="item_magmaCream_name" xml:space="preserve">
+    <value>लावा क्रीम</value>
+  </data>
+  <data name="item_map_name" xml:space="preserve">
+    <value>नक्शा</value>
+  </data>
+  <data name="item_melon_name" xml:space="preserve">
+    <value>तरबूज</value>
+  </data>
+  <data name="item_milk_name" xml:space="preserve">
+    <value>दूध</value>
+  </data>
+  <data name="item_minecart_name" xml:space="preserve">
+    <value>गाड़ी</value>
+  </data>
+  <data name="item_minecartChest_name" xml:space="preserve">
+    <value>संदूक के साथ कार्ट</value>
+  </data>
+  <data name="item_minecartCommandBlock_name" xml:space="preserve">
+    <value>Minecart आदेश ब्लॉक के साथ</value>
+  </data>
+  <data name="item_minecartFurnace_name" xml:space="preserve">
+    <value>फर्नेस के साथ कार्ट</value>
+  </data>
+  <data name="item_minecartHopper_name" xml:space="preserve">
+    <value>हूपर के साथ Minecart</value>
+  </data>
+  <data name="item_minecartTnt_name" xml:space="preserve">
+    <value>टीएनटी के साथ Minecart</value>
+  </data>
+  <data name="item_monsterPlacer_name" xml:space="preserve">
+    <value>अंडे देना</value>
+  </data>
+  <data name="item_mushroomStew_name" xml:space="preserve">
+    <value>मशरूम स्टू</value>
+  </data>
+  <data name="item_muttonRaw_name" xml:space="preserve">
+    <value>कच्चा मटन</value>
+  </data>
+  <data name="item_nameTag_name" xml:space="preserve">
+    <value>नाम टैग</value>
+  </data>
+  <data name="item_netherStalkSeeds_name" xml:space="preserve">
+    <value>नीचे मस्सा</value>
+  </data>
+  <data name="item_netherStar_name" xml:space="preserve">
+    <value>नीचे का सितारा</value>
+  </data>
+  <data name="item_netherbrick_name" xml:space="preserve">
+    <value>Nether ईंट</value>
+  </data>
+  <data name="item_netherquartz_name" xml:space="preserve">
+    <value>Nether क्वार्ट्ज</value>
+  </data>
+  <data name="item_painting_name" xml:space="preserve">
+    <value>चित्र</value>
+  </data>
+  <data name="item_paper_name" xml:space="preserve">
+    <value>काग़ज़</value>
+  </data>
+  <data name="item_pickaxeDiamond_name" xml:space="preserve">
+    <value>डायमंड कुदाल से मिट्टी खुरपना</value>
+  </data>
+  <data name="item_pickaxeGold_name" xml:space="preserve">
+    <value>गोल्डन कुदाल से मिट्टी खुरपना</value>
+  </data>
+  <data name="item_pickaxeIron_name" xml:space="preserve">
+    <value>आयरन कुदाल से मिट्टी खुरपना</value>
+  </data>
+  <data name="item_pickaxeStone_name" xml:space="preserve">
+    <value>स्टोन कुदाल से मिट्टी खुरपना</value>
+  </data>
+  <data name="item_pickaxeWood_name" xml:space="preserve">
+    <value>लकड़ी कुदाल से मिट्टी खुरपना</value>
+  </data>
+  <data name="item_porkchopCooked_name" xml:space="preserve">
+    <value>पकाया पोर्क</value>
+  </data>
+  <data name="item_porkchopRaw_name" xml:space="preserve">
+    <value>कच्चा पोर्क</value>
+  </data>
+  <data name="item_potato_name" xml:space="preserve">
+    <value>आलू</value>
+  </data>
+  <data name="item_potatoBaked_name" xml:space="preserve">
+    <value>बेक्ड आलू</value>
+  </data>
+  <data name="item_potatoPoisonous_name" xml:space="preserve">
+    <value>जहरीला आलू</value>
+  </data>
+  <data name="item_potion_name" xml:space="preserve">
+    <value>शरबत</value>
+  </data>
+  <data name="item_pumpkinPie_name" xml:space="preserve">
+    <value>कद्दू पाई</value>
+  </data>
+  <data name="item_record_11_desc" xml:space="preserve">
+    <value>C418 - 11</value>
+  </data>
+  <data name="item_record_13_desc" xml:space="preserve">
+    <value>C418 - 13</value>
+  </data>
+  <data name="item_record_blocks_desc" xml:space="preserve">
+    <value>C418 - blocks</value>
+  </data>
+  <data name="item_record_cat_desc" xml:space="preserve">
+    <value>C418 - cat</value>
+  </data>
+  <data name="item_record_chirp_desc" xml:space="preserve">
+    <value>C418 - chirp</value>
+  </data>
+  <data name="item_record_far_desc" xml:space="preserve">
+    <value>C418 - far</value>
+  </data>
+  <data name="item_record_mall_desc" xml:space="preserve">
+    <value>C418 - mall</value>
+  </data>
+  <data name="item_record_mellohi_desc" xml:space="preserve">
+    <value>C418 - mellohi</value>
+  </data>
+  <data name="item_record_name" xml:space="preserve">
+    <value>संगीत डिस्क</value>
+  </data>
+  <data name="item_record_stal_desc" xml:space="preserve">
+    <value>C418 - stal</value>
+  </data>
+  <data name="item_record_strad_desc" xml:space="preserve">
+    <value>C418 - strad</value>
+  </data>
+  <data name="item_record_wait_desc" xml:space="preserve">
+    <value>C418 - wait</value>
+  </data>
+  <data name="item_record_ward_desc" xml:space="preserve">
+    <value>C418 - ward</value>
+  </data>
+  <data name="item_redstone_name" xml:space="preserve">
+    <value>लाल पत्थर</value>
+  </data>
+  <data name="item_reeds_name" xml:space="preserve">
+    <value>गन्ना</value>
+  </data>
+  <data name="item_rottenFlesh_name" xml:space="preserve">
+    <value>सड़े हुए मांस</value>
+  </data>
+  <data name="item_saddle_name" xml:space="preserve">
+    <value>काठी</value>
+  </data>
+  <data name="item_seeds_name" xml:space="preserve">
+    <value>बीज</value>
+  </data>
+  <data name="item_seeds_melon_name" xml:space="preserve">
+    <value>तरबूज के बीज</value>
+  </data>
+  <data name="item_seeds_pumpkin_name" xml:space="preserve">
+    <value>कद्दू के बीज</value>
+  </data>
+  <data name="item_shears_name" xml:space="preserve">
+    <value>कैंची</value>
+  </data>
+  <data name="item_shovelDiamond_name" xml:space="preserve">
+    <value>डायमंड फावड़ा</value>
+  </data>
+  <data name="item_shovelGold_name" xml:space="preserve">
+    <value>स्वर्ण फावड़ा</value>
+  </data>
+  <data name="item_shovelIron_name" xml:space="preserve">
+    <value>आयरन फावड़ा</value>
+  </data>
+  <data name="item_shovelStone_name" xml:space="preserve">
+    <value>स्टोन फावड़ा</value>
+  </data>
+  <data name="item_shovelWood_name" xml:space="preserve">
+    <value>लकड़ी फावड़ा</value>
+  </data>
+  <data name="item_sign_name" xml:space="preserve">
+    <value>संकेत</value>
+  </data>
+  <data name="item_skull_char_name" xml:space="preserve">
+    <value>सिर</value>
+  </data>
+  <data name="item_skull_creeper_name" xml:space="preserve">
+    <value>लता सिर</value>
+  </data>
+  <data name="item_skull_player_name" xml:space="preserve">
+    <value>{0} के सिर</value>
+  </data>
+  <data name="item_skull_skeleton_name" xml:space="preserve">
+    <value>कंकाल खोपड़ी</value>
+  </data>
+  <data name="item_skull_wither_name" xml:space="preserve">
+    <value>कंकाल खोपड़ी सूख</value>
+  </data>
+  <data name="item_skull_zombie_name" xml:space="preserve">
+    <value>ज़ोंबी सिर</value>
+  </data>
+  <data name="item_slimeball_name" xml:space="preserve">
+    <value>कीचड़ बॉल</value>
+  </data>
+  <data name="item_snowball_name" xml:space="preserve">
+    <value>बर्फ का गोला</value>
+  </data>
+  <data name="item_speckledMelon_name" xml:space="preserve">
+    <value>शानदार तरबूज</value>
+  </data>
+  <data name="item_spiderEye_name" xml:space="preserve">
+    <value>स्पाइडर आँखों</value>
+  </data>
+  <data name="item_stick_name" xml:space="preserve">
+    <value>छड़ी</value>
+  </data>
+  <data name="item_string_name" xml:space="preserve">
+    <value>स्ट्रिंग</value>
+  </data>
+  <data name="item_sugar_name" xml:space="preserve">
+    <value>चीनी</value>
+  </data>
+  <data name="item_sulphur_name" xml:space="preserve">
+    <value>बारूद</value>
+  </data>
+  <data name="item_swordDiamond_name" xml:space="preserve">
+    <value>हीरे की तलवार</value>
+  </data>
+  <data name="item_swordGold_name" xml:space="preserve">
+    <value>स्वर्ण तलवार</value>
+  </data>
+  <data name="item_swordIron_name" xml:space="preserve">
+    <value>आयरन तलवार</value>
+  </data>
+  <data name="item_swordStone_name" xml:space="preserve">
+    <value>स्टोन तलवार</value>
+  </data>
+  <data name="item_swordWood_name" xml:space="preserve">
+    <value>लकड़ी की तलवार</value>
+  </data>
+  <data name="item_unbreakable" xml:space="preserve">
+    <value>अटूट</value>
+  </data>
+  <data name="item_wheat_name" xml:space="preserve">
+    <value>गेहूँ</value>
+  </data>
+  <data name="item_writingBook_name" xml:space="preserve">
+    <value>किताब और कलम</value>
+  </data>
+  <data name="item_writtenBook_name" xml:space="preserve">
+    <value>व्रित्तें बुक</value>
+  </data>
+  <data name="item_yellowDust_name" xml:space="preserve">
+    <value>चमक स्टोन डस्ट</value>
+  </data>
+  <data name="itemGroup_brewing" xml:space="preserve">
+    <value>मदिरा बनाना</value>
+  </data>
+  <data name="itemGroup_buildingBlocks" xml:space="preserve">
+    <value>बिल्डिंग ब्लॉक्स</value>
+  </data>
+  <data name="itemGroup_combat" xml:space="preserve">
+    <value>का मुकाबला</value>
+  </data>
+  <data name="itemGroup_decorations" xml:space="preserve">
+    <value>सजावट ब्लॉक</value>
+  </data>
+  <data name="itemGroup_food" xml:space="preserve">
+    <value>खाने की चीज़ें</value>
+  </data>
+  <data name="itemGroup_inventory" xml:space="preserve">
+    <value>जीवन रक्षा इन्वेंटरी</value>
+  </data>
+  <data name="itemGroup_materials" xml:space="preserve">
+    <value>सामग्री</value>
+  </data>
+  <data name="itemGroup_misc" xml:space="preserve">
+    <value>विविध</value>
+  </data>
+  <data name="itemGroup_redstone" xml:space="preserve">
+    <value>लाल पत्थर</value>
+  </data>
+  <data name="itemGroup_search" xml:space="preserve">
+    <value>खोज आइटम</value>
+  </data>
+  <data name="itemGroup_tools" xml:space="preserve">
+    <value>उपकरण</value>
+  </data>
+  <data name="itemGroup_transportation" xml:space="preserve">
+    <value>परिवहन</value>
+  </data>
+  <data name="key_attack" xml:space="preserve">
+    <value>हमला/नष्ट</value>
+  </data>
+  <data name="key_back" xml:space="preserve">
+    <value>पीछे की ओर चलना</value>
+  </data>
+  <data name="key_categories_gameplay" xml:space="preserve">
+    <value>Gameplay</value>
+  </data>
+  <data name="key_categories_inventory" xml:space="preserve">
+    <value>इन्वेंटरी</value>
+  </data>
+  <data name="key_categories_misc" xml:space="preserve">
+    <value>विविध</value>
+  </data>
+  <data name="key_categories_movement" xml:space="preserve">
+    <value>हिलना</value>
+  </data>
+  <data name="key_categories_multiplayer" xml:space="preserve">
+    <value>अनेक खिलाड़ी</value>
+  </data>
+  <data name="key_categories_ui" xml:space="preserve">
+    <value>गेम इंटरफ़ेस</value>
+  </data>
+  <data name="key_chat" xml:space="preserve">
+    <value>खुली चैट</value>
+  </data>
+  <data name="key_command" xml:space="preserve">
+    <value>खुला कमान</value>
+  </data>
+  <data name="key_drop" xml:space="preserve">
+    <value>पकड़े हुए चीज़ को गिरा दो</value>
+  </data>
+  <data name="key_forward" xml:space="preserve">
+    <value>आगे चलना</value>
+  </data>
+  <data name="key_fullscreen" xml:space="preserve">
+    <value>टॉगल Fullscreen</value>
+  </data>
+  <data name="key_hotbar_1" xml:space="preserve">
+    <value>Hotbar खांचा 1</value>
+  </data>
+  <data name="key_hotbar_2" xml:space="preserve">
+    <value>Hotbar 2 स्लॉट</value>
+  </data>
+  <data name="key_hotbar_3" xml:space="preserve">
+    <value>Hotbar स्लॉट 3</value>
+  </data>
+  <data name="key_hotbar_4" xml:space="preserve">
+    <value>Hotbar स्लॉट 4</value>
+  </data>
+  <data name="key_hotbar_5" xml:space="preserve">
+    <value>Hotbar स्लॉट 5</value>
+  </data>
+  <data name="key_hotbar_6" xml:space="preserve">
+    <value>Hotbar स्लॉट 6</value>
+  </data>
+  <data name="key_hotbar_7" xml:space="preserve">
+    <value>Hotbar स्लॉट 7</value>
+  </data>
+  <data name="key_hotbar_8" xml:space="preserve">
+    <value>Hotbar स्लॉट 8</value>
+  </data>
+  <data name="key_hotbar_9" xml:space="preserve">
+    <value>Hotbar स्लॉट 9</value>
+  </data>
+  <data name="key_inventory" xml:space="preserve">
+    <value>खोलें/बंद वस्तु सूची</value>
+  </data>
+  <data name="key_jump" xml:space="preserve">
+    <value>छलांग</value>
+  </data>
+  <data name="key_left" xml:space="preserve">
+    <value>बाईं ओर दंड दिया</value>
+  </data>
+  <data name="key_mouseButton" xml:space="preserve">
+    <value>बटन {0}</value>
+  </data>
+  <data name="key_pickItem" xml:space="preserve">
+    <value>ब्लॉक उठाओ</value>
+  </data>
+  <data name="key_playerlist" xml:space="preserve">
+    <value>सूची खिलाड़ी</value>
+  </data>
+  <data name="key_right" xml:space="preserve">
+    <value>दाईं ओर दंड दिया</value>
+  </data>
+  <data name="key_screenshot" xml:space="preserve">
+    <value>स्क्रीनशॉट ले लो</value>
+  </data>
+  <data name="key_smoothCamera" xml:space="preserve">
+    <value>टॉगल सिनेमाई कैमरा</value>
+  </data>
+  <data name="key_sneak" xml:space="preserve">
+    <value>उचक्का</value>
+  </data>
+  <data name="key_spectatorOutlines" xml:space="preserve">
+    <value>खिलाड़ी (दर्शको) को चिन्हित करो</value>
+  </data>
+  <data name="key_sprint" xml:space="preserve">
+    <value>स्प्रिंट</value>
+  </data>
+  <data name="key_swapHands" xml:space="preserve">
+    <value>हाथ में जो चीज़ है, उसको बदलो</value>
+  </data>
+  <data name="key_togglePerspective" xml:space="preserve">
+    <value>टॉगल परिप्रेक्ष्य</value>
+  </data>
+  <data name="key_use" xml:space="preserve">
+    <value> अायीटम का उपयोग करें/ इस जगह ब्लॉक रखें</value>
+  </data>
+  <data name="lanServer_otherPlayers" xml:space="preserve">
+    <value>अन्य खिलाड़ी के लिए सेटिंग्स</value>
+  </data>
+  <data name="lanServer_scanning" xml:space="preserve">
+    <value>खेल आपके स्थानीय नेटवर्क के लिए स्कैन कर रहा है</value>
+  </data>
+  <data name="lanServer_start" xml:space="preserve">
+    <value>स्थानीय विश्व प्रारंभ</value>
+  </data>
+  <data name="lanServer_title" xml:space="preserve">
+    <value>स्थानीय दुनिया</value>
+  </data>
+  <data name="language_code" xml:space="preserve">
+    <value>hi_IN</value>
+  </data>
+  <data name="language_name" xml:space="preserve">
+    <value>हिन्दी</value>
+  </data>
+  <data name="language_region" xml:space="preserve">
+    <value>भारत</value>
+  </data>
+  <data name="mcoServer_title" xml:space="preserve">
+    <value>मेराशिल्प ऑनलाइन दुनिया</value>
+  </data>
+  <data name="menu_convertingLevel" xml:space="preserve">
+    <value>बदलने दुनिया</value>
+  </data>
+  <data name="menu_disconnect" xml:space="preserve">
+    <value>कनेक्शन कातें </value>
+  </data>
+  <data name="menu_game" xml:space="preserve">
+    <value>खेल मेनू</value>
+  </data>
+  <data name="menu_generatingLevel" xml:space="preserve">
+    <value>दुनिया उत्पन्न</value>
+  </data>
+  <data name="menu_generatingTerrain" xml:space="preserve">
+    <value>मैदानी भवन</value>
+  </data>
+  <data name="menu_loadingLevel" xml:space="preserve">
+    <value>दुनिया लोड हो रहा है</value>
+  </data>
+  <data name="menu_multiplayer" xml:space="preserve">
+    <value>अनेक खिलाड़ी</value>
+  </data>
+  <data name="menu_options" xml:space="preserve">
+    <value>विकल्प...</value>
+  </data>
+  <data name="menu_playdemo" xml:space="preserve">
+    <value>डेमो दुनिया</value>
+  </data>
+  <data name="menu_quit" xml:space="preserve">
+    <value>खेल छोड़ो</value>
+  </data>
+  <data name="menu_resetdemo" xml:space="preserve">
+    <value>डेमो विश्व रीसेट</value>
+  </data>
+  <data name="menu_respawning" xml:space="preserve">
+    <value>अंडे जा रहे हैं</value>
+  </data>
+  <data name="menu_returnToGame" xml:space="preserve">
+    <value>पर वापस जाएँ खेल</value>
+  </data>
+  <data name="menu_returnToMenu" xml:space="preserve">
+    <value>सेव करके टाइटल पेज पर जाए</value>
+  </data>
+  <data name="menu_shareToLan" xml:space="preserve">
+    <value>LAN के लिए खुलें</value>
+  </data>
+  <data name="menu_singleplayer" xml:space="preserve">
+    <value>एक खिलाड़ी</value>
+  </data>
+  <data name="merchant_deprecated" xml:space="preserve">
+    <value>और कुछ विनिमय करे, अनलॉक करने के लिए</value>
+  </data>
+  <data name="mount_onboard" xml:space="preserve">
+    <value>{0} नीचे आना करने के लिए दबाएँ</value>
+  </data>
+  <data name="multiplayer_connect" xml:space="preserve">
+    <value>कनेक्ट</value>
+  </data>
+  <data name="multiplayer_downloadingStats" xml:space="preserve">
+    <value>सांख्यिकी और उपलब्धियों को डाउनलोड कर रहा है ...</value>
+  </data>
+  <data name="multiplayer_ipinfo" xml:space="preserve">
+    <value>यह करने के लिए कनेक्ट करने के लिए एक सर्वर के आईपी दर्ज करें:</value>
+  </data>
+  <data name="multiplayer_player_joined" xml:space="preserve">
+    <value>{0} खेल में शामिल हुआ</value>
+  </data>
+  <data name="multiplayer_player_joined_renamed" xml:space="preserve">
+    <value>{0} (पूर्व में {1} के रूप में जाना जाता था) इस खेल में शामिल हो गए</value>
+  </data>
+  <data name="multiplayer_player_left" xml:space="preserve">
+    <value>{0} खेल छोड़ दिया है</value>
+  </data>
+  <data name="multiplayer_stopSleeping" xml:space="preserve">
+    <value>बिस्तर छोड़ दो</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line1" xml:space="preserve">
+    <value>यह सर्वर एक कस्टम बनावट पैक का उपयोग की सिफारिश की है.</value>
+  </data>
+  <data name="multiplayer_texturePrompt_line2" xml:space="preserve">
+    <value>आप को डाउनलोड करने और इसे स्थापित स्वतः करना चाहेंगे?</value>
+  </data>
+  <data name="multiplayer_title" xml:space="preserve">
+    <value>अनेक खिलाड़ियों के साथ खेलें</value>
+  </data>
+  <data name="options_anaglyph" xml:space="preserve">
+    <value>तीन आयामी मोड सौंपनेवाला</value>
+  </data>
+  <data name="options_ao" xml:space="preserve">
+    <value>चिकना प्रकाश</value>
+  </data>
+  <data name="options_ao_max" xml:space="preserve">
+    <value>अधिकतम</value>
+  </data>
+  <data name="options_ao_min" xml:space="preserve">
+    <value>न्यूनतम</value>
+  </data>
+  <data name="options_ao_off" xml:space="preserve">
+    <value>बंद</value>
+  </data>
+  <data name="options_attack_crosshair" xml:space="preserve">
+    <value>क्रॉसहेअर</value>
+  </data>
+  <data name="options_attackIndicator" xml:space="preserve">
+    <value>हमले के सूचक</value>
+  </data>
+  <data name="options_chat_color" xml:space="preserve">
+    <value>रंग</value>
+  </data>
+  <data name="options_chat_height_focused" xml:space="preserve">
+    <value>ध्यान केंद्रित लंबाई</value>
+  </data>
+  <data name="options_chat_height_unfocused" xml:space="preserve">
+    <value>अनफोकस्ड लंबाई</value>
+  </data>
+  <data name="options_chat_links" xml:space="preserve">
+    <value>वेब लिंक</value>
+  </data>
+  <data name="options_chat_links_prompt" xml:space="preserve">
+    <value>लिंक पर तत्काल</value>
+  </data>
+  <data name="options_chat_opacity" xml:space="preserve">
+    <value>अस्पष्टता</value>
+  </data>
+  <data name="options_chat_scale" xml:space="preserve">
+    <value>स्केल</value>
+  </data>
+  <data name="options_chat_title" xml:space="preserve">
+    <value>चैट सेटिंग्स ...</value>
+  </data>
+  <data name="options_chat_visibility" xml:space="preserve">
+    <value>बातचीत</value>
+  </data>
+  <data name="options_chat_visibility_full" xml:space="preserve">
+    <value>दिखाया</value>
+  </data>
+  <data name="options_chat_visibility_hidden" xml:space="preserve">
+    <value>छिपा हुआ</value>
+  </data>
+  <data name="options_chat_visibility_system" xml:space="preserve">
+    <value>केवल कमानों</value>
+  </data>
+  <data name="options_chat_width" xml:space="preserve">
+    <value>चौडाई</value>
+  </data>
+  <data name="options_controls" xml:space="preserve">
+    <value>नियंत्रण ...</value>
+  </data>
+  <data name="options_customizeTitle" xml:space="preserve">
+    <value>दुनिया सेटिंग्स अनुकूलित करें</value>
+  </data>
+  <data name="options_difficulty" xml:space="preserve">
+    <value>कठिनाई</value>
+  </data>
+  <data name="options_difficulty_easy" xml:space="preserve">
+    <value>आसान</value>
+  </data>
+  <data name="options_difficulty_hard" xml:space="preserve">
+    <value>कठिन</value>
+  </data>
+  <data name="options_difficulty_hardcore" xml:space="preserve">
+    <value>कट्टर</value>
+  </data>
+  <data name="options_difficulty_normal" xml:space="preserve">
+    <value>साधारण</value>
+  </data>
+  <data name="options_difficulty_peaceful" xml:space="preserve">
+    <value>शांतिपूर्ण</value>
+  </data>
+  <data name="options_farWarning1" xml:space="preserve">
+    <value>एक साठ चार बिट जावा स्थापना की सिफारिश की है</value>
+  </data>
+  <data name="options_farWarning2" xml:space="preserve">
+    <value>सुदूर सौंपनेवाला दूरी (आप बत्तीस बिट है) के लिए</value>
+  </data>
+  <data name="options_forceUnicodeFont" xml:space="preserve">
+    <value>बल यूनिकोड फ़ॉन्ट</value>
+  </data>
+  <data name="options_fov" xml:space="preserve">
+    <value>दृष्टि क्षेत्र</value>
+  </data>
+  <data name="options_fov_max" xml:space="preserve">
+    <value>भूकंप प्रो</value>
+  </data>
+  <data name="options_fov_min" xml:space="preserve">
+    <value>साधारण</value>
+  </data>
+  <data name="options_framerateLimit" xml:space="preserve">
+    <value>सबसे फ्रेम दर</value>
+  </data>
+  <data name="options_framerateLimit_max" xml:space="preserve">
+    <value>कोई सीमा नहीं</value>
+  </data>
+  <data name="options_fullscreen" xml:space="preserve">
+    <value>पूर्णस्क्रीन</value>
+  </data>
+  <data name="options_gamma" xml:space="preserve">
+    <value>चमक</value>
+  </data>
+  <data name="options_gamma_max" xml:space="preserve">
+    <value>उज्ज्वल</value>
+  </data>
+  <data name="options_gamma_min" xml:space="preserve">
+    <value>मूडी</value>
+  </data>
+  <data name="options_graphics" xml:space="preserve">
+    <value>ग्राफ़िक्स</value>
+  </data>
+  <data name="options_graphics_fancy" xml:space="preserve">
+    <value>पसंद</value>
+  </data>
+  <data name="options_graphics_fast" xml:space="preserve">
+    <value>तेज</value>
+  </data>
+  <data name="options_guiScale" xml:space="preserve">
+    <value>जीयूआई स्केल</value>
+  </data>
+  <data name="options_guiScale_auto" xml:space="preserve">
+    <value>स्वत</value>
+  </data>
+  <data name="options_guiScale_large" xml:space="preserve">
+    <value>बड़ा</value>
+  </data>
+  <data name="options_guiScale_normal" xml:space="preserve">
+    <value>साधारण</value>
+  </data>
+  <data name="options_guiScale_small" xml:space="preserve">
+    <value>छोटा</value>
+  </data>
+  <data name="options_hidden" xml:space="preserve">
+    <value>छिपा हुआ</value>
+  </data>
+  <data name="options_invertMouse" xml:space="preserve">
+    <value>माउस उलटें</value>
+  </data>
+  <data name="options_language" xml:space="preserve">
+    <value>भाषा ...</value>
+  </data>
+  <data name="options_languageWarning" xml:space="preserve">
+    <value>भाषा अनुवाद की एक सौ% सही नहीं किया जा सकता</value>
+  </data>
+  <data name="options_mainHand" xml:space="preserve">
+    <value>मुख्य हाथ</value>
+  </data>
+  <data name="options_mainHand_left" xml:space="preserve">
+    <value>बाएं</value>
+  </data>
+  <data name="options_mainHand_right" xml:space="preserve">
+    <value>दाहिने</value>
+  </data>
+  <data name="options_mipmapLevels" xml:space="preserve">
+    <value>Mipmap स्तर</value>
+  </data>
+  <data name="options_modelPart_hat" xml:space="preserve">
+    <value>टोपी</value>
+  </data>
+  <data name="options_modelPart_jacket" xml:space="preserve">
+    <value>जैकेट</value>
+  </data>
+  <data name="options_modelPart_left_pants_leg" xml:space="preserve">
+    <value>बाएँ पैंट पैर</value>
+  </data>
+  <data name="options_modelPart_left_sleeve" xml:space="preserve">
+    <value>बाईं आस्तीन</value>
+  </data>
+  <data name="options_modelPart_right_pants_leg" xml:space="preserve">
+    <value>सही पैंट पैर</value>
+  </data>
+  <data name="options_modelPart_right_sleeve" xml:space="preserve">
+    <value>दाहिने आस्तीन</value>
+  </data>
+  <data name="options_multiplayer_title" xml:space="preserve">
+    <value>बहुखिलाड़ी सेटिंग्स...</value>
+  </data>
+  <data name="options_music" xml:space="preserve">
+    <value>संगीत</value>
+  </data>
+  <data name="options_off" xml:space="preserve">
+    <value>रवाना</value>
+  </data>
+  <data name="options_on" xml:space="preserve">
+    <value>पर</value>
+  </data>
+  <data name="options_particles" xml:space="preserve">
+    <value>कण</value>
+  </data>
+  <data name="options_particles_all" xml:space="preserve">
+    <value>सब</value>
+  </data>
+  <data name="options_particles_decreased" xml:space="preserve">
+    <value>कम</value>
+  </data>
+  <data name="options_particles_minimal" xml:space="preserve">
+    <value>न्यूनतम</value>
+  </data>
+  <data name="options_postButton" xml:space="preserve">
+    <value>पोस्ट-संसाधन सेटिंग...</value>
+  </data>
+  <data name="options_postProcessEnable" xml:space="preserve">
+    <value>Habilitar Post-proceso</value>
+  </data>
+  <data name="options_postVideoTitle" xml:space="preserve">
+    <value>पोस्ट-संसाधन सेटिंग</value>
+  </data>
+  <data name="options_renderClouds" xml:space="preserve">
+    <value>बादल</value>
+  </data>
+  <data name="options_renderDistance" xml:space="preserve">
+    <value>दूरी सौंपनेवाला</value>
+  </data>
+  <data name="options_resourcepack" xml:space="preserve">
+    <value>संसाधन पैक...</value>
+  </data>
+  <data name="options_saturation" xml:space="preserve">
+    <value>संतृप्ति</value>
+  </data>
+  <data name="options_sensitivity" xml:space="preserve">
+    <value>संवेदनशीलता</value>
+  </data>
+  <data name="options_sensitivity_max" xml:space="preserve">
+    <value>हाइपर स्पीड!!!</value>
+  </data>
+  <data name="options_sensitivity_min" xml:space="preserve">
+    <value>*जंभाई*</value>
+  </data>
+  <data name="options_skinCustomisation" xml:space="preserve">
+    <value>त्वचा अनुकूलन...</value>
+  </data>
+  <data name="options_skinCustomisation_title" xml:space="preserve">
+    <value>त्वचा अनुकूलन</value>
+  </data>
+  <data name="options_snooper" xml:space="preserve">
+    <value>जासूसी की अनुमति दें</value>
+  </data>
+  <data name="options_snooper_desc" xml:space="preserve">
+    <value>हम क्या हम का समर्थन कर सकते हैं और कहाँ सबसे बड़ी समस्याओं कर रहे हैं जानने के द्वारा Minecraft सुधारने में मदद करने के लिए आपके मशीन के बारे में जानकारी एकत्रित करने के लिए चाहते हैं। इस जानकारी के सभी पूरी तरह से गुमनाम और नीचे देखा जा सकता है। हम वादा करता हूँ हम इस डेटा के साथ बुरा कुछ भी नहीं होगा, लेकिन अगर तुम बाहर निकलना चाहते हैं तो इसे बंद टॉगल करने के लिए स्वतंत्र महसूस!</value>
+  </data>
+  <data name="options_snooper_title" xml:space="preserve">
+    <value>मशीन सूचना संग्रह</value>
+  </data>
+  <data name="options_snooper_view" xml:space="preserve">
+    <value>जासूस सेटिंग्स...</value>
+  </data>
+  <data name="options_sound" xml:space="preserve">
+    <value>ध्वनि</value>
+  </data>
+  <data name="options_sounds" xml:space="preserve">
+    <value>संगीत और ध्वनियों</value>
+  </data>
+  <data name="options_sounds_title" xml:space="preserve">
+    <value>संगीत और ध्वनि विकल्प</value>
+  </data>
+  <data name="options_title" xml:space="preserve">
+    <value>विकल्प</value>
+  </data>
+  <data name="options_touchscreen" xml:space="preserve">
+    <value>एनीमेशन</value>
+  </data>
+  <data name="options_vbo" xml:space="preserve">
+    <value>VBOs का उपयोग करें</value>
+  </data>
+  <data name="options_video" xml:space="preserve">
+    <value>वीडियो सेटिंग्स ...</value>
+  </data>
+  <data name="options_videoTitle" xml:space="preserve">
+    <value>वीडियो सेटिंग्स</value>
+  </data>
+  <data name="options_viewBobbing" xml:space="preserve">
+    <value>शेख़ी देखें</value>
+  </data>
+  <data name="options_visible" xml:space="preserve">
+    <value>दिखाया हुआ</value>
+  </data>
+  <data name="options_vsync" xml:space="preserve">
+    <value>रोकें फाड़ स्क्रीन</value>
+  </data>
+  <data name="potion_potency_1" xml:space="preserve">
+    <value>II</value>
+  </data>
+  <data name="potion_potency_2" xml:space="preserve">
+    <value>III</value>
+  </data>
+  <data name="record_nowPlaying" xml:space="preserve">
+    <value>अभी चल रहा है: {0}</value>
+  </data>
+  <data name="resourcePack_available_title" xml:space="preserve">
+    <value>उपलब्ध संसाधन पैक</value>
+  </data>
+  <data name="resourcePack_folderInfo" xml:space="preserve">
+    <value>(प्लेस संसाधन यहाँ पैक)</value>
+  </data>
+  <data name="resourcePack_incompatible" xml:space="preserve">
+    <value>असंगत</value>
+  </data>
+  <data name="resourcePack_openFolder" xml:space="preserve">
+    <value>ओपन संसाधन पैक फ़ोल्डर</value>
+  </data>
+  <data name="resourcePack_title" xml:space="preserve">
+    <value>रिसोर्स पैक का चयन करें</value>
+  </data>
+  <data name="selectServer_add" xml:space="preserve">
+    <value>सर्वर जोड़ें</value>
+  </data>
+  <data name="selectServer_defaultName" xml:space="preserve">
+    <value>मेरा शिल्प सर्वर</value>
+  </data>
+  <data name="selectServer_delete" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="selectServer_deleteButton" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="selectServer_deleteQuestion" xml:space="preserve">
+    <value>क्या आप सुनिश्चित हैं कि आप इस सर्वर को निकालना चाहते हैं?</value>
+  </data>
+  <data name="selectServer_deleteWarning" xml:space="preserve">
+    <value>हमेशा के लिए खो जाएगा!(एक लंबे समय से!)</value>
+  </data>
+  <data name="selectServer_direct" xml:space="preserve">
+    <value>कनेक्ट प्रत्यक्ष</value>
+  </data>
+  <data name="selectServer_edit" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="selectServer_empty" xml:space="preserve">
+    <value>खाली</value>
+  </data>
+  <data name="selectServer_hiddenAddress" xml:space="preserve">
+    <value>(छिपा हुआ)</value>
+  </data>
+  <data name="selectServer_refresh" xml:space="preserve">
+    <value>ताज़ा करना</value>
+  </data>
+  <data name="selectServer_select" xml:space="preserve">
+    <value>सर्वर के साथ जुड़ें</value>
+  </data>
+  <data name="selectServer_title" xml:space="preserve">
+    <value>सर्वर का चयन करें</value>
+  </data>
+  <data name="selectWorld_allowCommands" xml:space="preserve">
+    <value>धोखा देती है की अनुमति दें:</value>
+  </data>
+  <data name="selectWorld_allowCommands_info" xml:space="preserve">
+    <value>/ खेल मोड, / XP के तरह कमानों</value>
+  </data>
+  <data name="selectWorld_bonusItems" xml:space="preserve">
+    <value>बोनस चेस्ट:</value>
+  </data>
+  <data name="selectWorld_cheats" xml:space="preserve">
+    <value>धोखा देती है</value>
+  </data>
+  <data name="selectWorld_conversion" xml:space="preserve">
+    <value>नाम बदलें वर्ल्ड!</value>
+  </data>
+  <data name="selectWorld_create" xml:space="preserve">
+    <value>नई दुनिया बनाएँ</value>
+  </data>
+  <data name="selectWorld_createDemo" xml:space="preserve">
+    <value>नई डेमो विश्व चलायें</value>
+  </data>
+  <data name="selectWorld_customizeType" xml:space="preserve">
+    <value>अनुकूलित करें</value>
+  </data>
+  <data name="selectWorld_delete" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="selectWorld_deleteButton" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="selectWorld_deleteQuestion" xml:space="preserve">
+    <value>क्या आप यकीन है कि आप इस दुनिया को नष्ट करना चाहते हैं?</value>
+  </data>
+  <data name="selectWorld_deleteWarning" xml:space="preserve">
+    <value>हमेशा के लिए खो जाएगा!(एक लंबे समय से!)</value>
+  </data>
+  <data name="selectWorld_edit" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="selectWorld_edit_openFolder" xml:space="preserve">
+    <value>फ़ोल्डर खोलें</value>
+  </data>
+  <data name="selectWorld_edit_save" xml:space="preserve">
+    <value>दुनिया को सवे करो</value>
+  </data>
+  <data name="selectWorld_edit_title" xml:space="preserve">
+    <value>दुनिया को संपादित करें</value>
+  </data>
+  <data name="selectWorld_empty" xml:space="preserve">
+    <value>खाली</value>
+  </data>
+  <data name="selectWorld_enterName" xml:space="preserve">
+    <value>दुनिया का नाम</value>
+  </data>
+  <data name="selectWorld_enterSeed" xml:space="preserve">
+    <value>विश्व जेनरेटर के लिए बीज</value>
+  </data>
+  <data name="selectWorld_gameMode" xml:space="preserve">
+    <value>खेल मोड</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure" xml:space="preserve">
+    <value>साहसिक</value>
+  </data>
+  <data name="selectWorld_gameMode_adventure_line2" xml:space="preserve">
+    <value>जोड़ा जाएगा या हटाया</value>
+  </data>
+  <data name="selectWorld_gameMode_creative" xml:space="preserve">
+    <value>क्रिएटिव</value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line1" xml:space="preserve">
+    <value>असीमित संसाधन, मुक्त उड़ान और </value>
+  </data>
+  <data name="selectWorld_gameMode_creative_line2" xml:space="preserve">
+    <value>ब्लॉक तुरन्त नष्ट</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore" xml:space="preserve">
+    <value>कट्टर</value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line1" xml:space="preserve">
+    <value>अस्तित्व मोड की तरह, अत्यधिक दुष्करता पर आबद्ध </value>
+  </data>
+  <data name="selectWorld_gameMode_hardcore_line2" xml:space="preserve">
+    <value>केवल कठिनाई, और एक जीवन</value>
+  </data>
+  <data name="selectWorld_gameMode_spectator" xml:space="preserve">
+    <value>दर्शक</value>
+  </data>
+  <data name="selectWorld_gameMode_spectator_line1" xml:space="preserve">
+    <value>देखो लेकिन छूना मत</value>
+  </data>
+  <data name="selectWorld_gameMode_survival" xml:space="preserve">
+    <value>उत्तरजीविता</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line1" xml:space="preserve">
+    <value>संसाधनों, शिल्प, लाभ के लिए खोज</value>
+  </data>
+  <data name="selectWorld_gameMode_survival_line2" xml:space="preserve">
+    <value>स्तर, स्वास्थ्य, और भूख</value>
+  </data>
+  <data name="selectWorld_hardcoreMode" xml:space="preserve">
+    <value>कट्टर:</value>
+  </data>
+  <data name="selectWorld_hardcoreMode_info" xml:space="preserve">
+    <value>विश्व मौत पर नष्ट कर दिया है</value>
+  </data>
+  <data name="selectWorld_mapFeatures" xml:space="preserve">
+    <value>संरचनाएं उत्पन्न:</value>
+  </data>
+  <data name="selectWorld_mapFeatures_info" xml:space="preserve">
+    <value>गांवों, तहखाने आदि</value>
+  </data>
+  <data name="selectWorld_mapType" xml:space="preserve">
+    <value>विश्व प्रकार:</value>
+  </data>
+  <data name="selectWorld_mapType_normal" xml:space="preserve">
+    <value>साधारण</value>
+  </data>
+  <data name="selectWorld_moreWorldOptions" xml:space="preserve">
+    <value>विश्व विकल्प ...</value>
+  </data>
+  <data name="selectWorld_newWorld" xml:space="preserve">
+    <value>नई दुनिया</value>
+  </data>
+  <data name="selectWorld_newWorld_copyOf" xml:space="preserve">
+    <value>{0} की प्रतिलिपि</value>
+  </data>
+  <data name="selectWorld_recreate" xml:space="preserve">
+    <value>प्रतिलिपि बनायें</value>
+  </data>
+  <data name="selectWorld_resultFolder" xml:space="preserve">
+    <value>में सेव होगा:</value>
+  </data>
+  <data name="selectWorld_seedInfo" xml:space="preserve">
+    <value>एक यादृच्छिक बीज के लिए रिक्त छोड़ें</value>
+  </data>
+  <data name="selectWorld_select" xml:space="preserve">
+    <value>चलायें चयनित वर्ल्ड</value>
+  </data>
+  <data name="selectWorld_title" xml:space="preserve">
+    <value>दुनिया चुनें</value>
+  </data>
+  <data name="selectWorld_tooltip_fromNewerVersion1" xml:space="preserve">
+    <value>ये दुनिया नये संस्करण में बनाई गयी थी</value>
+  </data>
+  <data name="selectWorld_tooltip_fromNewerVersion2" xml:space="preserve">
+    <value>इसको ईस्तमाल करके प्रोब्लेम हो सकती है</value>
+  </data>
+  <data name="selectWorld_tooltip_snapshot1" xml:space="preserve">
+    <value>ये दुनिया को सवे करना ना भूलिए</value>
+  </data>
+  <data name="selectWorld_tooltip_snapshot2" xml:space="preserve">
+    <value>ये स्नप्शोत को लोड करने से पहले</value>
+  </data>
+  <data name="selectWorld_version" xml:space="preserve">
+    <value>संस्करण:</value>
+  </data>
+  <data name="selectWorld_versionJoinButton" xml:space="preserve">
+    <value>कोई बात नही</value>
+  </data>
+  <data name="selectWorld_versionQuestion" xml:space="preserve">
+    <value>क्या आपको सच्ची में ये दुनिया चाहिए?</value>
+  </data>
+  <data name="selectWorld_versionUnknown" xml:space="preserve">
+    <value>अंजान</value>
+  </data>
+  <data name="selectWorld_versionWarning" xml:space="preserve">
+    <value>ये दुनिया '{0}' सँस्करण में सेव हुई थी, और इसे खोलकर करप्षन हो सकता है!</value>
+  </data>
+  <data name="selectWorld_world" xml:space="preserve">
+    <value>दुनिया</value>
+  </data>
+  <data name="soundCategory_ambient" xml:space="preserve">
+    <value>परिवेश / पर्यावरण</value>
+  </data>
+  <data name="soundCategory_block" xml:space="preserve">
+    <value>ब्लाकों</value>
+  </data>
+  <data name="soundCategory_hostile" xml:space="preserve">
+    <value>शत्रुतापूर्ण जीव</value>
+  </data>
+  <data name="soundCategory_master" xml:space="preserve">
+    <value>मास्टर वॉल्यूम</value>
+  </data>
+  <data name="soundCategory_music" xml:space="preserve">
+    <value>संगीत</value>
+  </data>
+  <data name="soundCategory_neutral" xml:space="preserve">
+    <value>अनुकूल जीव</value>
+  </data>
+  <data name="soundCategory_player" xml:space="preserve">
+    <value>खिलाड़ी</value>
+  </data>
+  <data name="soundCategory_record" xml:space="preserve">
+    <value>ज्यूकबॉक्स / नोट ब्लॉकों</value>
+  </data>
+  <data name="soundCategory_voice" xml:space="preserve">
+    <value>आवाज/भाषण</value>
+  </data>
+  <data name="soundCategory_weather" xml:space="preserve">
+    <value>मौसम</value>
+  </data>
+  <data name="stat_animalsBred" xml:space="preserve">
+    <value>पशु जो पाले गये</value>
+  </data>
+  <data name="stat_blocksButton" xml:space="preserve">
+    <value>ब्लॉक</value>
+  </data>
+  <data name="stat_boatOneCm" xml:space="preserve">
+    <value>नाव से दूरी</value>
+  </data>
+  <data name="stat_breakItem" xml:space="preserve">
+    <value>{0} समाप्त</value>
+  </data>
+  <data name="stat_climbOneCm" xml:space="preserve">
+    <value>दूरी पर चढ़ गए</value>
+  </data>
+  <data name="stat_craftItem" xml:space="preserve">
+    <value>{0} तैयार की जाती</value>
+  </data>
+  <data name="stat_crafted" xml:space="preserve">
+    <value>टाइम्स तैयार की जाती</value>
+  </data>
+  <data name="stat_createWorld" xml:space="preserve">
+    <value>संसारों बनाया</value>
+  </data>
+  <data name="stat_damageDealt" xml:space="preserve">
+    <value>नुकसान निपटा</value>
+  </data>
+  <data name="stat_damageTaken" xml:space="preserve">
+    <value>ले ली नुकसान</value>
+  </data>
+  <data name="stat_deaths" xml:space="preserve">
+    <value>मौतों की संख्या</value>
+  </data>
+  <data name="stat_depleted" xml:space="preserve">
+    <value>टाइम्स समाप्त</value>
+  </data>
+  <data name="stat_diveOneCm" xml:space="preserve">
+    <value>दूरी कबूतर</value>
+  </data>
+  <data name="stat_drop" xml:space="preserve">
+    <value>आइटम गिरा</value>
+  </data>
+  <data name="stat_entityKilledBy" xml:space="preserve">
+    <value>{0} बारी आप को {1} ने मार डाला</value>
+  </data>
+  <data name="stat_entityKilledBy_none" xml:space="preserve">
+    <value>आप {0} द्वारा कभी नहीं मारे गए हैं</value>
+  </data>
+  <data name="stat_entityKills" xml:space="preserve">
+    <value>आप ने {0}{1} को मार डाला</value>
+  </data>
+  <data name="stat_entityKills_none" xml:space="preserve">
+    <value>अाप ने {0} को कभी नहीं मारा </value>
+  </data>
+  <data name="stat_fallOneCm" xml:space="preserve">
+    <value>दूरी शहीदों</value>
+  </data>
+  <data name="stat_fishCaught" xml:space="preserve">
+    <value>मछली पकड़ लिया</value>
+  </data>
+  <data name="stat_flyOneCm" xml:space="preserve">
+    <value>दूरी प्रवाहित</value>
+  </data>
+  <data name="stat_generalButton" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="stat_horseOneCm" xml:space="preserve">
+    <value>घोड़े द्वारा दूरी</value>
+  </data>
+  <data name="stat_itemsButton" xml:space="preserve">
+    <value>आइटम</value>
+  </data>
+  <data name="stat_joinMultiplayer" xml:space="preserve">
+    <value>मल्टी प्लेयर मिलती है</value>
+  </data>
+  <data name="stat_jump" xml:space="preserve">
+    <value>कूदता है</value>
+  </data>
+  <data name="stat_junkFished" xml:space="preserve">
+    <value>रद्दी निकाला</value>
+  </data>
+  <data name="stat_leaveGame" xml:space="preserve">
+    <value>खेल छोड़ो</value>
+  </data>
+  <data name="stat_loadWorld" xml:space="preserve">
+    <value>लोड बचाता है</value>
+  </data>
+  <data name="stat_mineBlock" xml:space="preserve">
+    <value>{0} सुरंग लगा हुआ</value>
+  </data>
+  <data name="stat_minecartOneCm" xml:space="preserve">
+    <value>कार्ट द्वारा दूरी</value>
+  </data>
+  <data name="stat_mined" xml:space="preserve">
+    <value>टाइम्स खनन</value>
+  </data>
+  <data name="stat_mobKills" xml:space="preserve">
+    <value>भीड़ मारे गए</value>
+  </data>
+  <data name="stat_mobsButton" xml:space="preserve">
+    <value>भीड़</value>
+  </data>
+  <data name="stat_pigOneCm" xml:space="preserve">
+    <value>सुअर द्वारा दूरी</value>
+  </data>
+  <data name="stat_playOneMinute" xml:space="preserve">
+    <value>मिनट खेला</value>
+  </data>
+  <data name="stat_playerKills" xml:space="preserve">
+    <value>प्लेयर मारे गए</value>
+  </data>
+  <data name="stat_startGame" xml:space="preserve">
+    <value>टाइम्स खेला</value>
+  </data>
+  <data name="stat_swimOneCm" xml:space="preserve">
+    <value>पानी में दूरी</value>
+  </data>
+  <data name="stat_treasureFished" xml:space="preserve">
+    <value>खजाना निकाला</value>
+  </data>
+  <data name="stat_useItem" xml:space="preserve">
+    <value>{0} खेतों में प्रयुक्त किए गए</value>
+  </data>
+  <data name="stat_used" xml:space="preserve">
+    <value>टाइम्स खेतों में प्रयुक्त</value>
+  </data>
+  <data name="stat_walkOneCm" xml:space="preserve">
+    <value>दूरी चला गया</value>
+  </data>
+  <data name="stats_tooltip_type_achievement" xml:space="preserve">
+    <value>कारनामा</value>
+  </data>
+  <data name="stats_tooltip_type_statistic" xml:space="preserve">
+    <value>आँकड़ा</value>
+  </data>
+  <data name="tile_activatorRail_name" xml:space="preserve">
+    <value>उत्प्रेरक रेल</value>
+  </data>
+  <data name="tile_anvil_intact_name" xml:space="preserve">
+    <value>विचाराधीन</value>
+  </data>
+  <data name="tile_anvil_name" xml:space="preserve">
+    <value>विचाराधीन</value>
+  </data>
+  <data name="tile_anvil_slightlyDamaged_name" xml:space="preserve">
+    <value>थोड़ा क्षतिग्रस्त निहाई</value>
+  </data>
+  <data name="tile_anvil_veryDamaged_name" xml:space="preserve">
+    <value>बहुत क्षतिग्रस्त निहाई</value>
+  </data>
+  <data name="tile_barrier_name" xml:space="preserve">
+    <value>बैरियर</value>
+  </data>
+  <data name="tile_beacon_name" xml:space="preserve">
+    <value>बीकन</value>
+  </data>
+  <data name="tile_beacon_primary" xml:space="preserve">
+    <value>पहला शक्ति</value>
+  </data>
+  <data name="tile_beacon_secondary" xml:space="preserve">
+    <value>दूसरा शक्ति</value>
+  </data>
+  <data name="tile_bed_name" xml:space="preserve">
+    <value>बिस्तर</value>
+  </data>
+  <data name="tile_bed_noSleep" xml:space="preserve">
+    <value>आप केवल रात में सो सकते हैं</value>
+  </data>
+  <data name="tile_bed_notSafe" xml:space="preserve">
+    <value>अब आप सो नहीं सकते हैं, वहाँ आसपास के राक्षस हैं</value>
+  </data>
+  <data name="tile_bed_notValid" xml:space="preserve">
+    <value>बिस्तर आप पिछले में सोया था लापता या बाधित</value>
+  </data>
+  <data name="tile_bed_occupied" xml:space="preserve">
+    <value>यह बिस्तर पर कब्जा कर लिया है</value>
+  </data>
+  <data name="tile_bedrock_name" xml:space="preserve">
+    <value>आधार</value>
+  </data>
+  <data name="tile_blockCoal_name" xml:space="preserve">
+    <value>कोयला ब्लॉक</value>
+  </data>
+  <data name="tile_blockDiamond_name" xml:space="preserve">
+    <value>डायमंड के ब्लॉक</value>
+  </data>
+  <data name="tile_blockEmerald_name" xml:space="preserve">
+    <value>पन्ना के ब्लॉक</value>
+  </data>
+  <data name="tile_blockGold_name" xml:space="preserve">
+    <value>सोने के ब्लॉक</value>
+  </data>
+  <data name="tile_blockIron_name" xml:space="preserve">
+    <value>लोहे के ब्लॉक</value>
+  </data>
+  <data name="tile_blockLapis_name" xml:space="preserve">
+    <value>लापीस लाजुली ब्लॉक</value>
+  </data>
+  <data name="tile_blockRedstone_name" xml:space="preserve">
+    <value>लाल पत्थर के ब्लॉक</value>
+  </data>
+  <data name="tile_bookshelf_name" xml:space="preserve">
+    <value>पुस्ताक तख्ता</value>
+  </data>
+  <data name="tile_brick_name" xml:space="preserve">
+    <value>ईंटें</value>
+  </data>
+  <data name="tile_button_name" xml:space="preserve">
+    <value>बटन</value>
+  </data>
+  <data name="tile_cactus_name" xml:space="preserve">
+    <value>कैक्टस</value>
+  </data>
+  <data name="tile_cake_name" xml:space="preserve">
+    <value>केक</value>
+  </data>
+  <data name="tile_carrots_name" xml:space="preserve">
+    <value>गाजर</value>
+  </data>
+  <data name="tile_cauldron_name" xml:space="preserve">
+    <value>देग़</value>
+  </data>
+  <data name="tile_chest_name" xml:space="preserve">
+    <value>संदूक</value>
+  </data>
+  <data name="tile_chestTrap_name" xml:space="preserve">
+    <value>फँसा छाती</value>
+  </data>
+  <data name="tile_clay_name" xml:space="preserve">
+    <value>मिट्टी</value>
+  </data>
+  <data name="tile_clayHardened_name" xml:space="preserve">
+    <value>कठोर मिट्टी</value>
+  </data>
+  <data name="tile_cloth_black_name" xml:space="preserve">
+    <value>काले ऊन</value>
+  </data>
+  <data name="tile_cloth_blue_name" xml:space="preserve">
+    <value>ब्लू ऊन</value>
+  </data>
+  <data name="tile_cloth_brown_name" xml:space="preserve">
+    <value>ब्राउन ऊन</value>
+  </data>
+  <data name="tile_cloth_cyan_name" xml:space="preserve">
+    <value>सियान ऊन</value>
+  </data>
+  <data name="tile_cloth_gray_name" xml:space="preserve">
+    <value>ग्रे ऊन</value>
+  </data>
+  <data name="tile_cloth_green_name" xml:space="preserve">
+    <value>ग्रीन ऊन</value>
+  </data>
+  <data name="tile_cloth_lightBlue_name" xml:space="preserve">
+    <value>प्रकाश ब्लू ऊन</value>
+  </data>
+  <data name="tile_cloth_lime_name" xml:space="preserve">
+    <value>निम्बुड़ा ऊन</value>
+  </data>
+  <data name="tile_cloth_magenta_name" xml:space="preserve">
+    <value>मैजंटा ऊन</value>
+  </data>
+  <data name="tile_cloth_name" xml:space="preserve">
+    <value>ऊन</value>
+  </data>
+  <data name="tile_cloth_orange_name" xml:space="preserve">
+    <value>ऑरेंज ऊन</value>
+  </data>
+  <data name="tile_cloth_pink_name" xml:space="preserve">
+    <value>गुलाबी ऊन</value>
+  </data>
+  <data name="tile_cloth_purple_name" xml:space="preserve">
+    <value>बैंगनी ऊन</value>
+  </data>
+  <data name="tile_cloth_red_name" xml:space="preserve">
+    <value>लाल ऊन</value>
+  </data>
+  <data name="tile_cloth_silver_name" xml:space="preserve">
+    <value>हल्की ग्रे ऊन</value>
+  </data>
+  <data name="tile_cloth_white_name" xml:space="preserve">
+    <value>ऊन</value>
+  </data>
+  <data name="tile_cloth_yellow_name" xml:space="preserve">
+    <value>पीला ऊन</value>
+  </data>
+  <data name="tile_cobbleWall_mossy_name" xml:space="preserve">
+    <value>घास के साथ पत्थर का दीवार</value>
+  </data>
+  <data name="tile_cobbleWall_normal_name" xml:space="preserve">
+    <value>पत्थर का दीवार</value>
+  </data>
+  <data name="tile_cocoa_name" xml:space="preserve">
+    <value>कोको</value>
+  </data>
+  <data name="tile_commandBlock_name" xml:space="preserve">
+    <value>आदेश ब्लॉक</value>
+  </data>
+  <data name="tile_crops_name" xml:space="preserve">
+    <value>फसलें</value>
+  </data>
+  <data name="tile_daylightDetector_name" xml:space="preserve">
+    <value>डेलाइट सेंसर</value>
+  </data>
+  <data name="tile_deadbush_name" xml:space="preserve">
+    <value>मृत बुश</value>
+  </data>
+  <data name="tile_detectorRail_name" xml:space="preserve">
+    <value>वेक्षक रेल</value>
+  </data>
+  <data name="tile_dirt_coarse_name" xml:space="preserve">
+    <value>मोटे गंदगी</value>
+  </data>
+  <data name="tile_dirt_default_name" xml:space="preserve">
+    <value>धूल</value>
+  </data>
+  <data name="tile_dirt_name" xml:space="preserve">
+    <value>गंदगी</value>
+  </data>
+  <data name="tile_dispenser_name" xml:space="preserve">
+    <value>दवासाज़</value>
+  </data>
+  <data name="tile_doorIron_name" xml:space="preserve">
+    <value>लौह द्वार</value>
+  </data>
+  <data name="tile_doorWood_name" xml:space="preserve">
+    <value>लकड़ी के दरवाजे</value>
+  </data>
+  <data name="tile_doublePlant_fern_name" xml:space="preserve">
+    <value>बड़े फ़र्न</value>
+  </data>
+  <data name="tile_doublePlant_grass_name" xml:space="preserve">
+    <value>डबल Tallgrass</value>
+  </data>
+  <data name="tile_doublePlant_name" xml:space="preserve">
+    <value>वनस्पति</value>
+  </data>
+  <data name="tile_doublePlant_paeonia_name" xml:space="preserve">
+    <value>Peony</value>
+  </data>
+  <data name="tile_doublePlant_rose_name" xml:space="preserve">
+    <value>गुलाब बुश</value>
+  </data>
+  <data name="tile_doublePlant_sunflower_name" xml:space="preserve">
+    <value>सूरजमुखी</value>
+  </data>
+  <data name="tile_doublePlant_syringa_name" xml:space="preserve">
+    <value>बकाइन</value>
+  </data>
+  <data name="tile_dragonEgg_name" xml:space="preserve">
+    <value>ड्रैगन अंडे</value>
+  </data>
+  <data name="tile_dropper_name" xml:space="preserve">
+    <value>बूंद</value>
+  </data>
+  <data name="tile_enchantmentTable_name" xml:space="preserve">
+    <value>बढ़ा जादू तालिका</value>
+  </data>
+  <data name="tile_endPortalFrame_name" xml:space="preserve">
+    <value>अंत पोर्टल</value>
+  </data>
+  <data name="tile_enderChest_name" xml:space="preserve">
+    <value>अंतवह छाती</value>
+  </data>
+  <data name="tile_farmland_name" xml:space="preserve">
+    <value>खेत</value>
+  </data>
+  <data name="tile_fence_name" xml:space="preserve">
+    <value>बाड़</value>
+  </data>
+  <data name="tile_fenceGate_name" xml:space="preserve">
+    <value>बाड़ गेट</value>
+  </data>
+  <data name="tile_fenceIron_name" xml:space="preserve">
+    <value>लोहे की सलाखों</value>
+  </data>
+  <data name="tile_fire_name" xml:space="preserve">
+    <value>आग</value>
+  </data>
+  <data name="tile_flower1_name" xml:space="preserve">
+    <value>फूल</value>
+  </data>
+  <data name="tile_flower2_allium_name" xml:space="preserve">
+    <value>Allium</value>
+  </data>
+  <data name="tile_flower2_blueOrchid_name" xml:space="preserve">
+    <value>ब्लू आर्किड फूल</value>
+  </data>
+  <data name="tile_flower2_houstonia_name" xml:space="preserve">
+    <value>नीला Bluet</value>
+  </data>
+  <data name="tile_flower2_name" xml:space="preserve">
+    <value>फूल</value>
+  </data>
+  <data name="tile_flower2_oxeyeDaisy_name" xml:space="preserve">
+    <value>Oxeye डेज़ी</value>
+  </data>
+  <data name="tile_flower2_tulipOrange_name" xml:space="preserve">
+    <value>नारंगी सुर्ख</value>
+  </data>
+  <data name="tile_flower2_tulipPink_name" xml:space="preserve">
+    <value>गुलाबी ट्यूलिप</value>
+  </data>
+  <data name="tile_flower2_tulipRed_name" xml:space="preserve">
+    <value>लाल सुर्ख</value>
+  </data>
+  <data name="tile_flower2_tulipWhite_name" xml:space="preserve">
+    <value>सफेद सुर्ख</value>
+  </data>
+  <data name="tile_furnace_name" xml:space="preserve">
+    <value>भट्ठी</value>
+  </data>
+  <data name="tile_glass_name" xml:space="preserve">
+    <value>गिलास</value>
+  </data>
+  <data name="tile_goldenRail_name" xml:space="preserve">
+    <value>संचालित रेल</value>
+  </data>
+  <data name="tile_grass_name" xml:space="preserve">
+    <value>घास ब्लॉक</value>
+  </data>
+  <data name="tile_gravel_name" xml:space="preserve">
+    <value>बजरी</value>
+  </data>
+  <data name="tile_hayBlock_name" xml:space="preserve">
+    <value>सूखी घास गठरी</value>
+  </data>
+  <data name="tile_hellrock_name" xml:space="preserve">
+    <value>नीचे रॉक</value>
+  </data>
+  <data name="tile_hellsand_name" xml:space="preserve">
+    <value>आत्मा रेत</value>
+  </data>
+  <data name="tile_hopper_name" xml:space="preserve">
+    <value>कूदनेवाला</value>
+  </data>
+  <data name="tile_ice_name" xml:space="preserve">
+    <value>बर्फ</value>
+  </data>
+  <data name="tile_icePacked_name" xml:space="preserve">
+    <value>पैक्ड बर्फ</value>
+  </data>
+  <data name="tile_jukebox_name" xml:space="preserve">
+    <value>संगीत बॉक्स</value>
+  </data>
+  <data name="tile_ladder_name" xml:space="preserve">
+    <value>सीढ़ी</value>
+  </data>
+  <data name="tile_lava_name" xml:space="preserve">
+    <value>लावा</value>
+  </data>
+  <data name="tile_leaves_acacia_name" xml:space="preserve">
+    <value>बबूल के पत्ते</value>
+  </data>
+  <data name="tile_leaves_birch_name" xml:space="preserve">
+    <value>सन्टी पत्ते</value>
+  </data>
+  <data name="tile_leaves_jungle_name" xml:space="preserve">
+    <value>वनीय पत्ते</value>
+  </data>
+  <data name="tile_leaves_name" xml:space="preserve">
+    <value>पत्ते</value>
+  </data>
+  <data name="tile_leaves_oak_name" xml:space="preserve">
+    <value>ओक के पत्तों</value>
+  </data>
+  <data name="tile_leaves_spruce_name" xml:space="preserve">
+    <value>सजाना पत्तियां</value>
+  </data>
+  <data name="tile_lever_name" xml:space="preserve">
+    <value>लीवर</value>
+  </data>
+  <data name="tile_lightgem_name" xml:space="preserve">
+    <value>ग्लो स्टोन</value>
+  </data>
+  <data name="tile_litpumpkin_name" xml:space="preserve">
+    <value>जैक ओ 'लालटेन</value>
+  </data>
+  <data name="tile_lockedchest_name" xml:space="preserve">
+    <value>ताला चेस्ट</value>
+  </data>
+  <data name="tile_log_birch_name" xml:space="preserve">
+    <value>सन्टी लकड़ी</value>
+  </data>
+  <data name="tile_log_jungle_name" xml:space="preserve">
+    <value>जंगल काष्ठ</value>
+  </data>
+  <data name="tile_log_name" xml:space="preserve">
+    <value>लकड़ी</value>
+  </data>
+  <data name="tile_log_oak_name" xml:space="preserve">
+    <value>बलूत का लकड़ा</value>
+  </data>
+  <data name="tile_log_spruce_name" xml:space="preserve">
+    <value>सजाना लकड़ी</value>
+  </data>
+  <data name="tile_melon_name" xml:space="preserve">
+    <value>तरबूज</value>
+  </data>
+  <data name="tile_mobSpawner_name" xml:space="preserve">
+    <value>दानव मादा मछली</value>
+  </data>
+  <data name="tile_monsterStoneEgg_brick_name" xml:space="preserve">
+    <value>स्टोन ईंट राक्षस अंडे</value>
+  </data>
+  <data name="tile_monsterStoneEgg_chiseledbrick_name" xml:space="preserve">
+    <value>पत्थर ईंट राक्षस अंडा गढ़े हुए</value>
+  </data>
+  <data name="tile_monsterStoneEgg_cobble_name" xml:space="preserve">
+    <value>बटिया पत्थर राक्षस अंडा</value>
+  </data>
+  <data name="tile_monsterStoneEgg_crackedbrick_name" xml:space="preserve">
+    <value>फटकारा ईंट का राक्षस अंडा </value>
+  </data>
+  <data name="tile_monsterStoneEgg_mossybrick_name" xml:space="preserve">
+    <value>mossy ईंट का राक्षस अंडा </value>
+  </data>
+  <data name="tile_monsterStoneEgg_stone_name" xml:space="preserve">
+    <value>पत्थर राक्षस अंडा</value>
+  </data>
+  <data name="tile_mushroom_name" xml:space="preserve">
+    <value>कुकुरमुत्ता</value>
+  </data>
+  <data name="tile_musicBlock_name" xml:space="preserve">
+    <value>नोट ब्लॉक</value>
+  </data>
+  <data name="tile_mycel_name" xml:space="preserve">
+    <value>फुई</value>
+  </data>
+  <data name="tile_netherBrick_name" xml:space="preserve">
+    <value>नीचे ईंट</value>
+  </data>
+  <data name="tile_netherFence_name" xml:space="preserve">
+    <value>नीचे ईंट बाड़</value>
+  </data>
+  <data name="tile_netherStalk_name" xml:space="preserve">
+    <value>नीचे मस्सा</value>
+  </data>
+  <data name="tile_netherquartz_name" xml:space="preserve">
+    <value>Nether क्वार्ट्ज अयस्क</value>
+  </data>
+  <data name="tile_notGate_name" xml:space="preserve">
+    <value>लाल पत्थर मशाल</value>
+  </data>
+  <data name="tile_obsidian_name" xml:space="preserve">
+    <value>ओब्सीडियन</value>
+  </data>
+  <data name="tile_oreCoal_name" xml:space="preserve">
+    <value>कोयला अयस्क</value>
+  </data>
+  <data name="tile_oreDiamond_name" xml:space="preserve">
+    <value>डायमंड अयस्क</value>
+  </data>
+  <data name="tile_oreEmerald_name" xml:space="preserve">
+    <value>पन्ना अयस्क</value>
+  </data>
+  <data name="tile_oreGold_name" xml:space="preserve">
+    <value>गोल्ड अयस्क</value>
+  </data>
+  <data name="tile_oreIron_name" xml:space="preserve">
+    <value>लौह अयस्क</value>
+  </data>
+  <data name="tile_oreLapis_name" xml:space="preserve">
+    <value>लापीस लाजुली अयस्क</value>
+  </data>
+  <data name="tile_oreRedstone_name" xml:space="preserve">
+    <value>लाल पत्थर अयस्क</value>
+  </data>
+  <data name="tile_pistonBase_name" xml:space="preserve">
+    <value>पिस्टन</value>
+  </data>
+  <data name="tile_pistonStickyBase_name" xml:space="preserve">
+    <value>स्टिकी पिस्टन</value>
+  </data>
+  <data name="tile_portal_name" xml:space="preserve">
+    <value>द्वार</value>
+  </data>
+  <data name="tile_potatoes_name" xml:space="preserve">
+    <value>आलू</value>
+  </data>
+  <data name="tile_prismarine_rough_name" xml:space="preserve">
+    <value>प्रिज़्मरीन</value>
+  </data>
+  <data name="tile_pumpkin_name" xml:space="preserve">
+    <value>कद्दू</value>
+  </data>
+  <data name="tile_quartzBlock_chiseled_name" xml:space="preserve">
+    <value>गढ़े हुए क्वार्ट्ज ब्लॉक</value>
+  </data>
+  <data name="tile_quartzBlock_default_name" xml:space="preserve">
+    <value>क्वार्ट्ज के ब्लॉक</value>
+  </data>
+  <data name="tile_quartzBlock_lines_name" xml:space="preserve">
+    <value>स्तंभ क्वार्ट्ज ब्लॉक</value>
+  </data>
+  <data name="tile_quartzBlock_name" xml:space="preserve">
+    <value>क्वार्ट्ज के ब्लॉक</value>
+  </data>
+  <data name="tile_rail_name" xml:space="preserve">
+    <value>रेल</value>
+  </data>
+  <data name="tile_redSandStone_default_name" xml:space="preserve">
+    <value>लाल  बलुआ पत्थर</value>
+  </data>
+  <data name="tile_redSandStone_name" xml:space="preserve">
+    <value>लाल  बलुआ पत्थर</value>
+  </data>
+  <data name="tile_redstoneDust_name" xml:space="preserve">
+    <value>लाल पत्थर धूल</value>
+  </data>
+  <data name="tile_redstoneLight_name" xml:space="preserve">
+    <value>लाल पत्थर दीपक</value>
+  </data>
+  <data name="tile_reeds_name" xml:space="preserve">
+    <value>गन्ना</value>
+  </data>
+  <data name="tile_sand_default_name" xml:space="preserve">
+    <value>रेत</value>
+  </data>
+  <data name="tile_sand_name" xml:space="preserve">
+    <value>रेत</value>
+  </data>
+  <data name="tile_sand_red_name" xml:space="preserve">
+    <value>लाल रेत</value>
+  </data>
+  <data name="tile_sandStone_chiseled_name" xml:space="preserve">
+    <value>गढ़े हुए बलुआ पत्थर</value>
+  </data>
+  <data name="tile_sandStone_default_name" xml:space="preserve">
+    <value>बलुआ पत्थर</value>
+  </data>
+  <data name="tile_sandStone_name" xml:space="preserve">
+    <value>बलुआ पत्थर</value>
+  </data>
+  <data name="tile_sandStone_smooth_name" xml:space="preserve">
+    <value>चिकनी बलुआ पत्थर</value>
+  </data>
+  <data name="tile_sapling_big_oak_name" xml:space="preserve">
+    <value>ज्यूकबॉक्स / नोट ब्लॉकों</value>
+  </data>
+  <data name="tile_sapling_birch_name" xml:space="preserve">
+    <value>अंकुर सन्टी</value>
+  </data>
+  <data name="tile_sapling_jungle_name" xml:space="preserve">
+    <value>अंकुर सहरा</value>
+  </data>
+  <data name="tile_sapling_oak_name" xml:space="preserve">
+    <value>ओक सैपलिंग</value>
+  </data>
+  <data name="tile_sapling_spruce_name" xml:space="preserve">
+    <value>अंकुर सजाना</value>
+  </data>
+  <data name="tile_sign_name" xml:space="preserve">
+    <value>संकेत</value>
+  </data>
+  <data name="tile_snow_name" xml:space="preserve">
+    <value>बर्फ</value>
+  </data>
+  <data name="tile_sponge_dry_name" xml:space="preserve">
+    <value>स्पंज</value>
+  </data>
+  <data name="tile_stairsBrick_name" xml:space="preserve">
+    <value>ईंट सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsNetherBrick_name" xml:space="preserve">
+    <value>नीचे ईंट सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsQuartz_name" xml:space="preserve">
+    <value>क्वार्ट्ज सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsSandStone_name" xml:space="preserve">
+    <value>बलुआ पत्थर सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsStone_name" xml:space="preserve">
+    <value>स्टोन सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsStoneBrickSmooth_name" xml:space="preserve">
+    <value>स्टोन ईंट सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsWood_name" xml:space="preserve">
+    <value>ओक लकड़ी सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsWoodAcacia_name" xml:space="preserve">
+    <value>बबूल की लकड़ी सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsWoodBirch_name" xml:space="preserve">
+    <value>सन्टी लकड़ी सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsWoodDarkOak_name" xml:space="preserve">
+    <value>अंधेरे ओक लकड़ी सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsWoodJungle_name" xml:space="preserve">
+    <value>जंगल लकड़ी सीढ़ियाँ</value>
+  </data>
+  <data name="tile_stairsWoodSpruce_name" xml:space="preserve">
+    <value>लकड़ी सीढ़ियाँ सजाना</value>
+  </data>
+  <data name="tile_stone_granite_name" xml:space="preserve">
+    <value>ग्रेनाइट</value>
+  </data>
+  <data name="tile_stone_stone_name" xml:space="preserve">
+    <value>पत्थर</value>
+  </data>
+  <data name="tile_stoneMoss_name" xml:space="preserve">
+    <value>मॉस स्टोन</value>
+  </data>
+  <data name="tile_stoneSlab_brick_name" xml:space="preserve">
+    <value>ईंटें स्लैब</value>
+  </data>
+  <data name="tile_stoneSlab_cobble_name" xml:space="preserve">
+    <value>पक्की सड़क पत्थर पटिया</value>
+  </data>
+  <data name="tile_stoneSlab_name" xml:space="preserve">
+    <value>पटिया</value>
+  </data>
+  <data name="tile_stoneSlab_netherBrick_name" xml:space="preserve">
+    <value>नीचे का ब्रिक स्लैब</value>
+  </data>
+  <data name="tile_stoneSlab_quartz_name" xml:space="preserve">
+    <value>क्वार्ट्ज स्लैब</value>
+  </data>
+  <data name="tile_stoneSlab_sand_name" xml:space="preserve">
+    <value>बलुआ पत्थर पटिया</value>
+  </data>
+  <data name="tile_stoneSlab_smoothStoneBrick_name" xml:space="preserve">
+    <value>स्टोन ईंटों स्लैब</value>
+  </data>
+  <data name="tile_stoneSlab_stone_name" xml:space="preserve">
+    <value>पटिया</value>
+  </data>
+  <data name="tile_stoneSlab_wood_name" xml:space="preserve">
+    <value>लकड़ी स्लैब</value>
+  </data>
+  <data name="tile_stonebrick_name" xml:space="preserve">
+    <value>पक्की सड़क पत्थर</value>
+  </data>
+  <data name="tile_stonebricksmooth_chiseled_name" xml:space="preserve">
+    <value>गढ़े हुए पत्थर ईंटों</value>
+  </data>
+  <data name="tile_stonebricksmooth_cracked_name" xml:space="preserve">
+    <value>फटा पत्थर ईंटें</value>
+  </data>
+  <data name="tile_stonebricksmooth_default_name" xml:space="preserve">
+    <value>पत्थर ईंटें</value>
+  </data>
+  <data name="tile_stonebricksmooth_mossy_name" xml:space="preserve">
+    <value>काई से भरा पत्थर ईंटें</value>
+  </data>
+  <data name="tile_stonebricksmooth_name" xml:space="preserve">
+    <value>स्टोन ईंटें</value>
+  </data>
+  <data name="tile_tallgrass_fern_name" xml:space="preserve">
+    <value>फ़र्न</value>
+  </data>
+  <data name="tile_tallgrass_grass_name" xml:space="preserve">
+    <value>घास</value>
+  </data>
+  <data name="tile_tallgrass_name" xml:space="preserve">
+    <value>घास</value>
+  </data>
+  <data name="tile_tallgrass_shrub_name" xml:space="preserve">
+    <value>झाड़ी</value>
+  </data>
+  <data name="tile_thinGlass_name" xml:space="preserve">
+    <value>ग्लास फलक</value>
+  </data>
+  <data name="tile_tnt_name" xml:space="preserve">
+    <value>टीएनटी</value>
+  </data>
+  <data name="tile_torch_name" xml:space="preserve">
+    <value>मशाल</value>
+  </data>
+  <data name="tile_trapdoor_name" xml:space="preserve">
+    <value>पक्षियों के बच्चे</value>
+  </data>
+  <data name="tile_tripWire_name" xml:space="preserve">
+    <value>यात्रा तार</value>
+  </data>
+  <data name="tile_tripWireSource_name" xml:space="preserve">
+    <value>यात्रा तार हुक</value>
+  </data>
+  <data name="tile_vine_name" xml:space="preserve">
+    <value>बेलें</value>
+  </data>
+  <data name="tile_water_name" xml:space="preserve">
+    <value>पानी</value>
+  </data>
+  <data name="tile_waterlily_name" xml:space="preserve">
+    <value>लिली पैड</value>
+  </data>
+  <data name="tile_web_name" xml:space="preserve">
+    <value>मकड़ी का जाला</value>
+  </data>
+  <data name="tile_weightedPlate_heavy_name" xml:space="preserve">
+    <value>भारित दबाव प्लेट (भारी)</value>
+  </data>
+  <data name="tile_weightedPlate_light_name" xml:space="preserve">
+    <value>भारित दबाव प्लेट (लाइट)</value>
+  </data>
+  <data name="tile_whiteStone_name" xml:space="preserve">
+    <value>अंत स्टोन</value>
+  </data>
+  <data name="tile_wood_acacia_name" xml:space="preserve">
+    <value>ज्यूकबॉक्स / नोट ब्लॉकों</value>
+  </data>
+  <data name="tile_wood_birch_name" xml:space="preserve">
+    <value>सन्टी लकड़ी planks</value>
+  </data>
+  <data name="tile_wood_jungle_name" xml:space="preserve">
+    <value>जंगल लकड़ी planks</value>
+  </data>
+  <data name="tile_wood_name" xml:space="preserve">
+    <value>लकड़ी बोर्डों</value>
+  </data>
+  <data name="tile_wood_oak_name" xml:space="preserve">
+    <value>ओक लकड़ी planks</value>
+  </data>
+  <data name="tile_wood_spruce_name" xml:space="preserve">
+    <value>लकड़ी planks सजाना</value>
+  </data>
+  <data name="tile_woodSlab_acacia_name" xml:space="preserve">
+    <value>बबूल की लकड़ी स्लैब</value>
+  </data>
+  <data name="tile_woodSlab_big_oak_name" xml:space="preserve">
+    <value>अंधेरे ओक लकड़ी स्लैब</value>
+  </data>
+  <data name="tile_woodSlab_birch_name" xml:space="preserve">
+    <value>सन्टी लकड़ी स्लैब</value>
+  </data>
+  <data name="tile_woodSlab_jungle_name" xml:space="preserve">
+    <value>जंगल लकड़ी स्लैब</value>
+  </data>
+  <data name="tile_woodSlab_oak_name" xml:space="preserve">
+    <value>ओक लकड़ी स्लैब</value>
+  </data>
+  <data name="tile_woodSlab_spruce_name" xml:space="preserve">
+    <value>सजाना लकड़ी स्लैब</value>
+  </data>
+  <data name="tile_woolCarpet_black_name" xml:space="preserve">
+    <value>काले कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_blue_name" xml:space="preserve">
+    <value>ब्लू कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_brown_name" xml:space="preserve">
+    <value>ब्राउन कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_cyan_name" xml:space="preserve">
+    <value>सियान कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_gray_name" xml:space="preserve">
+    <value>ग्रे कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_green_name" xml:space="preserve">
+    <value>ग्रीन कारपेट</value>
+  </data>
+  <data name="tile_woolCarpet_lightBlue_name" xml:space="preserve">
+    <value>लाइट ब्लू कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_lime_name" xml:space="preserve">
+    <value>लाइम कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_magenta_name" xml:space="preserve">
+    <value>मैजेंटा कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_name" xml:space="preserve">
+    <value>कारपेट</value>
+  </data>
+  <data name="tile_woolCarpet_orange_name" xml:space="preserve">
+    <value>ऑरेंज कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_pink_name" xml:space="preserve">
+    <value>गुलाबी कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_purple_name" xml:space="preserve">
+    <value>बैंगनी कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_red_name" xml:space="preserve">
+    <value>लाल कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_silver_name" xml:space="preserve">
+    <value>लाइट ग्रे कालीन</value>
+  </data>
+  <data name="tile_woolCarpet_white_name" xml:space="preserve">
+    <value>कारपेट</value>
+  </data>
+  <data name="tile_woolCarpet_yellow_name" xml:space="preserve">
+    <value>पीला कालीन</value>
+  </data>
+  <data name="tile_workbench_name" xml:space="preserve">
+    <value>टेबल क्राफ्टिंग</value>
+  </data>
+  <data name="title_oldgl1" xml:space="preserve">
+    <value>पुराने ग्राफ़िक्स कार्ड का पता चला; यह आपको सकते हैं जहाँ</value>
+  </data>
+  <data name="title_oldgl2" xml:space="preserve">
+    <value>अागे से खेल ओपन 2.0 के रूप में आवश्यक होगा।</value>
+  </data>
+</root>

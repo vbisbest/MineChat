@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineChat.SettingsPage"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             Title="Settings">
+    <ContentPage.Content>
+        <TableView Intent="Settings">
+            <TableRoot>
+                <TableSection Title="">
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal" Padding="15,0,0,5">
+                                <Label x:Name="labelFont" Text="Font" VerticalOptions="Center" />
+                                <Picker x:Name="pickerFont" HorizontalOptions="StartAndExpand" >
+                                    <Picker.Items>
+                                        <x:String>Verdana</x:String>
+                                        <x:String>Helvetica</x:String>
+                                        <x:String>Courier</x:String>
+                                        <x:String>Times New Roman</x:String>
+                                    </Picker.Items>
+                                </Picker>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal"  Padding="15,0,0,5" >
+                                <Label  x:Name="labelSize" Text="Font Size" VerticalOptions="Center" />
+                                <Picker x:Name="pickerFontSize" >
+                                    <Picker.Items>
+                                        <x:String>10</x:String>
+                                        <x:String>12</x:String>
+                                        <x:String>14</x:String>
+                                        <x:String>16</x:String>
+                                        <x:String>18</x:String>
+                                        <x:String>20</x:String>
+                                        <x:String>22</x:String>
+                                    </Picker.Items>
+                                </Picker>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                    <SwitchCell x:Name="checkAutoCorrect" Text="Chat Auto Correct" />
+                    <SwitchCell x:Name="checkAutoHideKeyboard" Text="Auto-hide Keyboard" />
+                    <SwitchCell x:Name="checkSpawnOnConnect" Text="Spawn on Connect" />
+                    <SwitchCell x:Name="checkShowHeads"  Text="Show Heads On Chat Page" On="{Binding ShowHeads}" />
+                    <SwitchCell x:Name="checkPromotedServers"  Text="Show Promoted Servers" />
+                    <EntryCell x:Name="textLogonMessage" Label="Logon Message"  />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MineChat;assembly=MineChat"
+             x:Class="MineChat.AboutPage">
+  <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}">
+    <ScrollView  Orientation = "Vertical" VerticalOptions="StartAndExpand">
+    <StackLayout VerticalOptions="FillAndExpand" Padding="20,20,20,20" BackgroundColor="{Binding Source={x:Static local:Global.MainColor}}">
+      <!--<Image Source="MineChatLogo.png" HorizontalOptions="Center" WidthRequest="100" HeightRequest="100" /> -->
+                <Label Text="MineChat By Kelly Productions" TextColor="White" HorizontalTextAlignment="Center" FontSize="Medium" FontAttributes="Bold" />
+      <Label Text="" x:Name="labelVersion" TextColor="White" HorizontalTextAlignment="Center" FontSize="Small"/>
+      <Label Text="Created by: Ray Kelly IGN:vbisbest" TextColor="White" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"  />
+      <Label Text=" " TextColor="White" HorizontalTextAlignment="Center" FontSize="Medium"  />
+      <Label Text="Support: Chris Kelly IGN Tom_Servo" TextColor="White" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold" />
+      <Label Text="Lead Tester: Jakesta13" FontAttributes="Bold" FontSize="Small" HorizontalTextAlignment="Center" TextColor="White"/>
+      <Label Text="Testers" TextColor="White" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Bold"  />
+      <Label Text="_Adnan" TextColor="White" HorizontalTextAlignment="Center" FontSize="Small"  />
+      <Label Text="zoey1770" TextColor="White" HorizontalTextAlignment="Center" FontSize="Small"  />
+      <Label Text="Pingsterr" TextColor="White" HorizontalTextAlignment="Center" FontSize="Small"  />
+      <Label Text=" " TextColor="White" HorizontalTextAlignment="Center" FontSize="Medium"  />
+      <Label Text="Contact us for questions and help (click on link to open)" TextColor="White" HorizontalTextAlignment="Center" FontSize="Small"  />
+      <Label x:Name ="labelEmail" Text="E-Mail: support@minechatapp.com" TextColor="Purple" HorizontalTextAlignment="Center" FontSize="Small"  />
+      <Label x:Name ="labelWebsite" Text="Website: www.minechatapp.com" TextColor="Purple" HorizontalTextAlignment="Center" FontSize="Small" />
+      <Label x:Name ="labelFacebook" Text="Facebook: https://www.facebook.com/pages/MineChat/32897091721927" TextColor="Purple" HorizontalTextAlignment="Center" FontSize="Small"  />
+      <Label x:Name ="labelTwitter" Text="Twitter: https://twitter.com/MineChatApp" TextColor="Purple" HorizontalTextAlignment="Center" FontSize="Small"  />
+                <Label x:Name ="labelPromote" Text="Promote your server! http://www.minechatapp.com/featured-servers/" TextColor="Purple" HorizontalTextAlignment="Center" FontSize="Medium" FontAttributes="Bold" />
+            </StackLayout>
+      </ScrollView>
+  </StackLayout>
+</ContentPage>
