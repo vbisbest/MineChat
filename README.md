@@ -9,4 +9,4 @@ The code is 2 years old and no longer works with todays versions of Minecraft. T
 I want to personally thank all of MineChat's users, fans and volunteers that have contributed along the way.  It was a lot of fun and hope that this code may be useful in some way.   Happy Minecrafting!
 
 Ray
-test3asdfasdf
+test3asdfasdfdsf
